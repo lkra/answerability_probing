@@ -1,0 +1,95 @@
+{
+  "passage_id": "udhr_p015",
+  "articles": [
+    "21"
+  ],
+  "passage": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+  "questions": [
+    {
+      "question": "What shall be the basis of the authority of government?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The will of the people.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "In what two ways may everyone take part in the government of his country?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Directly or through freely chosen representatives.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "By what voting method shall the elections be held?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "By secret vote or by equivalent free voting procedures.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the minimum age at which a person may vote in these elections?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What does everyone have the right of equal access to?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Public service in his country.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Count 'two ways' verified against the passage: 'directly or through freely chosen representatives' is a single two-part disjunction, so the count survives translation."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Checked hard for an inferable answer: the passage says suffrage is 'universal and equal' but never states any age, so no sentence answers it even partially. Label correct."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "fatal",
+      "issues": [
+        "Original question 'How often must the elections expressing the will of the people be held?' asks for a frequency the passage never states. The text only says elections shall be 'periodic and genuine'; it gives no interval. A correctly-abstaining model would answer 'not answerable' here, so this row would have taught the model to guess exactly where it should abstain -- the worst failure mode for this dataset.",
+        "Answer 'Periodically.' is not in the passage in any form ('periodic' is an adjective modifying 'elections'); it is a paraphrase presented as a frequency.",
+        "Question was also more clause-heavy than the exemplars ('the elections expressing the will of the people') and question_type 'inferential' was a fig leaf for the ambiguity.",
+        "Replaced with an extractive question on the passage's second sentence, which no question in the set covered. New answer 'public service in his country' is a literal span; 'public service' appears in no other UDHR article, so article_specific holds."
+      ],
+      "action": "question_replaced"
+    }
+  ]
+}

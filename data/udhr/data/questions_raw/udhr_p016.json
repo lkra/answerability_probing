@@ -1,0 +1,55 @@
+{
+  "passage_id": "udhr_p016",
+  "articles": [
+    "23",
+    "24"
+  ],
+  "passage": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+  "questions": [
+    {
+      "question": "What must just and favourable remuneration ensure for a worker and his family?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "An existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the maximum number of working hours allowed per week?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What does the right to rest and leisure include?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Reasonable limitation of working hours and periodic holidays with pay.",
+      "source_article": "24",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many work-related rights are listed in the first sentence of the text?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Four.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "Under what condition is remuneration to be supplemented by other means of social protection?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "When it is necessary to ensure an existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ]
+}

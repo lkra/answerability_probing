@@ -1,0 +1,1371 @@
+{
+ "n_transplants": 136,
+ "n_survivors": 602,
+ "min_confidence": "high",
+ "caps": {
+  "per_question": 3,
+  "per_target": 8
+ },
+ "transplants": [
+  {
+   "item_id": "udhr_i001",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p001",
+   "source_article": "4",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage never mentions slavery, servitude or the slave trade in any form",
+   "transplant_id": "udhr_t001"
+  },
+  {
+   "item_id": "udhr_i002",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p001",
+   "source_article": "5",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of torture or of cruel, inhuman or degrading treatment or punishment",
+   "transplant_id": "udhr_t002"
+  },
+  {
+   "item_id": "udhr_i004",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p001",
+   "source_article": "6",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about recognition as a person before the law, and gives no place ('everywhere')",
+   "transplant_id": "udhr_t003"
+  },
+  {
+   "item_id": "udhr_i006",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p002",
+   "source_article": "8",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage names no remedy, no tribunal and no enforcing body at all",
+   "transplant_id": "udhr_t004"
+  },
+  {
+   "item_id": "udhr_i008",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of a hearing, tribunal or full equality",
+   "transplant_id": "udhr_t005"
+  },
+  {
+   "item_id": "udhr_i010",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no hearing, no determination of rights and obligations, no criminal charge in the text",
+   "transplant_id": "udhr_t006"
+  },
+  {
+   "item_id": "udhr_i011",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no presumption of innocence, no penal charge and no trial anywhere in the text",
+   "transplant_id": "udhr_t007"
+  },
+  {
+   "item_id": "udhr_i014",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "penal offences are absent; the text mentions 'the law' only as equality/recognition before it, never national vs international law",
+   "transplant_id": "udhr_t008"
+  },
+  {
+   "item_id": "udhr_i015",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about penalties or their severity at the time of the offence",
+   "transplant_id": "udhr_t009"
+  },
+  {
+   "item_id": "udhr_i018",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p004",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about movement, residence, borders or States",
+   "transplant_id": "udhr_t010"
+  },
+  {
+   "item_id": "udhr_i019",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p004",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "asylum, prosecutions and the United Nations are not mentioned",
+   "transplant_id": "udhr_t011"
+  },
+  {
+   "item_id": "udhr_i021",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "marriage, spouses and consent are entirely absent",
+   "transplant_id": "udhr_t012"
+  },
+  {
+   "item_id": "udhr_i022",
+   "target_passage_id": "udhr_p001",
+   "source_passage_id": "udhr_p005",
+   "source_article": "15",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nationality and changing it are absent from the text",
+   "transplant_id": "udhr_t013"
+  },
+  {
+   "item_id": "udhr_i025",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "the family and its protection by society and the State are not mentioned",
+   "transplant_id": "udhr_t014"
+  },
+  {
+   "item_id": "udhr_i027",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p006",
+   "source_article": "20",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about associations or compelled membership",
+   "transplant_id": "udhr_t015"
+  },
+  {
+   "item_id": "udhr_i030",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p006",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of elections, voting or suffrage",
+   "transplant_id": "udhr_t016"
+  },
+  {
+   "item_id": "udhr_i031",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about social security or membership of society",
+   "transplant_id": "udhr_t017"
+  },
+  {
+   "item_id": "udhr_i037",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about pay, work or discrimination in remuneration",
+   "transplant_id": "udhr_t018"
+  },
+  {
+   "item_id": "udhr_i043",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "passage contains no right to security and no list of situations such as unemployment or sickness",
+   "transplant_id": "udhr_t019"
+  },
+  {
+   "item_id": "udhr_i044",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of special care and assistance or of any two groups entitled to it",
+   "transplant_id": "udhr_t020"
+  },
+  {
+   "item_id": "udhr_i048",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of personality, its development, or the community as a setting",
+   "transplant_id": "udhr_t021"
+  },
+  {
+   "item_id": "udhr_i053",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of activities or acts aimed at destroying rights, nor any interpretive clause",
+   "transplant_id": "udhr_t022"
+  },
+  {
+   "item_id": "udhr_i065",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p013",
+   "source_article": "15",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "nationality is never mentioned; the passage speaks of leaving and returning to a country, not of holding or changing a nationality",
+   "transplant_id": "udhr_t023"
+  },
+  {
+   "item_id": "udhr_i069",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p014",
+   "source_article": "17",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of property or of owning alone or in association with others",
+   "transplant_id": "udhr_t024"
+  },
+  {
+   "item_id": "udhr_i082",
+   "target_passage_id": "udhr_p002",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about unemployment, sickness, disability, old age or livelihood",
+   "transplant_id": "udhr_t025"
+  },
+  {
+   "item_id": "udhr_i084",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p017",
+   "source_article": "28",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no reference to any order in which the Declaration's rights are realized",
+   "transplant_id": "udhr_t026"
+  },
+  {
+   "item_id": "udhr_i087",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage states no limitations on rights and never mentions law as a determining means",
+   "transplant_id": "udhr_t027"
+  },
+  {
+   "item_id": "udhr_i001",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p001",
+   "source_article": "4",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of slavery, servitude or the slave trade anywhere in the Article 11 text",
+   "transplant_id": "udhr_t028"
+  },
+  {
+   "item_id": "udhr_i002",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p001",
+   "source_article": "5",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of torture, treatment or punishment",
+   "transplant_id": "udhr_t029"
+  },
+  {
+   "item_id": "udhr_i004",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p001",
+   "source_article": "6",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of recognition as a person before the law and no locational statement ('everywhere' or otherwise)",
+   "transplant_id": "udhr_t030"
+  },
+  {
+   "item_id": "udhr_i006",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p002",
+   "source_article": "8",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of remedies, tribunals or any body charged with providing redress",
+   "transplant_id": "udhr_t031"
+  },
+  {
+   "item_id": "udhr_i008",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of hearings, tribunals or equality before a court",
+   "transplant_id": "udhr_t032"
+  },
+  {
+   "item_id": "udhr_i010",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of a fair and public hearing, rights and obligations being determined, or criminal charges",
+   "transplant_id": "udhr_t033"
+  },
+  {
+   "item_id": "udhr_i011",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of presumption of innocence, trial or proof of guilt; 'prosecutions' appears only as an exception to asylum",
+   "transplant_id": "udhr_t034"
+  },
+  {
+   "item_id": "udhr_i014",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of national or international law defining penal offences; 'the law' appears only as protection against interference",
+   "transplant_id": "udhr_t035"
+  },
+  {
+   "item_id": "udhr_i015",
+   "target_passage_id": "udhr_p004",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of penalties or of the penalty applicable at the time of an offence",
+   "transplant_id": "udhr_t036"
+  },
+  {
+   "item_id": "udhr_i027",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p006",
+   "source_article": "20",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of associations or of being compelled to belong to anything",
+   "transplant_id": "udhr_t037"
+  },
+  {
+   "item_id": "udhr_i029",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of property or of deprivation; the word 'arbitrary' does not occur",
+   "transplant_id": "udhr_t038"
+  },
+  {
+   "item_id": "udhr_i031",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of social security or of membership of society",
+   "transplant_id": "udhr_t039"
+  },
+  {
+   "item_id": "udhr_i037",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of pay, work or discrimination",
+   "transplant_id": "udhr_t040"
+  },
+  {
+   "item_id": "udhr_i043",
+   "target_passage_id": "udhr_p003",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no list of situations giving a right to security; passage lists no social contingencies at all",
+   "transplant_id": "udhr_t041"
+  },
+  {
+   "item_id": "udhr_i044",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of special care and assistance or of any two entitled groups",
+   "transplant_id": "udhr_t042"
+  },
+  {
+   "item_id": "udhr_i048",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of the development of personality or of the community as its setting",
+   "transplant_id": "udhr_t043"
+  },
+  {
+   "item_id": "udhr_i087",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of limitations on the exercise of rights or of how they are determined; 'law' does not appear",
+   "transplant_id": "udhr_t044"
+  },
+  {
+   "item_id": "udhr_i002",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p001",
+   "source_article": "5",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of torture or of cruel, inhuman or degrading treatment or punishment",
+   "transplant_id": "udhr_t045"
+  },
+  {
+   "item_id": "udhr_i006",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p002",
+   "source_article": "8",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of remedies, tribunals or any enforcing body; only nationality, marriage and family",
+   "transplant_id": "udhr_t046"
+  },
+  {
+   "item_id": "udhr_i008",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of hearings or tribunals; 'equal access to public service' and 'equal suffrage' concern participation, not hearings",
+   "transplant_id": "udhr_t047"
+  },
+  {
+   "item_id": "udhr_i010",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of a hearing, of rights and obligations being determined, or of criminal charges",
+   "transplant_id": "udhr_t048"
+  },
+  {
+   "item_id": "udhr_i011",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of penal offences, presumption of innocence, guilt or trial",
+   "transplant_id": "udhr_t049"
+  },
+  {
+   "item_id": "udhr_i014",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of acts or omissions, penal offences, or national/international law",
+   "transplant_id": "udhr_t050"
+  },
+  {
+   "item_id": "udhr_i015",
+   "target_passage_id": "udhr_p005",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of penalties or of the penalty applicable at the time of an offence",
+   "transplant_id": "udhr_t051"
+  },
+  {
+   "item_id": "udhr_i029",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of property or of arbitrary deprivation of it",
+   "transplant_id": "udhr_t052"
+  },
+  {
+   "item_id": "udhr_i044",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of motherhood, childhood or special care and assistance",
+   "transplant_id": "udhr_t053"
+  },
+  {
+   "item_id": "udhr_i048",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of the community or of free and full development of personality",
+   "transplant_id": "udhr_t054"
+  },
+  {
+   "item_id": "udhr_i056",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of arbitrary interference, privacy, family, home or correspondence",
+   "transplant_id": "udhr_t055"
+  },
+  {
+   "item_id": "udhr_i059",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no list of things protected from arbitrary interference exists in the passage",
+   "transplant_id": "udhr_t056"
+  },
+  {
+   "item_id": "udhr_i087",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "target states no limitations on the exercise of rights and never refers to law as a determining means",
+   "transplant_id": "udhr_t057"
+  },
+  {
+   "item_id": "udhr_i022",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p005",
+   "source_article": "15",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no right to change anything is stated; the only prohibition is compelled association membership, which is not a right to change",
+   "transplant_id": "udhr_t058"
+  },
+  {
+   "item_id": "udhr_i027",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p006",
+   "source_article": "20",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of associations or of compulsion to belong; 'member of society' is a description, not a compelled membership",
+   "transplant_id": "udhr_t059"
+  },
+  {
+   "item_id": "udhr_i029",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of property or of deprivation of property; 'arbitrary' does not appear",
+   "transplant_id": "udhr_t060"
+  },
+  {
+   "item_id": "udhr_i047",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage contains no limitations clause and no mention of morality, public order or general welfare",
+   "transplant_id": "udhr_t061"
+  },
+  {
+   "item_id": "udhr_i056",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of arbitrary interference, privacy, home or correspondence",
+   "transplant_id": "udhr_t062"
+  },
+  {
+   "item_id": "udhr_i059",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no list of items protected from arbitrary interference; the word 'arbitrary' does not appear",
+   "transplant_id": "udhr_t063"
+  },
+  {
+   "item_id": "udhr_i001",
+   "target_passage_id": "udhr_p006",
+   "source_passage_id": "udhr_p001",
+   "source_article": "4",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "target passage never mentions slavery, servitude or the slave trade",
+   "transplant_id": "udhr_t064"
+  },
+  {
+   "item_id": "udhr_i022",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p005",
+   "source_article": "15",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of nationality or of changing it",
+   "transplant_id": "udhr_t065"
+  },
+  {
+   "item_id": "udhr_i047",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no limitations clause and no mention of morality, public order or general welfare in a democratic society",
+   "transplant_id": "udhr_t066"
+  },
+  {
+   "item_id": "udhr_i056",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "the phrase 'arbitrary interference' and the items privacy/family/home/correspondence do not occur; 'family' occurs only in the standard-of-living clause",
+   "transplant_id": "udhr_t067"
+  },
+  {
+   "item_id": "udhr_i059",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "the passage lists several things but never lists anything as protected from 'arbitrary interference'; that phrase is absent",
+   "transplant_id": "udhr_t068"
+  },
+  {
+   "item_id": "udhr_i004",
+   "target_passage_id": "udhr_p007",
+   "source_passage_id": "udhr_p001",
+   "source_article": "6",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of recognition as a person before the law, nor of where it applies",
+   "transplant_id": "udhr_t069"
+  },
+  {
+   "item_id": "udhr_i031",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no right to social security and no capacity such as 'member of society'; only the unrelated phrase 'social and international order'",
+   "transplant_id": "udhr_t070"
+  },
+  {
+   "item_id": "udhr_i043",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p009",
+   "source_article": "25",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no list of circumstances giving a right to security; 'public order' is unrelated to social security",
+   "transplant_id": "udhr_t071"
+  },
+  {
+   "item_id": "udhr_i047",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of limitations on rights; the word 'just' occurs only in 'just and favourable conditions/remuneration', not as a requirement for limitations",
+   "transplant_id": "udhr_t072"
+  },
+  {
+   "item_id": "udhr_i082",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no list of circumstances (disability, widowhood, old age) and no right to security of livelihood",
+   "transplant_id": "udhr_t073"
+  },
+  {
+   "item_id": "udhr_i018",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p004",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of movement, residence, borders or States",
+   "transplant_id": "udhr_t074"
+  },
+  {
+   "item_id": "udhr_i019",
+   "target_passage_id": "udhr_p008",
+   "source_passage_id": "udhr_p004",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of asylum, prosecutions or the United Nations",
+   "transplant_id": "udhr_t075"
+  },
+  {
+   "item_id": "udhr_i034",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no rights are described as 'indispensable for his dignity'; dignity is not mentioned, so there is no set to count",
+   "transplant_id": "udhr_t076"
+  },
+  {
+   "item_id": "udhr_i037",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of pay, work or discrimination",
+   "transplant_id": "udhr_t077"
+  },
+  {
+   "item_id": "udhr_i082",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of unemployment, sickness, disability, widowhood, old age or lack of livelihood",
+   "transplant_id": "udhr_t078"
+  },
+  {
+   "item_id": "udhr_i018",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p004",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of movement, residence, borders or States; the only 'limitation' is of working hours",
+   "transplant_id": "udhr_t079"
+  },
+  {
+   "item_id": "udhr_i019",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p004",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "asylum, prosecutions and the United Nations are never mentioned",
+   "transplant_id": "udhr_t080"
+  },
+  {
+   "item_id": "udhr_i021",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing on entering marriage or consent; the word 'wedlock' appears only about children's social protection, not about how a marriage is contracted",
+   "transplant_id": "udhr_t081"
+  },
+  {
+   "item_id": "udhr_i024",
+   "target_passage_id": "udhr_p009",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no grounds are listed for limiting a right to marry or found a family; the passage lists no such enumeration",
+   "transplant_id": "udhr_t082"
+  },
+  {
+   "item_id": "udhr_i034",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no rights are enumerated as kinds and dignity is never mentioned, so there is nothing to count",
+   "transplant_id": "udhr_t083"
+  },
+  {
+   "item_id": "udhr_i036",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing on work, remuneration, workers or families",
+   "transplant_id": "udhr_t084"
+  },
+  {
+   "item_id": "udhr_i041",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p009",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing on rest, leisure, working hours or holidays",
+   "transplant_id": "udhr_t085"
+  },
+  {
+   "item_id": "udhr_i076",
+   "target_passage_id": "udhr_p010",
+   "source_passage_id": "udhr_p016",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing on work, remuneration, workers or families",
+   "transplant_id": "udhr_t086"
+  },
+  {
+   "item_id": "udhr_i024",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "no grounds relating to marriage or founding a family are listed anywhere in the passage, so no count can be given",
+   "transplant_id": "udhr_t087"
+  },
+  {
+   "item_id": "udhr_i032",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing about national effort or international co-operation as a means of realizing rights",
+   "transplant_id": "udhr_t088"
+  },
+  {
+   "item_id": "udhr_i034",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "passage mentions 'rights and freedoms' generically but describes no kinds of rights as indispensable for dignity, so no count is available",
+   "transplant_id": "udhr_t089"
+  },
+  {
+   "item_id": "udhr_i036",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing about work, remuneration, workers or families",
+   "transplant_id": "udhr_t090"
+  },
+  {
+   "item_id": "udhr_i041",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p009",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing about rest, leisure, working hours or holidays",
+   "transplant_id": "udhr_t091"
+  },
+  {
+   "item_id": "udhr_i046",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p010",
+   "source_article": "28",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage refers to 'the rights and freedoms set forth herein' but never mentions any social or international order, nor any order a person is entitled to",
+   "transplant_id": "udhr_t092"
+  },
+  {
+   "item_id": "udhr_i061",
+   "target_passage_id": "udhr_p011",
+   "source_passage_id": "udhr_p013",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "nothing about freedom of movement, residence or borders",
+   "transplant_id": "udhr_t093"
+  },
+  {
+   "item_id": "udhr_i024",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "ordinal_count",
+   "confidence": "high",
+   "reason": "No mention of marriage, founding a family, or any grounds that may not limit such a right; the only list concerns privacy, family, home and correspondence.",
+   "transplant_id": "udhr_t094"
+  },
+  {
+   "item_id": "udhr_i032",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of national effort, international co-operation or the realization of rights.",
+   "transplant_id": "udhr_t095"
+  },
+  {
+   "item_id": "udhr_i036",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of work, remuneration, pay or an existence worthy of human dignity.",
+   "transplant_id": "udhr_t096"
+  },
+  {
+   "item_id": "udhr_i041",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p009",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of rest, leisure, working hours or holidays.",
+   "transplant_id": "udhr_t097"
+  },
+  {
+   "item_id": "udhr_i046",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p010",
+   "source_article": "28",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of any social or international order, nor of realizing the Declaration's rights.",
+   "transplant_id": "udhr_t098"
+  },
+  {
+   "item_id": "udhr_i051",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of States, groups or persons claiming a right to destroy the Declaration's rights.",
+   "transplant_id": "udhr_t099"
+  },
+  {
+   "item_id": "udhr_i052",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "The passage does not refer to the Declaration itself or to interpreting it as implying a right to destroy rights.",
+   "transplant_id": "udhr_t100"
+  },
+  {
+   "item_id": "udhr_i061",
+   "target_passage_id": "udhr_p012",
+   "source_passage_id": "udhr_p013",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "No mention of freedom of movement, residence or State borders.",
+   "transplant_id": "udhr_t101"
+  },
+  {
+   "item_id": "udhr_i032",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of national effort or international co-operation as means of realizing rights",
+   "transplant_id": "udhr_t102"
+  },
+  {
+   "item_id": "udhr_i046",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p010",
+   "source_article": "28",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage names no 'order' to which everyone is entitled; UN is mentioned only as a limit on asylum",
+   "transplant_id": "udhr_t103"
+  },
+  {
+   "item_id": "udhr_i051",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no clause about States, groups or persons destroying the rights of the Declaration",
+   "transplant_id": "udhr_t104"
+  },
+  {
+   "item_id": "udhr_i052",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no interpretive clause about the Declaration implying a right to destroy rights",
+   "transplant_id": "udhr_t105"
+  },
+  {
+   "item_id": "udhr_i061",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p013",
+   "source_article": "13",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "freedom of movement and residence and State borders are absent from the passage",
+   "transplant_id": "udhr_t106"
+  },
+  {
+   "item_id": "udhr_i066",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "passage says nothing about marriage or grounds limiting it; 'nationality' appears only as a right of its own",
+   "transplant_id": "udhr_t107"
+  },
+  {
+   "item_id": "udhr_i071",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of government, its authority, or the will of the people",
+   "transplant_id": "udhr_t108"
+  },
+  {
+   "item_id": "udhr_i076",
+   "target_passage_id": "udhr_p013",
+   "source_passage_id": "udhr_p016",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of work, remuneration or an existence worthy of human dignity",
+   "transplant_id": "udhr_t109"
+  },
+  {
+   "item_id": "udhr_i051",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of States, groups or persons claiming a right to destroy rights",
+   "transplant_id": "udhr_t110"
+  },
+  {
+   "item_id": "udhr_i052",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "the passage contains no interpretive clause about the Declaration as a whole",
+   "transplant_id": "udhr_t111"
+  },
+  {
+   "item_id": "udhr_i062",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p013",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of asylum, other countries or persecution",
+   "transplant_id": "udhr_t112"
+  },
+  {
+   "item_id": "udhr_i066",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage, nor of limitations by race, nationality or religion; target sets out no limitation clause",
+   "transplant_id": "udhr_t113"
+  },
+  {
+   "item_id": "udhr_i071",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of government or the basis of its authority",
+   "transplant_id": "udhr_t114"
+  },
+  {
+   "item_id": "udhr_i076",
+   "target_passage_id": "udhr_p014",
+   "source_passage_id": "udhr_p016",
+   "source_article": "23",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of remuneration or of what pay must ensure for a worker",
+   "transplant_id": "udhr_t115"
+  },
+  {
+   "item_id": "udhr_i081",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of motherhood, childhood, care or assistance",
+   "transplant_id": "udhr_t116"
+  },
+  {
+   "item_id": "udhr_i021",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage, spouses or consent; the only 'free' terms concern freely chosen representatives and free voting procedures",
+   "transplant_id": "udhr_t117"
+  },
+  {
+   "item_id": "udhr_i026",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of property or ownership, alone or in association",
+   "transplant_id": "udhr_t118"
+  },
+  {
+   "item_id": "udhr_i062",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p013",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of asylum, other countries or persecution",
+   "transplant_id": "udhr_t119"
+  },
+  {
+   "item_id": "udhr_i066",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage or of race/nationality/religion; 'without any discrimination' is stated only about equal pay and lists no grounds",
+   "transplant_id": "udhr_t120"
+  },
+  {
+   "item_id": "udhr_i067",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage or of consent of intending spouses",
+   "transplant_id": "udhr_t121"
+  },
+  {
+   "item_id": "udhr_i071",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of government, authority or the will of the people",
+   "transplant_id": "udhr_t122"
+  },
+  {
+   "item_id": "udhr_i078",
+   "target_passage_id": "udhr_p015",
+   "source_passage_id": "udhr_p016",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of rest, leisure, limitation of working hours or paid holidays",
+   "transplant_id": "udhr_t123"
+  },
+  {
+   "item_id": "udhr_i081",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of motherhood, childhood or special care and assistance",
+   "transplant_id": "udhr_t124"
+  },
+  {
+   "item_id": "udhr_i026",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of property or of owning anything alone or in association",
+   "transplant_id": "udhr_t125"
+  },
+  {
+   "item_id": "udhr_i062",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p013",
+   "source_article": "14",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of asylum, other countries or persecution",
+   "transplant_id": "udhr_t126"
+  },
+  {
+   "item_id": "udhr_i067",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage or of consent of intending spouses",
+   "transplant_id": "udhr_t127"
+  },
+  {
+   "item_id": "udhr_i072",
+   "target_passage_id": "udhr_p016",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of taking part in government, directly or through representatives",
+   "transplant_id": "udhr_t128"
+  },
+  {
+   "item_id": "udhr_i078",
+   "target_passage_id": "udhr_p017",
+   "source_passage_id": "udhr_p016",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of rest, leisure, working hours or holidays with pay",
+   "transplant_id": "udhr_t129"
+  },
+  {
+   "item_id": "udhr_i081",
+   "target_passage_id": "udhr_p018",
+   "source_passage_id": "udhr_p017",
+   "source_article": "25",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "motherhood and childhood are not mentioned",
+   "transplant_id": "udhr_t130"
+  },
+  {
+   "item_id": "udhr_i026",
+   "target_passage_id": "udhr_p017",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of property or of owning anything alone or in association",
+   "transplant_id": "udhr_t131"
+  },
+  {
+   "item_id": "udhr_i067",
+   "target_passage_id": "udhr_p017",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of marriage or consent of spouses; only 'widowhood' and 'wedlock' appear, in other contexts",
+   "transplant_id": "udhr_t132"
+  },
+  {
+   "item_id": "udhr_i072",
+   "target_passage_id": "udhr_p017",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of government, participation or representatives",
+   "transplant_id": "udhr_t133"
+  },
+  {
+   "item_id": "udhr_i078",
+   "target_passage_id": "udhr_p018",
+   "source_passage_id": "udhr_p016",
+   "source_article": "24",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "rest, leisure, working hours and holidays are absent",
+   "transplant_id": "udhr_t134"
+  },
+  {
+   "item_id": "udhr_i086",
+   "target_passage_id": "udhr_p017",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "inferential",
+   "confidence": "high",
+   "reason": "no mention of duties to the community or of development of personality",
+   "transplant_id": "udhr_t135"
+  },
+  {
+   "item_id": "udhr_i072",
+   "target_passage_id": "udhr_p018",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "confidence": "high",
+   "reason": "no mention of taking part in government, directly or through representatives",
+   "transplant_id": "udhr_t136"
+  }
+ ]
+}

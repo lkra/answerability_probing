@@ -1,0 +1,116 @@
+{
+ "passage_id": "udhr_p017",
+ "articles": [
+  "25",
+  "28"
+ ],
+ "passage": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+ "questions": [
+  {
+   "question": "What are motherhood and childhood entitled to?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Special care and assistance.",
+   "source_article": "25",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "source_article": "25",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "They enjoy the same social protection as all other children.",
+   "source_article": "25",
+   "article_specific": true,
+   "answer_is_span": false
+  },
+  {
+   "question": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "A social and international order.",
+   "source_article": "28",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What minimum income is required for a standard of living to count as adequate?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  }
+ ],
+ "verdicts": [
+  {
+   "index": 0,
+   "severity": "ok",
+   "issues": [
+    "Grounded verbatim: 'Motherhood and childhood are entitled to special care and assistance.'",
+    "answer_is_span verified: 'special care and assistance' is a literal substring (true modulo sentence-initial capitalisation and final period, the convention used throughout this file).",
+    "article_specific kept true: 'motherhood and childhood' is Art. 25(2)'s wording and appears in no other article; Art. 16(3) entitles 'the family', not motherhood or childhood, to protection, which is not an answer to this question.",
+    "Length and phrasing match the exemplars ('What has everyone the right to freely participate in?')."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 1,
+   "severity": "fatal",
+   "issues": [
+    "Original question: 'What is the third listed event in which everyone has the right to security?' with answer 'Disability.' The label and the English answer are correct -- unemployment(1), sickness(2), disability(3) -- so the defect is not visible in English.",
+    "The ordinal is not stable across the 25 official passage languages this item ships in, which review point 5 flags as disqualifying. Checked in data/passages.json: Bengali reorders the list and moves unemployment to the end ('... পীড়া, অক্ষমতা, বৈধব্য, বার্ধক্য ... এবং বেকার হলে নিরাপত্তার অধিকার'), so the third listed contingency there is widowhood, not disability. Finnish drops disability altogether and has 'tapaturman' (accident) in third position ('työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden').",
+    "Because merge_translations.py locates each answer as a span of the official target-language passage, the Bengali and Finnish rows would carry a reference answer that contradicts the ordinal stated in the question. No position is safe on this list (first fails in Bengali, third fails in Bengali and Finnish), so the question was not repaired by moving the ordinal but replaced with a non-ordinal question over the same clause.",
+    "Replacement is extractive and order-independent: the answer is the remainder of the contingency list, a contiguous span in every translation checked (arb, ben, bho, ces, ckb, deu, fin, fra, hat, hin, ind, ita, jpn, kor, mar, pes, por, rus, slk, spa, tur, vie, yor, zho).",
+    "answer_is_span verified: 'disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.' is a literal substring.",
+    "article_specific true: the contingency list (widowhood, old age, lack of livelihood) is Art. 25(1) alone. Art. 23(1) mentions 'protection against unemployment' but lists no further circumstances, and the question excludes unemployment explicitly, so a transplant onto an Art. 23 passage stays unanswerable.",
+    "The 'Besides X and Y, ...' frame is the one already used in the verified set for udhr_p012 and the question is within exemplar length (14 words)."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 2,
+   "severity": "ok",
+   "issues": [
+    "Grounded: 'All children, whether born in or out of wedlock, shall enjoy the same social protection.' The answer is true given only the passage, is one sentence, and adds no legal background.",
+    "answer_is_span correctly false: the answer restates the sentence from the point of view of the children asked about.",
+    "question_type 'inferential' is right -- the comparison has to be assembled from 'all children' plus 'whether born in or out of wedlock'.",
+    "article_specific true: wedlock and the equal social protection of children appear only in Art. 25(2)."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 3,
+   "severity": "minor",
+   "issues": [
+    "Label, answer, source article and both flags were correct and are unchanged: 'Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.'",
+    "Style drift only. The original, 'What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?', is 21 words and two clauses, longer than every organiser exemplar (longest is 19 words: 'Who is entitled to the legal protection of the creative and financial interests of a production under this text?'). Tightened to 16 words with the same anchors.",
+    "The 'of this Declaration ... fully realized' anchor was deliberately kept rather than cutting to 'What kind of order is everyone entitled to?': the shorter form reads as a generic entitlement question and would have forced article_specific to false under the tie-break rule.",
+    "article_specific kept true: only Art. 28 entitles anyone to an 'order'. Art. 29(2) mentions 'public order', but as a ground for limiting rights, not as something one is entitled to.",
+    "answer_is_span verified: 'a social and international order' is a literal substring."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 4,
+   "severity": "ok",
+   "issues": [
+    "Genuinely unanswerable: the passage says a standard of living must be 'adequate for the health and well-being of himself and of his family' and lists what it includes, but states no income, amount, threshold or figure anywhere. No sentence answers it even partially or by inference.",
+    "The near-miss is the exemplar pattern, not a flaw: the organisers' unanswerables ask for a quantity the passage plausibly ought to contain but does not ('What are the age limits for compulsory elementary education?', 'For how many years does copyright protection last after the author's death?').",
+    "Checked against the answerable questions kept in this set: none of them states an income, so there is no leak.",
+    "Length (14 words) and register match the exemplars."
+   ],
+   "action": "kept"
+  }
+ ]
+}

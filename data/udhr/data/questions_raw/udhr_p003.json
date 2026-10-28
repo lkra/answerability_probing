@@ -1,0 +1,54 @@
+{
+  "passage_id": "udhr_p003",
+  "articles": [
+    "11"
+  ],
+  "passage": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+  "questions": [
+    {
+      "question": "Until what point is everyone charged with a penal offence presumed innocent?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Until proved guilty according to law in a public trial.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What must the accused have had at the public trial?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "All the guarantees necessary for his defence.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Which court has the authority to declare a person guilty of a penal offence?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Under national or international law.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What limit does the text place on the penalty that may be imposed for a penal offence?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "It may not be heavier than the one applicable at the time the offence was committed.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ]
+}

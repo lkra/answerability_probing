@@ -1,0 +1,104 @@
+{
+  "passage_id": "udhr_p007",
+  "articles": [
+    "22"
+  ],
+  "passage": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+  "questions": [
+    {
+      "question": "In what capacity does everyone have the right to social security?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "As a member of society.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Through what forms of effort is the realization of these rights to be achieved?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Through national effort and international co‐operation.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What penalty applies to a State that fails to provide social security?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "How many kinds of rights are described as indispensable for his dignity?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "What may cause the realization of these rights to differ from one State to another?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "The organization and resources of each State.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [
+        "Answer verified against the span 'as a member of society' (passage, clause 1); answer_is_span holds up to sentence-initial capitalisation and the final period, the same convention the exemplars use.",
+        "article_specific confirmed: 'as a member of society' as the capacity in which the right is held appears in no other UDHR article."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Answer 'Through national effort and international co‐operation.' is a literal span, including the U+2010 hyphen used in the passage; substring check passed.",
+        "'forms of effort' is a slightly loose cover term for 'national effort and international co-operation', but the exemplars are equally loose ('Through what channels and boundaries...'), so this is within house style and was left alone."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "fatal",
+      "issues": [
+        "Original question 'What minimum level of social security benefits must each State provide?' was labelled unanswerable, but the passage's clause 'in accordance with the organization and resources of each State' speaks directly to how much each State must provide. A reader can partially answer it ('in accordance with each State's organization and resources'), which makes this a borderline unanswerable -- exactly the row type that corrupts an abstention dataset.",
+        "Replaced with a question whose subject matter -- enforcement, sanctions, consequences of non-compliance -- has zero overlap with anything in the passage, mirroring the organisers' own 'What specific penalties are enforced if a person violates another's right to equality?'.",
+        "Re-checked the replacement against every clause: the passage states a right, the means of realization, the conditioning factor and the purpose, and never mentions enforcement or penalties. Unanswerable label is safe.",
+        "article_specific left false, consistent with the convention for unanswerable rows."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Counted the list independently: 'the economic, social and cultural rights' is three coordinated modifiers of a single noun -- a fixed triad in the UDHR that translations do not split or merge -- so the count is not fragile.",
+        "Ambiguity check: 'the right to social security' is not qualified as 'indispensable for his dignity', so it cannot be counted; the intended list is unambiguous.",
+        "answer_is_span correctly false: 'Three' does not occur in the passage."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "ok",
+      "issues": [
+        "Answer 'The organization and resources of each State.' is a literal span; the inference (realization varies by State) follows directly from 'in accordance with', comparable in difficulty to the organisers' 'Under what condition might a person be forced to rebel...'.",
+        "article_specific confirmed: no other UDHR article conditions a right on 'the organization and resources of each State'."
+      ],
+      "action": "kept"
+    }
+  ]
+}

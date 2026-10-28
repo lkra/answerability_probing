@@ -1,0 +1,900 @@
+{
+ "lang": "arb",
+ "lang_name": "Modern Standard Arabic",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "لا توجد إجابة",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما. على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "ما نوع النظام الذي لكل فرد الحق في التمتع به لتتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما؟",
+   "answer_tgt": "نظام اجتماعي دولي.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما. على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "ما المقتضيات العادلة التي يجوز فرض قيود على حقوق الفرد من أجل تحقيقها؟",
+   "answer_tgt": "المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما. على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "وفقا للنص، ما هو الوسط الوحيد الذي يتاح فيه لشخصية الفرد أن تنمو نموا حرا كاملا؟",
+   "answer_tgt": "المجتمع.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما. على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "ما الهيئة التي لا يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراضها ومبادئها؟",
+   "answer_tgt": "الأمم المتحدة.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما. على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "كم عدد الدول الأعضاء في الأمم المتحدة؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ليس في هذا الإعلان نص يجوز تأويله على أنه يخول لدولة أو جماعة أو فرد أي حق في القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "question_tgt": "ما الجهات الثلاث التي لا يجوز تأويل هذا الإعلان على أنه يخولها أي حق في هدم الحقوق والحريات الواردة فيه؟",
+   "answer_tgt": "دولة أو جماعة أو فرد.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ليس في هذا الإعلان نص يجوز تأويله على أنه يخول لدولة أو جماعة أو فرد أي حق في القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "question_tgt": "كم من نصوص هذا الإعلان يجوز تأويله على أنه يخول أي حق في هدم الحقوق الواردة فيه؟",
+   "answer_tgt": "ليس في هذا الإعلان نص.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ليس في هذا الإعلان نص يجوز تأويله على أنه يخول لدولة أو جماعة أو فرد أي حق في القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "question_tgt": "ما نوعا السلوك المذكوران اللذان لا يجوز تأويل الإعلان على أنه يبيحهما؟",
+   "answer_tgt": "القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ليس في هذا الإعلان نص يجوز تأويله على أنه يخول لدولة أو جماعة أو فرد أي حق في القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "question_tgt": "إلى ماذا يهدف النشاط أو العمل المحظور؟",
+   "answer_tgt": "هدم الحقوق والحريات الواردة فيه.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ليس في هذا الإعلان نص يجوز تأويله على أنه يخول لدولة أو جماعة أو فرد أي حق في القيام بنشاط أو تأدية عمل يهدف إلى هدم الحقوق والحريات الواردة فيه.",
+   "question_tgt": "ما الجهة التي تقرر ما إذا كان نشاط ما يهدف إلى هدم هذه الحقوق؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.",
+   "question_tgt": "وفقا للنص، ما الأمور الأربعة التي لا يجوز أن يعرض أحد لتدخل تعسفي فيها؟",
+   "answer_tgt": "حياته الخاصة أو أسرته أو مسكنه أو مراسلاته.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.",
+   "question_tgt": "إلى جانب التدخل في الحياة الخاصة والأسرة، ما الأمر الآخر الذي لا يجوز أن يعرض له أحد؟",
+   "answer_tgt": "حملات على شرفه وسمعته.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.",
+   "question_tgt": "ما التعويض الذي يمنح لمن تعرض شرفه وسمعته لحملات؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.",
+   "question_tgt": "ما آخر بند مذكور في قائمة ما يحمى من التدخل التعسفي؟",
+   "answer_tgt": "مراسلاته.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "لا يعرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية القانون من مثل هذا التدخل أو تلك الحملات.",
+   "question_tgt": "ما الذي لكل شخص الحق فيه للوقاية من مثل هذا التدخل أو تلك الحملات؟",
+   "answer_tgt": "حماية القانون.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "لكل فرد حرية النقل واختيار محل إقامته داخل حدود كل دولة. يحق لكل فرد أن يغادر أية بلاد بما في ذلك بلده كما يحق له العودة إليه. لكل فرد الحق أن يلجأ إلى بلاد أخرى أو يحاول الالتجاء إليها هربا من الاضطهاد. لا ينتفع بهذا الحق من قدم للمحاكمة في جرائم غير سياسية أو لأعمال تناقض أغراض الأمم المتحدة ومبادئها. لكل فرد حق التمتع بجنسية ما. لا يجوز حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "question_tgt": "في أي نطاق يتمتع كل فرد بحرية النقل واختيار محل إقامته؟",
+   "answer_tgt": "داخل حدود كل دولة.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "لكل فرد حرية النقل واختيار محل إقامته داخل حدود كل دولة. يحق لكل فرد أن يغادر أية بلاد بما في ذلك بلده كما يحق له العودة إليه. لكل فرد الحق أن يلجأ إلى بلاد أخرى أو يحاول الالتجاء إليها هربا من الاضطهاد. لا ينتفع بهذا الحق من قدم للمحاكمة في جرائم غير سياسية أو لأعمال تناقض أغراض الأمم المتحدة ومبادئها. لكل فرد حق التمتع بجنسية ما. لا يجوز حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "question_tgt": "لكل فرد الحق في أن يلجأ إلى بلاد أخرى هربا من ماذا؟",
+   "answer_tgt": "الاضطهاد.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "لكل فرد حرية النقل واختيار محل إقامته داخل حدود كل دولة. يحق لكل فرد أن يغادر أية بلاد بما في ذلك بلده كما يحق له العودة إليه. لكل فرد الحق أن يلجأ إلى بلاد أخرى أو يحاول الالتجاء إليها هربا من الاضطهاد. لا ينتفع بهذا الحق من قدم للمحاكمة في جرائم غير سياسية أو لأعمال تناقض أغراض الأمم المتحدة ومبادئها. لكل فرد حق التمتع بجنسية ما. لا يجوز حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "question_tgt": "ما الجهة التي تقرر ما إذا كانت المحاكمة ناشئة فعلا عن جريمة غير سياسية؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "لكل فرد حرية النقل واختيار محل إقامته داخل حدود كل دولة. يحق لكل فرد أن يغادر أية بلاد بما في ذلك بلده كما يحق له العودة إليه. لكل فرد الحق أن يلجأ إلى بلاد أخرى أو يحاول الالتجاء إليها هربا من الاضطهاد. لا ينتفع بهذا الحق من قدم للمحاكمة في جرائم غير سياسية أو لأعمال تناقض أغراض الأمم المتحدة ومبادئها. لكل فرد حق التمتع بجنسية ما. لا يجوز حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "question_tgt": "ما البلاد التي يحق لكل فرد أن يغادرها؟",
+   "answer_tgt": "أية بلاد بما في ذلك بلده.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "لكل فرد حرية النقل واختيار محل إقامته داخل حدود كل دولة. يحق لكل فرد أن يغادر أية بلاد بما في ذلك بلده كما يحق له العودة إليه. لكل فرد الحق أن يلجأ إلى بلاد أخرى أو يحاول الالتجاء إليها هربا من الاضطهاد. لا ينتفع بهذا الحق من قدم للمحاكمة في جرائم غير سياسية أو لأعمال تناقض أغراض الأمم المتحدة ومبادئها. لكل فرد حق التمتع بجنسية ما. لا يجوز حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "question_tgt": "ما الأمران اللذان يحظرهما النص فيما يتعلق بجنسية الشخص؟",
+   "answer_tgt": "حرمان شخص من جنسيته تعسفا أو إنكار حقه في تغييرها.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "للرجل والمرأة متا بلغا سن الزواج حق التزوج وتأسيس أسرة دون أي قيد بسبب الجنس أو الدين. ولهما حقوق متساوية عند الزواج وأثناء قيامه وعند انحلاله. لا يبرم عقد الزواج إلا برضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه. الأسرة هي الوحدة الطبيعية الأساسية للمجتمع ولها حق التمتع بحماية المجتمع والدولة. لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره. لا يجوز تجريد أحد من ملكه تعسفا. لكل شخص الحق في حرية الاشتراك في الجمعيات والجماعات السلمية. لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "question_tgt": "ما الأسباب التي لا يجوز أن يقيد بها حق الرجل والمرأة في التزوج وتأسيس أسرة؟",
+   "answer_tgt": "الجنس أو الدين.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "النص العربي الرسمي يذكر سببين فقط (الجنس والدين) ويسقط 'الأصل الوطني' الوارد في الإنكليزية، فالإجابة تتبع النص العربي وتضم بندين لا ثلاثة."
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "للرجل والمرأة متا بلغا سن الزواج حق التزوج وتأسيس أسرة دون أي قيد بسبب الجنس أو الدين. ولهما حقوق متساوية عند الزواج وأثناء قيامه وعند انحلاله. لا يبرم عقد الزواج إلا برضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه. الأسرة هي الوحدة الطبيعية الأساسية للمجتمع ولها حق التمتع بحماية المجتمع والدولة. لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره. لا يجوز تجريد أحد من ملكه تعسفا. لكل شخص الحق في حرية الاشتراك في الجمعيات والجماعات السلمية. لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "question_tgt": "ما الشرط الذي لا يبرم عقد الزواج إلا به؟",
+   "answer_tgt": "رضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "للرجل والمرأة متا بلغا سن الزواج حق التزوج وتأسيس أسرة دون أي قيد بسبب الجنس أو الدين. ولهما حقوق متساوية عند الزواج وأثناء قيامه وعند انحلاله. لا يبرم عقد الزواج إلا برضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه. الأسرة هي الوحدة الطبيعية الأساسية للمجتمع ولها حق التمتع بحماية المجتمع والدولة. لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره. لا يجوز تجريد أحد من ملكه تعسفا. لكل شخص الحق في حرية الاشتراك في الجمعيات والجماعات السلمية. لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "question_tgt": "في أي سن يعد الشخص بالغا سن الزواج؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "للرجل والمرأة متا بلغا سن الزواج حق التزوج وتأسيس أسرة دون أي قيد بسبب الجنس أو الدين. ولهما حقوق متساوية عند الزواج وأثناء قيامه وعند انحلاله. لا يبرم عقد الزواج إلا برضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه. الأسرة هي الوحدة الطبيعية الأساسية للمجتمع ولها حق التمتع بحماية المجتمع والدولة. لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره. لا يجوز تجريد أحد من ملكه تعسفا. لكل شخص الحق في حرية الاشتراك في الجمعيات والجماعات السلمية. لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "question_tgt": "بأي طريقتين يحق لكل شخص التملك؟",
+   "answer_tgt": "بمفرده أو بالاشتراك مع غيره.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "للرجل والمرأة متا بلغا سن الزواج حق التزوج وتأسيس أسرة دون أي قيد بسبب الجنس أو الدين. ولهما حقوق متساوية عند الزواج وأثناء قيامه وعند انحلاله. لا يبرم عقد الزواج إلا برضى الطرفين الراغبين في الزواج رضى كاملا لا إكراه فيه. الأسرة هي الوحدة الطبيعية الأساسية للمجتمع ولها حق التمتع بحماية المجتمع والدولة. لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره. لا يجوز تجريد أحد من ملكه تعسفا. لكل شخص الحق في حرية الاشتراك في الجمعيات والجماعات السلمية. لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "question_tgt": "وفقا للنص، من يجوز إرغامه على الانضمام إلى جمعية ما؟",
+   "answer_tgt": "لا يجوز إرغام أحد على الانضمام إلى جمعية ما.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "لكل فرد الحق في الاشتراك في إدارة الشؤون العامة لبلاده ما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا. لكل شخص نفس الحق الذي لغيره في تقلد الوظائف العامة في البلاد. إن إرادة الشعب هي مصدر سلطة الحكومة، ويعبر عن هذه الإرادة بانتخابات نزيهة دورية تجري على أساس الاقتراع السري وعلى قدم المساواة بين الجميع أو حسب أي إجراء مماثل يضمن حرية التصويت.",
+   "question_tgt": "ما هو مصدر سلطة الحكومة؟",
+   "answer_tgt": "إرادة الشعب.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "لكل فرد الحق في الاشتراك في إدارة الشؤون العامة لبلاده ما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا. لكل شخص نفس الحق الذي لغيره في تقلد الوظائف العامة في البلاد. إن إرادة الشعب هي مصدر سلطة الحكومة، ويعبر عن هذه الإرادة بانتخابات نزيهة دورية تجري على أساس الاقتراع السري وعلى قدم المساواة بين الجميع أو حسب أي إجراء مماثل يضمن حرية التصويت.",
+   "question_tgt": "بأي طريقتين يحق لكل فرد الاشتراك في إدارة الشؤون العامة لبلاده؟",
+   "answer_tgt": "إما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "النص العربي الرسمي هنا فيه خطأ مطبعي ('ما مباشرة' بدل 'إما مباشرة')، فالصيغة السليمة للإجابة ليست مقتطعة حرفيا من النص."
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "لكل فرد الحق في الاشتراك في إدارة الشؤون العامة لبلاده ما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا. لكل شخص نفس الحق الذي لغيره في تقلد الوظائف العامة في البلاد. إن إرادة الشعب هي مصدر سلطة الحكومة، ويعبر عن هذه الإرادة بانتخابات نزيهة دورية تجري على أساس الاقتراع السري وعلى قدم المساواة بين الجميع أو حسب أي إجراء مماثل يضمن حرية التصويت.",
+   "question_tgt": "بأي طريقة في التصويت تجري الانتخابات؟",
+   "answer_tgt": "الاقتراع السري أو أي إجراء مماثل يضمن حرية التصويت.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "لكل فرد الحق في الاشتراك في إدارة الشؤون العامة لبلاده ما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا. لكل شخص نفس الحق الذي لغيره في تقلد الوظائف العامة في البلاد. إن إرادة الشعب هي مصدر سلطة الحكومة، ويعبر عن هذه الإرادة بانتخابات نزيهة دورية تجري على أساس الاقتراع السري وعلى قدم المساواة بين الجميع أو حسب أي إجراء مماثل يضمن حرية التصويت.",
+   "question_tgt": "ما السن الأدنى الذي يجوز فيه للشخص التصويت في هذه الانتخابات؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "لكل فرد الحق في الاشتراك في إدارة الشؤون العامة لبلاده ما مباشرة وإما بواسطة ممثلين يختارون اختيارا حرا. لكل شخص نفس الحق الذي لغيره في تقلد الوظائف العامة في البلاد. إن إرادة الشعب هي مصدر سلطة الحكومة، ويعبر عن هذه الإرادة بانتخابات نزيهة دورية تجري على أساس الاقتراع السري وعلى قدم المساواة بين الجميع أو حسب أي إجراء مماثل يضمن حرية التصويت.",
+   "question_tgt": "ما الشيء الذي لكل شخص فيه نفس الحق الذي لغيره؟",
+   "answer_tgt": "تقلد الوظائف العامة في البلاد.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "لكل شخص الحق في العمل، وله حرية اختياره بشروط عادلة مرضية كما أن له حق الحماية من البطالة. لكل فرد دون أي تمييز الحق في أجر متساو للعمل. لكل فرد يقوم بعمل الحق في أجر عادل مرض يكفل له ولأسرته عيشة لائقة بكرامة الإنسان تضاف إليه، عند اللزوم، وسائل أخرى للحماية الاجتماعية. لكل شخص الحق في أن ينشأ وينضم إلى نقابات حماية لمصلحته. لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "question_tgt": "ما الذي يجب أن يكفله الأجر العادل المرضي للعامل ولأسرته؟",
+   "answer_tgt": "عيشة لائقة بكرامة الإنسان.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "لكل شخص الحق في العمل، وله حرية اختياره بشروط عادلة مرضية كما أن له حق الحماية من البطالة. لكل فرد دون أي تمييز الحق في أجر متساو للعمل. لكل فرد يقوم بعمل الحق في أجر عادل مرض يكفل له ولأسرته عيشة لائقة بكرامة الإنسان تضاف إليه، عند اللزوم، وسائل أخرى للحماية الاجتماعية. لكل شخص الحق في أن ينشأ وينضم إلى نقابات حماية لمصلحته. لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "question_tgt": "ما الحد الأقصى لعدد ساعات العمل المسموح بها في الأسبوع؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "لكل شخص الحق في العمل، وله حرية اختياره بشروط عادلة مرضية كما أن له حق الحماية من البطالة. لكل فرد دون أي تمييز الحق في أجر متساو للعمل. لكل فرد يقوم بعمل الحق في أجر عادل مرض يكفل له ولأسرته عيشة لائقة بكرامة الإنسان تضاف إليه، عند اللزوم، وسائل أخرى للحماية الاجتماعية. لكل شخص الحق في أن ينشأ وينضم إلى نقابات حماية لمصلحته. لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "question_tgt": "ماذا يشمل الحق في الراحة وفي أوقات الفراغ؟",
+   "answer_tgt": "تحديد معقول لساعات العمل وعطلات دورية بأجر.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "لكل شخص الحق في العمل، وله حرية اختياره بشروط عادلة مرضية كما أن له حق الحماية من البطالة. لكل فرد دون أي تمييز الحق في أجر متساو للعمل. لكل فرد يقوم بعمل الحق في أجر عادل مرض يكفل له ولأسرته عيشة لائقة بكرامة الإنسان تضاف إليه، عند اللزوم، وسائل أخرى للحماية الاجتماعية. لكل شخص الحق في أن ينشأ وينضم إلى نقابات حماية لمصلحته. لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "question_tgt": "ما آخر حق مذكور في الجملة الأولى من النص؟",
+   "answer_tgt": "الحماية من البطالة.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "لكل شخص الحق في العمل، وله حرية اختياره بشروط عادلة مرضية كما أن له حق الحماية من البطالة. لكل فرد دون أي تمييز الحق في أجر متساو للعمل. لكل فرد يقوم بعمل الحق في أجر عادل مرض يكفل له ولأسرته عيشة لائقة بكرامة الإنسان تضاف إليه، عند اللزوم، وسائل أخرى للحماية الاجتماعية. لكل شخص الحق في أن ينشأ وينضم إلى نقابات حماية لمصلحته. لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "question_tgt": "في أي حالة تضاف إلى الأجر وسائل أخرى للحماية الاجتماعية؟",
+   "answer_tgt": "عند اللزوم لكفالة عيشة لائقة بكرامة الإنسان.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "لكل شخص الحق في مستوى من المعيشة كاف للمحافظة على الصحة والرفاهية له ولأسرته. ويتضمن ذلك التغذية والملبس والمسكن والعناية الطبية وكذلك الخدمات الاجتماعية اللازمة. وله الحق في تأمين معيشته في حالات البطالة والمرض والعجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته. للأمومة والطفولة الحق في مساعدة ورعاية خاصتين. وينعم كل الأطفال بنفس الحماية الاجتماعية سواء أكانت ولادتهم ناتجة عن رباط شرعي أم بطريقة غير شرعية. لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما.",
+   "question_tgt": "ما الحق الذي للأمومة والطفولة؟",
+   "answer_tgt": "مساعدة ورعاية خاصتين.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "لكل شخص الحق في مستوى من المعيشة كاف للمحافظة على الصحة والرفاهية له ولأسرته. ويتضمن ذلك التغذية والملبس والمسكن والعناية الطبية وكذلك الخدمات الاجتماعية اللازمة. وله الحق في تأمين معيشته في حالات البطالة والمرض والعجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته. للأمومة والطفولة الحق في مساعدة ورعاية خاصتين. وينعم كل الأطفال بنفس الحماية الاجتماعية سواء أكانت ولادتهم ناتجة عن رباط شرعي أم بطريقة غير شرعية. لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما.",
+   "question_tgt": "إلى جانب البطالة والمرض، في أي حالات يكون لكل شخص الحق في تأمين معيشته؟",
+   "answer_tgt": "العجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "لكل شخص الحق في مستوى من المعيشة كاف للمحافظة على الصحة والرفاهية له ولأسرته. ويتضمن ذلك التغذية والملبس والمسكن والعناية الطبية وكذلك الخدمات الاجتماعية اللازمة. وله الحق في تأمين معيشته في حالات البطالة والمرض والعجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته. للأمومة والطفولة الحق في مساعدة ورعاية خاصتين. وينعم كل الأطفال بنفس الحماية الاجتماعية سواء أكانت ولادتهم ناتجة عن رباط شرعي أم بطريقة غير شرعية. لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما.",
+   "question_tgt": "كيف تقارن الحماية الاجتماعية للأطفال الذين تكون ولادتهم بطريقة غير شرعية بحماية سائر الأطفال؟",
+   "answer_tgt": "ينعمون بنفس الحماية الاجتماعية التي ينعم بها كل الأطفال.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "لكل شخص الحق في مستوى من المعيشة كاف للمحافظة على الصحة والرفاهية له ولأسرته. ويتضمن ذلك التغذية والملبس والمسكن والعناية الطبية وكذلك الخدمات الاجتماعية اللازمة. وله الحق في تأمين معيشته في حالات البطالة والمرض والعجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته. للأمومة والطفولة الحق في مساعدة ورعاية خاصتين. وينعم كل الأطفال بنفس الحماية الاجتماعية سواء أكانت ولادتهم ناتجة عن رباط شرعي أم بطريقة غير شرعية. لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما.",
+   "question_tgt": "في أي نظام تتحقق الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما؟",
+   "answer_tgt": "نظام اجتماعي دولي.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "لكل شخص الحق في مستوى من المعيشة كاف للمحافظة على الصحة والرفاهية له ولأسرته. ويتضمن ذلك التغذية والملبس والمسكن والعناية الطبية وكذلك الخدمات الاجتماعية اللازمة. وله الحق في تأمين معيشته في حالات البطالة والمرض والعجز والترمل والشيخوخة وغير ذلك من فقدان وسائل العيش نتيجة لظروف خارجة عن إرادته. للأمومة والطفولة الحق في مساعدة ورعاية خاصتين. وينعم كل الأطفال بنفس الحماية الاجتماعية سواء أكانت ولادتهم ناتجة عن رباط شرعي أم بطريقة غير شرعية. لكل فرد الحق في التمتع بنظام اجتماعي دولي تتحقق بمقتضاه الحقوق والحريات المنصوص عليها في هذا الإعلان تحققا تاما.",
+   "question_tgt": "ما الحد الأدنى من الدخل اللازم ليعد مستوى المعيشة كافيا؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "لماذا يكون على كل فرد واجبات نحو المجتمع؟",
+   "answer_tgt": "لأن المجتمع وحده هو الذي يتاح فيه لشخصيته أن تنمو نموا حرا كاملا.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "ما الذي يقرر القيود التي يخضع لها الفرد في ممارسته حقوقه؟",
+   "answer_tgt": "القانون.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "كم عدد المقتضيات العادلة المذكورة في النص؟",
+   "answer_tgt": "ثلاثة.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "ما العقوبة التي تطبق على من لا يؤدي واجباته نحو المجتمع؟",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "على كل فرد واجبات نحو المجتمع الذي يتاح فيه وحده لشخصيته أن تنمو نموا حرا كاملا. يخضع الفرد في ممارسته حقوقه لتلك القيود التي يقررها القانون فقط، لضمان الاعتراف بحقوق الغير وحرياته واحترامها ولتحقيق المقتضيات العادلة للنظام العام والمصلحة العامة والأخلاق في مجتمع ديمقراطي. يصح بحال من الأحوال أن تمارس هذه الحقوق ممارسة تتناقض مع أغراض الأمم المتحدة ومبادئها.",
+   "question_tgt": "مع ماذا لا يصح بحال من الأحوال أن تتناقض ممارسة هذه الحقوق والحريات؟",
+   "answer_tgt": "أغراض الأمم المتحدة ومبادئها.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

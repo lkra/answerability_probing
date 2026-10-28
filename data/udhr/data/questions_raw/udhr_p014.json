@@ -1,0 +1,56 @@
+{
+  "passage_id": "udhr_p014",
+  "articles": [
+    "16",
+    "17",
+    "20"
+  ],
+  "passage": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+  "questions": [
+    {
+      "question": "Which limitations may not be placed on the right of men and women of full age to marry?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Race, nationality or religion.",
+      "source_article": "16",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is required before a marriage may be entered into?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The free and full consent of the intending spouses.",
+      "source_article": "16",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "At what age is a person considered to be of full age for the purpose of marriage?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "In what two ways may a person own property?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Alone as well as in association with others.",
+      "source_article": "17",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What limit does the text place on membership of an association?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "No one may be compelled to belong to an association.",
+      "source_article": "20",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ]
+}

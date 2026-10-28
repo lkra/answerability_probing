@@ -1,0 +1,330 @@
+{
+ "target_passage_id": "udhr_p017",
+ "target_articles": [
+  "25",
+  "28"
+ ],
+ "target_passage": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+ "candidates": [
+  {
+   "item_id": "udhr_i001",
+   "question": "In what forms shall slavery and the slave trade be prohibited?",
+   "source_passage_id": "udhr_p001",
+   "source_article": "4",
+   "question_type": "extractive",
+   "answer_in_source": "In all their forms."
+  },
+  {
+   "item_id": "udhr_i006",
+   "question": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "source_passage_id": "udhr_p002",
+   "source_article": "8",
+   "question_type": "extractive",
+   "answer_in_source": "The competent national tribunals."
+  },
+  {
+   "item_id": "udhr_i011",
+   "question": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "answer_in_source": "Until proved guilty according to law in a public trial."
+  },
+  {
+   "item_id": "udhr_i018",
+   "question": "Within what limits does everyone have freedom of movement and residence?",
+   "source_passage_id": "udhr_p004",
+   "source_article": "13",
+   "question_type": "extractive",
+   "answer_in_source": "Within the borders of each State."
+  },
+  {
+   "item_id": "udhr_i021",
+   "question": "Under what condition may a marriage be entered into?",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "extractive",
+   "answer_in_source": "Only with the free and full consent of the intending spouses."
+  },
+  {
+   "item_id": "udhr_i026",
+   "question": "In what two ways does the text say property may be owned?",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "extractive",
+   "answer_in_source": "Alone as well as in association with others."
+  },
+  {
+   "item_id": "udhr_i031",
+   "question": "In what capacity does everyone have the right to social security?",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "answer_in_source": "As a member of society."
+  },
+  {
+   "item_id": "udhr_i036",
+   "question": "What must just and favourable remuneration ensure for a worker and his family?",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "answer_in_source": "An existence worthy of human dignity."
+  },
+  {
+   "item_id": "udhr_i041",
+   "question": "What does the right to rest and leisure include?",
+   "source_passage_id": "udhr_p009",
+   "source_article": "24",
+   "question_type": "extractive",
+   "answer_in_source": "Reasonable limitation of working hours and periodic holidays with pay."
+  },
+  {
+   "item_id": "udhr_i047",
+   "question": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "extractive",
+   "answer_in_source": "Morality, public order and the general welfare in a democratic society."
+  },
+  {
+   "item_id": "udhr_i051",
+   "question": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "answer_in_source": "Any State, group or person."
+  },
+  {
+   "item_id": "udhr_i056",
+   "question": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "extractive",
+   "answer_in_source": "His privacy, family, home or correspondence."
+  },
+  {
+   "item_id": "udhr_i061",
+   "question": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "source_passage_id": "udhr_p013",
+   "source_article": "13",
+   "question_type": "extractive",
+   "answer_in_source": "Within the borders of each State."
+  },
+  {
+   "item_id": "udhr_i066",
+   "question": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "answer_in_source": "Race, nationality or religion."
+  },
+  {
+   "item_id": "udhr_i071",
+   "question": "What shall be the basis of the authority of government?",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "answer_in_source": "The will of the people."
+  },
+  {
+   "item_id": "udhr_i076",
+   "question": "What must just and favourable remuneration ensure for a worker and his family?",
+   "source_passage_id": "udhr_p016",
+   "source_article": "23",
+   "question_type": "extractive",
+   "answer_in_source": "An existence worthy of human dignity."
+  },
+  {
+   "item_id": "udhr_i086",
+   "question": "Why does everyone have duties to the community?",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "inferential",
+   "answer_in_source": "Because the free and full development of his personality is possible in the community alone."
+  },
+  {
+   "item_id": "udhr_i002",
+   "question": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "source_passage_id": "udhr_p001",
+   "source_article": "5",
+   "question_type": "extractive",
+   "answer_in_source": "Cruel, inhuman or degrading treatment or punishment."
+  },
+  {
+   "item_id": "udhr_i008",
+   "question": "What kind of hearing is everyone entitled to in full equality?",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "answer_in_source": "A fair and public hearing."
+  },
+  {
+   "item_id": "udhr_i014",
+   "question": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "answer_in_source": "Under national or international law."
+  },
+  {
+   "item_id": "udhr_i019",
+   "question": "In what cases may the right to asylum not be invoked?",
+   "source_passage_id": "udhr_p004",
+   "source_article": "14",
+   "question_type": "extractive",
+   "answer_in_source": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations."
+  },
+  {
+   "item_id": "udhr_i022",
+   "question": "According to the text, what may a person not be denied the right to change?",
+   "source_passage_id": "udhr_p005",
+   "source_article": "15",
+   "question_type": "extractive",
+   "answer_in_source": "His nationality."
+  },
+  {
+   "item_id": "udhr_i027",
+   "question": "What may no one be compelled to belong to?",
+   "source_passage_id": "udhr_p006",
+   "source_article": "20",
+   "question_type": "extractive",
+   "answer_in_source": "An association."
+  },
+  {
+   "item_id": "udhr_i032",
+   "question": "Through what forms of effort is the realization of these rights to be achieved?",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "extractive",
+   "answer_in_source": "Through national effort and international co‐operation."
+  },
+  {
+   "item_id": "udhr_i037",
+   "question": "What kind of pay is everyone entitled to without any discrimination?",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "extractive",
+   "answer_in_source": "Equal pay for equal work."
+  },
+  {
+   "item_id": "udhr_i048",
+   "question": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "source_passage_id": "udhr_p010",
+   "source_article": "29",
+   "question_type": "inferential",
+   "answer_in_source": "The community."
+  },
+  {
+   "item_id": "udhr_i052",
+   "question": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "source_passage_id": "udhr_p011",
+   "source_article": "30",
+   "question_type": "extractive",
+   "answer_in_source": "Nothing in this Declaration."
+  },
+  {
+   "item_id": "udhr_i059",
+   "question": "What is the last item listed as protected from arbitrary interference?",
+   "source_passage_id": "udhr_p012",
+   "source_article": "12",
+   "question_type": "ordinal_count",
+   "answer_in_source": "Correspondence."
+  },
+  {
+   "item_id": "udhr_i062",
+   "question": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "source_passage_id": "udhr_p013",
+   "source_article": "14",
+   "question_type": "extractive",
+   "answer_in_source": "Persecution."
+  },
+  {
+   "item_id": "udhr_i067",
+   "question": "What is required before a marriage may be entered into?",
+   "source_passage_id": "udhr_p014",
+   "source_article": "16",
+   "question_type": "extractive",
+   "answer_in_source": "The free and full consent of the intending spouses."
+  },
+  {
+   "item_id": "udhr_i072",
+   "question": "In what two ways may everyone take part in the government of his country?",
+   "source_passage_id": "udhr_p015",
+   "source_article": "21",
+   "question_type": "extractive",
+   "answer_in_source": "Directly or through freely chosen representatives."
+  },
+  {
+   "item_id": "udhr_i078",
+   "question": "What does the right to rest and leisure include?",
+   "source_passage_id": "udhr_p016",
+   "source_article": "24",
+   "question_type": "extractive",
+   "answer_in_source": "Reasonable limitation of working hours and periodic holidays with pay."
+  },
+  {
+   "item_id": "udhr_i087",
+   "question": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "source_passage_id": "udhr_p018",
+   "source_article": "29",
+   "question_type": "extractive",
+   "answer_in_source": "By law."
+  },
+  {
+   "item_id": "udhr_i004",
+   "question": "Where does everyone have the right to recognition as a person before the law?",
+   "source_passage_id": "udhr_p001",
+   "source_article": "6",
+   "question_type": "extractive",
+   "answer_in_source": "Everywhere."
+  },
+  {
+   "item_id": "udhr_i010",
+   "question": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "source_passage_id": "udhr_p002",
+   "source_article": "10",
+   "question_type": "extractive",
+   "answer_in_source": "Any criminal charge against him."
+  },
+  {
+   "item_id": "udhr_i015",
+   "question": "What penalty may not be exceeded for a penal offence?",
+   "source_passage_id": "udhr_p003",
+   "source_article": "11",
+   "question_type": "extractive",
+   "answer_in_source": "The one that was applicable at the time the penal offence was committed."
+  },
+  {
+   "item_id": "udhr_i024",
+   "question": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "source_passage_id": "udhr_p005",
+   "source_article": "16",
+   "question_type": "ordinal_count",
+   "answer_in_source": "Three."
+  },
+  {
+   "item_id": "udhr_i029",
+   "question": "Under what condition is depriving a person of his property forbidden?",
+   "source_passage_id": "udhr_p006",
+   "source_article": "17",
+   "question_type": "inferential",
+   "answer_in_source": "When the deprivation is arbitrary."
+  },
+  {
+   "item_id": "udhr_i034",
+   "question": "How many kinds of rights are described as indispensable for his dignity?",
+   "source_passage_id": "udhr_p007",
+   "source_article": "22",
+   "question_type": "ordinal_count",
+   "answer_in_source": "Three."
+  },
+  {
+   "item_id": "udhr_i039",
+   "question": "What is the last right listed in the first sentence?",
+   "source_passage_id": "udhr_p008",
+   "source_article": "23",
+   "question_type": "ordinal_count",
+   "answer_in_source": "Protection against unemployment."
+  }
+ ]
+}

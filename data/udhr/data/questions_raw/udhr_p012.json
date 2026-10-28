@@ -1,0 +1,54 @@
+{
+ "passage_id": "udhr_p012",
+ "articles": [
+  "12"
+ ],
+ "passage": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+ "questions": [
+  {
+   "question": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "His privacy, family, home or correspondence.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Attacks upon his honour and reputation.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  },
+  {
+   "question": "How many aspects of a person's life are listed as protected from arbitrary interference?",
+   "question_type": "ordinal_count",
+   "answerable": true,
+   "answer": "Four.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": false
+  },
+  {
+   "question": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "The protection of the law.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  }
+ ]
+}

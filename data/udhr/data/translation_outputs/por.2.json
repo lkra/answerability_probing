@@ -1,0 +1,900 @@
+{
+ "lang": "por",
+ "lang_name": "Portuguese",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "não dá para responder",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração. O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "A que tipo de ordem tem toda a pessoa direito para que os direitos e as liberdades enunciadas na presente Declaração se tornem plenamente efectivos?",
+   "answer_tgt": "Uma ordem no plano social e no plano internacional.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "O texto oficial português reestrutura a frase («que reine, no plano social e no plano internacional, uma ordem»), pelo que não existe um span verbatim correspondente a «a social and international order»."
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração. O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Que justas exigências é que as limitações aos direitos de uma pessoa visam satisfazer?",
+   "answer_tgt": "As justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração. O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Segundo o texto, qual é o único meio fora do qual não é possível o livre e pleno desenvolvimento da personalidade?",
+   "answer_tgt": "A comunidade.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração. O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Contrariamente aos fins e aos princípios de quem é que estes direitos e liberdades não podem, em caso algum, ser exercidos?",
+   "answer_tgt": "Das Nações Unidas.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração. O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Quantos Estados-membros têm as Nações Unidas?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "question_tgt": "Para que três tipos de destinatários é que nenhuma disposição da presente Declaração pode envolver o direito de destruir os direitos nela enunciados?",
+   "answer_tgt": "Qualquer Estado, agrupamento ou indivíduo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "question_tgt": "Que parte da presente Declaração pode ser interpretada de maneira a envolver o direito de destruir os direitos nela enunciados?",
+   "answer_tgt": "Nenhuma disposição da presente Declaração.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "question_tgt": "Que duas formas de conduta menciona o texto que a Declaração não pode ser interpretada como permitindo?",
+   "answer_tgt": "Entregar-se a alguma actividade ou praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "question_tgt": "A que se destinam as actividades e os actos proibidos?",
+   "answer_tgt": "A destruir os direitos e liberdades aqui enunciados.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados.",
+   "question_tgt": "Que autoridade decide se uma actividade se destina a destruir estes direitos?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.",
+   "question_tgt": "Segundo o texto, em que quatro domínios é que ninguém pode sofrer intromissões arbitrárias?",
+   "answer_tgt": "Na sua vida privada, na sua família, no seu domicílio ou na sua correspondência.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.",
+   "question_tgt": "Para além das intromissões na vida privada e na família, que mais é que ninguém deve sofrer?",
+   "answer_tgt": "Ataques à sua honra e reputação.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.",
+   "question_tgt": "Que indemnização é atribuída a uma pessoa cuja honra e reputação foram atacadas?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.",
+   "question_tgt": "Qual é o último elemento enumerado como protegido contra intromissões arbitrárias?",
+   "answer_tgt": "A sua correspondência.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.",
+   "question_tgt": "A que tem toda a pessoa direito contra tais intromissões ou ataques?",
+   "answer_tgt": "A protecção da lei.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Toda a pessoa tem o direito de livremente circular e escolher a sua residência no interior de um Estado. Toda a pessoa tem o direito de abandonar o país em que se encontra, incluindo o seu, e o direito de regressar ao seu país. Toda a pessoa sujeita a perseguição tem o direito de procurar e de beneficiar de asilo em outros países. Este direito não pode, porém, ser invocado no caso de processo realmente existente por crime de direito comum ou por actividades contrárias aos fins e aos princípios das Nações Unidas. Todo o indivíduo tem direito a ter uma nacionalidade. Ninguém pode ser arbitrariamente privado da sua nacionalidade nem do direito de mudar de nacionalidade.",
+   "question_tgt": "Onde é que toda a pessoa tem o direito de livremente circular e escolher a sua residência?",
+   "answer_tgt": "No interior de um Estado.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Toda a pessoa tem o direito de livremente circular e escolher a sua residência no interior de um Estado. Toda a pessoa tem o direito de abandonar o país em que se encontra, incluindo o seu, e o direito de regressar ao seu país. Toda a pessoa sujeita a perseguição tem o direito de procurar e de beneficiar de asilo em outros países. Este direito não pode, porém, ser invocado no caso de processo realmente existente por crime de direito comum ou por actividades contrárias aos fins e aos princípios das Nações Unidas. Todo o indivíduo tem direito a ter uma nacionalidade. Ninguém pode ser arbitrariamente privado da sua nacionalidade nem do direito de mudar de nacionalidade.",
+   "question_tgt": "A que tem de estar sujeita uma pessoa para ter o direito de procurar e de beneficiar de asilo em outros países?",
+   "answer_tgt": "A perseguição.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Toda a pessoa tem o direito de livremente circular e escolher a sua residência no interior de um Estado. Toda a pessoa tem o direito de abandonar o país em que se encontra, incluindo o seu, e o direito de regressar ao seu país. Toda a pessoa sujeita a perseguição tem o direito de procurar e de beneficiar de asilo em outros países. Este direito não pode, porém, ser invocado no caso de processo realmente existente por crime de direito comum ou por actividades contrárias aos fins e aos princípios das Nações Unidas. Todo o indivíduo tem direito a ter uma nacionalidade. Ninguém pode ser arbitrariamente privado da sua nacionalidade nem do direito de mudar de nacionalidade.",
+   "question_tgt": "Que autoridade decide se um processo realmente existente diz respeito a um crime de direito comum?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Toda a pessoa tem o direito de livremente circular e escolher a sua residência no interior de um Estado. Toda a pessoa tem o direito de abandonar o país em que se encontra, incluindo o seu, e o direito de regressar ao seu país. Toda a pessoa sujeita a perseguição tem o direito de procurar e de beneficiar de asilo em outros países. Este direito não pode, porém, ser invocado no caso de processo realmente existente por crime de direito comum ou por actividades contrárias aos fins e aos princípios das Nações Unidas. Todo o indivíduo tem direito a ter uma nacionalidade. Ninguém pode ser arbitrariamente privado da sua nacionalidade nem do direito de mudar de nacionalidade.",
+   "question_tgt": "Que país tem toda a pessoa o direito de abandonar?",
+   "answer_tgt": "O país em que se encontra, incluindo o seu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Toda a pessoa tem o direito de livremente circular e escolher a sua residência no interior de um Estado. Toda a pessoa tem o direito de abandonar o país em que se encontra, incluindo o seu, e o direito de regressar ao seu país. Toda a pessoa sujeita a perseguição tem o direito de procurar e de beneficiar de asilo em outros países. Este direito não pode, porém, ser invocado no caso de processo realmente existente por crime de direito comum ou por actividades contrárias aos fins e aos princípios das Nações Unidas. Todo o indivíduo tem direito a ter uma nacionalidade. Ninguém pode ser arbitrariamente privado da sua nacionalidade nem do direito de mudar de nacionalidade.",
+   "question_tgt": "Que duas coisas proíbe o texto em relação à nacionalidade de uma pessoa?",
+   "answer_tgt": "Privar arbitrariamente alguém da sua nacionalidade e privá-lo do direito de mudar de nacionalidade.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "A partir da idade núbil, o homem e a mulher têm o direito de casar e de constituir família, sem restrição alguma de raça, nacionalidade ou religião. Durante o casamento e na altura da sua dissolução, ambos têm direitos iguais. O casamento não pode ser celebrado sem o livre e pleno consentimento dos futuros esposos. A família é o elemento natural e fundamental da sociedade e tem direito à protecção desta e do Estado. Toda a pessoa, individual ou colectivamente, tem direito à propriedade. Ninguém pode ser arbitrariamente privado da sua propriedade. Toda a pessoa tem direito à liberdade de reunião e de associação pacíficas. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "question_tgt": "Que restrições não podem ser impostas ao direito de casar do homem e da mulher a partir da idade núbil?",
+   "answer_tgt": "Raça, nacionalidade ou religião.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "A partir da idade núbil, o homem e a mulher têm o direito de casar e de constituir família, sem restrição alguma de raça, nacionalidade ou religião. Durante o casamento e na altura da sua dissolução, ambos têm direitos iguais. O casamento não pode ser celebrado sem o livre e pleno consentimento dos futuros esposos. A família é o elemento natural e fundamental da sociedade e tem direito à protecção desta e do Estado. Toda a pessoa, individual ou colectivamente, tem direito à propriedade. Ninguém pode ser arbitrariamente privado da sua propriedade. Toda a pessoa tem direito à liberdade de reunião e de associação pacíficas. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "question_tgt": "O que é necessário para que o casamento possa ser celebrado?",
+   "answer_tgt": "O livre e pleno consentimento dos futuros esposos.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "A partir da idade núbil, o homem e a mulher têm o direito de casar e de constituir família, sem restrição alguma de raça, nacionalidade ou religião. Durante o casamento e na altura da sua dissolução, ambos têm direitos iguais. O casamento não pode ser celebrado sem o livre e pleno consentimento dos futuros esposos. A família é o elemento natural e fundamental da sociedade e tem direito à protecção desta e do Estado. Toda a pessoa, individual ou colectivamente, tem direito à propriedade. Ninguém pode ser arbitrariamente privado da sua propriedade. Toda a pessoa tem direito à liberdade de reunião e de associação pacíficas. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "question_tgt": "A partir de que idade é que uma pessoa é considerada em idade núbil para casar?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "A partir da idade núbil, o homem e a mulher têm o direito de casar e de constituir família, sem restrição alguma de raça, nacionalidade ou religião. Durante o casamento e na altura da sua dissolução, ambos têm direitos iguais. O casamento não pode ser celebrado sem o livre e pleno consentimento dos futuros esposos. A família é o elemento natural e fundamental da sociedade e tem direito à protecção desta e do Estado. Toda a pessoa, individual ou colectivamente, tem direito à propriedade. Ninguém pode ser arbitrariamente privado da sua propriedade. Toda a pessoa tem direito à liberdade de reunião e de associação pacíficas. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "question_tgt": "De que duas maneiras é que toda a pessoa tem direito à propriedade?",
+   "answer_tgt": "Individual ou colectivamente.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "A partir da idade núbil, o homem e a mulher têm o direito de casar e de constituir família, sem restrição alguma de raça, nacionalidade ou religião. Durante o casamento e na altura da sua dissolução, ambos têm direitos iguais. O casamento não pode ser celebrado sem o livre e pleno consentimento dos futuros esposos. A família é o elemento natural e fundamental da sociedade e tem direito à protecção desta e do Estado. Toda a pessoa, individual ou colectivamente, tem direito à propriedade. Ninguém pode ser arbitrariamente privado da sua propriedade. Toda a pessoa tem direito à liberdade de reunião e de associação pacíficas. Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "question_tgt": "Segundo o texto, quem pode ser obrigado a fazer parte de uma associação?",
+   "answer_tgt": "Ninguém pode ser obrigado a fazer parte de uma associação.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Toda a pessoa tem o direito de tomar parte na direcção dos negócios, públicos do seu país, quer directamente, quer por intermédio de representantes livremente escolhidos. Toda a pessoa tem direito de acesso, em condições de igualdade, às funções públicas do seu país. A vontade do povo é o fundamento da autoridade dos poderes públicos: e deve exprimir‐se através de eleições honestas a realizar periodicamente por sufrágio universal e igual, com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "question_tgt": "Qual é o fundamento da autoridade dos poderes públicos?",
+   "answer_tgt": "A vontade do povo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Toda a pessoa tem o direito de tomar parte na direcção dos negócios, públicos do seu país, quer directamente, quer por intermédio de representantes livremente escolhidos. Toda a pessoa tem direito de acesso, em condições de igualdade, às funções públicas do seu país. A vontade do povo é o fundamento da autoridade dos poderes públicos: e deve exprimir‐se através de eleições honestas a realizar periodicamente por sufrágio universal e igual, com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "question_tgt": "De que duas maneiras pode toda a pessoa tomar parte na direcção dos negócios públicos do seu país?",
+   "answer_tgt": "Quer directamente, quer por intermédio de representantes livremente escolhidos.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Toda a pessoa tem o direito de tomar parte na direcção dos negócios, públicos do seu país, quer directamente, quer por intermédio de representantes livremente escolhidos. Toda a pessoa tem direito de acesso, em condições de igualdade, às funções públicas do seu país. A vontade do povo é o fundamento da autoridade dos poderes públicos: e deve exprimir‐se através de eleições honestas a realizar periodicamente por sufrágio universal e igual, com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "question_tgt": "De que modo deve ser feita a votação nas eleições?",
+   "answer_tgt": "Com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Toda a pessoa tem o direito de tomar parte na direcção dos negócios, públicos do seu país, quer directamente, quer por intermédio de representantes livremente escolhidos. Toda a pessoa tem direito de acesso, em condições de igualdade, às funções públicas do seu país. A vontade do povo é o fundamento da autoridade dos poderes públicos: e deve exprimir‐se através de eleições honestas a realizar periodicamente por sufrágio universal e igual, com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "question_tgt": "Qual é a idade mínima a partir da qual uma pessoa pode votar nestas eleições?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Toda a pessoa tem o direito de tomar parte na direcção dos negócios, públicos do seu país, quer directamente, quer por intermédio de representantes livremente escolhidos. Toda a pessoa tem direito de acesso, em condições de igualdade, às funções públicas do seu país. A vontade do povo é o fundamento da autoridade dos poderes públicos: e deve exprimir‐se através de eleições honestas a realizar periodicamente por sufrágio universal e igual, com voto secreto ou segundo processo equivalente que salvaguarde a liberdade de voto.",
+   "question_tgt": "A que tem toda a pessoa direito de acesso, em condições de igualdade?",
+   "answer_tgt": "Às funções públicas do seu país.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Toda a pessoa tem direito ao trabalho, à livre escolha do trabalho, a condições equitativas e satisfatórias de trabalho e à protecção contra o desemprego. Todos têm direito, sem discriminação alguma, a salário igual por trabalho igual. Quem trabalha tem direito a uma remuneração equitativa e satisfatória, que lhe permita e à sua família uma existência conforme com a dignidade humana, e completada, se possível, por todos os outros meios de protecção social. Toda a pessoa tem o direito de fundar com outras pessoas sindicatos e de se filiar em sindicatos para defesa dos seus interesses. Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "question_tgt": "O que deve a remuneração equitativa e satisfatória permitir a quem trabalha e à sua família?",
+   "answer_tgt": "Uma existência conforme com a dignidade humana.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Toda a pessoa tem direito ao trabalho, à livre escolha do trabalho, a condições equitativas e satisfatórias de trabalho e à protecção contra o desemprego. Todos têm direito, sem discriminação alguma, a salário igual por trabalho igual. Quem trabalha tem direito a uma remuneração equitativa e satisfatória, que lhe permita e à sua família uma existência conforme com a dignidade humana, e completada, se possível, por todos os outros meios de protecção social. Toda a pessoa tem o direito de fundar com outras pessoas sindicatos e de se filiar em sindicatos para defesa dos seus interesses. Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "question_tgt": "Qual é o número máximo de horas de trabalho permitido por semana?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Toda a pessoa tem direito ao trabalho, à livre escolha do trabalho, a condições equitativas e satisfatórias de trabalho e à protecção contra o desemprego. Todos têm direito, sem discriminação alguma, a salário igual por trabalho igual. Quem trabalha tem direito a uma remuneração equitativa e satisfatória, que lhe permita e à sua família uma existência conforme com a dignidade humana, e completada, se possível, por todos os outros meios de protecção social. Toda a pessoa tem o direito de fundar com outras pessoas sindicatos e de se filiar em sindicatos para defesa dos seus interesses. Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "question_tgt": "O que compreende especialmente o direito ao repouso e aos lazeres?",
+   "answer_tgt": "Uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Toda a pessoa tem direito ao trabalho, à livre escolha do trabalho, a condições equitativas e satisfatórias de trabalho e à protecção contra o desemprego. Todos têm direito, sem discriminação alguma, a salário igual por trabalho igual. Quem trabalha tem direito a uma remuneração equitativa e satisfatória, que lhe permita e à sua família uma existência conforme com a dignidade humana, e completada, se possível, por todos os outros meios de protecção social. Toda a pessoa tem o direito de fundar com outras pessoas sindicatos e de se filiar em sindicatos para defesa dos seus interesses. Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "question_tgt": "Qual é o último direito enumerado na primeira frase do texto?",
+   "answer_tgt": "A protecção contra o desemprego.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Toda a pessoa tem direito ao trabalho, à livre escolha do trabalho, a condições equitativas e satisfatórias de trabalho e à protecção contra o desemprego. Todos têm direito, sem discriminação alguma, a salário igual por trabalho igual. Quem trabalha tem direito a uma remuneração equitativa e satisfatória, que lhe permita e à sua família uma existência conforme com a dignidade humana, e completada, se possível, por todos os outros meios de protecção social. Toda a pessoa tem o direito de fundar com outras pessoas sindicatos e de se filiar em sindicatos para defesa dos seus interesses. Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "question_tgt": "Em que condição é que a remuneração deve ser completada por outros meios de protecção social?",
+   "answer_tgt": "Se for possível, para assegurar uma existência conforme com a dignidade humana.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "O texto oficial português diz «completada, se possível», enquanto o inglês diz «supplemented, if necessary»: a condição difere e a resposta segue o português."
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Toda a pessoa tem direito a um nível de vida suficiente para lhe assegurar e à sua família a saúde e o bem‐estar, principalmente quanto à alimentação, ao vestuário, ao alojamento, à assistência médica e ainda quanto aos serviços sociais necessários, e tem direito à segurança no desemprego, na doença, na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade. A maternidade e a infância têm direito a ajuda e a assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimónio, gozam da mesma protecção social. Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração.",
+   "question_tgt": "A que têm direito a maternidade e a infância?",
+   "answer_tgt": "A ajuda e a assistência especiais.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Toda a pessoa tem direito a um nível de vida suficiente para lhe assegurar e à sua família a saúde e o bem‐estar, principalmente quanto à alimentação, ao vestuário, ao alojamento, à assistência médica e ainda quanto aos serviços sociais necessários, e tem direito à segurança no desemprego, na doença, na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade. A maternidade e a infância têm direito a ajuda e a assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimónio, gozam da mesma protecção social. Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração.",
+   "question_tgt": "Para além do desemprego e da doença, em que casos tem toda a pessoa direito à segurança?",
+   "answer_tgt": "Na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Toda a pessoa tem direito a um nível de vida suficiente para lhe assegurar e à sua família a saúde e o bem‐estar, principalmente quanto à alimentação, ao vestuário, ao alojamento, à assistência médica e ainda quanto aos serviços sociais necessários, e tem direito à segurança no desemprego, na doença, na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade. A maternidade e a infância têm direito a ajuda e a assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimónio, gozam da mesma protecção social. Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração.",
+   "question_tgt": "Como se compara a protecção social das crianças nascidas fora do matrimónio com a das outras crianças?",
+   "answer_tgt": "Gozam da mesma protecção social que todas as outras crianças.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Toda a pessoa tem direito a um nível de vida suficiente para lhe assegurar e à sua família a saúde e o bem‐estar, principalmente quanto à alimentação, ao vestuário, ao alojamento, à assistência médica e ainda quanto aos serviços sociais necessários, e tem direito à segurança no desemprego, na doença, na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade. A maternidade e a infância têm direito a ajuda e a assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimónio, gozam da mesma protecção social. Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração.",
+   "question_tgt": "Que tipo de ordem é que permite tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração?",
+   "answer_tgt": "Uma ordem no plano social e no plano internacional.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "O texto oficial português reestrutura a frase («que reine, no plano social e no plano internacional, uma ordem»), pelo que não existe um span verbatim correspondente a «a social and international order»."
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Toda a pessoa tem direito a um nível de vida suficiente para lhe assegurar e à sua família a saúde e o bem‐estar, principalmente quanto à alimentação, ao vestuário, ao alojamento, à assistência médica e ainda quanto aos serviços sociais necessários, e tem direito à segurança no desemprego, na doença, na invalidez, na viuvez, na velhice ou noutros casos de perda de meios de subsistência por circunstâncias independentes da sua vontade. A maternidade e a infância têm direito a ajuda e a assistência especiais. Todas as crianças, nascidas dentro ou fora do matrimónio, gozam da mesma protecção social. Toda a pessoa tem direito a que reine, no plano social e no plano internacional, uma ordem capaz de tornar plenamente efectivos os direitos e as liberdades enunciadas na presente Declaração.",
+   "question_tgt": "Que rendimento mínimo é necessário para que um nível de vida seja considerado suficiente?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Porque é que o indivíduo tem deveres para com a comunidade?",
+   "answer_tgt": "Porque fora dela não é possível o livre e pleno desenvolvimento da sua personalidade.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Por que meio é que devem ser estabelecidas as limitações ao exercício dos direitos e liberdades?",
+   "answer_tgt": "Pela lei.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Quantas justas exigências são enumeradas no texto?",
+   "answer_tgt": "Três.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Que sanção se aplica a quem não cumpre os seus deveres para com a comunidade?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "O indivíduo tem deveres para com a comunidade, fora da qual não é possível o livre e pleno desenvolvimento da sua personalidade. No exercício destes direitos e no gozo destas liberdades ninguém está sujeito senão às limitações estabelecidas pela lei com vista exclusivamente a promover o reconhecimento e o respeito dos direitos e liberdades dos outros e a fim de satisfazer as justas exigências da moral, da ordem pública e do bem‐estar numa sociedade democrática. Em caso algum estes direitos e liberdades poderão ser exercidos contrariamente aos fins e aos princípios das Nações Unidas.",
+   "question_tgt": "Contrariamente a que é que estes direitos e liberdades não podem, em caso algum, ser exercidos?",
+   "answer_tgt": "Aos fins e aos princípios das Nações Unidas.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

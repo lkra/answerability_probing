@@ -1,0 +1,105 @@
+{
+ "passage_id": "udhr_p004",
+ "articles": [
+  "12",
+  "13",
+  "14"
+ ],
+ "passage": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+ "questions": [
+  {
+   "question": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "question_type": "ordinal_count",
+   "answerable": true,
+   "answer": "Privacy.",
+   "source_article": "12",
+   "article_specific": false,
+   "answer_is_span": true
+  },
+  {
+   "question": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "The protection of the law.",
+   "source_article": "12",
+   "article_specific": false,
+   "answer_is_span": true
+  },
+  {
+   "question": "Within what limits does everyone have freedom of movement and residence?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Within the borders of each State.",
+   "source_article": "13",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "In what cases may the right to asylum not be invoked?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "source_article": "14",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Which authority decides whether a person is granted asylum in another country?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  }
+ ],
+ "verdicts": [
+  {
+   "index": 0,
+   "severity": "fatal",
+   "issues": [
+    "The authored question asked for the LAST item of Art. 12's interference list ('privacy, family, home or correspondence') with gold answer 'Correspondence.'. Correct in English, but this dataset instantiates every item in 25 languages against the UDHR translation of the same passage, and the ordinal does not survive. In the Russian text the enumeration is restructured: 'произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию' -- home, correspondence, honour and reputation sit in one arbitrary-attack list, so the last item is 'his honour and reputation', not correspondence. The gold would be wrong or contestable in ru.",
+    "Second ambiguity even in English: the sentence carries two lists (interference with privacy/family/home/correspondence, and attacks upon honour and reputation), so 'the last item listed' invites 'reputation'.",
+    "Replaced with the FIRST-item ordinal, checked item by item against all 25 translations of this passage: fra 'sa vie privee', deu 'sein Privatleben', spa 'su vida privada', ita, por, tur 'ozel hayati', ind 'urusan pribadinya', vie, zho '私生活', jpn '自己の私事', kor '그의 사생활', rus 'его личную ... жизнь', hin, arb 'حياته الخاصة', yor, hat all open the list with privacy/private life. The first position is stable where the last is not.",
+    "article_specific set to false: 'no one shall be subjected to arbitrary ...' plus a short list is not unique to Art. 12 -- posed against Art. 9 ('arbitrary arrest, detention or exile') a reviewer would answer 'arrest', and Art. 17.2 ('arbitrarily deprived of his property') offers a further lure. Not transplantable; kept as a plain training row.",
+    "Answer 'Privacy.' verified as a literal substring of the passage."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 1,
+   "severity": "minor",
+   "issues": [
+    "Label and answer are right: 'Everyone has the right to the protection of the law against such interference or attacks' answers it, 'The protection of the law.' is a literal span, one sentence, exemplar-length. Question kept verbatim.",
+    "article_specific corrected true -> false. The wanted answer is reproducible from another article: Art. 7 states 'All are entitled without any discrimination to equal protection of the law', and Art. 8 gives 'an effective remedy by the competent national tribunals for acts violating the fundamental rights' -- a transplant reviewer holding either passage could answer this question, which would put a wrongly-labelled unanswerable row into the data. Per the tie-break rule, false."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 2,
+   "severity": "ok",
+   "issues": [
+    "Answered verbatim by 'Everyone has the right to freedom of movement and residence within the borders of each State'; answer is a literal span, one sentence.",
+    "article_specific holds: 'freedom of movement and residence' occurs only in Art. 13. Art. 29's general 'limitations as are determined by law' is a mild lure for the word 'limits', but it says nothing about movement or residence."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 3,
+   "severity": "ok",
+   "issues": [
+    "Answered verbatim by the passage's last sentence; 'This right' unambiguously refers to the asylum right of the preceding sentence. Answer is a literal span (note it must keep the U+2010 hyphen in 'non‐political' to remain one) and one sentence.",
+    "article_specific holds: asylum appears nowhere else in the UDHR."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 4,
+   "severity": "ok",
+   "issues": [
+    "Tried hard to answer it: the passage grants a right to seek and enjoy asylum in other countries and names cases where the right may not be invoked, but names no decision-maker anywhere -- no sentence answers it even partially. 'the purposes and principles of the United Nations' is a tempting but wrong lure, which makes this a good hard negative. Label correct."
+   ],
+   "action": "kept"
+  }
+ ]
+}

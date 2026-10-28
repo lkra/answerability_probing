@@ -1,0 +1,56 @@
+{
+ "passage_id": "udhr_p004",
+ "articles": [
+  "12",
+  "13",
+  "14"
+ ],
+ "passage": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+ "questions": [
+  {
+   "question": "What is the last item listed that must not be subjected to arbitrary interference?",
+   "question_type": "ordinal_count",
+   "answerable": true,
+   "answer": "Correspondence.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "The protection of the law.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Within what limits does everyone have freedom of movement and residence?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Within the borders of each State.",
+   "source_article": "13",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "In what cases may the right to asylum not be invoked?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "source_article": "14",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Which authority decides whether a person is granted asylum in another country?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  }
+ ]
+}

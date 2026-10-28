@@ -1,0 +1,900 @@
+{
+ "lang": "yor",
+ "lang_name": "Yoruba",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "kò sí ìdáhùn",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩. E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Irú ètò wo ni e̩nì kò̩ò̩kan ní è̩tó̩ sí, níbi tí àwo̩n è̩tó̩ òmìnira tí a gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩?",
+   "answer_tgt": "Ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩. E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Fún kí ni a s̩e lè fi òfin de è̩tó̩ e̩nì kò̩ò̩kan nínú àwùjo̩?",
+   "answer_tgt": "Ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba restructures: 'morality' and 'public order' are merged into 'ọ̀nà tó yẹ, tó sì tọ́', so only the general-welfare / democratic-society part exists as a span."
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩. E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Gé̩gé̩ bí ìwé yìí, kí ni ibi tí ó fi lè s̩eé s̩e fún e̩ni kan láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn?",
+   "answer_tgt": "Àwùjo̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩. E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Àwo̩n ète àti ìgbékalè̩ ta ni a kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí lòdì sí?",
+   "answer_tgt": "Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩. E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Orílè̩‐èdè mélòó ni ó jé̩ o̩mo̩ e̩gbé̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "question_tgt": "Àwo̩n e̩ni mé̩ta wo ni kò lè ní è̩tó̩ láti pa àwo̩n è̩tó̩ tí a gbé kalè̩ nínú ìkéde yìí run?",
+   "answer_tgt": "Orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "question_tgt": "Èwo nínú ìkéde yìí ni a lè túmò̩ gé̩gé̩ bí ohun tí ó fún e̩ni kan ní è̩tó̩ láti pa àwo̩n è̩tó̩ tí ó gbé kalè̩ run?",
+   "answer_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "question_tgt": "Àwo̩n ohun wo ni a kò gbo̩dò̩ túmò̩ ìkéde yìí sí pé ó fún e̩nì kan ní è̩tó̩ láti s̩e?",
+   "answer_tgt": "S̩ís̩e ohunkóhun tí yóò mú ìparun bá àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Official Yoruba merges 'engage in any activity' and 'perform any act' into a single 'ṣe ohunkóhun', so the two-way distinction the question asks about does not survive."
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "question_tgt": "Kí ni àwo̩n ohun tí a kò gbo̩dò̩ s̩e wò̩nyí ní ète láti s̩e?",
+   "answer_tgt": "Mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí.",
+   "question_tgt": "Alás̩e̩ wo ni ó ń pinnu bóyá ohun tí a s̩e ní ète láti pa àwo̩n è̩tó̩ wò̩nyí run?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩.",
+   "question_tgt": "Gé̩gé̩ bí ìwé yìí, àwo̩n ohun mé̩rin wo ni a kò gbo̩dò̩ s̩àdédé s̩e àyo̩júràn sí?",
+   "answer_tgt": "Ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩.",
+   "question_tgt": "Yàtò̩ sí àyo̩júràn sí ò̩rò̩ ìgbésí ayé àti ò̩rò̩ e̩bí, kí ni ohun mìíràn tí a kò gbo̩dò̩ s̩e sí e̩nì kan?",
+   "answer_tgt": "Ba iyì àti orúko̩ rè̩ jé̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩.",
+   "question_tgt": "Ìsanpadà wo ni a máa ń fún e̩ni tí a bá ba iyì àti orúko̩ rè̩ jé̩?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩.",
+   "question_tgt": "Kí ni ohun tí ó ké̩yìn nínú àwo̩n ohun tí a kò gbo̩dò̩ s̩àdédé s̩e àyo̩júràn sí?",
+   "answer_tgt": "Ìwé tí a ko̩ sí i.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩.",
+   "question_tgt": "Kí ni e̩nì kò̩ò̩kan ní è̩tó̩ sí kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩?",
+   "answer_tgt": "Ààbò lábé̩ òfin.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "question_tgt": "Níbo ni e̩nì kò̩ò̩kan ti ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì s̩e ìbùgbé?",
+   "answer_tgt": "Láàrin orílè̩‐èdè rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "question_tgt": "Kí ni e̩nì kò̩ò̩kan ní è̩tó̩ láti wá ààbò kúrò ló̩wó̩ rè̩ ní orílè̩‐èdè mìíràn?",
+   "answer_tgt": "Inúnibíni.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "question_tgt": "Alás̩e̩ wo ni ó ń pinnu bóyá e̩jó̩ kan dájú pé kò je̩ mó̩ ò̩rò̩ ìs̩èlú?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "question_tgt": "Orílè̩‐èdè wo ni e̩nì kò̩ò̩kan ní è̩tó̩ láti kúrò?",
+   "answer_tgt": "Lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "question_tgt": "Àwo̩n ohun méjì wo ni ìwé yìí kò̩ nípa è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni?",
+   "answer_tgt": "Gbígba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ rè̩ láìnídìí àti kíkò̩ fún un láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "question_tgt": "Kí ni a kò gbo̩dò̩ fi s̩e ìdíwó̩ fún è̩tó̩ o̩kùnrin àti obìnrin tó bá ti bàlágà láti fé̩ ara wo̩n?",
+   "answer_tgt": "È̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "question_tgt": "Kí ni a gbo̩dò̩ ní kí a tó lè s̩e ìgbeyàwó kan?",
+   "answer_tgt": "Àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "question_tgt": "O̩jó̩ orí mélòó ni e̩ni kan gbo̩dò̩ ní kí a tó kà á sí e̩ni tí ó ti bàlágà fún ìgbeyàwó?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "question_tgt": "Ò̩nà méjì wo ni e̩nì kò̩ò̩kan lè gbà ní ohun ìní?",
+   "answer_tgt": "Láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "question_tgt": "Gé̩gé̩ bí ìwé yìí, ta ni a lè fi ipá mú dara pò̩ mó̩ e̩gbé̩ kan?",
+   "answer_tgt": "A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Kí ni yóò jé̩ òkúta ìpìlè̩ fún às̩e̩ ìjo̩ba?",
+   "answer_tgt": "I fé̩ àwo̩n ènìyàn ìlú.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "The official Yoruba writes 'I fẹ́' (defective spacing / lost tone for 'Ìfẹ́'); the span is copied verbatim including that defect."
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Ò̩nà méjì wo ni e̩nì kò̩ò̩kan lè gbà kópa nínú ìs̩àkóso orílè̩‐èdè rè̩?",
+   "answer_tgt": "Yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Ò̩nà ìdìbò wo ni a ó gbà dì àwo̩n ìbò wò̩nyí?",
+   "answer_tgt": "Ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Span contains the official file's defective spacing 'ọ nà' (for 'ọ̀nà'); reproduced verbatim."
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "O̩jó̩ orí wo ni ó kéré jù tí e̩ni kan lè fi dìbò nínú àwo̩n ìdìbò wò̩nyí?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Kí ni e̩nì kò̩ò̩kan ní è̩tó̩ tó dó̩gba láti s̩e ní orílè̩‐èdè rè̩?",
+   "answer_tgt": "Is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "question_tgt": "Kí ni owó os̩ù tí ó tó̩ gbo̩dò̩ tó fún òs̩ìs̩é̩ àti e̩bí rè̩ láti s̩e?",
+   "answer_tgt": "Láti gbé ayé tí ó bu iyì kún ènìyàn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "question_tgt": "Wákàtí mélòó ni ó pò̩ jù tí e̩ni kan lè fi s̩is̩é̩ ní ò̩sè̩ kan?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "question_tgt": "Kí ni è̩tó̩ sí ìsinmi àti fàájì fi mó̩?",
+   "answer_tgt": "Àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "question_tgt": "Kí ni è̩tó̩ ìke̩yìn tí a tó̩ka sí nínú gbólóhùn àkó̩kó̩ ìwé yìí?",
+   "answer_tgt": "Ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "question_tgt": "Nígbà wo ni a lè fi àwo̩n ètò ìrànló̩wó̩ mìíràn kún owó os̩ù e̩ni kan?",
+   "answer_tgt": "Nígbà tí ó bá ye.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba states the condition only as 'nígbà tí ó bá ye' (when it is fitting); it does not repeat the 'existence worthy of human dignity' clause the English answer relies on."
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩.",
+   "question_tgt": "Kí ni a ní láti pèsè fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé?",
+   "answer_tgt": "Ìtó̩jú àti ìrànló̩wó̩ pàtàkì.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩.",
+   "question_tgt": "Yàtò̩ sí àìnís̩é̩ló̩wó̩ àti àìsàn, nígbà wo ni e̩nì kò̩ò̩kan tún ní è̩tó̩ sí ààbò?",
+   "answer_tgt": "Nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩.",
+   "question_tgt": "Báwo ni ààbò àwo̩n o̩mo̩dé tí àwo̩n òbí wo̩n kò fé̩ ara wo̩n s̩e wà ní ìfiwé ti àwo̩n o̩mo̩dé yòókù?",
+   "answer_tgt": "Wo̩n yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ bí gbogbo àwo̩n o̩mo̩dé yòókù.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩.",
+   "question_tgt": "Irú ètò wo ni àwo̩n è̩tó̩ àti òmìnira tí a gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩?",
+   "answer_tgt": "Ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ètò nínú àwùjo̩ rè̩ àti ní gbogbo àwùjo̩ àgbáyé níbi tí àwo̩n è̩tó̩ òmìnira tí a ti gbé kalè̩ nínú ìkéde yìí yóò ti jé̩ mímús̩e̩.",
+   "question_tgt": "Iye owó wo ni ó kéré jù tí e̩ni kan gbo̩dò̩ ní kí ìgbé ayé rè̩ tó lè bójú mu?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Kí ló dé tí e̩nì kò̩ò̩kan fi ní àwo̩n ojús̩e sí àwùjo̩?",
+   "answer_tgt": "Nítorí pé nípasè̩ àwùjo̩ ni ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Kí ni yóò de e̩nì kò̩ò̩kan nígbà tí ó bá ń lo àwo̩n è̩tó̩ àti òmìnira rè̩?",
+   "answer_tgt": "O fin.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "The official Yoruba writes 'O fin' (defective spacing / lost tone for 'Òfin'); the span is copied verbatim including that defect."
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Àwo̩n ohun tó ye̩, tó sì tó̩ mélòó ni a tó̩ka sí nínú ìwé yìí?",
+   "answer_tgt": "Mé̩ta.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "The count does not survive: official Yoruba merges morality and public order into 'ọ̀nà tó yẹ, tó sì tọ́', so three separate requirements are not enumerable in the Yoruba text."
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Ìjìyà wo ni ó wà fún e̩ni tí kò bá s̩e àwo̩n ojús̩e rè̩ sí àwùjo̩?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní àwo̩n ojús̩e kan sí àwùjo̩, nípasè̩ èyí tí ó fi lè s̩eé s̩e fún e̩ni náà láti ní ìdàgbàsókè kíkún gé̩gé̩ bí è̩dá ènìyàn. O fin yóò de e̩nì kò̩ò̩kan láti fi ò̩wò̩ àti ìmo̩yì tí ó tó̩ fún è̩tó̩ àti òmìnira àwo̩n e̩lòmíràn nígbà tí e̩ni náà bá ń lo àwo̩n è̩tó̩ àti òmìnira ara rè̩. E yí wà ní ìbámu pè̩lú ò̩nà tó ye̩, tó sì tó̩ láti fi báni lò nínú àwùjo̩ fún ire àti àlàáfíà àwùjo̩ náà nínú èyí tí ìjo̩ba yóò wà ló̩wó̩ gbogbo ènìyàn. A kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí rárá, ní ò̩nà yòówù kó jé̩, tó bá lòdì sí àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "question_tgt": "Kí ni a kò gbo̩dò̩ lo àwo̩n è̩tó̩ àti òmìnira wò̩nyí lòdì sí?",
+   "answer_tgt": "Àwo̩n ète àti ìgbékalè̩ Ajo̩‐àpapò̩ orílè̩‐èdè agbáyé.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

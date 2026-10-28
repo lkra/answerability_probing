@@ -1,0 +1,102 @@
+{
+  "passage_id": "udhr_p005",
+  "articles": [
+    "15",
+    "16"
+  ],
+  "passage": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+  "questions": [
+    {
+      "question": "Under what condition may a marriage be entered into?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Only with the free and full consent of the intending spouses.",
+      "source_article": "16",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "According to the text, what may a person not be denied the right to change?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "His nationality.",
+      "source_article": "15",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the minimum age at which a person may marry?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "How many grounds are listed that may not limit the right to marry and to found a family?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "16",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "Which two bodies must protect the family?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Society and the State.",
+      "source_article": "16",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [
+        "Answered verbatim by 'Marriage shall be entered into only with the free and full consent of the intending spouses.' Answer is a case-insensitive verbatim span, one sentence, exemplar-length. article_specific is safe: Article 16 is the only non-excluded article that mentions marriage at all, so no transplant target can answer it."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "minor",
+      "issues": [
+        "Original question: 'Which right concerning his nationality may a person not be denied?' with article_specific true. The label and answer were correct ('nor denied the right to change his nationality'), but article_specific was unsafe: Article 16, which is in this same passage and in others without Article 15, states that men and women have the right to marry 'without any limitation due to race, nationality or religion'. Posed against an Article 16 passage, 'which right concerning his nationality may a person not be denied' has a defensible answer ('the right to marry and to found a family'), which would put a wrongly-labelled abstention row into the transplant pool.",
+        "Also a grammatical mismatch: possessive 'his' with no antecedent, followed by 'a person'.",
+        "Replaced with a question anchored on the verb 'change', which appears only in Article 15's clause 'nor denied the right to change his nationality'. Article 18's 'freedom to change his religion or belief' is the only other 'change' clause in the UDHR and Article 18 is excluded from every passage, so the question stays safely article-specific. Answer 'His nationality.' is a verbatim span."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 2,
+      "severity": "minor",
+      "issues": [
+        "Label checked hard and is correct: the passage says only 'Men and women of full age', and never states any age, threshold or numeric limit, so no sentence answers or partially answers the question. It is a near-miss unanswerable of exactly the organisers' kind ('What are the age limits for compulsory elementary education?').",
+        "Original wording 'What is the minimum age at which a person is considered of full age to marry?' is pleonastic (a minimum age at which one is of full age) and clumsier than any exemplar question. Tightened to 'What is the minimum age at which a person may marry?'; label, answer and all flags unchanged."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Counted the list independently: 'without any limitation due to race, nationality or religion' is three grounds, so 'Three.' is right and unambiguous. Checked the translation-fragility concern: this is a rigidly enumerated three-item list that the official UDHR translations keep as three items (fr 'la race, la nationalite ou la religion', es 'raza, nacionalidad o religion', de 'Rasse, Staatsangehoerigkeit oder Religion'), so the count does not depend on an English-only segmentation. Kept as ordinal_count. answer_is_span false is correct, 'Three' is not in the passage.",
+        "article_specific is safe: no other non-excluded article lists grounds that may not limit marriage (Article 2, which lists non-discrimination grounds, is excluded from all passages)."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "minor",
+      "issues": [
+        "question_type was 'inferential', which is wrong: the answer 'society and the State' is lifted verbatim from 'is entitled to protection by society and the State', with no inference step. Corrected to 'extractive'. Question, answer, answerability and answer_is_span (true, verbatim span) are all correct and unchanged.",
+        "article_specific reviewed sceptically and kept true, but it is the weakest of the four. Article 12 ('the right to the protection of the law against such interference' with 'his privacy, family, home') and Article 22 (which happens to name both society and the State) come closest, but neither states who protects the family as a unit, and the 'two bodies' constraint is what keeps them from answering. If the transplant reviewer disagrees on any Article 12 or Article 22 target, drop this pairing rather than the label."
+      ],
+      "action": "kept"
+    }
+  ]
+}

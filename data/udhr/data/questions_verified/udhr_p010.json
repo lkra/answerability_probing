@@ -1,0 +1,95 @@
+{
+  "passage_id": "udhr_p010",
+  "articles": [
+    "28",
+    "29"
+  ],
+  "passage": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+  "questions": [
+    {
+      "question": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "A social and international order.",
+      "source_article": "28",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Which just requirements may limitations on a person's rights be imposed to meet?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Morality, public order and the general welfare in a democratic society.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "The community.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The United Nations.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many member states does the United Nations have?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Phrasing is slightly clumsy ('may ... be imposed to meet') but no longer or more clause-heavy than the exemplars; answer 'morality, public order and the general welfare in a democratic society' is a verbatim span of sentence 3; article_specific holds since no other UDHR article names these just requirements."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [
+        "Answered by 'the community in which alone the free and full development of his personality is possible'; the word 'alone' is what licenses 'only setting', and it is unique to Article 29.1 (Article 22 mentions free development of personality but names no setting), so article_specific stays true."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "minor",
+      "issues": [
+        "Answer was not responsive to the question: 'whose' asks for the owner of the purposes and principles, but the answer restated the whole prepositional phrase ('The purposes and principles of the United Nations.'). Shortened to 'The United Nations.', which is still a literal span and matches the exemplars' brevity ('The author of the production.'). Label and question unchanged."
+      ],
+      "action": "answer_corrected"
+    },
+    {
+      "index": 4,
+      "severity": "fatal",
+      "issues": [
+        "The unanswerable question 'Which authority decides whether a limitation on rights meets the just requirements of a democratic society?' IS answered by the passage: sentence 3 says everyone 'shall be subject only to such limitations as are determined by law'. 'By law' is a direct answer to 'which authority decides', so the abstention label was wrong -- the worst possible defect for this dataset. Replaced with a question whose answer appears nowhere in the passage and admits no inference path: the passage names the United Nations but says nothing about its membership. Style follows the exemplars' 'In what year was the Universal Declaration of Human Rights drafted?' and 'For how many years does copyright protection last after the author's death?'"
+      ],
+      "action": "question_replaced"
+    }
+  ]
+}

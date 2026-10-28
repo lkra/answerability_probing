@@ -1,0 +1,58 @@
+{
+ "passage_id": "udhr_p001",
+ "articles": [
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "passage": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+ "questions": [
+  {
+   "question": "In what forms shall slavery and the slave trade be prohibited?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "In all their forms.",
+   "source_article": "4",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What treatment or punishment shall no one be subjected to?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Torture or cruel, inhuman or degrading treatment or punishment.",
+   "source_article": "5",
+   "article_specific": true,
+   "answer_is_span": false
+  },
+  {
+   "question": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  },
+  {
+   "question": "Where does everyone have the right to recognition as a person before the law?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Everywhere.",
+   "source_article": "6",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "Any incitement to such discrimination.",
+   "source_article": "7",
+   "article_specific": true,
+   "answer_is_span": true
+  }
+ ]
+}

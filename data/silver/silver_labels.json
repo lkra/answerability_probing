@@ -1,0 +1,125 @@
+{
+  "_about": "Silver answerability labels + one-sentence English reference answers for the 100 unique qa-context items produced by build_silver_items.py. Labelled from the canonical English passage/question of each item. 'confidence' is high/medium/low: medium and low mark judgement calls where the organisers' intent, not the passage, is the uncertain part -- exclude them for a stricter subset. Answer style follows the instruction carried by every test prompt: one sentence, using only what the passage says.",
+  "_design_note": "Each of the 20 source passages carries exactly one designed-unanswerable question (20/100 overall). item_013 and item_099 were resolved as answerable partly on that regularity rather than on the passage text alone -- both are flagged low confidence.",
+  "labels": {
+    "item_001": {"answerable": true,  "confidence": "high",   "answer": "A person is free to change his religion or belief."},
+    "item_022": {"answerable": true,  "confidence": "high",   "answer": "Information and ideas can be sought, received and imparted through any media and regardless of frontiers."},
+    "item_052": {"answerable": true,  "confidence": "high",   "answer": "It includes the freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers."},
+    "item_056": {"answerable": true,  "confidence": "medium", "answer": "Practice.", "note": "List is teaching, practice, worship, observance; third-to-last of four is 'practice'."},
+    "item_087": {"answerable": false, "confidence": "high",   "answer": null, "note": "Passage names no tribunal or enforcement body."},
+
+    "item_002": {"answerable": true,  "confidence": "high",   "answer": "Respect must be ensured for the intangible cultural heritage of the communities, groups and individuals concerned."},
+    "item_006": {"answerable": true,  "confidence": "high",   "answer": "At the local, national and international levels."},
+    "item_051": {"answerable": true,  "confidence": "medium", "answer": "Purpose (a) is to safeguard the intangible cultural heritage itself, while purpose (b) is to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned.", "note": "Contrast question over stated content; both halves are explicit, only the comparison is inferred."},
+    "item_090": {"answerable": true,  "confidence": "medium", "answer": "Purpose (d), to provide for international cooperation and assistance.", "note": "Inference question with a determinate answer."},
+    "item_095": {"answerable": false, "confidence": "high",   "answer": null, "note": "Passage lists purposes, not member states."},
+
+    "item_003": {"answerable": true,  "confidence": "high",   "answer": "Disregard and contempt for human rights."},
+    "item_018": {"answerable": false, "confidence": "high",   "answer": null, "note": "No date appears in the passage."},
+    "item_023": {"answerable": true,  "confidence": "high",   "answer": "If human rights are not protected by the rule of law."},
+    "item_047": {"answerable": true,  "confidence": "high",   "answer": "The advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want."},
+    "item_067": {"answerable": true,  "confidence": "high",   "answer": "Recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family."},
+
+    "item_004": {"answerable": true,  "confidence": "high",   "answer": "Cultural aspects, in particular in order to respect and promote the diversity of its cultures."},
+    "item_010": {"answerable": false, "confidence": "high",   "answer": null, "note": "Passage describes cultural competence only, not accession."},
+    "item_054": {"answerable": true,  "confidence": "medium", "answer": "Non-commercial cultural exchanges.", "note": "Four areas listed; second-to-last is 'non-commercial cultural exchanges'."},
+    "item_086": {"answerable": true,  "confidence": "high",   "answer": "The Council of Europe."},
+    "item_088": {"answerable": true,  "confidence": "high",   "answer": "National and regional diversity."},
+
+    "item_005": {"answerable": true,  "confidence": "medium", "answer": "Sex, race, colour, genetic features, disability and age.", "note": "Requires filtering the full list of grounds down to physical characteristics."},
+    "item_034": {"answerable": true,  "confidence": "high",   "answer": "Religion or belief, and political or any other opinion."},
+    "item_037": {"answerable": false, "confidence": "high",   "answer": null, "note": "No court or forum is named."},
+    "item_055": {"answerable": true,  "confidence": "medium", "answer": "Religion or belief.", "note": "Counting 'ethnic or social origin' as a single ground makes 'religion or belief' seventh; treating it as two would shift the answer."},
+    "item_075": {"answerable": true,  "confidence": "high",   "answer": "Cultural, religious and linguistic diversity."},
+
+    "item_007": {"answerable": false, "confidence": "high",   "answer": null, "note": "No term of protection is stated."},
+    "item_041": {"answerable": true,  "confidence": "high",   "answer": "The cultural life of the community."},
+    "item_045": {"answerable": true,  "confidence": "high",   "answer": "The moral and material interests resulting from any scientific, literary or artistic production."},
+    "item_071": {"answerable": true,  "confidence": "high",   "answer": "Participating in the cultural life of the community, enjoying the arts, and sharing in scientific advancement and its benefits."},
+    "item_097": {"answerable": true,  "confidence": "high",   "answer": "The author of the production."},
+
+    "item_008": {"answerable": true,  "confidence": "high",   "answer": "It is transmitted from generation to generation and constantly recreated by communities and groups in response to their environment, their interaction with nature and their history."},
+    "item_029": {"answerable": true,  "confidence": "high",   "answer": "Their environment, their interaction with nature and their history."},
+    "item_049": {"answerable": true,  "confidence": "high",   "answer": "It means the practices, representations, expressions, knowledge and skills, as well as the instruments, objects, artefacts and cultural spaces associated with them, that communities, groups and sometimes individuals recognize as part of their cultural heritage."},
+    "item_053": {"answerable": false, "confidence": "high",   "answer": null, "note": "The Representative List is not mentioned."},
+    "item_062": {"answerable": true,  "confidence": "high",   "answer": "A sense of identity and continuity."},
+
+    "item_009": {"answerable": true,  "confidence": "high",   "answer": "Obatala created the first human figurines out of earth in Ile-Ife and Olodumare breathed the breath of life into them."},
+    "item_017": {"answerable": false, "confidence": "high",   "answer": null, "note": "Passage places the Yoruba in West Africa but never names a modern country."},
+    "item_042": {"answerable": true,  "confidence": "high",   "answer": "The philosophical framework of Omoluwabi and Iwapele."},
+    "item_081": {"answerable": true,  "confidence": "high",   "answer": "They primarily inhabit West Africa."},
+    "item_093": {"answerable": true,  "confidence": "high",   "answer": "Intricate textiles."},
+
+    "item_011": {"answerable": true,  "confidence": "high",   "answer": "They allow people to set aside their everyday individuality and experience a heightened sense of social unity."},
+    "item_012": {"answerable": false, "confidence": "high",   "answer": null, "note": "No duration is given."},
+    "item_048": {"answerable": true,  "confidence": "high",   "answer": "Participants indulge in excessive consumption of alcohol, meat and other foods that will be forgone during the upcoming religious season of Lent."},
+    "item_057": {"answerable": true,  "confidence": "high",   "answer": "Elaborate costumes and masks."},
+    "item_063": {"answerable": true,  "confidence": "high",   "answer": "Parades, public street parties and other entertainments, combining some elements of a circus."},
+
+    "item_013": {"answerable": true,  "confidence": "low",    "answer": "Three.", "note": "AMBIGUOUS. The text names Hinduism, Jainism and Sikhism but says 'such as', which is non-exhaustive, so a count is arguably not derivable. Resolved as answerable because this source passage's designed-unanswerable slot is already taken by item_032."},
+    "item_032": {"answerable": false, "confidence": "high",   "answer": null, "note": "Sweets are mentioned but no ingredients."},
+    "item_046": {"answerable": true,  "confidence": "high",   "answer": "The festival of lights."},
+    "item_060": {"answerable": true,  "confidence": "high",   "answer": "Jainism and Sikhism."},
+    "item_072": {"answerable": true,  "confidence": "high",   "answer": "Homes, temples and workspaces, illuminated with diyas (oil lamps), candles and lanterns."},
+
+    "item_014": {"answerable": false, "confidence": "high",   "answer": null, "note": "Only the tea-room size is given, not ordinary rooms."},
+    "item_038": {"answerable": true,  "confidence": "high",   "answer": "Simplicity."},
+    "item_078": {"answerable": true,  "confidence": "high",   "answer": "Smaller than 4.5 tatami mats."},
+    "item_082": {"answerable": true,  "confidence": "medium", "answer": "Wabi, meaning 'forlorn'.", "note": "Requires mapping 'forlorn' onto the paraphrase in the question."},
+    "item_094": {"answerable": true,  "confidence": "high",   "answer": "Sen no Rikyu, Takeno Joo and Murata Juko, of whom Murata Juko was the originator."},
+
+    "item_015": {"answerable": true,  "confidence": "high",   "answer": "They should act towards one another in a spirit of brotherhood."},
+    "item_025": {"answerable": true,  "confidence": "high",   "answer": "All the rights and freedoms set forth in the Declaration."},
+    "item_069": {"answerable": false, "confidence": "high",   "answer": null, "note": "No penalties or enforcement are described."},
+    "item_084": {"answerable": true,  "confidence": "medium", "answer": "Property and birth.", "note": "'National or social origin' could arguably also be read as birth-related."},
+    "item_100": {"answerable": true,  "confidence": "high",   "answer": "Reason and conscience."},
+
+    "item_016": {"answerable": true,  "confidence": "high",   "answer": "Domain (d), knowledge and practices concerning nature and the universe."},
+    "item_028": {"answerable": true,  "confidence": "high",   "answer": "Oral traditions and expressions, performing arts, social practices, rituals and festive events, knowledge and practices concerning nature and the universe, and traditional craftsmanship."},
+    "item_050": {"answerable": false, "confidence": "high",   "answer": null, "note": "KEY ITEM. This passage refers to the definition 'in paragraph 1 above' without restating it, so the definition is absent here -- unlike item_049, which asks the same question against the passage that does contain it. This is the minimal pair that forced the 100th item split."},
+    "item_066": {"answerable": true,  "confidence": "high",   "answer": "Language serves as a vehicle of the intangible cultural heritage."},
+    "item_089": {"answerable": true,  "confidence": "high",   "answer": "Festive events."},
+
+    "item_019": {"answerable": true,  "confidence": "high",   "answer": "In the elementary and fundamental stages."},
+    "item_020": {"answerable": true,  "confidence": "high",   "answer": "On the basis of merit."},
+    "item_026": {"answerable": false, "confidence": "high",   "answer": null, "note": "No ages are given."},
+    "item_027": {"answerable": true,  "confidence": "high",   "answer": "Technical and professional education shall be made generally available, while higher education shall be equally accessible to all on the basis of merit."},
+    "item_092": {"answerable": true,  "confidence": "high",   "answer": "Elementary education."},
+
+    "item_021": {"answerable": true,  "confidence": "high",   "answer": "On the 15th day of the 8th month of the Chinese lunisolar calendar."},
+    "item_033": {"answerable": true,  "confidence": "high",   "answer": "The Moon Festival and the Mooncake Festival."},
+    "item_036": {"answerable": true,  "confidence": "high",   "answer": "Conceptual or material satisfaction such as babies, a spouse, beauty, longevity or a good future."},
+    "item_059": {"answerable": false, "confidence": "high",   "answer": null, "note": "Mooncakes appear only in the festival's alternative name; no myth is told."},
+    "item_070": {"answerable": true,  "confidence": "high",   "answer": "Gathering, giving thanks and praying, with gathering shown by family and friends coming together or by harvesting crops."},
+
+    "item_024": {"answerable": true,  "confidence": "high",   "answer": "The attempt to deny historical roots and cultural diversity."},
+    "item_031": {"answerable": true,  "confidence": "high",   "answer": "The security, stability, governance, social cohesion and development of affected Member States."},
+    "item_043": {"answerable": true,  "confidence": "high",   "answer": "The looting and smuggling of cultural property, alongside its unlawful destruction."},
+    "item_083": {"answerable": false, "confidence": "high",   "answer": null, "note": "No drafting states are identified."},
+    "item_096": {"answerable": true,  "confidence": "high",   "answer": "Terrorist groups."},
+
+    "item_030": {"answerable": false, "confidence": "high",   "answer": null, "note": "The passage lists prohibitions only, no sanctions."},
+    "item_065": {"answerable": true,  "confidence": "high",   "answer": "The European Union."},
+    "item_073": {"answerable": true,  "confidence": "high",   "answer": "Placing on the market, putting into service, and use."},
+    "item_098": {"answerable": true,  "confidence": "medium", "answer": "Because point (d) prohibits AI systems that assess or predict the likelihood of a person committing a criminal offence based solely on profiling or personality traits.", "note": "Inference question; hinges on treating tax evasion as a criminal offence."},
+    "item_099": {"answerable": true,  "confidence": "low",    "answer": "Because point (c) prohibits evaluating or classifying people over time on the basis of social behaviour or personal characteristics where the resulting score leads to detrimental or unfavourable treatment.", "note": "AMBIGUOUS. Insurance pricing is not clearly covered by any listed prohibition. Resolved as answerable because it pairs with item_098 as a designed inference question and this passage's unanswerable slot is taken by item_030."},
+
+    "item_035": {"answerable": true,  "confidence": "high",   "answer": "A lack of resources for safeguarding such heritage."},
+    "item_039": {"answerable": true,  "confidence": "high",   "answer": "They create conditions for renewed dialogue among communities while also giving rise to grave threats of deterioration, disappearance and destruction of intangible cultural heritage."},
+    "item_061": {"answerable": true,  "confidence": "high",   "answer": "Conditions for renewed dialogue among communities."},
+    "item_074": {"answerable": true,  "confidence": "high",   "answer": "Deterioration, disappearance and destruction."},
+    "item_091": {"answerable": false, "confidence": "high",   "answer": null, "note": "No ratifying states are listed."},
+
+    "item_040": {"answerable": true,  "confidence": "high",   "answer": "Religion, education, art, science and charitable purposes."},
+    "item_058": {"answerable": true,  "confidence": "high",   "answer": "They must be brought to justice."},
+    "item_077": {"answerable": true,  "confidence": "high",   "answer": "Historic monuments."},
+    "item_080": {"answerable": true,  "confidence": "medium", "answer": "Under certain circumstances and pursuant to international law.", "note": "The passage deliberately leaves the circumstances unspecified, so a grader could treat this as unanswerable."},
+    "item_085": {"answerable": false, "confidence": "high",   "answer": null, "note": "No court or tribunal is named."},
+
+    "item_044": {"answerable": true,  "confidence": "high",   "answer": "Archaeological sites, museums, libraries, archives and other sites."},
+    "item_064": {"answerable": false, "confidence": "high",   "answer": null, "note": "The text condemns the acts but specifies no punishment."},
+    "item_068": {"answerable": true,  "confidence": "high",   "answer": "Religious sites and artefacts."},
+    "item_076": {"answerable": true,  "confidence": "high",   "answer": "Looting and smuggling."},
+    "item_079": {"answerable": true,  "confidence": "high",   "answer": "In the context of armed conflicts, notably by terrorist groups."}
+  }
+}

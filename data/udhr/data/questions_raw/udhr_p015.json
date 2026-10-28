@@ -1,0 +1,54 @@
+{
+  "passage_id": "udhr_p015",
+  "articles": [
+    "21"
+  ],
+  "passage": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+  "questions": [
+    {
+      "question": "What shall be the basis of the authority of government?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The will of the people.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "In what two ways may everyone take part in the government of his country?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Directly or through freely chosen representatives.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "By what voting method shall the elections be held?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "By secret vote or by equivalent free voting procedures.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the minimum age at which a person may vote in these elections?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "How often must the elections expressing the will of the people be held?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "Periodically.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ]
+}

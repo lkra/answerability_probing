@@ -1,0 +1,56 @@
+{
+  "passage_id": "udhr_p006",
+  "articles": [
+    "17",
+    "20",
+    "21"
+  ],
+  "passage": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+  "questions": [
+    {
+      "question": "In what two ways does the text say property may be owned?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Alone as well as in association with others.",
+      "source_article": "17",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What may no one be compelled to do?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Belong to an association.",
+      "source_article": "20",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What compensation must be paid to a person who is deprived of his property?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Under what condition is depriving a person of his property forbidden?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "When the deprivation is arbitrary.",
+      "source_article": "17",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "By what means shall the periodic and genuine elections be held?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "By secret vote or by equivalent free voting procedures.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ]
+}

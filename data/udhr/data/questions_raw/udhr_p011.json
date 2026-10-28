@@ -1,0 +1,52 @@
+{
+  "passage_id": "udhr_p011",
+  "articles": ["30"],
+  "passage": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+  "questions": [
+    {
+      "question": "Which three kinds of actors are named as unable to claim such a right?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Any State, group or person.",
+      "source_article": "30",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Nothing in this Declaration.",
+      "source_article": "30",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Engaging in any activity and performing any act.",
+      "source_article": "30",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "At what are the forbidden activities and acts aimed?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+      "source_article": "30",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    }
+  ]
+}

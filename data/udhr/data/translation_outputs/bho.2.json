@@ -1,0 +1,900 @@
+{
+ "lang": "bho",
+ "lang_name": "Bhojpuri",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "जवाब नइखे",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा। सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "इ घोषणा में निर्धारित अधिकार आओर आजादी सबहिं के कवन स्तर पर पावे के अधिकार बा?",
+   "answer_tgt": "सामाजिक आओर अन्तर्राष्ट्रीय स्तर।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा। सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "कानून के सीमा के भीतर रहला से एगो लोकतांत्रिक समाज में कवन-कवन जरूरत पूरा होला?",
+   "answer_tgt": "एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा। सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "पाठ के मुताबिक सभे के केकरा प्रति कर्तव्य ह, जेकरा पूरा कइला पर ही ओकर स्वतंत्रा आओर संपूर्ण विकास संभव बा?",
+   "answer_tgt": "समुदाय।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "भोजपुरी पाठ वाक्य के फेर से गढ़ले बा: विकास के समुदाय के भीतर होखे के बजाय कर्तव्य पूरा कइला के बाद बतावल गइल बा।"
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा। सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "इ अधिकार आओर आजादी के उपयोग केकर उद्देश्य आओर सिद्धांत के खिलाफ कबो ना कइल जा सकेला?",
+   "answer_tgt": "संयुक्त राष्ट्र।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "सरकारी भोजपुरी पाठ में संयुक्त राष्ट्र वाला आखिरी वाक्य छूटल बा, एहसे जवाब पाठ में मौजूद नइखे।"
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा। सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "संयुक्त राष्ट्र के केतना गो सदस्य देश बाड़ें?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह कि कौनो राज्य, समूह चाहे व्यक्ति कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "question_tgt": "ई घोषणा के मुताबिक कवना तीन गो के ए में लिखल अधिकार नष्ट करे के हक नइखे?",
+   "answer_tgt": "कौनो राज्य, समूह चाहे व्यक्ति।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह कि कौनो राज्य, समूह चाहे व्यक्ति कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "question_tgt": "ई घोषणा के केतना हिस्सा के मतलब इ लगावल जा सकेला कि ए में लिखल अधिकार नष्ट करे के हक बा?",
+   "answer_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह कि कौनो राज्य, समूह चाहे व्यक्ति कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "question_tgt": "ई घोषणा के मुताबिक कवन दू तरह के काम करे के हक केहू के ना मिलेला?",
+   "answer_tgt": "कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह कि कौनो राज्य, समूह चाहे व्यक्ति कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "question_tgt": "मना कइल गइल ऐसन काज आओर काम के मकसद का होखेला?",
+   "answer_tgt": "ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ई घोषणा में लिखल कौनो अनुच्छेद के मतलब इ ना ह कि कौनो राज्य, समूह चाहे व्यक्ति कौनो ऐसन काज में शामिल होखे चाहे कौनो ऐसन काम करे, जेकरा से ए में लिखल अधिकार और स्वतंत्रता नष्ट होखे।",
+   "question_tgt": "कवन अधिकारी इ तय करेला कि कौनो काज ए अधिकारन के नष्ट करे खातिर कइल गइल बा?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "पाठ के मुताबिक कवना चार गो चीज में केकरो दखल करे के अधिकार नइखे?",
+   "answer_tgt": "नीजि जीवन, परिवार, घर तथा पत्रााचार।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "नीजि जीवन आओर परिवार में दखल के अलावे आदमी के आओर कवना चीज से संरक्षण पावे के अधिकार ह?",
+   "answer_tgt": "हमला।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "सरकारी भोजपुरी पाठ में 'इज्जत आओर प्रतिष्ठा पर हमला' छूटल बा, खाली आम 'हमला' शब्द बा।"
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "जेकर इज्जत आओर प्रतिष्ठा पर हमला भइल होखे, ओकरा का मुआवजा मिलेला?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "दखल से बचावल गइल चीजन के सूची में आखिरी चीज कवन ह?",
+   "answer_tgt": "पत्रााचार।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "ए तरह के दखल आओर हमला के विरुद्ध सबहिं के का प्राप्त करे के अधिकार ह?",
+   "answer_tgt": "कानून से संरक्षण।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे। सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "question_tgt": "सभे लोगिन के घर आओर एक जगह से दोसर जगह जाए के अधिकार कवना सीमा के भीतर बा?",
+   "answer_tgt": "आपन मुलुक के सीमा के अंदर।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे। सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "question_tgt": "दोसर देश में संरक्षण प्राप्त करे के अधिकार कवना चीज से बचे खातिर बा?",
+   "answer_tgt": "प्रताड़ना।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे। सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "question_tgt": "कवन अधिकारी इ तय करेला कि कौनो मुकदमा सचमुच गैर राजनीतिक अपराध से जुड़ल बा?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे। सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "question_tgt": "सबहिं के कवन देश छोड़े के आओर वापस आवे के अधिकार ह?",
+   "answer_tgt": "कौनो देश, एइजा तक कि आपन देश।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे। सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "question_tgt": "राष्ट्रीयता के मामला में पाठ कवन दू गो बात के मनाही करेला?",
+   "answer_tgt": "केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे। केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "question_tgt": "बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार कवन-कवन बंधन से मुक्त बा?",
+   "answer_tgt": "जाति, राष्ट्रीयता आओर धर्म।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे। केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "question_tgt": "बियाह कवना चीज से ही होए के चाही?",
+   "answer_tgt": "दुनू के मर्जी आओर सहमति।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे। केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "question_tgt": "बियाह खातिर आदमी के केतना उमिर में बालिग मानल जाला?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे। केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "question_tgt": "केहु कवना दू तरीका से संपत्ति अर्जित कर सकता?",
+   "answer_tgt": "अकेले चाहे केकरो संगे मिल के।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे। केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "question_tgt": "पाठ के मुताबिक केकरा के कौनो संगठन में जर्बदस्ती शामिल कराएल जा सकेला?",
+   "answer_tgt": "केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "सरकार के ताकत के आधार का होखेला?",
+   "answer_tgt": "आम लोगीन के इच्छा।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "सब लोगीन कवना दू तरीका से सरकार में हिस्सा ले सकेलें?",
+   "answer_tgt": "सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "चुनाव के आयोजन कवना तरीका से होखेला?",
+   "answer_tgt": "गुप्त मतदान या फेर स्वतंत्रा प्रघि से।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "सरकारी भोजपुरी पाठ एह जगह पर बिगड़ल बा ('स्वतंत्रा प्रघि'), एहसे स्पैन के रूप ठीक नइखे।"
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "ए चुनाव में वोट देवे खातिर कम से कम केतना उमिर होखे के चाहीं?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "सबहिं के आपन देश में बराबरी से कवना चीज के उपयोग करे के अधिकार हवे?",
+   "answer_tgt": "आपन देश के जन सेवा।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "भोजपुरी पाठ दुनू वाक्य के जोड़ देले बा आओर 'बराबरी' (equal access) के भाव अलग से नइखे आइल।"
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा। सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "question_tgt": "न्यायसंगत आओर उचित पैसा से काम करे वाला आओर ओकर परिवार कवना तरह के जिंदगी बसर कर सके?",
+   "answer_tgt": "सम्मानजनक जिंदगी।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा। सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "question_tgt": "हफ्ता में ज्यादा से ज्यादा केतना घंटा काम कइल जा सकेला?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा। सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "question_tgt": "आराम तथा छुट्टी मनावे के अधिकार में आओर का-का शामिल बा?",
+   "answer_tgt": "काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "सरकारी भोजपुरी पाठ में 'छुट्टी' शब्द बिगड़ल बा ('छुघ्', 'छुघेि'), बाकिर स्पैन ओइसने कॉपी कइल गइल बा।"
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा। सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "question_tgt": "पाठ के पहिला वाक्य में आखिरी में कवन अधिकार लिखल बा?",
+   "answer_tgt": "बेरोजगारी से ओकर सुरक्षा के गारंटी।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "भोजपुरी पाठ अंगरेजी के पहिला वाक्य के दू वाक्य में बाँट देले बा (काम के परिस्थिति वाला हिस्सा दोसर वाक्य में गइल), एहसे सूची के लमाई अलग बा; आखिरी मद ओहीं बा।"
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा। सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा।",
+   "question_tgt": "कवना हालत में पैसा के अलावे सामाजिक संरक्षण के दोसर साधन के उपयोग कइल जाला?",
+   "answer_tgt": "जब सम्मानजनक जिंदगी बसर करे खातिर ओकर कमाई बढ़ावे के जरूरत होखे।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "भोजपुरी पाठ में 'जरूरत पड़ला पर' वाला शर्त नइखे आइल; ओहिजा खाली इ लिखल बा कि ओ साधन कमाई बढ़ा सके।"
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही। सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा।",
+   "question_tgt": "औरत आओर बच्चा के का पावे के अधिकार बा?",
+   "answer_tgt": "अलगे सुविधा आओर सहायता।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही। सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा।",
+   "question_tgt": "बेरोजगारी आओर बिमारी के अलावे आओर कवना-कवना हालत में सुरक्षा पावे के अधिकार बा?",
+   "answer_tgt": "अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही। सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा।",
+   "question_tgt": "बिना बियाह के जन्मल बच्चन के समाजिक सुरक्षा दोसर बच्चन के मुकाबले कइसन बा?",
+   "answer_tgt": "सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही। सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा।",
+   "question_tgt": "इ घोषणा में निर्धारित अधिकार आओर आजादी कवन स्तर पर पावल जा सकेला?",
+   "answer_tgt": "सामाजिक आओर अन्तर्राष्ट्रीय स्तर।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही। सबहिं के इ घोषणा में निर्धारित अधिकार आओर आजादी के सामाजिक आओर अन्तर्राष्ट्रीय स्तर पर पावे के अधिकार बा।",
+   "question_tgt": "जीवन-स्तर के उचित मानल जाए खातिर कम से कम केतना कमाई जरूरी बा?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "सभे के आपन समुदाय के प्रति कर्तव्य काहे ह?",
+   "answer_tgt": "काहेकि ओकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "भोजपुरी पाठ कारण के बदल देले बा: विकास समुदाय के भीतर ना, बलुक कर्तव्य पूरा कइला के बाद संभव बतावल गइल बा।"
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "आपन अधिकार आओर आजादी के उपयोग केकर सीमा के भीतर होखे के चाही?",
+   "answer_tgt": "कानून के सीमा के भीतर।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "पाठ में लोकतांत्रिक समाज के केतना गो जरूरत गिनावल गइल बा?",
+   "answer_tgt": "तीन।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "भोजपुरी सूची 'नैतिक, कानून और व्यवस्था और जन कल्याण' ह; 'कानून और व्यवस्था' के दू मद मानल जाव त गिनती चार हो जाई, एहसे गिनती दुविधा वाला बा।"
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "जे आदमी आपन समुदाय के प्रति कर्तव्य पूरा ना करे, ओकरा का सजा मिलेला?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "सभे के आपन समुदाय के प्रति कघ्र्व्य ह। जेकरा पूरा करे के बाद ही ओकर स्वतंत्रा और संपूर्ण विकास संभ हवे। आपन अधिकार आओर आजादी के उपयोग कानून के सीमा के भीतर ही होखे के चाही ताकि हम दोसर के अधिकार और आजादी के भी उचित आदर कर सकी। एहि से एगो लोकतांत्रिक समाज में नैतिक, कानून और व्यवस्था और जन कल्याण के जरूरत के हम पूरा कर सकेलीं।",
+   "question_tgt": "इ अधिकार आओर आजादी के उपयोग केकर उद्देश्य आओर सिद्धांत के खिलाफ ना कइल जा सकेला?",
+   "answer_tgt": "संयुक्त राष्ट्र के उद्देश्य आओर सिद्धांत।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "सरकारी भोजपुरी पाठ में संयुक्त राष्ट्र वाला आखिरी वाक्य छूटल बा, एहसे जवाब पाठ में मौजूद नइखे।"
+  }
+ ]
+}

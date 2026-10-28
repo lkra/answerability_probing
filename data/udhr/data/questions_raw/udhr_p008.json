@@ -1,0 +1,54 @@
+{
+  "passage_id": "udhr_p008",
+  "articles": [
+    "23"
+  ],
+  "passage": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+  "questions": [
+    {
+      "question": "What must just and favourable remuneration ensure for a worker and his family?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "An existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What kind of pay is everyone entitled to without any discrimination?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Equal pay for equal work.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the minimum wage that must be paid to ensure an existence worthy of human dignity?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "In the first sentence, what is the last of the four work-related rights listed?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Protection against unemployment.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "It should be supplemented by other means of social protection.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ]
+}

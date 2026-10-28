@@ -1,0 +1,108 @@
+{
+ "passage_id": "udhr_p012",
+ "articles": [
+  "12"
+ ],
+ "passage": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+ "questions": [
+  {
+   "question": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "His privacy, family, home or correspondence.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Attacks upon his honour and reputation.",
+   "source_article": "12",
+   "article_specific": false,
+   "answer_is_span": true
+  },
+  {
+   "question": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  },
+  {
+   "question": "What is the last item listed as protected from arbitrary interference?",
+   "question_type": "ordinal_count",
+   "answerable": true,
+   "answer": "Correspondence.",
+   "source_article": "12",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "The protection of the law.",
+   "source_article": "12",
+   "article_specific": false,
+   "answer_is_span": true
+  }
+ ],
+ "verdicts": [
+  {
+   "index": 0,
+   "severity": "ok",
+   "issues": [
+    "Grounded verbatim in 'arbitrary interference with his privacy, family, home or correspondence'; the list is exactly four items.",
+    "answer_is_span verified: 'his privacy, family, home or correspondence' is a literal substring (true modulo sentence-initial capitalisation and final period, the convention used throughout this file).",
+    "article_specific kept true: 'arbitrary interference with' is Article 12's operative phrase; Article 9's list is 'arbitrary arrest, detention or exile', which is not interference, and no other article lists four such items.",
+    "Stating 'four' in the question follows the exemplar 'What three cultural and intellectual activities ...', so it is not style drift."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 1,
+   "severity": "minor",
+   "issues": [
+    "Label and answer are correct: 'nor to attacks upon his honour and reputation' answers it directly; answer_is_span verified.",
+    "article_specific was true, corrected to false. The operative ask, 'what else shall no one be subjected to', is answered by the identical formula in Articles 4 ('No one shall be held in slavery or servitude'), 5 ('No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment') and 9. Paired with one of those passages as an unanswerable row it would be wrongly labelled, so per the tie-break rule it is set false."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 2,
+   "severity": "ok",
+   "issues": [
+    "Genuinely unanswerable: the passage grants only 'the right to the protection of the law' and says nothing about compensation, damages, remedy or amount. No sentence answers it even by inference.",
+    "Matches the exemplar pattern of legally plausible but absent detail ('What specific penalties are enforced ...', 'What are the age limits ...')."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 3,
+   "severity": "fatal",
+   "issues": [
+    "Original question: 'How many aspects of a person's life are listed as protected from arbitrary interference?' with answer 'Four.'",
+    "Leak: question 0 already states 'which four things', so the answer to this question is printed verbatim in another question of the same set; the row teaches nothing.",
+    "Ambiguous: honour and reputation are also aspects of a person's life protected by this article (from attacks rather than from interference), so a defensible reading counts six, not four.",
+    "Fragile across languages: a pure count depends on the exact number of items in the English list, which the review brief flags as unsafe because translations merge or split list items.",
+    "Replaced with an ordinal that picks the final list item. 'Correspondence' is last in the enumeration in the English text and stays last under merging or splitting of earlier items, so it is translation-robust. answer_is_span verified.",
+    "article_specific true: 'arbitrary interference' anchors it to Article 12."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 4,
+   "severity": "minor",
+   "issues": [
+    "Label and answer are correct and one sentence: 'Everyone has the right to the protection of the law against such interference or attacks'; answer_is_span verified.",
+    "question_type was 'inferential', corrected to 'extractive': the answer is a literal span requiring no inference.",
+    "article_specific was true, corrected to false. Article 7 states that all 'are entitled without any discrimination to equal protection of the law', which a reader would offer as an answer to 'what is everyone entitled to rely on for protection'; the anaphor 'such interference or attacks' is too weak an anchor to rule that out, so the uncertain case is resolved to false."
+   ],
+   "action": "kept"
+  }
+ ]
+}

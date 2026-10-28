@@ -1,0 +1,56 @@
+{
+  "passage_id": "udhr_p002",
+  "articles": [
+    "8",
+    "9",
+    "10"
+  ],
+  "passage": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+  "questions": [
+    {
+      "question": "By whom must an effective remedy be granted for acts violating a person's fundamental rights?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The competent national tribunals.",
+      "source_article": "8",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "9",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "What kind of hearing is everyone entitled to in full equality?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "A fair and public hearing.",
+      "source_article": "10",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How long may a person be detained before he must be brought before a tribunal?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "Any criminal charge against him.",
+      "source_article": "10",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ]
+}

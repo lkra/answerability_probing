@@ -1,0 +1,50 @@
+{
+  "_comment": "Pinned upstream revisions for every dataset the builders read. Committed so a build is reproducible without committing the data itself. Re-pin deliberately, not incidentally: the organizer sample already changed once (22 June 2026, BELEBELE context fix).",
+  "sources": [
+    {
+      "name": "pinzhenchen/wmt26-mist-sample",
+      "revision": "907fcb57c15dcce0478d4bf8b59b437d5aebd88d",
+      "last_modified": "2026-06-23",
+      "license": "unknown (redistributed per-subset under original licences)",
+      "local_path": "upstream/wmt26-mist-sample/samples.jsonl",
+      "used_by": ["build_mist_sample.py", "build_tydiqa.py"],
+      "note": "Organizer seed mix. Its TyDi rows are the answerable half of the answerable_tydiqa *validation* split."
+    },
+    {
+      "name": "pinzhenchen/wmt26-mist-test",
+      "revision": "ad630f887de5dd11ab4269420745e44a33cd7370",
+      "last_modified": "2026-07-20",
+      "license": "cc-by-4.0",
+      "local_path": "test/tests.jsonl",
+      "used_by": ["extract_qa_templates.py", "propagate_silver_labels.py", "udhr/verify.py", "probe/probing/_sources.py"],
+      "note": "The test release, 12,775 rows. sha256 cd76ead97f09886425a8eaf799912a2aaab51273bfafa02b1e7b29f6cc6bd15a."
+    },
+    {
+      "name": "copenlu/answerable_tydiqa",
+      "revision": "4413588cd5f38fddbf047f87a7167a0a9de5369a",
+      "last_modified": "2024-07-12",
+      "license": "apache-2.0",
+      "local_path": "upstream/answerable_tydiqa/{train,validation}.parquet",
+      "used_by": ["build_tydiqa.py"],
+      "note": "Natural unanswerable questions, 11 languages, ~50/50."
+    },
+    {
+      "name": "facebook/belebele",
+      "revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+      "last_modified": "2024-08-12",
+      "license": "cc-by-sa-4.0",
+      "local_path": "upstream/belebele/{lang}.jsonl",
+      "used_by": ["build_belebele.py"],
+      "note": "Fully parallel, 900 items x 27 MIST languages. Share-alike: derivatives must be licensed CC BY-SA 4.0."
+    },
+    {
+      "name": "FBK-MT/MCIF",
+      "revision": "e24065b919758263cfe5d157057278affe76ea7b",
+      "last_modified": "2026-07-13",
+      "license": "cc-by-4.0",
+      "local_path": "(via the organizer sample; not downloaded separately)",
+      "used_by": ["build_mist_sample.py"],
+      "note": "Only source of natural unanswerable items in the organizer mix. 4 languages (deu/eng/ita/zho), content always English."
+    }
+  ]
+}

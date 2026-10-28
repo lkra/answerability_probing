@@ -1,0 +1,107 @@
+{
+  "passage_id": "udhr_p002",
+  "articles": [
+    "8",
+    "9",
+    "10"
+  ],
+  "passage": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+  "questions": [
+    {
+      "question": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The competent national tribunals.",
+      "source_article": "8",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "9",
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What kind of hearing is everyone entitled to in full equality?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "A fair and public hearing.",
+      "source_article": "10",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How long may a person be detained before he must be brought before a tribunal?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Any criminal charge against him.",
+      "source_article": "10",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "minor",
+      "issues": [
+        "Label and answer are right: 'the right to an effective remedy by the competent national tribunals' names the tribunals explicitly, and 'The competent national tribunals.' is a verbatim span (checked with merge_questions.is_span).",
+        "The original wording 'By whom must an effective remedy be GRANTED ...' reuses the passage's own verb 'granted', which in the passage attaches to a different noun ('the fundamental rights granted him by the constitution or by law'). That builds a by-phrase distractor into the question: a model can plausibly answer 'by the constitution or by law'. Reworded to 'Who must provide an effective remedy for acts violating a person's fundamental rights?' -- same answer, no lexical trap, and shorter, closer to the exemplars' 'Who is entitled to ...' shape.",
+        "article_specific kept true: 'effective remedy' and 'competent national tribunals' occur in Art. 8 and in no other UDHR article, so no other article answers who must provide a remedy."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 1,
+      "severity": "minor",
+      "issues": [
+        "article_specific was TRUE and is wrong. The question is phrased entirely in generic UDHR prohibition vocabulary ('how many forms of arbitrary treatment ... no one shall be subjected to') and contains no Art. 9 content word. Art. 5 ('No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment') and Art. 12 ('No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence') both answer a count question of this exact shape. Transplanting it onto a passage holding Art. 5 or Art. 12 would have produced a row whose gold is 'not answerable' against text that plainly supplies a count -- a wrongly-labelled unanswerable, the failure this dataset exists to avoid. Set to FALSE.",
+        "Answerability and answer are correct and the question is kept as the passage's ordinal/counting item: 'arbitrary arrest, detention or exile' is three coordinated nouns, so 'Three.' is right and unambiguous.",
+        "Checked the translation fragility flagged for ordinals (cf. item_056, Art. 18's four-item list, which Russian restructures and Finnish merges): Art. 9 is a rigid three-verb/three-noun coordination that the official French, Spanish, German and Russian texts all keep at three items, so the count survives translation. No downgrade needed.",
+        "answer_is_span false is correct -- 'Three.' does not occur in the passage."
+      ],
+      "action": "label_flipped"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [
+        "'entitled in full equality to a fair and public hearing' answers it directly; 'A fair and public hearing.' verified as a literal substring.",
+        "article_specific kept true after checking the nearest collision, Art. 11.1 ('a public trial'): that clause is about a person charged with a penal offence being presumed innocent, not about what everyone is entitled to in full equality, so it does not answer this question. 'In full equality' and 'fair and public hearing' are Art. 10 wording only."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Tried hard to answer it from the passage. Art. 9 forbids arbitrary arrest, detention or exile but states no duration; Art. 10 grants a hearing but no timing for it; nothing gives an interval, a maximum, or any obligation to bring a detainee before a tribunal within a period. Not answerable even by inference. Label correct.",
+        "Same shape as the organisers' unanswerables (age limits for compulsory education, years of copyright after death): a plausible legal detail the text simply never fixes."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "minor",
+      "issues": [
+        "question_type was 'inferential'; this is a plain extractive question -- the answer is the coordinated second half of the very clause the question quotes ('in the determination of his rights and obligations and of any criminal charge against him'). No inference is involved. Corrected to 'extractive'.",
+        "Answer, answerability and answer_is_span verified correct ('any criminal charge against him' is a literal substring).",
+        "article_specific kept true: 'his rights and obligations' being determined at a hearing is Art. 10 wording and appears in no other article."
+      ],
+      "action": "kept"
+    }
+  ]
+}

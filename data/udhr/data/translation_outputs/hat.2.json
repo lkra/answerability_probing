@@ -1,0 +1,900 @@
+{
+ "lang": "hat",
+ "lang_name": "Haitian Creole",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "pa gen repons",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre. Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Ki kalite lòd tout moun gen dwa aske ekziste pou dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre?",
+   "answer_tgt": "Yon lòd sou plan sosyal ak sou plan entènasyonal.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Ofisyèl HAT la restriktire fraz la (\"aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd\"), kidonk yon sèl span kontinyèl pou \"a social and international order\" pa egziste."
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre. Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Selon tèks la, ki bagay limitasyon ke la lwa tabli yo dwe satisfiè?",
+   "answer_tgt": "Règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre. Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Selon tèks la, ki sèl kote devlopman lib tout bon pèsonalite yon moun kapab realize?",
+   "answer_tgt": "Kominote-a.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre. Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Nan okenn ka, dwa ak libète sa yo pa ka itilize lòt jan ke selon vizion ak pwencip ki òganizasyon?",
+   "answer_tgt": "Nasyon Zini.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre. Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Konbyen peyi manm Nasyon Zini genyen?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "question_tgt": "Ki twa kalite aktè ki pa ka gen yon dwa kelkonk pou detwi dwa ak libète ki pwoklame nan Deklarasyon-an?",
+   "answer_tgt": "Yon leta, yon gwoupman o swa yon moun.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "question_tgt": "Ki pati nan Deklarasyon sa-a ki ka entèpwete kom kwa li bay yon dwa pou detwi dwa li pwoklame yo?",
+   "answer_tgt": "Okenn nan disposisyon Deklarasyon sa-a.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "question_tgt": "Ki de zak Deklarasyon sa-a pa ka entèpwete kom kwa li otorize?",
+   "answer_tgt": "Tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "question_tgt": "A kisa aktivite ak zak ki entèdi yo ta vle abouti?",
+   "answer_tgt": "Destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an.",
+   "question_tgt": "Ki otorite ki deside si yon aktivite ta vle abouti a destriksyon dwa sa yo?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Yo pap ka ak la fos entre nan afè ki regade vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa, ni sal lonè li ak repitasyon li. Tout moun gen dwa gen pwoteksyon la lwa kont zak sa yo.",
+   "question_tgt": "Selon tèks la, ki kat bagay yo pap ka ak la fos entre nan yo?",
+   "answer_tgt": "Vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Yo pap ka ak la fos entre nan afè ki regade vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa, ni sal lonè li ak repitasyon li. Tout moun gen dwa gen pwoteksyon la lwa kont zak sa yo.",
+   "question_tgt": "Apa antre ak la fos nan vi prive ak fanmi yon moun, ki lòt bagay yo pa gen dwa fè?",
+   "answer_tgt": "Sal lonè li ak repitasyon li.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Yo pap ka ak la fos entre nan afè ki regade vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa, ni sal lonè li ak repitasyon li. Tout moun gen dwa gen pwoteksyon la lwa kont zak sa yo.",
+   "question_tgt": "Ki dedomajman yo bay yon moun ke yo sal lonè li ak repitasyon li?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Yo pap ka ak la fos entre nan afè ki regade vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa, ni sal lonè li ak repitasyon li. Tout moun gen dwa gen pwoteksyon la lwa kont zak sa yo.",
+   "question_tgt": "Nan lis bagay yo pap ka ak la fos entre nan yo, kisa ki vin an dènye?",
+   "answer_tgt": "Lèt kel ekri o swa kel resevwa.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "Yo pap ka ak la fos entre nan afè ki regade vi prive yon moun, fanmi-li, kay-li o swa lèt kel ekri o swa kel resevwa, ni sal lonè li ak repitasyon li. Tout moun gen dwa gen pwoteksyon la lwa kont zak sa yo.",
+   "question_tgt": "Kisa tout moun gen dwa genyen kont zak sa yo?",
+   "answer_tgt": "Pwoteksyon la lwa.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Tout moun gen dwa sikile libreman epi tou chwazsi kote li pral rezide-a nan peyi-a. Tout moun gen dwa kite nenpot ki peyi, menm pal tou, epi retounen nan peyi l. Lò gen pèsekisyon, tout moun gen dwa chèche lazil epi benéefisie lazil nan lot peyi. Dwa sa-a li pa ka aplike lè se pouswiv yap pouswiv yon moun pou krim dwa komen o swa pou ajisman ki kontrè ak entanNasyon epi princip Nasyon Zini. Tout moun dwe genyen yon nasyonalite. Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "question_tgt": "Ki kote tout moun gen dwa sikile libreman epi chwazi kote li pral rezide?",
+   "answer_tgt": "Nan peyi-a.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Ofisyèl HAT la rann \"within the borders of each State\" senpleman ak \"nan peyi-a\"; pa gen okenn mo pou \"fwontyè\" nan tèks la."
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Tout moun gen dwa sikile libreman epi tou chwazsi kote li pral rezide-a nan peyi-a. Tout moun gen dwa kite nenpot ki peyi, menm pal tou, epi retounen nan peyi l. Lò gen pèsekisyon, tout moun gen dwa chèche lazil epi benéefisie lazil nan lot peyi. Dwa sa-a li pa ka aplike lè se pouswiv yap pouswiv yon moun pou krim dwa komen o swa pou ajisman ki kontrè ak entanNasyon epi princip Nasyon Zini. Tout moun dwe genyen yon nasyonalite. Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "question_tgt": "Nan ki sitiyasyon tout moun gen dwa chèche lazil epi benefisye lazil nan lot peyi?",
+   "answer_tgt": "Pèsekisyon.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Tout moun gen dwa sikile libreman epi tou chwazsi kote li pral rezide-a nan peyi-a. Tout moun gen dwa kite nenpot ki peyi, menm pal tou, epi retounen nan peyi l. Lò gen pèsekisyon, tout moun gen dwa chèche lazil epi benéefisie lazil nan lot peyi. Dwa sa-a li pa ka aplike lè se pouswiv yap pouswiv yon moun pou krim dwa komen o swa pou ajisman ki kontrè ak entanNasyon epi princip Nasyon Zini. Tout moun dwe genyen yon nasyonalite. Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "question_tgt": "Ki otorite ki deside si se vre yap pouswiv yon moun pou yon krim dwa komen?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Tout moun gen dwa sikile libreman epi tou chwazsi kote li pral rezide-a nan peyi-a. Tout moun gen dwa kite nenpot ki peyi, menm pal tou, epi retounen nan peyi l. Lò gen pèsekisyon, tout moun gen dwa chèche lazil epi benéefisie lazil nan lot peyi. Dwa sa-a li pa ka aplike lè se pouswiv yap pouswiv yon moun pou krim dwa komen o swa pou ajisman ki kontrè ak entanNasyon epi princip Nasyon Zini. Tout moun dwe genyen yon nasyonalite. Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "question_tgt": "Ki peyi tout moun gen dwa kite?",
+   "answer_tgt": "Nenpot ki peyi, menm pal tou.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "Tout moun gen dwa sikile libreman epi tou chwazsi kote li pral rezide-a nan peyi-a. Tout moun gen dwa kite nenpot ki peyi, menm pal tou, epi retounen nan peyi l. Lò gen pèsekisyon, tout moun gen dwa chèche lazil epi benéefisie lazil nan lot peyi. Dwa sa-a li pa ka aplike lè se pouswiv yap pouswiv yon moun pou krim dwa komen o swa pou ajisman ki kontrè ak entanNasyon epi princip Nasyon Zini. Tout moun dwe genyen yon nasyonalite. Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "question_tgt": "Ki de bagay tèks la entèdi konsènan nasyonalite yon moun?",
+   "answer_tgt": "Yo pa sa wete nasyonalite yon moun ak la fos, ni yo pa sa anpechel chanje nasyonalite.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "DDepi yo gen laj la, yon gason ak yon fanm, kel ke swa ras yo, nasyonalite yo o swa relijyon, gen dwa marie o swa fonde yon fanmi. Yo gen dwa egal ego devan mariaj, pandan mariaj epi lè yap divòse. Mariaj pa sa fèt si se pa ak lib konsantman moun ki pral marie yo. La fanmi se eleman natirel ki pi enpòtan la sosyete epi li gen dwa genyen pwoteksyon la sosyete ak leta. Tout moun, kit li poukòl kit li ak moun, gen dwa posede yon byen. Yo pa gen dwa wete byen yon moun nan men li ak la fos. Tout moun gen dwa gen libète fè reinyon ak asosyasyon san zam. Yo pa ka oblije pèson manm yon asosyasyon.",
+   "question_tgt": "Ki bagay ki pa ka limite dwa yon gason ak yon fanm ki gen laj la pou yo marie?",
+   "answer_tgt": "Ras yo, nasyonalite yo o swa relijyon.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "DDepi yo gen laj la, yon gason ak yon fanm, kel ke swa ras yo, nasyonalite yo o swa relijyon, gen dwa marie o swa fonde yon fanmi. Yo gen dwa egal ego devan mariaj, pandan mariaj epi lè yap divòse. Mariaj pa sa fèt si se pa ak lib konsantman moun ki pral marie yo. La fanmi se eleman natirel ki pi enpòtan la sosyete epi li gen dwa genyen pwoteksyon la sosyete ak leta. Tout moun, kit li poukòl kit li ak moun, gen dwa posede yon byen. Yo pa gen dwa wete byen yon moun nan men li ak la fos. Tout moun gen dwa gen libète fè reinyon ak asosyasyon san zam. Yo pa ka oblije pèson manm yon asosyasyon.",
+   "question_tgt": "Kisa ki nesesè pou yon mariaj ka fèt?",
+   "answer_tgt": "Lib konsantman moun ki pral marie yo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "DDepi yo gen laj la, yon gason ak yon fanm, kel ke swa ras yo, nasyonalite yo o swa relijyon, gen dwa marie o swa fonde yon fanmi. Yo gen dwa egal ego devan mariaj, pandan mariaj epi lè yap divòse. Mariaj pa sa fèt si se pa ak lib konsantman moun ki pral marie yo. La fanmi se eleman natirel ki pi enpòtan la sosyete epi li gen dwa genyen pwoteksyon la sosyete ak leta. Tout moun, kit li poukòl kit li ak moun, gen dwa posede yon byen. Yo pa gen dwa wete byen yon moun nan men li ak la fos. Tout moun gen dwa gen libète fè reinyon ak asosyasyon san zam. Yo pa ka oblije pèson manm yon asosyasyon.",
+   "question_tgt": "A ki laj yo konsidere yon moun gen laj la pou l marie?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "DDepi yo gen laj la, yon gason ak yon fanm, kel ke swa ras yo, nasyonalite yo o swa relijyon, gen dwa marie o swa fonde yon fanmi. Yo gen dwa egal ego devan mariaj, pandan mariaj epi lè yap divòse. Mariaj pa sa fèt si se pa ak lib konsantman moun ki pral marie yo. La fanmi se eleman natirel ki pi enpòtan la sosyete epi li gen dwa genyen pwoteksyon la sosyete ak leta. Tout moun, kit li poukòl kit li ak moun, gen dwa posede yon byen. Yo pa gen dwa wete byen yon moun nan men li ak la fos. Tout moun gen dwa gen libète fè reinyon ak asosyasyon san zam. Yo pa ka oblije pèson manm yon asosyasyon.",
+   "question_tgt": "Nan ki de fason yon moun gen dwa posede yon byen?",
+   "answer_tgt": "Kit li poukòl kit li ak moun.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "DDepi yo gen laj la, yon gason ak yon fanm, kel ke swa ras yo, nasyonalite yo o swa relijyon, gen dwa marie o swa fonde yon fanmi. Yo gen dwa egal ego devan mariaj, pandan mariaj epi lè yap divòse. Mariaj pa sa fèt si se pa ak lib konsantman moun ki pral marie yo. La fanmi se eleman natirel ki pi enpòtan la sosyete epi li gen dwa genyen pwoteksyon la sosyete ak leta. Tout moun, kit li poukòl kit li ak moun, gen dwa posede yon byen. Yo pa gen dwa wete byen yon moun nan men li ak la fos. Tout moun gen dwa gen libète fè reinyon ak asosyasyon san zam. Yo pa ka oblije pèson manm yon asosyasyon.",
+   "question_tgt": "Selon tèks la, kilès yo ka oblije vin manm yon asosyasyon?",
+   "answer_tgt": "Yo pa ka oblije pèson manm yon asosyasyon.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Tout moun gen dwa patisipe nan direksyon zafè piblik peyil, swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète. Tout moun gen dwa okipe, nan kondisyon egalite, pos piblik peyi li. Volonté yon peup se baz otorite pouvwa piblik; volonte sa-a dwe manifeste li nan eleksyon onèt ki dwe fèt nan entèval fiks, ak patisipasyon tout sitwayen, ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "question_tgt": "Kisa ki baz otorite pouvwa piblik?",
+   "answer_tgt": "Volonté yon peup.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Tout moun gen dwa patisipe nan direksyon zafè piblik peyil, swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète. Tout moun gen dwa okipe, nan kondisyon egalite, pos piblik peyi li. Volonté yon peup se baz otorite pouvwa piblik; volonte sa-a dwe manifeste li nan eleksyon onèt ki dwe fèt nan entèval fiks, ak patisipasyon tout sitwayen, ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "question_tgt": "Nan ki de fason tout moun gen dwa patisipe nan direksyon zafè piblik peyi l?",
+   "answer_tgt": "Swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Tout moun gen dwa patisipe nan direksyon zafè piblik peyil, swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète. Tout moun gen dwa okipe, nan kondisyon egalite, pos piblik peyi li. Volonté yon peup se baz otorite pouvwa piblik; volonte sa-a dwe manifeste li nan eleksyon onèt ki dwe fèt nan entèval fiks, ak patisipasyon tout sitwayen, ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "question_tgt": "Ak ki jan de vot eleksyon yo dwe fèt?",
+   "answer_tgt": "Ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Tout moun gen dwa patisipe nan direksyon zafè piblik peyil, swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète. Tout moun gen dwa okipe, nan kondisyon egalite, pos piblik peyi li. Volonté yon peup se baz otorite pouvwa piblik; volonte sa-a dwe manifeste li nan eleksyon onèt ki dwe fèt nan entèval fiks, ak patisipasyon tout sitwayen, ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "question_tgt": "Ki laj minimòm yon moun dwe genyen pou l vote nan eleksyon sa yo?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Tout moun gen dwa patisipe nan direksyon zafè piblik peyil, swa direkteman, swa pa lentèmediè repréesantan kel chwazi an tout libète. Tout moun gen dwa okipe, nan kondisyon egalite, pos piblik peyi li. Volonté yon peup se baz otorite pouvwa piblik; volonte sa-a dwe manifeste li nan eleksyon onèt ki dwe fèt nan entèval fiks, ak patisipasyon tout sitwayen, ak vot sekrè osnon ak yon metofd ki ta menm jan ak sa-a depi li asire libète vot-la.",
+   "question_tgt": "Kisa tout moun gen dwa okipe nan kondisyon egalite?",
+   "answer_tgt": "Pos piblik peyi li.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Tout moun gen dwa revandike dwa travay, gen dwa chwazi libreman travay li, nan de kondisyon ki bon, ki jis, ak pwoteksyon kont chomaj. Tout moun gen dwa, san pati pri, aske yo peyel yon salè egal pou yon travay egal ak sa yon lòt fè. Tout moun kap travay, yo dwe bali yon salè jis epi ki satisfezan, ki kapab asirel, ansanm ak fanmi li, yon ekzistans ki an akò avek diyite moun epi complétéetou, si gen posibilite, pou yo ta konpletel ak tout lòt mwayen pwoteksyon sosyal. Tout moun gen dwa fonde sendika ak lòt moun osnon entre nan sendika pou defann enterè yo. Tout moun gen dwa gen repo ak amizman, ak yon limit rezonab pou dire travay-la epi, tout moun gen dwa tou a konje peye periodik.",
+   "question_tgt": "Kisa yon salè jis epi ki satisfezan dwe asire pou yon travayè ansanm ak fanmi li?",
+   "answer_tgt": "Yon ekzistans ki an akò avek diyite moun.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Tout moun gen dwa revandike dwa travay, gen dwa chwazi libreman travay li, nan de kondisyon ki bon, ki jis, ak pwoteksyon kont chomaj. Tout moun gen dwa, san pati pri, aske yo peyel yon salè egal pou yon travay egal ak sa yon lòt fè. Tout moun kap travay, yo dwe bali yon salè jis epi ki satisfezan, ki kapab asirel, ansanm ak fanmi li, yon ekzistans ki an akò avek diyite moun epi complétéetou, si gen posibilite, pou yo ta konpletel ak tout lòt mwayen pwoteksyon sosyal. Tout moun gen dwa fonde sendika ak lòt moun osnon entre nan sendika pou defann enterè yo. Tout moun gen dwa gen repo ak amizman, ak yon limit rezonab pou dire travay-la epi, tout moun gen dwa tou a konje peye periodik.",
+   "question_tgt": "Konbyen èdtan travay maksimòm yo pèmèt pa semèn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Tout moun gen dwa revandike dwa travay, gen dwa chwazi libreman travay li, nan de kondisyon ki bon, ki jis, ak pwoteksyon kont chomaj. Tout moun gen dwa, san pati pri, aske yo peyel yon salè egal pou yon travay egal ak sa yon lòt fè. Tout moun kap travay, yo dwe bali yon salè jis epi ki satisfezan, ki kapab asirel, ansanm ak fanmi li, yon ekzistans ki an akò avek diyite moun epi complétéetou, si gen posibilite, pou yo ta konpletel ak tout lòt mwayen pwoteksyon sosyal. Tout moun gen dwa fonde sendika ak lòt moun osnon entre nan sendika pou defann enterè yo. Tout moun gen dwa gen repo ak amizman, ak yon limit rezonab pou dire travay-la epi, tout moun gen dwa tou a konje peye periodik.",
+   "question_tgt": "Kisa dwa pou gen repo ak amizman an genyen ladan l?",
+   "answer_tgt": "Yon limit rezonab pou dire travay-la ak konje peye periodik.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Tèks HAT ofisyèl la kase lis la an de pwopozisyon (\"...epi, tout moun gen dwa tou a konje peye periodik\"), kidonk pa gen yon sèl span kontinyèl pou de eleman yo."
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Tout moun gen dwa revandike dwa travay, gen dwa chwazi libreman travay li, nan de kondisyon ki bon, ki jis, ak pwoteksyon kont chomaj. Tout moun gen dwa, san pati pri, aske yo peyel yon salè egal pou yon travay egal ak sa yon lòt fè. Tout moun kap travay, yo dwe bali yon salè jis epi ki satisfezan, ki kapab asirel, ansanm ak fanmi li, yon ekzistans ki an akò avek diyite moun epi complétéetou, si gen posibilite, pou yo ta konpletel ak tout lòt mwayen pwoteksyon sosyal. Tout moun gen dwa fonde sendika ak lòt moun osnon entre nan sendika pou defann enterè yo. Tout moun gen dwa gen repo ak amizman, ak yon limit rezonab pou dire travay-la epi, tout moun gen dwa tou a konje peye periodik.",
+   "question_tgt": "Ki dènye dwa ki nan lis premye fraz tèks la?",
+   "answer_tgt": "Pwoteksyon kont chomaj.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "Tout moun gen dwa revandike dwa travay, gen dwa chwazi libreman travay li, nan de kondisyon ki bon, ki jis, ak pwoteksyon kont chomaj. Tout moun gen dwa, san pati pri, aske yo peyel yon salè egal pou yon travay egal ak sa yon lòt fè. Tout moun kap travay, yo dwe bali yon salè jis epi ki satisfezan, ki kapab asirel, ansanm ak fanmi li, yon ekzistans ki an akò avek diyite moun epi complétéetou, si gen posibilite, pou yo ta konpletel ak tout lòt mwayen pwoteksyon sosyal. Tout moun gen dwa fonde sendika ak lòt moun osnon entre nan sendika pou defann enterè yo. Tout moun gen dwa gen repo ak amizman, ak yon limit rezonab pou dire travay-la epi, tout moun gen dwa tou a konje peye periodik.",
+   "question_tgt": "Nan ki kondisyon yo dwe konplete salè-a ak tout lòt mwayen pwoteksyon sosyal?",
+   "answer_tgt": "Si gen posibilite.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Tèks HAT ofisyèl la di \"si gen posibilite\" (si sa posib) olye \"si sa nesesè\" tankou angle a; repons lan swiv tèks HAT la."
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Tout moun gen dwa pou yon nivo lavi ki kapab garanti lasante ak byenèt yo ansam ak pa fanmi yo, epi tou garanti manje, abiye, kay, swen lasante avek sèvis sosyal nesesè yo; tout moun gen dwa pou yo genyen sikirite nan ka chomaj, maladi, paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li. Matènité ak ti moun piti gen gen dwa a yon èd ak yon asistans espesyal. Tout ti moun, kit yo fèt nan mariaj, kit se andeyò mariaj, gen menm pwoteksyon sosyal la. Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre.",
+   "question_tgt": "A kisa matènité ak ti moun piti gen dwa?",
+   "answer_tgt": "Yon èd ak yon asistans espesyal.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Tout moun gen dwa pou yon nivo lavi ki kapab garanti lasante ak byenèt yo ansam ak pa fanmi yo, epi tou garanti manje, abiye, kay, swen lasante avek sèvis sosyal nesesè yo; tout moun gen dwa pou yo genyen sikirite nan ka chomaj, maladi, paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li. Matènité ak ti moun piti gen gen dwa a yon èd ak yon asistans espesyal. Tout ti moun, kit yo fèt nan mariaj, kit se andeyò mariaj, gen menm pwoteksyon sosyal la. Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre.",
+   "question_tgt": "Apa chomaj ak maladi, nan ki lòt ka tout moun gen dwa genyen sikirite?",
+   "answer_tgt": "Paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Tout moun gen dwa pou yon nivo lavi ki kapab garanti lasante ak byenèt yo ansam ak pa fanmi yo, epi tou garanti manje, abiye, kay, swen lasante avek sèvis sosyal nesesè yo; tout moun gen dwa pou yo genyen sikirite nan ka chomaj, maladi, paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li. Matènité ak ti moun piti gen gen dwa a yon èd ak yon asistans espesyal. Tout ti moun, kit yo fèt nan mariaj, kit se andeyò mariaj, gen menm pwoteksyon sosyal la. Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre.",
+   "question_tgt": "Ki jan pwoteksyon sosyal ti moun ki fèt andeyò mariaj ye parapò ak lòt ti moun yo?",
+   "answer_tgt": "Yo gen menm pwoteksyon sosyal la ak tout lòt ti moun.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Tout moun gen dwa pou yon nivo lavi ki kapab garanti lasante ak byenèt yo ansam ak pa fanmi yo, epi tou garanti manje, abiye, kay, swen lasante avek sèvis sosyal nesesè yo; tout moun gen dwa pou yo genyen sikirite nan ka chomaj, maladi, paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li. Matènité ak ti moun piti gen gen dwa a yon èd ak yon asistans espesyal. Tout ti moun, kit yo fèt nan mariaj, kit se andeyò mariaj, gen menm pwoteksyon sosyal la. Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre.",
+   "question_tgt": "Nan ki kalite lòd dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre?",
+   "answer_tgt": "Yon lòd sou plan sosyal ak sou plan entènasyonal.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Ofisyèl HAT la restriktire fraz la (\"aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd\"), kidonk yon sèl span kontinyèl pa egziste."
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "Tout moun gen dwa pou yon nivo lavi ki kapab garanti lasante ak byenèt yo ansam ak pa fanmi yo, epi tou garanti manje, abiye, kay, swen lasante avek sèvis sosyal nesesè yo; tout moun gen dwa pou yo genyen sikirite nan ka chomaj, maladi, paralesi, epi tou si mari o swa madanm mouri, nan ka vieyes o swa nan tout lòt ka kote yon moun ta pèdi mwayen poul viv, nan de sikonstans ke se pat volonte'l ki te vle li. Matènité ak ti moun piti gen gen dwa a yon èd ak yon asistans espesyal. Tout ti moun, kit yo fèt nan mariaj, kit se andeyò mariaj, gen menm pwoteksyon sosyal la. Tout moun gen dwa aske ekziste, sou plan sosyal ak sou plan entènasyonal, yon lòd kote dwa ak libète ki pwoklame nan Deklarasyon sa a kapab aplike tout bon vre.",
+   "question_tgt": "Ki revni minimòm ki nesesè pou yon nivo lavi konsidere kòm ase?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Poukisa chak moun gen devwa padevan kominote-a?",
+   "answer_tgt": "Paske se sèl kote devlopman lib tout bon pèsonalite li kapab realize.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Kilès ki dwe tabli limitasyon sou itilizasyon dwa ak libète yon moun?",
+   "answer_tgt": "La lwa.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Konbyen bagay tèks la site ke limitasyon yo dwe satisfiè?",
+   "answer_tgt": "Twa.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Ki pinisyon ki pou yon moun ki pa fè devwa li padevan kominote-a?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Chak moun gen devwa padevan kominote-a, kote se sèl kote devlopman lib tout bon pèsonalite li kapab realize. Nan itilizasyon dwa li yo epi nan la jwisans libète li yo, yon moun dwe soumèt li devan limitasyon ke la lwa sèlman tabli, pou asire rekonesans ak respe dwa ak libète lot moun epi tou pou satisfiè bon jan ekzistans règleman la sosyete, lòd piblik ak byenèt jeneral nan yon sosyete demokratik. Dwa ak libète sa yo, yo pap kapab, nan okenn ka, itilize yo lòt jan ke selon vizion ak pwencip Nasyon Zini.",
+   "question_tgt": "Nan okenn ka, dwa ak libète sa yo pa ka itilize lòt jan ke selon kisa?",
+   "answer_tgt": "Vizion ak pwencip Nasyon Zini.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

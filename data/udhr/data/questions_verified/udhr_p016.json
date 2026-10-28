@@ -1,0 +1,96 @@
+{
+  "passage_id": "udhr_p016",
+  "articles": [
+    "23",
+    "24"
+  ],
+  "passage": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+  "questions": [
+    {
+      "question": "What must just and favourable remuneration ensure for a worker and his family?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "An existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the maximum number of working hours allowed per week?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What does the right to rest and leisure include?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Reasonable limitation of working hours and periodic holidays with pay.",
+      "source_article": "24",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the last right listed in the first sentence of the text?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Protection against unemployment.",
+      "source_article": "23",
+      "article_specific": false,
+      "answer_is_span": true
+    },
+    {
+      "question": "Under what condition is remuneration to be supplemented by other means of social protection?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "When it is necessary to ensure an existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Checked hard against the passage: it says only 'reasonable limitation of working hours' and gives no number, no weekly cap and no unit of time, so no sentence answers this even partially. Good near-miss unanswerable."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "fatal",
+      "issues": [
+        "article_specific was true, but the question is positional ('the first sentence of the text') rather than tied to any fact of Art. 23: posed against any other passage its first sentence also lists rights, so a transplanted copy would have entered the data as a WRONGLY-LABELLED unanswerable row.",
+        "The original question was a bare count ('How many work-related rights are listed...' -> 'Four.'), whose correctness depends on the four coordinated 'to ...' phrases surviving translation without merging or splitting; the brief flags exactly this fragility. The reference answer was also a bare numeral, a form that appears nowhere in the exemplars.",
+        "Replaced with a last-item ordinal on the same list, which is unambiguous (the final item is '...and to protection against unemployment'), robust to a translation merging or splitting earlier items, and answered by a verbatim span. article_specific set to false."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 4,
+      "severity": "ok",
+      "issues": [
+        "Noted but not corrected: the passage says only 'supplemented, if necessary', so the purpose clause in the answer is an inference from the sentence's own structure (the remuneration is the thing that must ensure a dignified existence). The item is typed inferential and answer_is_span is correctly false, so the inference is licensed.",
+        "Noted: its answer restates Q0's answer phrase, so these two rows overlap in content. Left as is to preserve the passage's usual extr/unan/extr/ordi/infe type mix."
+      ],
+      "action": "kept"
+    }
+  ]
+}

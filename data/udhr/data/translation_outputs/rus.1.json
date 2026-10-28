@@ -1,0 +1,925 @@
+{
+ "lang": "rus",
+ "lang_name": "Russian",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "нет ответа",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность. Никто не должен содержаться в рабстве или в подневольном состоянии; рабство и работорговля запрещаются во всех их видах. Никто не должен подвергаться пыткам или жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию. Каждый человек, где бы он ни находился, имеет право на признание его правосубъектности. Все люди равны перед законом и имеют право, без всякого различия, на равную защиту закона. Все люди имеют право на равную защиту от какой бы то ни было дискриминации, нарушающей настоящую Декларацию, и от какого бы то ни было подстрекательства к такой дискриминации.",
+   "question_tgt": "В каких видах запрещаются рабство и работорговля?",
+   "answer_tgt": "Во всех их видах.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность. Никто не должен содержаться в рабстве или в подневольном состоянии; рабство и работорговля запрещаются во всех их видах. Никто не должен подвергаться пыткам или жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию. Каждый человек, где бы он ни находился, имеет право на признание его правосубъектности. Все люди равны перед законом и имеют право, без всякого различия, на равную защиту закона. Все люди имеют право на равную защиту от какой бы то ни было дискриминации, нарушающей настоящую Декларацию, и от какого бы то ни было подстрекательства к такой дискриминации.",
+   "question_tgt": "Помимо пыток, каким обращению и наказанию никто не должен подвергаться?",
+   "answer_tgt": "Жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность. Никто не должен содержаться в рабстве или в подневольном состоянии; рабство и работорговля запрещаются во всех их видах. Никто не должен подвергаться пыткам или жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию. Каждый человек, где бы он ни находился, имеет право на признание его правосубъектности. Все люди равны перед законом и имеют право, без всякого различия, на равную защиту закона. Все люди имеют право на равную защиту от какой бы то ни было дискриминации, нарушающей настоящую Декларацию, и от какого бы то ни было подстрекательства к такой дискриминации.",
+   "question_tgt": "Какой орган отвечает за обеспечение запрета рабства и работорговли?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность. Никто не должен содержаться в рабстве или в подневольном состоянии; рабство и работорговля запрещаются во всех их видах. Никто не должен подвергаться пыткам или жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию. Каждый человек, где бы он ни находился, имеет право на признание его правосубъектности. Все люди равны перед законом и имеют право, без всякого различия, на равную защиту закона. Все люди имеют право на равную защиту от какой бы то ни было дискриминации, нарушающей настоящую Декларацию, и от какого бы то ни было подстрекательства к такой дискриминации.",
+   "question_tgt": "Где каждый человек имеет право на признание его правосубъектности?",
+   "answer_tgt": "Где бы он ни находился.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность. Никто не должен содержаться в рабстве или в подневольном состоянии; рабство и работорговля запрещаются во всех их видах. Никто не должен подвергаться пыткам или жестоким, бесчеловечным или унижающим его достоинство обращению и наказанию. Каждый человек, где бы он ни находился, имеет право на признание его правосубъектности. Все люди равны перед законом и имеют право, без всякого различия, на равную защиту закона. Все люди имеют право на равную защиту от какой бы то ни было дискриминации, нарушающей настоящую Декларацию, и от какого бы то ни было подстрекательства к такой дискриминации.",
+   "question_tgt": "Помимо самой дискриминации, от чего еще все люди имеют право на равную защиту?",
+   "answer_tgt": "От какого бы то ни было подстрекательства к такой дискриминации.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Каждый человек имеет право на эффективное восстановление в правах компетентными национальными судами в случаях нарушения его основных прав, предоставленных ему конституцией или законом. Никто не может быть подвергнут произвольному аресту, задержанию или изгнанию. Каждый человек, для определения его прав и обязанностей и для установления обоснованности предъявленного ему уголовного обвинения, имеет право, на основе полного равенства, на то, чтобы его дело было рассмотрено гласно и с соблюдением всех требований справедливости независимым и беспристрастным судом.",
+   "question_tgt": "Кем осуществляется эффективное восстановление в правах в случаях нарушения основных прав человека?",
+   "answer_tgt": "Компетентными национальными судами.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Каждый человек имеет право на эффективное восстановление в правах компетентными национальными судами в случаях нарушения его основных прав, предоставленных ему конституцией или законом. Никто не может быть подвергнут произвольному аресту, задержанию или изгнанию. Каждый человек, для определения его прав и обязанностей и для установления обоснованности предъявленного ему уголовного обвинения, имеет право, на основе полного равенства, на то, чтобы его дело было рассмотрено гласно и с соблюдением всех требований справедливости независимым и беспристрастным судом.",
+   "question_tgt": "Скольким видам произвольного обращения, согласно тексту, никто не может быть подвергнут?",
+   "answer_tgt": "Трем.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Каждый человек имеет право на эффективное восстановление в правах компетентными национальными судами в случаях нарушения его основных прав, предоставленных ему конституцией или законом. Никто не может быть подвергнут произвольному аресту, задержанию или изгнанию. Каждый человек, для определения его прав и обязанностей и для установления обоснованности предъявленного ему уголовного обвинения, имеет право, на основе полного равенства, на то, чтобы его дело было рассмотрено гласно и с соблюдением всех требований справедливости независимым и беспристрастным судом.",
+   "question_tgt": "Каким образом каждый человек имеет право на то, чтобы его дело было рассмотрено судом?",
+   "answer_tgt": "Гласно и с соблюдением всех требований справедливости.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Русский текст передает 'fair and public hearing' наречным оборотом ('рассмотрено гласно и с соблюдением всех требований справедливости'); именной группы-эквивалента в тексте нет, вопрос переформулирован под эту конструкцию."
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Каждый человек имеет право на эффективное восстановление в правах компетентными национальными судами в случаях нарушения его основных прав, предоставленных ему конституцией или законом. Никто не может быть подвергнут произвольному аресту, задержанию или изгнанию. Каждый человек, для определения его прав и обязанностей и для установления обоснованности предъявленного ему уголовного обвинения, имеет право, на основе полного равенства, на то, чтобы его дело было рассмотрено гласно и с соблюдением всех требований справедливости независимым и беспристрастным судом.",
+   "question_tgt": "Как долго человек может содержаться под стражей, прежде чем его дело должно быть рассмотрено судом?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Каждый человек имеет право на эффективное восстановление в правах компетентными национальными судами в случаях нарушения его основных прав, предоставленных ему конституцией или законом. Никто не может быть подвергнут произвольному аресту, задержанию или изгнанию. Каждый человек, для определения его прав и обязанностей и для установления обоснованности предъявленного ему уголовного обвинения, имеет право, на основе полного равенства, на то, чтобы его дело было рассмотрено гласно и с соблюдением всех требований справедливости независимым и беспристрастным судом.",
+   "question_tgt": "Что еще, помимо прав и обязанностей человека, устанавливается при рассмотрении его дела судом?",
+   "answer_tgt": "Обоснованность предъявленного ему уголовного обвинения.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным до тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства, при котором ему обеспечиваются все возможности для защиты. Никто не может быть осужден за преступление на основании совершения какого-либо деяния или за бездействие, которые во время их совершения не составляли преступления по национальным законам или по международному праву. Не может также налагаться наказание более тяжкое, нежели то, которое могло быть применено в то время, когда преступление было совершено.",
+   "question_tgt": "До каких пор каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным?",
+   "answer_tgt": "До тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным до тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства, при котором ему обеспечиваются все возможности для защиты. Никто не может быть осужден за преступление на основании совершения какого-либо деяния или за бездействие, которые во время их совершения не составляли преступления по национальным законам или по международному праву. Не может также налагаться наказание более тяжкое, нежели то, которое могло быть применено в то время, когда преступление было совершено.",
+   "question_tgt": "Что обеспечивается обвиняемому при гласном судебном разбирательстве?",
+   "answer_tgt": "Все возможности для защиты.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным до тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства, при котором ему обеспечиваются все возможности для защиты. Никто не может быть осужден за преступление на основании совершения какого-либо деяния или за бездействие, которые во время их совершения не составляли преступления по национальным законам или по международному праву. Не может также налагаться наказание более тяжкое, нежели то, которое могло быть применено в то время, когда преступление было совершено.",
+   "question_tgt": "Какой суд полномочен признать человека виновным в совершении преступления?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным до тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства, при котором ему обеспечиваются все возможности для защиты. Никто не может быть осужден за преступление на основании совершения какого-либо деяния или за бездействие, которые во время их совершения не составляли преступления по национальным законам или по международному праву. Не может также налагаться наказание более тяжкое, нежели то, которое могло быть применено в то время, когда преступление было совершено.",
+   "question_tgt": "По каким законам или по какому праву деяние или бездействие должно было составлять преступление во время его совершения?",
+   "answer_tgt": "По национальным законам или по международному праву.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Каждый человек, обвиняемый в совершении преступления, имеет право считаться невиновным до тех пор, пока его виновность не будет установлена законным порядком путем гласного судебного разбирательства, при котором ему обеспечиваются все возможности для защиты. Никто не может быть осужден за преступление на основании совершения какого-либо деяния или за бездействие, которые во время их совершения не составляли преступления по национальным законам или по международному праву. Не может также налагаться наказание более тяжкое, нежели то, которое могло быть применено в то время, когда преступление было совершено.",
+   "question_tgt": "Какое наказание не может быть превышено за совершенное преступление?",
+   "answer_tgt": "То, которое могло быть применено в то время, когда преступление было совершено.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Никто не может подвергаться произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию. Каждый человек имеет право на защиту закона от такого вмешательства или таких посягательств. Каждый человек имеет право свободно передвигаться и выбирать себе местожительство в пределах каждого государства. Каждый человек имеет право покидать любую страну, включая свою собственную, и возвращаться в свою страну. Каждый человек имеет право искать убежища от преследования в других странах и пользоваться этим убежищем. Это право не может быть использовано в случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "question_tgt": "Что стоит первым в перечне того, во что не допускается произвольное вмешательство?",
+   "answer_tgt": "Его личная и семейная жизнь.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "В русском тексте 'privacy' и 'family' объединены в один пункт ('его личную и семейную жизнь'), поэтому перечень короче английского; ответ дан в именительном падеже и потому не является дословной подстрокой."
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Никто не может подвергаться произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию. Каждый человек имеет право на защиту закона от такого вмешательства или таких посягательств. Каждый человек имеет право свободно передвигаться и выбирать себе местожительство в пределах каждого государства. Каждый человек имеет право покидать любую страну, включая свою собственную, и возвращаться в свою страну. Каждый человек имеет право искать убежища от преследования в других странах и пользоваться этим убежищем. Это право не может быть использовано в случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "question_tgt": "На что имеет право человек, подвергшийся такому вмешательству или таким посягательствам?",
+   "answer_tgt": "На защиту закона.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Никто не может подвергаться произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию. Каждый человек имеет право на защиту закона от такого вмешательства или таких посягательств. Каждый человек имеет право свободно передвигаться и выбирать себе местожительство в пределах каждого государства. Каждый человек имеет право покидать любую страну, включая свою собственную, и возвращаться в свою страну. Каждый человек имеет право искать убежища от преследования в других странах и пользоваться этим убежищем. Это право не может быть использовано в случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "question_tgt": "В каких пределах каждый человек имеет право свободно передвигаться и выбирать себе местожительство?",
+   "answer_tgt": "В пределах каждого государства.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Никто не может подвергаться произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию. Каждый человек имеет право на защиту закона от такого вмешательства или таких посягательств. Каждый человек имеет право свободно передвигаться и выбирать себе местожительство в пределах каждого государства. Каждый человек имеет право покидать любую страну, включая свою собственную, и возвращаться в свою страну. Каждый человек имеет право искать убежища от преследования в других странах и пользоваться этим убежищем. Это право не может быть использовано в случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "question_tgt": "В каком случае право на убежище не может быть использовано?",
+   "answer_tgt": "В случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Никто не может подвергаться произвольному вмешательству в его личную и семейную жизнь, произвольным посягательствам на неприкосновенность его жилища, тайну его корреспонденции или на его честь и репутацию. Каждый человек имеет право на защиту закона от такого вмешательства или таких посягательств. Каждый человек имеет право свободно передвигаться и выбирать себе местожительство в пределах каждого государства. Каждый человек имеет право покидать любую страну, включая свою собственную, и возвращаться в свою страну. Каждый человек имеет право искать убежища от преследования в других странах и пользоваться этим убежищем. Это право не может быть использовано в случае преследования, в действительности основанного на совершении неполитического преступления, или деяния, противоречащего целям и принципам Организации Объединенных Наций.",
+   "question_tgt": "Какой орган решает, предоставляется ли человеку убежище в другой стране?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Каждый человек имеет право на гражданство. Никто не может быть произвольно лишен своего гражданства или права изменить свое гражданство. Мужчины и женщины, достигшие совершеннолетия, имеют право без всяких ограничений по признаку расы, национальности или религии вступать в брак и основывать свою семью. Они пользуются одинаковыми правами в отношении вступления в брак, во время состояния в браке и во время его расторжения. Брак может быть заключен только при свободном и полном согласии обеих вступающих в брак сторон. Семья является естественной и основной ячейкой общества и имеет право на защиту со стороны общества и государства.",
+   "question_tgt": "При каком условии может быть заключен брак?",
+   "answer_tgt": "Только при свободном и полном согласии обеих вступающих в брак сторон.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Каждый человек имеет право на гражданство. Никто не может быть произвольно лишен своего гражданства или права изменить свое гражданство. Мужчины и женщины, достигшие совершеннолетия, имеют право без всяких ограничений по признаку расы, национальности или религии вступать в брак и основывать свою семью. Они пользуются одинаковыми правами в отношении вступления в брак, во время состояния в браке и во время его расторжения. Брак может быть заключен только при свободном и полном согласии обеих вступающих в брак сторон. Семья является естественной и основной ячейкой общества и имеет право на защиту со стороны общества и государства.",
+   "question_tgt": "Что, согласно тексту, каждый человек вправе изменить?",
+   "answer_tgt": "Свое гражданство.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Каждый человек имеет право на гражданство. Никто не может быть произвольно лишен своего гражданства или права изменить свое гражданство. Мужчины и женщины, достигшие совершеннолетия, имеют право без всяких ограничений по признаку расы, национальности или религии вступать в брак и основывать свою семью. Они пользуются одинаковыми правами в отношении вступления в брак, во время состояния в браке и во время его расторжения. Брак может быть заключен только при свободном и полном согласии обеих вступающих в брак сторон. Семья является естественной и основной ячейкой общества и имеет право на защиту со стороны общества и государства.",
+   "question_tgt": "С какого минимального возраста человек может вступать в брак?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Каждый человек имеет право на гражданство. Никто не может быть произвольно лишен своего гражданства или права изменить свое гражданство. Мужчины и женщины, достигшие совершеннолетия, имеют право без всяких ограничений по признаку расы, национальности или религии вступать в брак и основывать свою семью. Они пользуются одинаковыми правами в отношении вступления в брак, во время состояния в браке и во время его расторжения. Брак может быть заключен только при свободном и полном согласии обеих вступающих в брак сторон. Семья является естественной и основной ячейкой общества и имеет право на защиту со стороны общества и государства.",
+   "question_tgt": "Сколько признаков перечислено, по которым не допускаются ограничения права вступать в брак и основывать семью?",
+   "answer_tgt": "Три.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Каждый человек имеет право на гражданство. Никто не может быть произвольно лишен своего гражданства или права изменить свое гражданство. Мужчины и женщины, достигшие совершеннолетия, имеют право без всяких ограничений по признаку расы, национальности или религии вступать в брак и основывать свою семью. Они пользуются одинаковыми правами в отношении вступления в брак, во время состояния в браке и во время его расторжения. Брак может быть заключен только при свободном и полном согласии обеих вступающих в брак сторон. Семья является естественной и основной ячейкой общества и имеет право на защиту со стороны общества и государства.",
+   "question_tgt": "Со стороны кого семья имеет право на защиту?",
+   "answer_tgt": "Со стороны общества и государства.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Каждый человек имеет право владеть имуществом как единолично, так и совместно с другими. Никто не должен быть произвольно лишен своего имущества. Каждый человек имеет право на свободу мирных собраний и ассоциаций. Никто не может быть принуждаем вступать в какую-либо ассоциацию. Каждый человек имеет право принимать участие в управлении своей страной непосредственно или через посредство свободно избранных представителей. Каждый человек имеет право равного доступа к государственной службе в своей стране. Воля народа должна быть основой власти правительства; эта воля должна находить себе выражение в периодических и нефальсифицированных выборах, которые должны проводиться при всеобщем и равном избирательном праве путем тайного голосования или же посредством других равнозначных форм, обеспечивающих свободу голосования.",
+   "question_tgt": "Как, согласно тексту, каждый человек имеет право владеть имуществом?",
+   "answer_tgt": "Как единолично, так и совместно с другими.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Каждый человек имеет право владеть имуществом как единолично, так и совместно с другими. Никто не должен быть произвольно лишен своего имущества. Каждый человек имеет право на свободу мирных собраний и ассоциаций. Никто не может быть принуждаем вступать в какую-либо ассоциацию. Каждый человек имеет право принимать участие в управлении своей страной непосредственно или через посредство свободно избранных представителей. Каждый человек имеет право равного доступа к государственной службе в своей стране. Воля народа должна быть основой власти правительства; эта воля должна находить себе выражение в периодических и нефальсифицированных выборах, которые должны проводиться при всеобщем и равном избирательном праве путем тайного голосования или же посредством других равнозначных форм, обеспечивающих свободу голосования.",
+   "question_tgt": "Во что никто не может быть принуждаем вступать?",
+   "answer_tgt": "В какую-либо ассоциацию.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Каждый человек имеет право владеть имуществом как единолично, так и совместно с другими. Никто не должен быть произвольно лишен своего имущества. Каждый человек имеет право на свободу мирных собраний и ассоциаций. Никто не может быть принуждаем вступать в какую-либо ассоциацию. Каждый человек имеет право принимать участие в управлении своей страной непосредственно или через посредство свободно избранных представителей. Каждый человек имеет право равного доступа к государственной службе в своей стране. Воля народа должна быть основой власти правительства; эта воля должна находить себе выражение в периодических и нефальсифицированных выборах, которые должны проводиться при всеобщем и равном избирательном праве путем тайного голосования или же посредством других равнозначных форм, обеспечивающих свободу голосования.",
+   "question_tgt": "Какая компенсация должна быть выплачена человеку, лишенному своего имущества?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Каждый человек имеет право владеть имуществом как единолично, так и совместно с другими. Никто не должен быть произвольно лишен своего имущества. Каждый человек имеет право на свободу мирных собраний и ассоциаций. Никто не может быть принуждаем вступать в какую-либо ассоциацию. Каждый человек имеет право принимать участие в управлении своей страной непосредственно или через посредство свободно избранных представителей. Каждый человек имеет право равного доступа к государственной службе в своей стране. Воля народа должна быть основой власти правительства; эта воля должна находить себе выражение в периодических и нефальсифицированных выборах, которые должны проводиться при всеобщем и равном избирательном праве путем тайного голосования или же посредством других равнозначных форм, обеспечивающих свободу голосования.",
+   "question_tgt": "При каком условии лишение человека его имущества запрещено?",
+   "answer_tgt": "Если человек лишен своего имущества произвольно.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Каждый человек имеет право владеть имуществом как единолично, так и совместно с другими. Никто не должен быть произвольно лишен своего имущества. Каждый человек имеет право на свободу мирных собраний и ассоциаций. Никто не может быть принуждаем вступать в какую-либо ассоциацию. Каждый человек имеет право принимать участие в управлении своей страной непосредственно или через посредство свободно избранных представителей. Каждый человек имеет право равного доступа к государственной службе в своей стране. Воля народа должна быть основой власти правительства; эта воля должна находить себе выражение в периодических и нефальсифицированных выборах, которые должны проводиться при всеобщем и равном избирательном праве путем тайного голосования или же посредством других равнозначных форм, обеспечивающих свободу голосования.",
+   "question_tgt": "При каком избирательном праве должны проводиться выборы?",
+   "answer_tgt": "При всеобщем и равном избирательном праве.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Каждый человек, как член общества, имеет право на социальное обеспечение и на осуществление необходимых для поддержания его достоинства и для свободного развития его личности прав в экономической, социальной и культурной областях через посредство национальных усилий и международного сотрудничества и в соответствии со структурой и ресурсами каждого государства.",
+   "question_tgt": "В каком качестве каждый человек имеет право на социальное обеспечение?",
+   "answer_tgt": "Как член общества.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Каждый человек, как член общества, имеет право на социальное обеспечение и на осуществление необходимых для поддержания его достоинства и для свободного развития его личности прав в экономической, социальной и культурной областях через посредство национальных усилий и международного сотрудничества и в соответствии со структурой и ресурсами каждого государства.",
+   "question_tgt": "Через посредство чего осуществляются эти права?",
+   "answer_tgt": "Через посредство национальных усилий и международного сотрудничества.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Каждый человек, как член общества, имеет право на социальное обеспечение и на осуществление необходимых для поддержания его достоинства и для свободного развития его личности прав в экономической, социальной и культурной областях через посредство национальных усилий и международного сотрудничества и в соответствии со структурой и ресурсами каждого государства.",
+   "question_tgt": "Какое наказание предусмотрено для государства, которое не обеспечивает социальное обеспечение?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Каждый человек, как член общества, имеет право на социальное обеспечение и на осуществление необходимых для поддержания его достоинства и для свободного развития его личности прав в экономической, социальной и культурной областях через посредство национальных усилий и международного сотрудничества и в соответствии со структурой и ресурсами каждого государства.",
+   "question_tgt": "Сколько видов прав названо необходимыми для поддержания достоинства человека?",
+   "answer_tgt": "Три.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Каждый человек, как член общества, имеет право на социальное обеспечение и на осуществление необходимых для поддержания его достоинства и для свободного развития его личности прав в экономической, социальной и культурной областях через посредство национальных усилий и международного сотрудничества и в соответствии со структурой и ресурсами каждого государства.",
+   "question_tgt": "В соответствии с чем осуществляются эти права в каждом государстве?",
+   "answer_tgt": "Со структурой и ресурсами каждого государства.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Каждый человек имеет право на труд, на свободный выбор работы, на справедливые и благоприятные условия труда и на защиту от безработицы. Каждый человек, без какой-либо дискриминации, имеет право на равную оплату за равный труд. Каждый работающий имеет право на справедливое и удовлетворительное вознаграждение, обеспечивающее достойное человека существование для него самого и его семьи, и дополняемое, при необходимости, другими средствами социального обеспечения. Каждый человек имеет право создавать профессиональные союзы и входить в профессиональные союзы для защиты своих интересов.",
+   "question_tgt": "Что должно обеспечивать справедливое и удовлетворительное вознаграждение работающему и его семье?",
+   "answer_tgt": "Достойное человека существование.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Каждый человек имеет право на труд, на свободный выбор работы, на справедливые и благоприятные условия труда и на защиту от безработицы. Каждый человек, без какой-либо дискриминации, имеет право на равную оплату за равный труд. Каждый работающий имеет право на справедливое и удовлетворительное вознаграждение, обеспечивающее достойное человека существование для него самого и его семьи, и дополняемое, при необходимости, другими средствами социального обеспечения. Каждый человек имеет право создавать профессиональные союзы и входить в профессиональные союзы для защиты своих интересов.",
+   "question_tgt": "На какую оплату каждый человек имеет право без какой-либо дискриминации?",
+   "answer_tgt": "На равную оплату за равный труд.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Каждый человек имеет право на труд, на свободный выбор работы, на справедливые и благоприятные условия труда и на защиту от безработицы. Каждый человек, без какой-либо дискриминации, имеет право на равную оплату за равный труд. Каждый работающий имеет право на справедливое и удовлетворительное вознаграждение, обеспечивающее достойное человека существование для него самого и его семьи, и дополняемое, при необходимости, другими средствами социального обеспечения. Каждый человек имеет право создавать профессиональные союзы и входить в профессиональные союзы для защиты своих интересов.",
+   "question_tgt": "Какие наказания предусмотрены для работодателя, отказывающего в равной оплате за равный труд?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Каждый человек имеет право на труд, на свободный выбор работы, на справедливые и благоприятные условия труда и на защиту от безработицы. Каждый человек, без какой-либо дискриминации, имеет право на равную оплату за равный труд. Каждый работающий имеет право на справедливое и удовлетворительное вознаграждение, обеспечивающее достойное человека существование для него самого и его семьи, и дополняемое, при необходимости, другими средствами социального обеспечения. Каждый человек имеет право создавать профессиональные союзы и входить в профессиональные союзы для защиты своих интересов.",
+   "question_tgt": "Право на что названо последним в первом предложении?",
+   "answer_tgt": "На защиту от безработицы.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Каждый человек имеет право на труд, на свободный выбор работы, на справедливые и благоприятные условия труда и на защиту от безработицы. Каждый человек, без какой-либо дискриминации, имеет право на равную оплату за равный труд. Каждый работающий имеет право на справедливое и удовлетворительное вознаграждение, обеспечивающее достойное человека существование для него самого и его семьи, и дополняемое, при необходимости, другими средствами социального обеспечения. Каждый человек имеет право создавать профессиональные союзы и входить в профессиональные союзы для защиты своих интересов.",
+   "question_tgt": "Что должно происходить, если вознаграждения недостаточно для обеспечения достойного человека существования?",
+   "answer_tgt": "Оно должно дополняться другими средствами социального обеспечения.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск. Каждый человек имеет право на такой жизненный уровень, включая пищу, одежду, жилище, медицинский уход и необходимое социальное обслуживание, который необходим для поддержания здоровья и благосостояния его самого и его семьи, и право на обеспечение на случай безработицы, болезни, инвалидности, вдовства, наступления старости или иного случая утраты средств к существованию по не зависящим от него обстоятельствам. Материнство и младенчество дают право на особое попечение и помощь. Все дети, родившиеся в браке или вне брака, должны пользоваться одинаковой социальной защитой.",
+   "question_tgt": "Что включает в себя право на отдых и досуг?",
+   "answer_tgt": "Право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск. Каждый человек имеет право на такой жизненный уровень, включая пищу, одежду, жилище, медицинский уход и необходимое социальное обслуживание, который необходим для поддержания здоровья и благосостояния его самого и его семьи, и право на обеспечение на случай безработицы, болезни, инвалидности, вдовства, наступления старости или иного случая утраты средств к существованию по не зависящим от него обстоятельствам. Материнство и младенчество дают право на особое попечение и помощь. Все дети, родившиеся в браке или вне брака, должны пользоваться одинаковой социальной защитой.",
+   "question_tgt": "Какое максимальное количество рабочих часов в неделю допускается?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск. Каждый человек имеет право на такой жизненный уровень, включая пищу, одежду, жилище, медицинский уход и необходимое социальное обслуживание, который необходим для поддержания здоровья и благосостояния его самого и его семьи, и право на обеспечение на случай безработицы, болезни, инвалидности, вдовства, наступления старости или иного случая утраты средств к существованию по не зависящим от него обстоятельствам. Материнство и младенчество дают право на особое попечение и помощь. Все дети, родившиеся в браке или вне брака, должны пользоваться одинаковой социальной защитой.",
+   "question_tgt": "Какой случай назван вторым в перечне случаев, на которые распространяется право на обеспечение?",
+   "answer_tgt": "Болезнь.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск. Каждый человек имеет право на такой жизненный уровень, включая пищу, одежду, жилище, медицинский уход и необходимое социальное обслуживание, который необходим для поддержания здоровья и благосостояния его самого и его семьи, и право на обеспечение на случай безработицы, болезни, инвалидности, вдовства, наступления старости или иного случая утраты средств к существованию по не зависящим от него обстоятельствам. Материнство и младенчество дают право на особое попечение и помощь. Все дети, родившиеся в браке или вне брака, должны пользоваться одинаковой социальной защитой.",
+   "question_tgt": "Что дает право на особое попечение и помощь?",
+   "answer_tgt": "Материнство и младенчество.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск. Каждый человек имеет право на такой жизненный уровень, включая пищу, одежду, жилище, медицинский уход и необходимое социальное обслуживание, который необходим для поддержания здоровья и благосостояния его самого и его семьи, и право на обеспечение на случай безработицы, болезни, инвалидности, вдовства, наступления старости или иного случая утраты средств к существованию по не зависящим от него обстоятельствам. Материнство и младенчество дают право на особое попечение и помощь. Все дети, родившиеся в браке или вне брака, должны пользоваться одинаковой социальной защитой.",
+   "question_tgt": "По каким обстоятельствам должна произойти утрата средств к существованию, чтобы возникло право на обеспечение?",
+   "answer_tgt": "По не зависящим от него обстоятельствам.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

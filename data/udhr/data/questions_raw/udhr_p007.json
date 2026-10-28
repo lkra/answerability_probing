@@ -1,0 +1,54 @@
+{
+  "passage_id": "udhr_p007",
+  "articles": [
+    "22"
+  ],
+  "passage": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+  "questions": [
+    {
+      "question": "In what capacity does everyone have the right to social security?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "As a member of society.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Through what forms of effort is the realization of these rights to be achieved?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Through national effort and international co‐operation.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What minimum level of social security benefits must each State provide?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "How many kinds of rights are described as indispensable for his dignity?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "What may cause the realization of these rights to differ from one State to another?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "The organization and resources of each State.",
+      "source_article": "22",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ]
+}

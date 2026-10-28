@@ -1,0 +1,384 @@
+{
+  "arb": {
+    "udhr_key": "arb",
+    "udhr_name": "Arabic, Standard",
+    "iso15924": "Arab",
+    "candidates": [
+      "arb"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "ARABIC",
+    "test_script": "ARABIC",
+    "script_matches_test": true,
+    "n_units": 59
+  },
+  "ben": {
+    "udhr_key": "ben",
+    "udhr_name": "Bengali",
+    "iso15924": "Beng",
+    "candidates": [
+      "ben"
+    ],
+    "n_test_probes": 10,
+    "n_test_exact": 10,
+    "decided_by": "test exact-match",
+    "corpus_script": "BENGALI",
+    "test_script": "BENGALI",
+    "script_matches_test": true,
+    "n_units": 63
+  },
+  "bho": {
+    "udhr_key": "bho",
+    "udhr_name": "Bhojpuri",
+    "iso15924": "Deva",
+    "candidates": [
+      "bho"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "DEVANAGARI",
+    "test_script": "DEVANAGARI",
+    "script_matches_test": true,
+    "n_units": 57
+  },
+  "ces": {
+    "udhr_key": "ces",
+    "udhr_name": "Czech",
+    "iso15924": "Latn",
+    "candidates": [
+      "ces"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 62
+  },
+  "ckb": {
+    "udhr_key": "ckb",
+    "udhr_name": "Kurdish, Central",
+    "iso15924": "Latn",
+    "candidates": [
+      "ckb",
+      "kmr"
+    ],
+    "n_test_probes": 10,
+    "n_test_exact": 10,
+    "decided_by": "test exact-match",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 58
+  },
+  "deu": {
+    "udhr_key": "deu_1996",
+    "udhr_name": "German, Standard (1996)",
+    "iso15924": "Latn",
+    "candidates": [
+      "deu_1996",
+      "deu_1901"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 59
+  },
+  "eng": {
+    "udhr_key": "eng",
+    "udhr_name": "English",
+    "iso15924": "Latn",
+    "candidates": [
+      "eng"
+    ],
+    "n_test_probes": 25,
+    "n_test_exact": 15,
+    "decided_by": "test partial",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "fin": {
+    "udhr_key": "fin",
+    "udhr_name": "Finnish",
+    "iso15924": "Latn",
+    "candidates": [
+      "fin"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "fra": {
+    "udhr_key": "fra",
+    "udhr_name": "French",
+    "iso15924": "Latn",
+    "candidates": [
+      "fra"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 59
+  },
+  "hat": {
+    "udhr_key": "hat_kreyol",
+    "udhr_name": "Haitian Creole French (Kreyol)",
+    "iso15924": "Latn",
+    "candidates": [
+      "hat_kreyol",
+      "hat_popular"
+    ],
+    "n_test_probes": 10,
+    "n_test_exact": 5,
+    "decided_by": "test partial",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 62
+  },
+  "hin": {
+    "udhr_key": "hin",
+    "udhr_name": "Hindi",
+    "iso15924": "Deva",
+    "candidates": [
+      "hin"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "DEVANAGARI",
+    "test_script": "DEVANAGARI",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "ind": {
+    "udhr_key": "ind",
+    "udhr_name": "Indonesian",
+    "iso15924": "Latn",
+    "candidates": [
+      "ind"
+    ],
+    "n_test_probes": 10,
+    "n_test_exact": 10,
+    "decided_by": "test exact-match",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "ita": {
+    "udhr_key": "ita",
+    "udhr_name": "Italian",
+    "iso15924": "Latn",
+    "candidates": [
+      "ita"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "jpn": {
+    "udhr_key": "jpn",
+    "udhr_name": "Japanese",
+    "iso15924": "Jpan",
+    "candidates": [
+      "jpn"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "HIRAGANA",
+    "test_script": "HIRAGANA",
+    "script_matches_test": true,
+    "n_units": 58
+  },
+  "kor": {
+    "udhr_key": "kor",
+    "udhr_name": "Korean",
+    "iso15924": "Hang",
+    "candidates": [
+      "kor"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "HANGUL",
+    "test_script": "HANGUL",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "mar": {
+    "udhr_key": "mar",
+    "udhr_name": "Marathi",
+    "iso15924": "Deva",
+    "candidates": [
+      "mar"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "DEVANAGARI",
+    "test_script": "DEVANAGARI",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "pes": {
+    "udhr_key": "pes_2",
+    "udhr_name": "Dari",
+    "iso15924": "Arab",
+    "candidates": [
+      "pes_1",
+      "pes_2"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "ARABIC",
+    "test_script": "ARABIC",
+    "script_matches_test": true,
+    "n_units": 58
+  },
+  "por": {
+    "udhr_key": "por_PT",
+    "udhr_name": "Portuguese (Portugal)",
+    "iso15924": "Latn",
+    "candidates": [
+      "por_PT",
+      "por_BR"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 58
+  },
+  "rus": {
+    "udhr_key": "rus",
+    "udhr_name": "Russian",
+    "iso15924": "Cyrl",
+    "candidates": [
+      "rus"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "CYRILLIC",
+    "test_script": "CYRILLIC",
+    "script_matches_test": true,
+    "n_units": 59
+  },
+  "slk": {
+    "udhr_key": "slk",
+    "udhr_name": "Slovak",
+    "iso15924": "Latn",
+    "candidates": [
+      "slk"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "spa": {
+    "udhr_key": "spa",
+    "udhr_name": "Spanish",
+    "iso15924": "Latn",
+    "candidates": [
+      "spa"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 59
+  },
+  "tur": {
+    "udhr_key": "tur",
+    "udhr_name": "Turkish",
+    "iso15924": "Latn",
+    "candidates": [
+      "tur"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "vie": {
+    "udhr_key": "vie",
+    "udhr_name": "Vietnamese",
+    "iso15924": "Latn",
+    "candidates": [
+      "vie",
+      "vie_han"
+    ],
+    "n_test_probes": 5,
+    "n_test_exact": 5,
+    "decided_by": "test exact-match",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 60
+  },
+  "yor": {
+    "udhr_key": "yor",
+    "udhr_name": "Yoruba",
+    "iso15924": "Latn",
+    "candidates": [
+      "yor"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "LATIN",
+    "test_script": "LATIN",
+    "script_matches_test": true,
+    "n_units": 58
+  },
+  "zho": {
+    "udhr_key": "cmn_hans",
+    "udhr_name": "Chinese, Mandarin (Simplified)",
+    "iso15924": "Hans",
+    "candidates": [
+      "cmn_hans",
+      "cmn_hant"
+    ],
+    "n_test_probes": 0,
+    "n_test_exact": 0,
+    "decided_by": "script + default",
+    "corpus_script": "CJK",
+    "test_script": "CJK",
+    "script_matches_test": true,
+    "n_units": 58
+  }
+}

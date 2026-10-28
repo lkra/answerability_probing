@@ -1,0 +1,98 @@
+{
+ "passage_id": "udhr_p001",
+ "articles": [
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "passage": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+ "questions": [
+  {
+   "question": "In what forms shall slavery and the slave trade be prohibited?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "In all their forms.",
+   "source_article": "4",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Cruel, inhuman or degrading treatment or punishment.",
+   "source_article": "5",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  },
+  {
+   "question": "Where does everyone have the right to recognition as a person before the law?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Everywhere.",
+   "source_article": "6",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Any incitement to such discrimination.",
+   "source_article": "7",
+   "article_specific": true,
+   "answer_is_span": true
+  }
+ ],
+ "verdicts": [
+  {
+   "index": 0,
+   "severity": "ok",
+   "issues": [],
+   "action": "kept"
+  },
+  {
+   "index": 1,
+   "severity": "fatal",
+   "issues": [
+    "article_specific was true, but the original question ('What treatment or punishment shall no one be subjected to?') is not tied to Article 5. Article 9 ('No one shall be subjected to arbitrary arrest, detention or exile') uses the identical 'No one shall be subjected to' frame and would plausibly be read as answering it, and Article 11.2 ('nor shall a heavier penalty be imposed...') also concerns punishment. Transplanted as an unanswerable item onto a passage containing Article 9, it would have produced a wrongly-labelled abstention row.",
+    "Rather than demote article_specific to false and lose a transplantable item, the question was anchored to Article 5 by naming torture, which appears in no other article.",
+    "Side benefit: the original answer 'Torture or cruel, inhuman or degrading treatment or punishment.' was correctly flagged answer_is_span false (the passage reads 'torture or to cruel'); the rewritten answer is a verbatim span."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 2,
+   "severity": "ok",
+   "issues": [
+    "Checked all six sentences: the passage names no enforcing authority anywhere. Article 4 is passive ('shall be prohibited') with no agent. The recurring phrase 'the law' in Articles 6 and 7 concerns recognition and protection against discrimination, not enforcement of the slavery prohibition, so it does not answer the question even partially. Label stands."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 3,
+   "severity": "ok",
+   "issues": [],
+   "action": "kept"
+  },
+  {
+   "index": 4,
+   "severity": "minor",
+   "issues": [
+    "question_type was 'inferential', but the answer 'Any incitement to such discrimination.' is lifted verbatim from the passage and the 'besides' framing only selects between two coordinated clauses; corrected to 'extractive' for consistency with the rest of the set. Question text, answerability label, answer and flags all stand."
+   ],
+   "action": "kept"
+  }
+ ]
+}

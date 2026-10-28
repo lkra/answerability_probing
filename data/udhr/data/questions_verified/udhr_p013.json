@@ -1,0 +1,95 @@
+{
+ "passage_id": "udhr_p013",
+ "articles": [
+  "13",
+  "14",
+  "15"
+ ],
+ "passage": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+ "questions": [
+  {
+   "question": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Within the borders of each State.",
+   "source_article": "13",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Persecution.",
+   "source_article": "14",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "question_type": "unanswerable",
+   "answerable": false,
+   "answer": null,
+   "source_article": null,
+   "article_specific": false,
+   "answer_is_span": false
+  },
+  {
+   "question": "Which countries does everyone have the right to leave?",
+   "question_type": "extractive",
+   "answerable": true,
+   "answer": "Any country, including his own.",
+   "source_article": "13",
+   "article_specific": true,
+   "answer_is_span": true
+  },
+  {
+   "question": "What two things does the text forbid in relation to a person's nationality?",
+   "question_type": "inferential",
+   "answerable": true,
+   "answer": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "source_article": "15",
+   "article_specific": true,
+   "answer_is_span": false
+  }
+ ],
+ "verdicts": [
+  {
+   "index": 0,
+   "severity": "ok",
+   "issues": [],
+   "action": "kept"
+  },
+  {
+   "index": 1,
+   "severity": "ok",
+   "issues": [],
+   "action": "kept"
+  },
+  {
+   "index": 2,
+   "severity": "ok",
+   "issues": [
+    "Checked for leakage: the passage names the United Nations only as the source of the 'purposes and principles' that an act may run contrary to, never as an adjudicator, and no other sentence names any deciding body, so no authority can be read out of the text even by inference. Same shape as the organisers' 'Which international tribunal has jurisdiction...' exemplar. article_specific left false, which is correct for an unanswerable item and required by the merge step in any case."
+   ],
+   "action": "kept"
+  },
+  {
+   "index": 3,
+   "severity": "minor",
+   "issues": [
+    "Original question ('Under what condition may the right to asylum not be invoked?') was correctly labelled and correctly answered, but it was the third of five questions drawn from Article 14 (with Q1 and the unanswerable Q2), leaving Article 13's second sentence -- the right to leave any country and return to one's own -- entirely uncovered.",
+    "It also near-duplicated Q1: both probe the same two sentences about asylum, so the pair adds little beyond one row.",
+    "Its question_type was 'inferential' although the answer is an almost verbatim restatement of the clause; it was really extractive.",
+    "Replaced with an Article 13 question over the uncovered sentence. New answer 'Any country, including his own.' verified as a contiguous substring of the passage, so answer_is_span is true; leaving a country is stated in Article 13 and nowhere else in the Declaration, so article_specific is true."
+   ],
+   "action": "question_replaced"
+  },
+  {
+   "index": 4,
+   "severity": "ok",
+   "issues": [],
+   "action": "kept"
+  }
+ ]
+}

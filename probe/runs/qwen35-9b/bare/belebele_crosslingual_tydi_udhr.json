@@ -1,0 +1,5876 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3.5-9B",
+    "pooling": "last",
+    "layer": 19,
+    "prompt_style": "bare",
+    "max_len": 1024,
+    "l2": 0.001,
+    "train_rows": 50179,
+    "train_sources": [
+      "data/probing/qwen35-9b/bare/train",
+      "data/probing/qwen35-9b/bare/udhr"
+    ],
+    "train_languages": [
+      "arb",
+      "arb_Arab",
+      "ben",
+      "ben_Beng",
+      "bho",
+      "ces",
+      "ckb",
+      "deu",
+      "eng",
+      "eng_Latn",
+      "fin",
+      "fin_Latn",
+      "hat",
+      "hin",
+      "ind",
+      "ind_Latn",
+      "ita",
+      "jpn",
+      "jpn_Jpan",
+      "kor",
+      "kor_Hang",
+      "mar",
+      "pes",
+      "por",
+      "rus",
+      "rus_Cyrl",
+      "slk",
+      "spa",
+      "swh_Latn",
+      "tel_Telu",
+      "tha_Thai",
+      "tur",
+      "vie",
+      "yor",
+      "zho"
+    ],
+    "keep_contaminated": false,
+    "pair_complete": false
+  },
+  "passage_languages": [
+    "arb_Arab",
+    "ben_Beng",
+    "ces_Latn",
+    "ckb_Arab",
+    "deu_Latn",
+    "eng_Latn",
+    "fin_Latn",
+    "fra_Latn",
+    "hat_Latn",
+    "hin_Deva",
+    "ind_Latn",
+    "ita_Latn",
+    "jpn_Jpan",
+    "kor_Hang",
+    "mar_Deva",
+    "pes_Arab",
+    "por_Latn",
+    "rus_Cyrl",
+    "slk_Latn",
+    "spa_Latn",
+    "swh_Latn",
+    "tel_Telu",
+    "tur_Latn",
+    "vie_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "question_languages": [
+    "arb_Arab",
+    "ben_Beng",
+    "ces_Latn",
+    "ckb_Arab",
+    "deu_Latn",
+    "eng_Latn",
+    "fin_Latn",
+    "fra_Latn",
+    "hat_Latn",
+    "hin_Deva",
+    "ind_Latn",
+    "ita_Latn",
+    "jpn_Jpan",
+    "kor_Hang",
+    "mar_Deva",
+    "pes_Arab",
+    "por_Latn",
+    "rus_Cyrl",
+    "slk_Latn",
+    "spa_Latn",
+    "swh_Latn",
+    "tel_Telu",
+    "tha_Thai",
+    "tur_Latn",
+    "vie_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "seen_question_languages": [
+    "arb_Arab",
+    "ben_Beng",
+    "ces_Latn",
+    "ckb_Arab",
+    "deu_Latn",
+    "eng_Latn",
+    "fin_Latn",
+    "hat_Latn",
+    "hin_Deva",
+    "ind_Latn",
+    "ita_Latn",
+    "jpn_Jpan",
+    "kor_Hang",
+    "mar_Deva",
+    "pes_Arab",
+    "por_Latn",
+    "rus_Cyrl",
+    "slk_Latn",
+    "spa_Latn",
+    "swh_Latn",
+    "tel_Telu",
+    "tha_Thai",
+    "tur_Latn",
+    "vie_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "unseen_question_languages": [
+    "fra_Latn"
+  ],
+  "monolingual": {
+    "n": 780,
+    "acc": 0.808974358974359,
+    "auroc": 0.9173570019723866,
+    "majority": 0.5,
+    "frac_answerable": 0.5
+  },
+  "crosslingual": {
+    "n": 20280,
+    "acc": 0.7552268244575937,
+    "auroc": 0.8691190736007531,
+    "majority": 0.5,
+    "frac_answerable": 0.5
+  },
+  "overlap_source_label": "overlap, question in the passage's language (human translation)",
+  "baselines": {
+    "overlap_translated": {
+      "n": 20280,
+      "acc": 0.5159763313609468,
+      "auroc": 0.5189208040101304,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "overlap_source": {
+      "n": 20280,
+      "acc": 0.6530571992110453,
+      "auroc": 0.7013299507097869,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "probe_vs_bar_by_passage_language": {
+    "arb_Arab": {
+      "probe_auroc": 0.8913740959894806,
+      "bar_auroc": 0.7008547008547008,
+      "margin": 0.19051939513477978,
+      "n": 780
+    },
+    "ben_Beng": {
+      "probe_auroc": 0.8297501643655489,
+      "bar_auroc": 0.8307692307692308,
+      "margin": -0.0010190664036818786,
+      "n": 780
+    },
+    "ces_Latn": {
+      "probe_auroc": 0.8889349112426036,
+      "bar_auroc": 0.792991452991453,
+      "margin": 0.09594345825115058,
+      "n": 780
+    },
+    "ckb_Arab": {
+      "probe_auroc": 0.8460880999342538,
+      "bar_auroc": 0.6905982905982906,
+      "margin": 0.15548980933596324,
+      "n": 780
+    },
+    "deu_Latn": {
+      "probe_auroc": 0.8935831689677843,
+      "bar_auroc": 0.7767521367521367,
+      "margin": 0.11683103221564761,
+      "n": 780
+    },
+    "eng_Latn": {
+      "probe_auroc": 0.9082051282051282,
+      "bar_auroc": 0.768974358974359,
+      "margin": 0.13923076923076927,
+      "n": 780
+    },
+    "fin_Latn": {
+      "probe_auroc": 0.8741946088099934,
+      "bar_auroc": 0.7039316239316239,
+      "margin": 0.17026298487836955,
+      "n": 780
+    },
+    "fra_Latn": {
+      "probe_auroc": 0.907008547008547,
+      "bar_auroc": 0.7731623931623932,
+      "margin": 0.13384615384615384,
+      "n": 780
+    },
+    "hat_Latn": {
+      "probe_auroc": 0.8444904667981591,
+      "bar_auroc": 0.678974358974359,
+      "margin": 0.1655161078238001,
+      "n": 780
+    },
+    "hin_Deva": {
+      "probe_auroc": 0.8339316239316239,
+      "bar_auroc": 0.8177777777777778,
+      "margin": 0.016153846153846074,
+      "n": 780
+    },
+    "ind_Latn": {
+      "probe_auroc": 0.8974358974358975,
+      "bar_auroc": 0.7347863247863248,
+      "margin": 0.1626495726495727,
+      "n": 780
+    },
+    "ita_Latn": {
+      "probe_auroc": 0.8960157790927021,
+      "bar_auroc": 0.8116239316239316,
+      "margin": 0.08439184746877049,
+      "n": 780
+    },
+    "jpn_Jpan": {
+      "probe_auroc": 0.8725378040762656,
+      "bar_auroc": 0.700999342537804,
+      "margin": 0.17153846153846153,
+      "n": 780
+    },
+    "kor_Hang": {
+      "probe_auroc": 0.8936686390532544,
+      "bar_auroc": 0.8160683760683761,
+      "margin": 0.07760026298487832,
+      "n": 780
+    },
+    "mar_Deva": {
+      "probe_auroc": 0.7975805391190006,
+      "bar_auroc": 0.7582051282051282,
+      "margin": 0.03937541091387242,
+      "n": 780
+    },
+    "pes_Arab": {
+      "probe_auroc": 0.8884549638395792,
+      "bar_auroc": 0.7864957264957265,
+      "margin": 0.1019592373438527,
+      "n": 780
+    },
+    "por_Latn": {
+      "probe_auroc": 0.9003484549638395,
+      "bar_auroc": 0.7925641025641026,
+      "margin": 0.10778435239973694,
+      "n": 780
+    },
+    "rus_Cyrl": {
+      "probe_auroc": 0.8982051282051282,
+      "bar_auroc": 0.7855555555555556,
+      "margin": 0.11264957264957265,
+      "n": 780
+    },
+    "slk_Latn": {
+      "probe_auroc": 0.9088757396449704,
+      "bar_auroc": 0.7484615384615385,
+      "margin": 0.16041420118343186,
+      "n": 780
+    },
+    "spa_Latn": {
+      "probe_auroc": 0.8800920447074293,
+      "bar_auroc": 0.7604273504273504,
+      "margin": 0.11966469428007886,
+      "n": 780
+    },
+    "swh_Latn": {
+      "probe_auroc": 0.8359500328731098,
+      "bar_auroc": 0.7471794871794872,
+      "margin": 0.08877054569362253,
+      "n": 780
+    },
+    "tel_Telu": {
+      "probe_auroc": 0.7988494411571334,
+      "bar_auroc": 0.7567521367521367,
+      "margin": 0.042097304404996705,
+      "n": 780
+    },
+    "tur_Latn": {
+      "probe_auroc": 0.8706311637080868,
+      "bar_auroc": 0.7486324786324786,
+      "margin": 0.12199868507560818,
+      "n": 780
+    },
+    "vie_Latn": {
+      "probe_auroc": 0.8757725180802104,
+      "bar_auroc": 0.8580341880341881,
+      "margin": 0.01773833004602232,
+      "n": 780
+    },
+    "yor_Latn": {
+      "probe_auroc": 0.769973701512163,
+      "bar_auroc": 0.6117225509533202,
+      "margin": 0.15825115055884287,
+      "n": 780
+    },
+    "zho_Hans": {
+      "probe_auroc": 0.8689217619986851,
+      "bar_auroc": 0.7988034188034188,
+      "margin": 0.07011834319526633,
+      "n": 780
+    }
+  },
+  "n_languages_beating_bar": 25,
+  "probe_vs_bar_by_lingual_split": {
+    "same language": {
+      "probe_auroc": 0.9173570019723866,
+      "bar_auroc": 0.7003846153846154,
+      "margin": 0.21697238658777118,
+      "n": 780
+    },
+    "cross-lingual": {
+      "probe_auroc": 0.8691190736007531,
+      "bar_auroc": 0.7013299507097869,
+      "margin": 0.16778912289096626,
+      "n": 20280
+    }
+  },
+  "crosslingual_penalty": 0.04823792837163343,
+  "matrix": {
+    "arb_Arab": {
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "ben_Beng": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.6444444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "ces_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9155555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "ckb_Arab": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.5666666666666667,
+        "auroc": 0.7244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9155555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7555555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7066666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.5333333333333333,
+        "auroc": 0.7022222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "deu_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "eng_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9911111111111112,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9733333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "fin_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "fra_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9733333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7777777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "hat_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.72,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.6355555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "hin_Deva": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7155555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.72,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "ind_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9155555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "ita_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9866666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "jpn_Jpan": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7066666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "kor_Hang": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9866666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "mar_Deva": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.5666666666666667,
+        "auroc": 0.7111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.6488888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7777777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.72,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.6977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "pes_Arab": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "por_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9155555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "rus_Cyrl": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9777777777777777,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "slk_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9777777777777777,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9688888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9733333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.9733333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.9644444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7777777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "spa_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9066666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7777777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.96,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "swh_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9155555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8933333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.5333333333333333,
+        "auroc": 0.6444444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.5666666666666667,
+        "auroc": 0.7377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8533333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.64,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "tel_Telu": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8311111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "tur_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.6888888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.92,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7688888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "vie_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.9,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8666666666666667,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9511111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8088888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8888888888888888,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9244444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9777777777777777,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8355555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "yor_Latn": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7555555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.5666666666666667,
+        "auroc": 0.6755555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8266666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8666666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.5333333333333333,
+        "auroc": 0.7155555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8177777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.6533333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8133333333333334,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.88,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7466666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.84,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.68,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.76,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.7066666666666667,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7555555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.7866666666666666,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.8222222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "zho_Hans": {
+      "arb_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ben_Beng": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7644444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ces_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.8755555555555555,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ckb_Arab": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.8444444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "deu_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9422222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fin_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "fra_Latn": {
+        "n": 30,
+        "acc": 0.8333333333333334,
+        "auroc": 0.9555555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8044444444444444,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hin_Deva": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.8577777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ind_Latn": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "ita_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9288888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "jpn_Jpan": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.8488888888888889,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "kor_Hang": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8844444444444445,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "mar_Deva": {
+        "n": 30,
+        "acc": 0.6,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 30,
+        "acc": 0.7333333333333333,
+        "auroc": 0.8711111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8977777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "rus_Cyrl": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9333333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "slk_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.9022222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "spa_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.9377777777777778,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7911111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tel_Telu": {
+        "n": 30,
+        "acc": 0.6666666666666666,
+        "auroc": 0.7733333333333333,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tha_Thai": {
+        "n": 30,
+        "acc": 0.6333333333333333,
+        "auroc": 0.7822222222222223,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "tur_Latn": {
+        "n": 30,
+        "acc": 0.7666666666666667,
+        "auroc": 0.8622222222222222,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "vie_Latn": {
+        "n": 30,
+        "acc": 0.8,
+        "auroc": 0.9111111111111111,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 30,
+        "acc": 0.7,
+        "auroc": 0.7955555555555556,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    }
+  },
+  "monolingual_by_language": {
+    "arb_Arab": {
+      "n": 30,
+      "acc": 0.8333333333333334,
+      "auroc": 0.92,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ben_Beng": {
+      "n": 30,
+      "acc": 0.7666666666666667,
+      "auroc": 0.8711111111111111,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ces_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.96,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ckb_Arab": {
+      "n": 30,
+      "acc": 0.7333333333333333,
+      "auroc": 0.8488888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "deu_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.9777777777777777,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 30,
+      "acc": 0.9,
+      "auroc": 0.9466666666666667,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fin_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.9466666666666667,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fra_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.96,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 30,
+      "acc": 0.7666666666666667,
+      "auroc": 0.9333333333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hin_Deva": {
+      "n": 30,
+      "acc": 0.7333333333333333,
+      "auroc": 0.8488888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ind_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.9422222222222222,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ita_Latn": {
+      "n": 30,
+      "acc": 0.8333333333333334,
+      "auroc": 0.9022222222222223,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "jpn_Jpan": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.9333333333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "kor_Hang": {
+      "n": 30,
+      "acc": 0.8,
+      "auroc": 0.9288888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "mar_Deva": {
+      "n": 30,
+      "acc": 0.7666666666666667,
+      "auroc": 0.8488888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 30,
+      "acc": 0.9,
+      "auroc": 0.9555555555555556,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 30,
+      "acc": 0.8,
+      "auroc": 0.9288888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "rus_Cyrl": {
+      "n": 30,
+      "acc": 0.8333333333333334,
+      "auroc": 0.9644444444444444,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "slk_Latn": {
+      "n": 30,
+      "acc": 0.8666666666666667,
+      "auroc": 0.96,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "spa_Latn": {
+      "n": 30,
+      "acc": 0.8333333333333334,
+      "auroc": 0.9644444444444444,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 30,
+      "acc": 0.8,
+      "auroc": 0.9155555555555556,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tel_Telu": {
+      "n": 30,
+      "acc": 0.7333333333333333,
+      "auroc": 0.8755555555555555,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tur_Latn": {
+      "n": 30,
+      "acc": 0.7666666666666667,
+      "auroc": 0.9111111111111111,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "vie_Latn": {
+      "n": 30,
+      "acc": 0.8333333333333334,
+      "auroc": 0.9688888888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 30,
+      "acc": 0.6333333333333333,
+      "auroc": 0.7955555555555556,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 30,
+      "acc": 0.7,
+      "auroc": 0.8577777777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "question_language_means": {
+    "arb_Arab": 0.8762666666666666,
+    "ben_Beng": 0.7962666666666667,
+    "ces_Latn": 0.8545777777777777,
+    "ckb_Arab": 0.8076444444444445,
+    "deu_Latn": 0.9231999999999999,
+    "eng_Latn": 0.934577777777778,
+    "fin_Latn": 0.8949333333333334,
+    "fra_Latn": 0.9356444444444445,
+    "hat_Latn": 0.7701333333333333,
+    "hin_Deva": 0.8599111111111111,
+    "ind_Latn": 0.8864000000000002,
+    "ita_Latn": 0.8963555555555556,
+    "jpn_Jpan": 0.8956444444444445,
+    "kor_Hang": 0.9091555555555556,
+    "mar_Deva": 0.8259555555555554,
+    "pes_Arab": 0.8983111111111112,
+    "por_Latn": 0.8981333333333333,
+    "rus_Cyrl": 0.9271111111111111,
+    "slk_Latn": 0.8693333333333334,
+    "spa_Latn": 0.9356444444444445,
+    "swh_Latn": 0.7768888888888889,
+    "tel_Telu": 0.8190222222222222,
+    "tha_Thai": 0.7974358974358975,
+    "tur_Latn": 0.8792888888888889,
+    "vie_Latn": 0.9217777777777778,
+    "yor_Latn": 0.7621333333333332,
+    "zho_Hans": 0.8599111111111111
+  },
+  "by_question_language": {
+    "arb_Arab": {
+      "n": 750,
+      "acc": 0.7613333333333333,
+      "auroc": 0.8779377777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ben_Beng": {
+      "n": 750,
+      "acc": 0.7173333333333334,
+      "auroc": 0.7957404444444445,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ces_Latn": {
+      "n": 750,
+      "acc": 0.7946666666666666,
+      "auroc": 0.8518293333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ckb_Arab": {
+      "n": 750,
+      "acc": 0.7106666666666667,
+      "auroc": 0.8083697777777777,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "deu_Latn": {
+      "n": 750,
+      "acc": 0.8066666666666666,
+      "auroc": 0.9218204444444444,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 750,
+      "acc": 0.8146666666666667,
+      "auroc": 0.9347626666666666,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fin_Latn": {
+      "n": 750,
+      "acc": 0.7586666666666667,
+      "auroc": 0.8927857777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fra_Latn": {
+      "n": 750,
+      "acc": 0.7906666666666666,
+      "auroc": 0.9370737777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 750,
+      "acc": 0.6573333333333333,
+      "auroc": 0.7680782222222222,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hin_Deva": {
+      "n": 750,
+      "acc": 0.728,
+      "auroc": 0.8550044444444445,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ind_Latn": {
+      "n": 750,
+      "acc": 0.7773333333333333,
+      "auroc": 0.8862435555555556,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ita_Latn": {
+      "n": 750,
+      "acc": 0.7973333333333333,
+      "auroc": 0.8965262222222222,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "jpn_Jpan": {
+      "n": 750,
+      "acc": 0.7786666666666666,
+      "auroc": 0.8952035555555555,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "kor_Hang": {
+      "n": 750,
+      "acc": 0.776,
+      "auroc": 0.9049244444444444,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "mar_Deva": {
+      "n": 750,
+      "acc": 0.7026666666666667,
+      "auroc": 0.8172657777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 750,
+      "acc": 0.7906666666666666,
+      "auroc": 0.898624,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 750,
+      "acc": 0.76,
+      "auroc": 0.8974506666666666,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "rus_Cyrl": {
+      "n": 750,
+      "acc": 0.8106666666666666,
+      "auroc": 0.9286257777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "slk_Latn": {
+      "n": 750,
+      "acc": 0.752,
+      "auroc": 0.8717653333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "spa_Latn": {
+      "n": 750,
+      "acc": 0.8146666666666667,
+      "auroc": 0.9376,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 750,
+      "acc": 0.6666666666666666,
+      "auroc": 0.7744,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tel_Telu": {
+      "n": 750,
+      "acc": 0.716,
+      "auroc": 0.8183893333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tha_Thai": {
+      "n": 780,
+      "acc": 0.708974358974359,
+      "auroc": 0.7961538461538461,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tur_Latn": {
+      "n": 750,
+      "acc": 0.7786666666666666,
+      "auroc": 0.8781013333333333,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "vie_Latn": {
+      "n": 750,
+      "acc": 0.8,
+      "auroc": 0.9215928888888889,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 750,
+      "acc": 0.6626666666666666,
+      "auroc": 0.7538204444444444,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 750,
+      "acc": 0.76,
+      "auroc": 0.8602097777777777,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_passage_language": {
+    "arb_Arab": {
+      "n": 780,
+      "acc": 0.7794871794871795,
+      "auroc": 0.8913740959894806,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ben_Beng": {
+      "n": 780,
+      "acc": 0.735897435897436,
+      "auroc": 0.8297501643655489,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ces_Latn": {
+      "n": 780,
+      "acc": 0.7871794871794872,
+      "auroc": 0.8889349112426036,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ckb_Arab": {
+      "n": 780,
+      "acc": 0.7256410256410256,
+      "auroc": 0.8460880999342538,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "deu_Latn": {
+      "n": 780,
+      "acc": 0.7717948717948718,
+      "auroc": 0.8935831689677843,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 780,
+      "acc": 0.7730769230769231,
+      "auroc": 0.9082051282051282,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fin_Latn": {
+      "n": 780,
+      "acc": 0.7564102564102564,
+      "auroc": 0.8741946088099934,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "fra_Latn": {
+      "n": 780,
+      "acc": 0.7897435897435897,
+      "auroc": 0.907008547008547,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 780,
+      "acc": 0.7230769230769231,
+      "auroc": 0.8444904667981591,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hin_Deva": {
+      "n": 780,
+      "acc": 0.735897435897436,
+      "auroc": 0.8339316239316239,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ind_Latn": {
+      "n": 780,
+      "acc": 0.7871794871794872,
+      "auroc": 0.8974358974358975,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "ita_Latn": {
+      "n": 780,
+      "acc": 0.7846153846153846,
+      "auroc": 0.8960157790927021,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "jpn_Jpan": {
+      "n": 780,
+      "acc": 0.7794871794871795,
+      "auroc": 0.8725378040762656,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "kor_Hang": {
+      "n": 780,
+      "acc": 0.8,
+      "auroc": 0.8936686390532544,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "mar_Deva": {
+      "n": 780,
+      "acc": 0.6871794871794872,
+      "auroc": 0.7975805391190006,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 780,
+      "acc": 0.7589743589743589,
+      "auroc": 0.8884549638395792,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 780,
+      "acc": 0.7884615384615384,
+      "auroc": 0.9003484549638395,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "rus_Cyrl": {
+      "n": 780,
+      "acc": 0.767948717948718,
+      "auroc": 0.8982051282051282,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "slk_Latn": {
+      "n": 780,
+      "acc": 0.8038461538461539,
+      "auroc": 0.9088757396449704,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "spa_Latn": {
+      "n": 780,
+      "acc": 0.7461538461538462,
+      "auroc": 0.8800920447074293,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 780,
+      "acc": 0.7038461538461539,
+      "auroc": 0.8359500328731098,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tel_Telu": {
+      "n": 780,
+      "acc": 0.7064102564102565,
+      "auroc": 0.7988494411571334,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "tur_Latn": {
+      "n": 780,
+      "acc": 0.767948717948718,
+      "auroc": 0.8706311637080868,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "vie_Latn": {
+      "n": 780,
+      "acc": 0.7782051282051282,
+      "auroc": 0.8757725180802104,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 780,
+      "acc": 0.6653846153846154,
+      "auroc": 0.769973701512163,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 780,
+      "acc": 0.732051282051282,
+      "auroc": 0.8689217619986851,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_seen_group": {
+    "trained on": {
+      "n": 19530,
+      "acc": 0.7538658474142345,
+      "auroc": 0.866345084918,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "never seen": {
+      "n": 750,
+      "acc": 0.7906666666666666,
+      "auroc": 0.9370737777777778,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_script": {
+    "same script": {
+      "n": 6540,
+      "acc": 0.767125382262997,
+      "auroc": 0.8857605513939156,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "different script": {
+      "n": 13740,
+      "acc": 0.7495633187772925,
+      "auroc": 0.861210429074791,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_script_within_passage_language": {
+    "arb_Arab": {
+      "same_script": 0.8600000000000001,
+      "different_script": 0.8931481481481484,
+      "delta": 0.03314814814814826,
+      "n_same_script_pairs": 2
+    },
+    "ces_Latn": {
+      "same_script": 0.8974603174603174,
+      "different_script": 0.8774074074074073,
+      "delta": -0.0200529100529101,
+      "n_same_script_pairs": 14
+    },
+    "ckb_Arab": {
+      "same_script": 0.8311111111111111,
+      "different_script": 0.8481481481481481,
+      "delta": 0.01703703703703696,
+      "n_same_script_pairs": 2
+    },
+    "deu_Latn": {
+      "same_script": 0.9047619047619048,
+      "different_script": 0.8692592592592593,
+      "delta": -0.03550264550264548,
+      "n_same_script_pairs": 14
+    },
+    "eng_Latn": {
+      "same_script": 0.9215873015873015,
+      "different_script": 0.8907407407407408,
+      "delta": -0.030846560846560678,
+      "n_same_script_pairs": 14
+    },
+    "fin_Latn": {
+      "same_script": 0.8825396825396826,
+      "different_script": 0.8588888888888889,
+      "delta": -0.0236507936507937,
+      "n_same_script_pairs": 14
+    },
+    "fra_Latn": {
+      "same_script": 0.906984126984127,
+      "different_script": 0.9007407407407406,
+      "delta": -0.006243386243386384,
+      "n_same_script_pairs": 14
+    },
+    "hat_Latn": {
+      "same_script": 0.8352380952380952,
+      "different_script": 0.8451851851851853,
+      "delta": 0.009947089947090038,
+      "n_same_script_pairs": 14
+    },
+    "hin_Deva": {
+      "same_script": 0.7911111111111111,
+      "different_script": 0.8378666666666666,
+      "delta": 0.04675555555555555,
+      "n_same_script_pairs": 1
+    },
+    "ind_Latn": {
+      "same_script": 0.899047619047619,
+      "different_script": 0.8874074074074074,
+      "delta": -0.011640211640211562,
+      "n_same_script_pairs": 14
+    },
+    "ita_Latn": {
+      "same_script": 0.9060317460317461,
+      "different_script": 0.8844444444444447,
+      "delta": -0.021587301587301377,
+      "n_same_script_pairs": 14
+    },
+    "mar_Deva": {
+      "same_script": 0.8133333333333334,
+      "different_script": 0.8012444444444445,
+      "delta": -0.012088888888888816,
+      "n_same_script_pairs": 1
+    },
+    "pes_Arab": {
+      "same_script": 0.8511111111111112,
+      "different_script": 0.8927777777777778,
+      "delta": 0.04166666666666663,
+      "n_same_script_pairs": 2
+    },
+    "por_Latn": {
+      "same_script": 0.9044444444444446,
+      "different_script": 0.8811111111111112,
+      "delta": -0.023333333333333428,
+      "n_same_script_pairs": 14
+    },
+    "slk_Latn": {
+      "same_script": 0.9174603174603175,
+      "different_script": 0.8951851851851851,
+      "delta": -0.022275132275132448,
+      "n_same_script_pairs": 14
+    },
+    "spa_Latn": {
+      "same_script": 0.8822222222222222,
+      "different_script": 0.8681481481481481,
+      "delta": -0.014074074074074128,
+      "n_same_script_pairs": 14
+    },
+    "swh_Latn": {
+      "same_script": 0.8330158730158731,
+      "different_script": 0.8325925925925927,
+      "delta": -0.0004232804232804366,
+      "n_same_script_pairs": 14
+    },
+    "tur_Latn": {
+      "same_script": 0.8803174603174603,
+      "different_script": 0.8562962962962962,
+      "delta": -0.024021164021164054,
+      "n_same_script_pairs": 14
+    },
+    "vie_Latn": {
+      "same_script": 0.8853968253968255,
+      "different_script": 0.861111111111111,
+      "delta": -0.024285714285714466,
+      "n_same_script_pairs": 14
+    },
+    "yor_Latn": {
+      "same_script": 0.7707936507936509,
+      "different_script": 0.7833333333333333,
+      "delta": 0.012539682539682406,
+      "n_same_script_pairs": 14
+    }
+  },
+  "by_script_within_mean_delta": -0.005446560846560861
+}

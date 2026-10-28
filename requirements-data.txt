@@ -1,0 +1,5 @@
+# Dataset builders (CPU only). Training needs requirements.txt.
+huggingface_hub
+pandas
+pyarrow
+sacrebleu

@@ -1,0 +1,100 @@
+{
+  "passage_id": "udhr_p009",
+  "articles": [
+    "24",
+    "25"
+  ],
+  "passage": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+  "questions": [
+    {
+      "question": "What does the right to rest and leisure include?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Reasonable limitation of working hours and periodic holidays with pay.",
+      "source_article": "24",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What is the maximum number of working hours permitted per week?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What is the second situation listed in which everyone has the right to security?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Sickness.",
+      "source_article": "25",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "Which two groups are entitled to special care and assistance?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Motherhood and childhood.",
+      "source_article": "25",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "In circumstances beyond his control.",
+      "source_article": "25",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Checked hard for an answer: the passage says only 'reasonable limitation of working hours' and gives no number, no week, no ceiling. Genuinely unanswerable, and the topic is close enough to the passage to be a real abstention test rather than an off-topic giveaway."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "fatal",
+      "issues": [
+        "Fragile ordinal. The original asked for 'the third item listed as part of an adequate standard of living' over the list 'food, clothing, housing and medical care and necessary social services'. That list is not rigidly enumerated: the two coordinating 'and's allow a reading in which 'housing and medical care' is a single item, which makes the third item 'housing and medical care' rather than 'Housing'.",
+        "The fragility is worse cross-lingually: this list is exactly the one UDHR translations regroup, so the ordinal cannot be relied on to survive translation of the passage.",
+        "Replaced with an ordinal over the only rigidly comma-delimited list in the passage ('unemployment, sickness, disability, widowhood, old age or other lack of livelihood'), where counting from the start is unambiguous and order is preserved in the standard translations. Second = sickness.",
+        "New answer 'Sickness.' verified as a literal substring of the passage; source_article 25; article_specific true because 'the right to security in the event of unemployment, sickness, ...' occurs only in Article 25."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Nit, not corrected: 'motherhood' and 'childhood' are states rather than 'groups', but the passage wording is reproduced faithfully and the exemplars use the same loose collective phrasing ('What three cultural and intellectual activities...')."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "minor",
+      "issues": [
+        "question_type was 'inferential', but the answer is lifted verbatim from the passage ('in circumstances beyond his control') with no inference required. Corrected to 'extractive'.",
+        "Question is on the long side (17 words) and slightly legalistic, but within exemplar range (cf. 'Under what condition might a person be forced to rebel against tyranny and oppression as a last resort?'), so the wording is left alone.",
+        "Answer, span flag, source_article and article_specific all verified correct."
+      ],
+      "action": "kept"
+    }
+  ]
+}

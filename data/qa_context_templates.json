@@ -1,0 +1,222 @@
+{
+  "task": "qa-context",
+  "sep": "\\n\\n",
+  "templates": {
+    "arb": {
+      "question_lang": "arb",
+      "n_rows": 360,
+      "intro": "لدي سؤال عن هذا المقطع:",
+      "q_prefix": "السؤال هو: ",
+      "instruction": "هل يمكنك أن تجيب بجملة واحدة، اعتمادًا فقط على ما يقوله المقطع؟ إذا لم تكن الإجابة موجودة في المقطع، فاكتب فقط \"لا توجد إجابة\". أجب بالعربية.",
+      "not_answerable": "لا توجد إجابة",
+      "sep": "\\n\\n"
+    },
+    "ben": {
+      "question_lang": "ben",
+      "n_rows": 360,
+      "intro": "এই অনুচ্ছেদটি নিয়ে আমার একটি প্রশ্ন আছে:",
+      "q_prefix": "প্রশ্নটি হলো: ",
+      "instruction": "শুধু অনুচ্ছেদে যা বলা হয়েছে তার ভিত্তিতে এক বাক্যে উত্তর দাও। যদি অনুচ্ছেদে উত্তর না থাকে, তাহলে শুধু \"উত্তর দেওয়া সম্ভব নয়\" লেখো। শুধু বাংলায় উত্তর দাও।",
+      "not_answerable": "উত্তর দেওয়া সম্ভব নয়",
+      "sep": "\\n\\n"
+    },
+    "bho": {
+      "question_lang": "bho",
+      "n_rows": 360,
+      "intro": "हमरा एह गद्यांश के बारे में एगो सवाल बा:",
+      "q_prefix": "सवाल: ",
+      "instruction": "का रउआ गद्यांश में जे लिखल बा, ओही के आधार पर एके वाक्य में जवाब दे सकीं? अगर गद्यांश में जवाब नइखे, त बस \"जवाब नइखे\" लिखीं। भोजपुरी में जवाब दीं।",
+      "not_answerable": "जवाब नइखे",
+      "sep": "\\n\\n"
+    },
+    "ces": {
+      "question_lang": "ces",
+      "n_rows": 360,
+      "intro": "Mám otázku k tomuto úryvku:",
+      "q_prefix": "Otázka zní: ",
+      "instruction": "Odpověz prosím jednou větou a použij jen to, co se píše v úryvku. Pokud v úryvku odpověď není, napiš jen \"bez odpovědi\". Odpověz česky.",
+      "not_answerable": "bez odpovědi",
+      "sep": "\\n\\n"
+    },
+    "ckb": {
+      "question_lang": "ckb",
+      "n_rows": 360,
+      "intro": "پرسیارێکم هەیە لەسەر ئەم دەقە:",
+      "q_prefix": "پرسیارەکە ئەمەیە: ",
+      "instruction": "تکایە تەنیا بە پێی ئەوەی لە دەقەکەدا هاتووە، بە یەک ڕستە وەڵام بدەرەوە. ئەگەر وەڵامەکە لە دەقەکەدا نەبوو، تەنا بنووسە \"وەڵامی نییە\". بە کوردیی ناوەندیی (سۆرانی) وەڵام بدەرەوە.",
+      "not_answerable": "وەڵامی نییە",
+      "sep": "\\n\\n"
+    },
+    "deu": {
+      "question_lang": "deu",
+      "n_rows": 360,
+      "intro": "Ich habe eine Frage zu diesem Abschnitt:",
+      "q_prefix": "Die Frage ist: ",
+      "instruction": "Kannst du bitte in einem einzigen Satz antworten und nur das verwenden, was im Abschnitt steht? Wenn der Abschnitt die Antwort nicht enthält, schreib einfach \"nicht beantwortbar\". Antworte auf Deutsch.",
+      "not_answerable": "nicht beantwortbar",
+      "sep": "\\n\\n"
+    },
+    "eng": {
+      "question_lang": "eng",
+      "n_rows": 360,
+      "intro": "I have a question about this passage:",
+      "q_prefix": "The question is: ",
+      "instruction": "Could you please answer in one sentence, using only what the passage says? If the passage doesn’t give the answer, just write \"not answerable\". Please answer in English.",
+      "not_answerable": "not answerable",
+      "sep": "\\n\\n"
+    },
+    "fin": {
+      "question_lang": "fin",
+      "n_rows": 360,
+      "intro": "Minulla on kysymys tästä katkelmasta:",
+      "q_prefix": "Kysymys on: ",
+      "instruction": "Voitko vastata yhdellä lauseella vain katkelman pohjalta? Jos katkelma ei sisällä vastausta, kirjoita vain \"ei vastattavissa\". Vastaa suomeksi.",
+      "not_answerable": "ei vastattavissa",
+      "sep": "\\n\\n"
+    },
+    "hat": {
+      "question_lang": "hat",
+      "n_rows": 360,
+      "intro": "Mwen gen yon kesyon konsènan pasaj sa a:",
+      "q_prefix": "Kesyon an se: ",
+      "instruction": "Tanpri reponn nan yon sèl fraz, dapre sa pasaj la di sèlman. Si repons lan pa nan pasaj la, ekri sèlman \"pa gen repons\". Reponn an kreyòl ayisyen.",
+      "not_answerable": "pa gen repons",
+      "sep": "\\n\\n"
+    },
+    "hin": {
+      "question_lang": "hin",
+      "n_rows": 360,
+      "intro": "मेरा इस अनुच्छेद के बारे में एक सवाल है:",
+      "q_prefix": " यह रहा सवाल: ",
+      "instruction": "कृपया सिर्फ अनुच्छेद में लिखी बातों के आधार पर एक वाक्य में जवाब दें। अगर अनुच्छेद में जवाब नहीं है, तो सिर्फ \"जवाब नहीं दिया जा सकता\" लिखें। हिंदी में जवाब दें।",
+      "not_answerable": "जवाब नहीं दिया जा सकता",
+      "sep": "\\n\\n"
+    },
+    "ind": {
+      "question_lang": "ind",
+      "n_rows": 360,
+      "intro": "Saya punya pertanyaan tentang bacaan ini:",
+      "q_prefix": "Pertanyaannya adalah: ",
+      "instruction": "Tolong jawab dalam satu kalimat, hanya berdasarkan isi bacaan tersebut. Kalau jawabannya tidak ada di bacaan, tulis saja \"tidak bisa dijawab\". Jawab dalam bahasa Indonesia.",
+      "not_answerable": "tidak bisa dijawab",
+      "sep": "\\n\\n"
+    },
+    "ita": {
+      "question_lang": "ita",
+      "n_rows": 360,
+      "intro": "Ho una domanda su questo estratto:",
+      "q_prefix": "La domanda è: ",
+      "instruction": "Puoi gentilmente rispondere con una sola frase, basandoti solo su quanto detto nell'estratto? Se nell'estratto non c’è la risposta, scrivi solo \"impossibile rispondere\". Rispondi in italiano.",
+      "not_answerable": "impossibile rispondere",
+      "sep": "\\n\\n"
+    },
+    "jpn": {
+      "question_lang": "jpn",
+      "n_rows": 360,
+      "intro": "この文章について質問があります。",
+      "q_prefix": "質問はこれです：",
+      "instruction": "文章に書かれていることだけを使って、一文で答えてください。文章の中に答えがない場合は、\"答えられません\"とだけ書いてください。日本語で答えてください。",
+      "not_answerable": "答えられません",
+      "sep": "\\n\\n"
+    },
+    "kor": {
+      "question_lang": "kor",
+      "n_rows": 360,
+      "intro": "이 글에 대해 질문이 있습니다:",
+      "q_prefix": "질문은 다음과 같습니다: ",
+      "instruction": "글에 나온 내용만 바탕으로 한 문장으로 답해 주세요. 글에 답이 없다면 \"답할 수 없음\"이라고만 써 주세요. 한국어로 답해 주세요.",
+      "not_answerable": "답할 수 없음",
+      "sep": "\\n\\n"
+    },
+    "mar": {
+      "question_lang": "mar",
+      "n_rows": 360,
+      "intro": "या उताऱ्याबद्दल मला एक प्रश्न आहे:",
+      "q_prefix": "प्रश्न असा आहे: ",
+      "instruction": "फक्त उताऱ्यात जे लिहिले आहे त्यावर आधारित एका वाक्यात उत्तर द्यावे. जर उताऱ्यात उत्तर नसेल, तर फक्त \"उत्तर देता येत नाही\" असे लिहावे. कृपया मराठीत उत्तर द्यावे.",
+      "not_answerable": "उत्तर देता येत नाही",
+      "sep": "\\n\\n"
+    },
+    "pes": {
+      "question_lang": "pes",
+      "n_rows": 360,
+      "intro": "من درباره این متن یک سؤال دارم:",
+      "q_prefix": "سؤال این است: ",
+      "instruction": "لطفاً فقط بر اساس آنچه در متن آمده، در یک جمله جواب بده. اگر جواب در متن نیست، فقط بنویس «پاسخی ندارد». به فارسی جواب بده.",
+      "not_answerable": "پاسخی ندارد",
+      "sep": "\\n\\n"
+    },
+    "por": {
+      "question_lang": "por",
+      "n_rows": 360,
+      "intro": "Tenho uma pergunta sobre este trecho:",
+      "q_prefix": "A pergunta é: ",
+      "instruction": "Você pode responder em uma única frase, usando apenas o que o trecho diz? Se o trecho não trouxer a resposta, escreva apenas \"não dá para responder\". Responda em português.",
+      "not_answerable": "não dá para responder",
+      "sep": "\\n\\n"
+    },
+    "rus": {
+      "question_lang": "rus",
+      "n_rows": 360,
+      "intro": "Я хочу задать вопрос по следующему отрывку:",
+      "q_prefix": "Вопрос: ",
+      "instruction": "Ответь, пожалуйста, одним предложением, используя только то, что сказано в отрывке. Если в отрывке нет ответа, напиши только «нет ответа». Отвечай на русском.",
+      "not_answerable": "нет ответа",
+      "sep": "\\n\\n"
+    },
+    "slk": {
+      "question_lang": "slk",
+      "n_rows": 360,
+      "intro": "Mám otázku k tomuto úryvku:",
+      "q_prefix": "Otázka znie: ",
+      "instruction": "Odpovedz, prosím, jednou vetou a použi iba to, čo sa píše v úryvku. Ak úryvok odpoveď neobsahuje, napíš iba \"bez odpovede\". Odpovedz po slovensky.",
+      "not_answerable": "bez odpovede",
+      "sep": "\\n\\n"
+    },
+    "spa": {
+      "question_lang": "spa",
+      "n_rows": 360,
+      "intro": "Tengo una pregunta sobre este texto:",
+      "q_prefix": "La pregunta es: ",
+      "instruction": "¿Puedes responder en una sola frase, usando solo lo que dice el texto? Si el texto no da la respuesta, escribe solo \"no se puede responder\". Responde en español, por favor.",
+      "not_answerable": "no se puede responder",
+      "sep": "\\n\\n"
+    },
+    "tur": {
+      "question_lang": "tur",
+      "n_rows": 360,
+      "intro": "Bu metinle ilgili bir sorum var:",
+      "q_prefix": "Soru şu: ",
+      "instruction": "Sadece metinde yazanlara dayanarak tek bir cümleyle cevap verir misiniz? Cevap metinde yoksa, sadece \"cevaplanamaz\" yazın. Türkçe cevap verin.",
+      "not_answerable": "cevaplanamaz",
+      "sep": "\\n\\n"
+    },
+    "vie": {
+      "question_lang": "vie",
+      "n_rows": 360,
+      "intro": "Tôi có một câu hỏi về đoạn văn này:",
+      "q_prefix": "Câu hỏi là: ",
+      "instruction": "Bạn hãy trả lời trong một câu, chỉ dựa vào những gì đoạn văn nói. Nếu trong đoạn văn không có câu trả lời, chỉ viết \"không trả lời được\". Hãy trả lời bằng tiếng Việt.",
+      "not_answerable": "không trả lời được",
+      "sep": "\\n\\n"
+    },
+    "yor": {
+      "question_lang": "yor",
+      "n_rows": 360,
+      "intro": "Mo ní ìbéèrè kan nípa àyọkà yìí:",
+      "q_prefix": "Ìbéèrè náà ni: ",
+      "instruction": "Jọ̀wọ́ dáhùn ní gbolóhùn kan ṣoṣo, kí o sì lo ohun tí àyọkà náà sọ nìkan. Tí ìdáhùn kò bá sí nínú àyọkà náà, kọ \"kò sí ìdáhùn\" nìkan. Dáhùn ní èdè Yorùbá.",
+      "not_answerable": "kò sí ìdáhùn",
+      "sep": "\\n\\n"
+    },
+    "zho": {
+      "question_lang": "zho",
+      "n_rows": 360,
+      "intro": "我对这段文字有个问题：",
+      "q_prefix": "问题是：",
+      "instruction": "你能只根据这段文字的内容，用一句话回答吗？如果文中没有答案，就只写“无法回答”。请用中文回答。",
+      "not_answerable": "无法回答",
+      "sep": "\\n\\n"
+    }
+  }
+}

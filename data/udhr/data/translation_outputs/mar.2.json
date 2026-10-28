@@ -1,0 +1,900 @@
+{
+ "lang": "mar",
+ "lang_name": "Marathi",
+ "half": 2,
+ "of": 2,
+ "not_answerable_literal": "उत्तर देता येत नाही",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i046",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of order is everyone entitled to so that the rights and freedoms of this Declaration can be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे. समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा कोणत्या प्रकारच्या व्यवस्थेचा प्रत्येकास हक्क आहे?",
+   "answer_tgt": "सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i047",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Which just requirements may limitations on a person's rights be imposed to meet?",
+   "answer_eng": "Morality, public order and the general welfare in a democratic society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे. समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "लोकशाही समाजव्यवस्थेत कोणत्या बाबींसंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण करण्यासाठी व्यक्तीच्या अधिकारांवर मर्यादा घालता येतात?",
+   "answer_tgt": "नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i048",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what is the only setting in which a person's personality can freely and fully develop?",
+   "answer_eng": "The community.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे. समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "मजकुरानुसार, व्यक्तीच्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे कोठे करता येतो?",
+   "answer_tgt": "समाजामध्येच.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i049",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to whose purposes and principles may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे. समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "कोणाचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा वापर कोणत्याहि स्थितीत करता कामा नये?",
+   "answer_tgt": "संयुक्त राष्ट्रांचे.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i050",
+   "passage_id": "udhr_p010",
+   "articles": [
+    "28",
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "How many member states does the United Nations have?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized. Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे. समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "संयुक्त राष्ट्रांचे सदस्य असलेली राष्ट्रे किती आहेत?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i051",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "Which three kinds of actors may not claim a right to destroy the rights set forth in this Declaration?",
+   "answer_eng": "Any State, group or person.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतहि हालचाल करण्याचा किंवा कोणतेही कृत्य करण्याचा अधिकार कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा अर्थ लावता कामा नये.",
+   "question_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार नष्ट करण्याचा अधिकार कोणत्या तीन घटकांना आहे असे ध्वनित होता कामा नये?",
+   "answer_tgt": "कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i052",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "How much of this Declaration may be interpreted as implying a right to destroy the rights it sets forth?",
+   "answer_eng": "Nothing in this Declaration.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतहि हालचाल करण्याचा किंवा कोणतेही कृत्य करण्याचा अधिकार कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा अर्थ लावता कामा नये.",
+   "question_tgt": "अधिकार नष्ट करण्याचा अधिकार आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कशाचा अर्थ लावता कामा नये?",
+   "answer_tgt": "ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i053",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "What two forms of conduct are mentioned that the Declaration may not be read as permitting?",
+   "answer_eng": "Engaging in any activity or performing any act aimed at the destruction of the rights and freedoms it sets forth.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतहि हालचाल करण्याचा किंवा कोणतेही कृत्य करण्याचा अधिकार कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा अर्थ लावता कामा नये.",
+   "question_tgt": "ह्या जाहीरनाम्यातून ज्यांचा अधिकार ध्वनित होत नाही अशा कोणत्या दोन कृती मजकुरात नमूद केल्या आहेत?",
+   "answer_tgt": "अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतीही हालचाल करणे किंवा कोणतेही कृत्य करणे.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i054",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": true,
+   "question_eng": "At what are the forbidden activities and acts aimed?",
+   "answer_eng": "The destruction of any of the rights and freedoms set forth in the Declaration.",
+   "answer_is_span": false,
+   "question_type": "extractive",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतहि हालचाल करण्याचा किंवा कोणतेही कृत्य करण्याचा अधिकार कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा अर्थ लावता कामा नये.",
+   "question_tgt": "निषिद्ध हालचाली व कृत्ये कोणत्या उद्देशाने केलेली असतात?",
+   "answer_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i055",
+   "passage_id": "udhr_p011",
+   "articles": [
+    "30"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether an activity is aimed at the destruction of these rights?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.",
+   "passage_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेल्या अधिकारांपकी कोणतेहि अधिकार व स्वातंत्र्ये नष्ट करण्याच्या उद्देशाने कोणतहि हालचाल करण्याचा किंवा कोणतेही कृत्य करण्याचा अधिकार कोणत्याहि राष्ट्रास, गटास किंवा व्यक्तीस आहे असे ध्वनित होईल अशा रीतीने ह्या जाहीरनाम्यातील कोणत्याहि मजकुराचा अर्थ लावता कामा नये.",
+   "question_tgt": "एखादी हालचाल ह्या अधिकारांच्या नाशाच्या उद्देशाने केलेली आहे की नाही हे कोणता प्राधिकारी ठरवतो?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i056",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, which four things must no one suffer arbitrary interference with?",
+   "answer_eng": "His privacy, family, home or correspondence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "कोणाचेहि खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार यांच्या संबंधात स्वच्छंद ढवळाढवळ होता कामा नये; त्याचप्रमाणे त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला होता कामा नये. अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास कायद्याने संरक्षण मिळण्याचा अधिकार आहे.",
+   "question_tgt": "मजकुरानुसार, कोणत्या चार गोष्टींच्या संबंधात कोणाचीहि स्वच्छंद ढवळाढवळ होता कामा नये?",
+   "answer_tgt": "खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i057",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "Besides interference with privacy and family, what else shall no one be subjected to?",
+   "answer_eng": "Attacks upon his honour and reputation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "कोणाचेहि खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार यांच्या संबंधात स्वच्छंद ढवळाढवळ होता कामा नये; त्याचप्रमाणे त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला होता कामा नये. अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास कायद्याने संरक्षण मिळण्याचा अधिकार आहे.",
+   "question_tgt": "खाजगी जीवन व कुटुंब यांच्या संबंधातील ढवळाढवळीखेरीज आणखी काय होता कामा नये?",
+   "answer_tgt": "त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i058",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation is awarded to a person whose honour and reputation have been attacked?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "कोणाचेहि खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार यांच्या संबंधात स्वच्छंद ढवळाढवळ होता कामा नये; त्याचप्रमाणे त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला होता कामा नये. अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास कायद्याने संरक्षण मिळण्याचा अधिकार आहे.",
+   "question_tgt": "ज्या व्यक्तीच्या प्रतिष्ठेवर व नावलौकिकावर हल्ला झाला आहे तिला किती नुकसानभरपाई दिली जाते?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i059",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last item listed as protected from arbitrary interference?",
+   "answer_eng": "Correspondence.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "कोणाचेहि खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार यांच्या संबंधात स्वच्छंद ढवळाढवळ होता कामा नये; त्याचप्रमाणे त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला होता कामा नये. अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास कायद्याने संरक्षण मिळण्याचा अधिकार आहे.",
+   "question_tgt": "स्वच्छंद ढवळाढवळीपासून संरक्षण मिळणार्‍या गोष्टींच्या यादीतील शेवटची गोष्ट कोणती?",
+   "answer_tgt": "पत्रव्यवहार.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i060",
+   "passage_id": "udhr_p012",
+   "articles": [
+    "12"
+   ],
+   "answerable": true,
+   "question_eng": "What is everyone entitled to rely on for protection against such interference or attacks?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.",
+   "passage_tgt": "कोणाचेहि खाजगी जीवन, त्याचे कुटुंब, घर अथवा त्याचा पत्रव्यवहार यांच्या संबंधात स्वच्छंद ढवळाढवळ होता कामा नये; त्याचप्रमाणे त्याची प्रतिष्ठा किंवा नावलौकिक यावर हल्ला होता कामा नये. अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास कायद्याने संरक्षण मिळण्याचा अधिकार आहे.",
+   "question_tgt": "अशी ढवळाढवळ किंवा हल्ला झाल्यास त्याविरुद्ध प्रत्येकास काय मिळण्याचा अधिकार आहे?",
+   "answer_tgt": "कायद्याने संरक्षण.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i061",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have the right to freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "प्रत्येकास प्रत्येक राष्ट्राच्या हद्दीत संचार व वास्तव्य करण्याचे स्वातंत्र्य असण्याचा अधिकार आहे. प्रत्येकास स्वतःचा देश धरून कोणताहि देश सोडून जाण्याचा अथवा स्वतःच्या देशात परत येण्याचा अधिकार आहे. प्रत्येकास छळापासून मुक्तता करून धेण्यासाठी इतर देशात आश्रय मिळविण्याचा व तो उपभोगण्याचा अधिकार आहे. अराजकीय स्वरूपाच्या गुन्ह्यांच्या संबंधात अथवा संयुक्त राष्ट्र संघटनेच्या उद्दिष्टांशी व तत्वांशी विरुद्ध असलेल्या कृत्यांच्या संबंधात वस्तुतः उद्‌भवलेल्या खटल्यांच्या बाबतीत प्रस्तुत अधिकाराचा आश्रय घेता येणार नाही. प्रत्येकांस राष्ट्रीयत्व मिळण्याचा अधिकार आहे. कोणाचेही राष्ट्रीयत्व स्वच्छंदतः हिरावून धेतले जाता कामा नये. तसेच कोणासही आपले राष्ट्रीयत्व बदलण्याचा अधिकार नाकारता कामा नये.",
+   "question_tgt": "प्रत्येकास संचार व वास्तव्य करण्याचे स्वातंत्र्य कोठे असण्याचा अधिकार आहे?",
+   "answer_tgt": "प्रत्येक राष्ट्राच्या हद्दीत.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i062",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "From what does everyone have the right to seek and to enjoy asylum in other countries?",
+   "answer_eng": "Persecution.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "प्रत्येकास प्रत्येक राष्ट्राच्या हद्दीत संचार व वास्तव्य करण्याचे स्वातंत्र्य असण्याचा अधिकार आहे. प्रत्येकास स्वतःचा देश धरून कोणताहि देश सोडून जाण्याचा अथवा स्वतःच्या देशात परत येण्याचा अधिकार आहे. प्रत्येकास छळापासून मुक्तता करून धेण्यासाठी इतर देशात आश्रय मिळविण्याचा व तो उपभोगण्याचा अधिकार आहे. अराजकीय स्वरूपाच्या गुन्ह्यांच्या संबंधात अथवा संयुक्त राष्ट्र संघटनेच्या उद्दिष्टांशी व तत्वांशी विरुद्ध असलेल्या कृत्यांच्या संबंधात वस्तुतः उद्‌भवलेल्या खटल्यांच्या बाबतीत प्रस्तुत अधिकाराचा आश्रय घेता येणार नाही. प्रत्येकांस राष्ट्रीयत्व मिळण्याचा अधिकार आहे. कोणाचेही राष्ट्रीयत्व स्वच्छंदतः हिरावून धेतले जाता कामा नये. तसेच कोणासही आपले राष्ट्रीयत्व बदलण्याचा अधिकार नाकारता कामा नये.",
+   "question_tgt": "प्रत्येकास इतर देशात आश्रय मिळविण्याचा अधिकार कशापासून मुक्तता करून घेण्यासाठी आहे?",
+   "answer_tgt": "छळापासून.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i063",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a prosecution genuinely arises from a non‐political crime?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "प्रत्येकास प्रत्येक राष्ट्राच्या हद्दीत संचार व वास्तव्य करण्याचे स्वातंत्र्य असण्याचा अधिकार आहे. प्रत्येकास स्वतःचा देश धरून कोणताहि देश सोडून जाण्याचा अथवा स्वतःच्या देशात परत येण्याचा अधिकार आहे. प्रत्येकास छळापासून मुक्तता करून धेण्यासाठी इतर देशात आश्रय मिळविण्याचा व तो उपभोगण्याचा अधिकार आहे. अराजकीय स्वरूपाच्या गुन्ह्यांच्या संबंधात अथवा संयुक्त राष्ट्र संघटनेच्या उद्दिष्टांशी व तत्वांशी विरुद्ध असलेल्या कृत्यांच्या संबंधात वस्तुतः उद्‌भवलेल्या खटल्यांच्या बाबतीत प्रस्तुत अधिकाराचा आश्रय घेता येणार नाही. प्रत्येकांस राष्ट्रीयत्व मिळण्याचा अधिकार आहे. कोणाचेही राष्ट्रीयत्व स्वच्छंदतः हिरावून धेतले जाता कामा नये. तसेच कोणासही आपले राष्ट्रीयत्व बदलण्याचा अधिकार नाकारता कामा नये.",
+   "question_tgt": "एखादा खटला वस्तुतः अराजकीय स्वरूपाच्या गुन्ह्यातून उद्‌भवला आहे की नाही हे कोणता प्राधिकारी ठरवतो?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i064",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "Which countries does everyone have the right to leave?",
+   "answer_eng": "Any country, including his own.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "प्रत्येकास प्रत्येक राष्ट्राच्या हद्दीत संचार व वास्तव्य करण्याचे स्वातंत्र्य असण्याचा अधिकार आहे. प्रत्येकास स्वतःचा देश धरून कोणताहि देश सोडून जाण्याचा अथवा स्वतःच्या देशात परत येण्याचा अधिकार आहे. प्रत्येकास छळापासून मुक्तता करून धेण्यासाठी इतर देशात आश्रय मिळविण्याचा व तो उपभोगण्याचा अधिकार आहे. अराजकीय स्वरूपाच्या गुन्ह्यांच्या संबंधात अथवा संयुक्त राष्ट्र संघटनेच्या उद्दिष्टांशी व तत्वांशी विरुद्ध असलेल्या कृत्यांच्या संबंधात वस्तुतः उद्‌भवलेल्या खटल्यांच्या बाबतीत प्रस्तुत अधिकाराचा आश्रय घेता येणार नाही. प्रत्येकांस राष्ट्रीयत्व मिळण्याचा अधिकार आहे. कोणाचेही राष्ट्रीयत्व स्वच्छंदतः हिरावून धेतले जाता कामा नये. तसेच कोणासही आपले राष्ट्रीयत्व बदलण्याचा अधिकार नाकारता कामा नये.",
+   "question_tgt": "प्रत्येकास कोणता देश सोडून जाण्याचा अधिकार आहे?",
+   "answer_tgt": "स्वतःचा देश धरून कोणताहि देश.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i065",
+   "passage_id": "udhr_p013",
+   "articles": [
+    "13",
+    "14",
+    "15"
+   ],
+   "answerable": true,
+   "question_eng": "What two things does the text forbid in relation to a person's nationality?",
+   "answer_eng": "Arbitrarily depriving him of his nationality and denying him the right to change it.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations. Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality.",
+   "passage_tgt": "प्रत्येकास प्रत्येक राष्ट्राच्या हद्दीत संचार व वास्तव्य करण्याचे स्वातंत्र्य असण्याचा अधिकार आहे. प्रत्येकास स्वतःचा देश धरून कोणताहि देश सोडून जाण्याचा अथवा स्वतःच्या देशात परत येण्याचा अधिकार आहे. प्रत्येकास छळापासून मुक्तता करून धेण्यासाठी इतर देशात आश्रय मिळविण्याचा व तो उपभोगण्याचा अधिकार आहे. अराजकीय स्वरूपाच्या गुन्ह्यांच्या संबंधात अथवा संयुक्त राष्ट्र संघटनेच्या उद्दिष्टांशी व तत्वांशी विरुद्ध असलेल्या कृत्यांच्या संबंधात वस्तुतः उद्‌भवलेल्या खटल्यांच्या बाबतीत प्रस्तुत अधिकाराचा आश्रय घेता येणार नाही. प्रत्येकांस राष्ट्रीयत्व मिळण्याचा अधिकार आहे. कोणाचेही राष्ट्रीयत्व स्वच्छंदतः हिरावून धेतले जाता कामा नये. तसेच कोणासही आपले राष्ट्रीयत्व बदलण्याचा अधिकार नाकारता कामा नये.",
+   "question_tgt": "व्यक्तीच्या राष्ट्रीयत्वाच्या संबंधात मजकुरात कोणत्या दोन गोष्टींना मनाई केली आहे?",
+   "answer_tgt": "राष्ट्रीयत्व स्वच्छंदतः हिरावून घेणे व राष्ट्रीयत्व बदलण्याचा अधिकार नाकारणे.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i066",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "Which limitations may not be placed on the right of men and women of full age to marry?",
+   "answer_eng": "Race, nationality or religion.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना वंश, राष्ट्रीयत्व अथवा धर्म यांचे कोणतेही बंधन, कोणताही निर्बंध न ठेवता विवाह करण्याचा व कौटुंबिक जीवन जगण्याचा अधिकार आहे. विवाहाच्या संबंधात वैवाहिक जीवन चालू असताना आणि विवाह विच्छेदनाच्या वेळी त्यांना समान अधिकार मिळण्याचा हक्क आहे. नियोजित जोडीदारांनी स्वेच्छेने व पूर्ण संमती दिली असेल तरच विवाह करावा. कुटुंब हे समाजाचा एक स्वाभाविक व मूलभूत सामूहिक घटक आहे. व त्यास समाजाकडून आणि शासनाकडून संरक्षण मिळण्याचा हक्क आहे. प्रत्येकास एकट्याच्या नावावर तसेच इतरांबरोबर मालमात्त धारण करण्याचा अधिकार आहे. कोणाचीही मालमत्ता स्वच्छंदतः हिरावून धेतली जाता कामा नये. प्रत्येकास शांततापूर्ण सभा स्वातंत्र्य व संघटना असण्याचा अधिकार आहे. कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "question_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना विवाह करण्याच्या अधिकारावर कशाचे बंधन ठेवता येत नाही?",
+   "answer_tgt": "वंश, राष्ट्रीयत्व अथवा धर्म.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i067",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "What is required before a marriage may be entered into?",
+   "answer_eng": "The free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना वंश, राष्ट्रीयत्व अथवा धर्म यांचे कोणतेही बंधन, कोणताही निर्बंध न ठेवता विवाह करण्याचा व कौटुंबिक जीवन जगण्याचा अधिकार आहे. विवाहाच्या संबंधात वैवाहिक जीवन चालू असताना आणि विवाह विच्छेदनाच्या वेळी त्यांना समान अधिकार मिळण्याचा हक्क आहे. नियोजित जोडीदारांनी स्वेच्छेने व पूर्ण संमती दिली असेल तरच विवाह करावा. कुटुंब हे समाजाचा एक स्वाभाविक व मूलभूत सामूहिक घटक आहे. व त्यास समाजाकडून आणि शासनाकडून संरक्षण मिळण्याचा हक्क आहे. प्रत्येकास एकट्याच्या नावावर तसेच इतरांबरोबर मालमात्त धारण करण्याचा अधिकार आहे. कोणाचीही मालमत्ता स्वच्छंदतः हिरावून धेतली जाता कामा नये. प्रत्येकास शांततापूर्ण सभा स्वातंत्र्य व संघटना असण्याचा अधिकार आहे. कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "question_tgt": "विवाह करण्यापूर्वी काय आवश्यक आहे?",
+   "answer_tgt": "नियोजित जोडीदारांनी स्वेच्छेने दिलेली पूर्ण संमती.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i068",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": false,
+   "question_eng": "At what age is a person considered to be of full age for the purpose of marriage?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना वंश, राष्ट्रीयत्व अथवा धर्म यांचे कोणतेही बंधन, कोणताही निर्बंध न ठेवता विवाह करण्याचा व कौटुंबिक जीवन जगण्याचा अधिकार आहे. विवाहाच्या संबंधात वैवाहिक जीवन चालू असताना आणि विवाह विच्छेदनाच्या वेळी त्यांना समान अधिकार मिळण्याचा हक्क आहे. नियोजित जोडीदारांनी स्वेच्छेने व पूर्ण संमती दिली असेल तरच विवाह करावा. कुटुंब हे समाजाचा एक स्वाभाविक व मूलभूत सामूहिक घटक आहे. व त्यास समाजाकडून आणि शासनाकडून संरक्षण मिळण्याचा हक्क आहे. प्रत्येकास एकट्याच्या नावावर तसेच इतरांबरोबर मालमात्त धारण करण्याचा अधिकार आहे. कोणाचीही मालमत्ता स्वच्छंदतः हिरावून धेतली जाता कामा नये. प्रत्येकास शांततापूर्ण सभा स्वातंत्र्य व संघटना असण्याचा अधिकार आहे. कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "question_tgt": "विवाहासाठी व्यक्ती कोणत्या वयात वयात आलेली मानली जाते?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i069",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may a person own property?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना वंश, राष्ट्रीयत्व अथवा धर्म यांचे कोणतेही बंधन, कोणताही निर्बंध न ठेवता विवाह करण्याचा व कौटुंबिक जीवन जगण्याचा अधिकार आहे. विवाहाच्या संबंधात वैवाहिक जीवन चालू असताना आणि विवाह विच्छेदनाच्या वेळी त्यांना समान अधिकार मिळण्याचा हक्क आहे. नियोजित जोडीदारांनी स्वेच्छेने व पूर्ण संमती दिली असेल तरच विवाह करावा. कुटुंब हे समाजाचा एक स्वाभाविक व मूलभूत सामूहिक घटक आहे. व त्यास समाजाकडून आणि शासनाकडून संरक्षण मिळण्याचा हक्क आहे. प्रत्येकास एकट्याच्या नावावर तसेच इतरांबरोबर मालमात्त धारण करण्याचा अधिकार आहे. कोणाचीही मालमत्ता स्वच्छंदतः हिरावून धेतली जाता कामा नये. प्रत्येकास शांततापूर्ण सभा स्वातंत्र्य व संघटना असण्याचा अधिकार आहे. कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "question_tgt": "प्रत्येकास मालमत्ता कोणत्या दोन प्रकारे धारण करण्याचा अधिकार आहे?",
+   "answer_tgt": "एकट्याच्या नावावर तसेच इतरांबरोबर.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i070",
+   "passage_id": "udhr_p014",
+   "articles": [
+    "16",
+    "17",
+    "20"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, who may be compelled to belong to an association?",
+   "answer_eng": "No one may be compelled to belong to an association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State. Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association.",
+   "passage_tgt": "वयात आलेल्या पुरुषांना व स्त्रियांना वंश, राष्ट्रीयत्व अथवा धर्म यांचे कोणतेही बंधन, कोणताही निर्बंध न ठेवता विवाह करण्याचा व कौटुंबिक जीवन जगण्याचा अधिकार आहे. विवाहाच्या संबंधात वैवाहिक जीवन चालू असताना आणि विवाह विच्छेदनाच्या वेळी त्यांना समान अधिकार मिळण्याचा हक्क आहे. नियोजित जोडीदारांनी स्वेच्छेने व पूर्ण संमती दिली असेल तरच विवाह करावा. कुटुंब हे समाजाचा एक स्वाभाविक व मूलभूत सामूहिक घटक आहे. व त्यास समाजाकडून आणि शासनाकडून संरक्षण मिळण्याचा हक्क आहे. प्रत्येकास एकट्याच्या नावावर तसेच इतरांबरोबर मालमात्त धारण करण्याचा अधिकार आहे. कोणाचीही मालमत्ता स्वच्छंदतः हिरावून धेतली जाता कामा नये. प्रत्येकास शांततापूर्ण सभा स्वातंत्र्य व संघटना असण्याचा अधिकार आहे. कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "question_tgt": "मजकुरानुसार, कोणावर कोणत्याही संघटनेचा सभासद होण्याची सक्ती करता येते?",
+   "answer_tgt": "कोणाबरही कोणत्याही संघटनेचा सभासद होण्याची सक्ती असता कामा नये.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i071",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What shall be the basis of the authority of government?",
+   "answer_eng": "The will of the people.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "प्रत्येकास आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत आपल्या देशाच्या शासनात भाग घेण्याचा अधिकार आहे. प्रत्येकास आपल्या देशाच्या शासकीय सेवेत प्रवेश मिळण्याचा समान अधिकार आहे. जनतेची इच्छा ही शासकीय प्राधिकाराचा पाया असली पाहिजे. जनतेची ही इच्छा व समान व सार्वत्रिक मतदानाच्या अधिकारावर आधारलेल्या नियतकालिक व खर्‍याखुर्‍या निवडणुकांद्वारे व्यक्त झाली पाहिजे व या निवडणुका गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने धेतल्या पाहिजेत.",
+   "question_tgt": "शासकीय प्राधिकाराचा पाया काय असला पाहिजे?",
+   "answer_tgt": "जनतेची इच्छा.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i072",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways may everyone take part in the government of his country?",
+   "answer_eng": "Directly or through freely chosen representatives.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "प्रत्येकास आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत आपल्या देशाच्या शासनात भाग घेण्याचा अधिकार आहे. प्रत्येकास आपल्या देशाच्या शासकीय सेवेत प्रवेश मिळण्याचा समान अधिकार आहे. जनतेची इच्छा ही शासकीय प्राधिकाराचा पाया असली पाहिजे. जनतेची ही इच्छा व समान व सार्वत्रिक मतदानाच्या अधिकारावर आधारलेल्या नियतकालिक व खर्‍याखुर्‍या निवडणुकांद्वारे व्यक्त झाली पाहिजे व या निवडणुका गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने धेतल्या पाहिजेत.",
+   "question_tgt": "प्रत्येकास आपल्या देशाच्या शासनात कोणत्या दोन प्रकारे भाग घेण्याचा अधिकार आहे?",
+   "answer_tgt": "आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i073",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "By what voting method shall the elections be held?",
+   "answer_eng": "By secret vote or by equivalent free voting procedures.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "प्रत्येकास आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत आपल्या देशाच्या शासनात भाग घेण्याचा अधिकार आहे. प्रत्येकास आपल्या देशाच्या शासकीय सेवेत प्रवेश मिळण्याचा समान अधिकार आहे. जनतेची इच्छा ही शासकीय प्राधिकाराचा पाया असली पाहिजे. जनतेची ही इच्छा व समान व सार्वत्रिक मतदानाच्या अधिकारावर आधारलेल्या नियतकालिक व खर्‍याखुर्‍या निवडणुकांद्वारे व्यक्त झाली पाहिजे व या निवडणुका गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने धेतल्या पाहिजेत.",
+   "question_tgt": "या निवडणुका कोणत्या मतदानपद्धतीने घेतल्या पाहिजेत?",
+   "answer_tgt": "गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "अधिकृत मराठी मजकूर येथे विकृत आहे ('त्यासारख्याचा निधबँरहित' = 'त्यासारख्याच निर्बंधरहित'); span verbatim copied."
+  },
+  {
+   "item_id": "udhr_i074",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may vote in these elections?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "प्रत्येकास आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत आपल्या देशाच्या शासनात भाग घेण्याचा अधिकार आहे. प्रत्येकास आपल्या देशाच्या शासकीय सेवेत प्रवेश मिळण्याचा समान अधिकार आहे. जनतेची इच्छा ही शासकीय प्राधिकाराचा पाया असली पाहिजे. जनतेची ही इच्छा व समान व सार्वत्रिक मतदानाच्या अधिकारावर आधारलेल्या नियतकालिक व खर्‍याखुर्‍या निवडणुकांद्वारे व्यक्त झाली पाहिजे व या निवडणुका गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने धेतल्या पाहिजेत.",
+   "question_tgt": "या निवडणुकांत मतदान करण्यासाठी किमान वय किती आहे?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i075",
+   "passage_id": "udhr_p015",
+   "articles": [
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What does everyone have the right of equal access to?",
+   "answer_eng": "Public service in his country.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "प्रत्येकास आपण स्वतः अथवा आपल्या इच्छेनुरूप विवडलेल्या आपल्या प्रतिनिधिमार्फत आपल्या देशाच्या शासनात भाग घेण्याचा अधिकार आहे. प्रत्येकास आपल्या देशाच्या शासकीय सेवेत प्रवेश मिळण्याचा समान अधिकार आहे. जनतेची इच्छा ही शासकीय प्राधिकाराचा पाया असली पाहिजे. जनतेची ही इच्छा व समान व सार्वत्रिक मतदानाच्या अधिकारावर आधारलेल्या नियतकालिक व खर्‍याखुर्‍या निवडणुकांद्वारे व्यक्त झाली पाहिजे व या निवडणुका गुप्त मतदानपद्धतीने अथवा त्यासारख्याचा निधबँरहित पद्धतीने धेतल्या पाहिजेत.",
+   "question_tgt": "प्रत्येकास कशात प्रवेश मिळण्याचा समान अधिकार आहे?",
+   "answer_tgt": "आपल्या देशाच्या शासकीय सेवेत.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i076",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "प्रत्येकास काम मिळण्याचा, आपल्या इच्छेनुरूप काम निवडण्याचा, कामाच्या न्याय्य व अनुकूल शर्तीचा फायदा मिळण्याचा व बेका रीपासन संरक्षण मिळण्यांचा अधिकार आहे. कोणत्याही प्रकारे भेदभाव न करता प्रत्येकास समान कामाबद्दल समान वेतन मिळण्याचा अधिकार आहे. काम करणार्‍या प्रत्येक व्यक्तीस स्वतःला व आपल्या कुटुंबाला मानवी प्रतिष्ठेस साजेसे जीवन ज्या योगे जगता येईल असे न्याय्य व योग्य पारिश्रमिक व जरूर लागल्यास त्याशिवाय सामाजिक संरक्षणाची इतर साधने मिळण्याचा अधिकार आहे. प्रत्येकास आपल्या हितसंबंधांच्या संरक्षणार्थ संघ स्थापन करण्याचा व त्याचां सदस्य होण्याचा अधिकार आहे. वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या धरून प्रत्येकास विश्रांति व आराम मिळण्याचा अधिकार आहे.",
+   "question_tgt": "न्याय्य व योग्य पारिश्रमिकामुळे काम करणार्‍या व्यक्तीस व तिच्या कुटुंबाला काय जगता आले पाहिजे?",
+   "answer_tgt": "मानवी प्रतिष्ठेस साजेसे जीवन.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i077",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours allowed per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "प्रत्येकास काम मिळण्याचा, आपल्या इच्छेनुरूप काम निवडण्याचा, कामाच्या न्याय्य व अनुकूल शर्तीचा फायदा मिळण्याचा व बेका रीपासन संरक्षण मिळण्यांचा अधिकार आहे. कोणत्याही प्रकारे भेदभाव न करता प्रत्येकास समान कामाबद्दल समान वेतन मिळण्याचा अधिकार आहे. काम करणार्‍या प्रत्येक व्यक्तीस स्वतःला व आपल्या कुटुंबाला मानवी प्रतिष्ठेस साजेसे जीवन ज्या योगे जगता येईल असे न्याय्य व योग्य पारिश्रमिक व जरूर लागल्यास त्याशिवाय सामाजिक संरक्षणाची इतर साधने मिळण्याचा अधिकार आहे. प्रत्येकास आपल्या हितसंबंधांच्या संरक्षणार्थ संघ स्थापन करण्याचा व त्याचां सदस्य होण्याचा अधिकार आहे. वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या धरून प्रत्येकास विश्रांति व आराम मिळण्याचा अधिकार आहे.",
+   "question_tgt": "आठवड्याला जास्तीत जास्त किती तास काम करण्यास परवानगी आहे?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i078",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "प्रत्येकास काम मिळण्याचा, आपल्या इच्छेनुरूप काम निवडण्याचा, कामाच्या न्याय्य व अनुकूल शर्तीचा फायदा मिळण्याचा व बेका रीपासन संरक्षण मिळण्यांचा अधिकार आहे. कोणत्याही प्रकारे भेदभाव न करता प्रत्येकास समान कामाबद्दल समान वेतन मिळण्याचा अधिकार आहे. काम करणार्‍या प्रत्येक व्यक्तीस स्वतःला व आपल्या कुटुंबाला मानवी प्रतिष्ठेस साजेसे जीवन ज्या योगे जगता येईल असे न्याय्य व योग्य पारिश्रमिक व जरूर लागल्यास त्याशिवाय सामाजिक संरक्षणाची इतर साधने मिळण्याचा अधिकार आहे. प्रत्येकास आपल्या हितसंबंधांच्या संरक्षणार्थ संघ स्थापन करण्याचा व त्याचां सदस्य होण्याचा अधिकार आहे. वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या धरून प्रत्येकास विश्रांति व आराम मिळण्याचा अधिकार आहे.",
+   "question_tgt": "विश्रांति व आराम मिळण्याच्या अधिकारात कशाचा समावेश होतो?",
+   "answer_tgt": "वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i079",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence of the text?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "प्रत्येकास काम मिळण्याचा, आपल्या इच्छेनुरूप काम निवडण्याचा, कामाच्या न्याय्य व अनुकूल शर्तीचा फायदा मिळण्याचा व बेका रीपासन संरक्षण मिळण्यांचा अधिकार आहे. कोणत्याही प्रकारे भेदभाव न करता प्रत्येकास समान कामाबद्दल समान वेतन मिळण्याचा अधिकार आहे. काम करणार्‍या प्रत्येक व्यक्तीस स्वतःला व आपल्या कुटुंबाला मानवी प्रतिष्ठेस साजेसे जीवन ज्या योगे जगता येईल असे न्याय्य व योग्य पारिश्रमिक व जरूर लागल्यास त्याशिवाय सामाजिक संरक्षणाची इतर साधने मिळण्याचा अधिकार आहे. प्रत्येकास आपल्या हितसंबंधांच्या संरक्षणार्थ संघ स्थापन करण्याचा व त्याचां सदस्य होण्याचा अधिकार आहे. वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या धरून प्रत्येकास विश्रांति व आराम मिळण्याचा अधिकार आहे.",
+   "question_tgt": "मजकुरातील पहिल्या वाक्यात नमूद केलेला शेवटचा अधिकार कोणता?",
+   "answer_tgt": "बेका रीपासन संरक्षण.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "अधिकृत मराठी मजकूर येथे विकृत आहे ('बेका रीपासन' = 'बेकारीपासून'); span verbatim copied."
+  },
+  {
+   "item_id": "udhr_i080",
+   "passage_id": "udhr_p016",
+   "articles": [
+    "23",
+    "24"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is remuneration to be supplemented by other means of social protection?",
+   "answer_eng": "When it is necessary to ensure an existence worthy of human dignity.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "passage_tgt": "प्रत्येकास काम मिळण्याचा, आपल्या इच्छेनुरूप काम निवडण्याचा, कामाच्या न्याय्य व अनुकूल शर्तीचा फायदा मिळण्याचा व बेका रीपासन संरक्षण मिळण्यांचा अधिकार आहे. कोणत्याही प्रकारे भेदभाव न करता प्रत्येकास समान कामाबद्दल समान वेतन मिळण्याचा अधिकार आहे. काम करणार्‍या प्रत्येक व्यक्तीस स्वतःला व आपल्या कुटुंबाला मानवी प्रतिष्ठेस साजेसे जीवन ज्या योगे जगता येईल असे न्याय्य व योग्य पारिश्रमिक व जरूर लागल्यास त्याशिवाय सामाजिक संरक्षणाची इतर साधने मिळण्याचा अधिकार आहे. प्रत्येकास आपल्या हितसंबंधांच्या संरक्षणार्थ संघ स्थापन करण्याचा व त्याचां सदस्य होण्याचा अधिकार आहे. वाजवी मर्यांदा असलेले कामाचे तास व ठराविक मुदतीने पगारी सुट्या धरून प्रत्येकास विश्रांति व आराम मिळण्याचा अधिकार आहे.",
+   "question_tgt": "सामाजिक संरक्षणाची इतर साधने कोणत्या परिस्थितीत मिळाली पाहिजेत?",
+   "answer_tgt": "मानवी प्रतिष्ठेस साजेसे जीवन जगता यावे यासाठी जरूर लागल्यास.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i081",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "What are motherhood and childhood entitled to?",
+   "answer_eng": "Special care and assistance.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "प्रत्येकास स्वतःचे व आपल्या कुटुँबियांचे आरोग्य व स्वास्थ यांच्या दृष्टीने समुचित राहणीमान राखण्याचा अधिकार आहे. यामध्ये अन्न, वस्त्र, निवारा, वैद्यकीय मदत व आवश्यक सामाजिक सोई या गोष्टींचा अंतर्भाव होतो. त्याचप्रमाणे बेकारा, आजारपण, अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास सुरक्षितता मिळण्याचा अधिकार आहे. माता व मुले यांना विशेष देखरेख व मदत मिळण्याचा हक्क आहे: सर्व मुलांना मग ती औरस असोत किंवा अनौरस, असोत सारखेच सामाजिक संरक्षण मिळाले पाहिजे. ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे.",
+   "question_tgt": "माता व मुले यांना काय मिळण्याचा हक्क आहे?",
+   "answer_tgt": "विशेष देखरेख व मदत.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i082",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "Besides unemployment and sickness, in what circumstances does everyone have the right to security?",
+   "answer_eng": "Disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "प्रत्येकास स्वतःचे व आपल्या कुटुँबियांचे आरोग्य व स्वास्थ यांच्या दृष्टीने समुचित राहणीमान राखण्याचा अधिकार आहे. यामध्ये अन्न, वस्त्र, निवारा, वैद्यकीय मदत व आवश्यक सामाजिक सोई या गोष्टींचा अंतर्भाव होतो. त्याचप्रमाणे बेकारा, आजारपण, अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास सुरक्षितता मिळण्याचा अधिकार आहे. माता व मुले यांना विशेष देखरेख व मदत मिळण्याचा हक्क आहे: सर्व मुलांना मग ती औरस असोत किंवा अनौरस, असोत सारखेच सामाजिक संरक्षण मिळाले पाहिजे. ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे.",
+   "question_tgt": "बेकारी व आजारपण यांखेरीज कोणत्या परिस्थितीत प्रत्येकास सुरक्षितता मिळण्याचा अधिकार आहे?",
+   "answer_tgt": "अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i083",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "How does the social protection of children born out of wedlock compare with that of other children?",
+   "answer_eng": "They enjoy the same social protection as all other children.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "प्रत्येकास स्वतःचे व आपल्या कुटुँबियांचे आरोग्य व स्वास्थ यांच्या दृष्टीने समुचित राहणीमान राखण्याचा अधिकार आहे. यामध्ये अन्न, वस्त्र, निवारा, वैद्यकीय मदत व आवश्यक सामाजिक सोई या गोष्टींचा अंतर्भाव होतो. त्याचप्रमाणे बेकारा, आजारपण, अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास सुरक्षितता मिळण्याचा अधिकार आहे. माता व मुले यांना विशेष देखरेख व मदत मिळण्याचा हक्क आहे: सर्व मुलांना मग ती औरस असोत किंवा अनौरस, असोत सारखेच सामाजिक संरक्षण मिळाले पाहिजे. ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे.",
+   "question_tgt": "अनौरस मुलांना मिळणारे सामाजिक संरक्षण इतर मुलांना मिळणार्‍या संरक्षणाच्या तुलनेत कसे असते?",
+   "answer_tgt": "इतर सर्व मुलांप्रमाणेच त्यांना सारखेच सामाजिक संरक्षण मिळाले पाहिजे.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i084",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of order can the rights and freedoms of this Declaration be fully realized?",
+   "answer_eng": "A social and international order.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "प्रत्येकास स्वतःचे व आपल्या कुटुँबियांचे आरोग्य व स्वास्थ यांच्या दृष्टीने समुचित राहणीमान राखण्याचा अधिकार आहे. यामध्ये अन्न, वस्त्र, निवारा, वैद्यकीय मदत व आवश्यक सामाजिक सोई या गोष्टींचा अंतर्भाव होतो. त्याचप्रमाणे बेकारा, आजारपण, अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास सुरक्षितता मिळण्याचा अधिकार आहे. माता व मुले यांना विशेष देखरेख व मदत मिळण्याचा हक्क आहे: सर्व मुलांना मग ती औरस असोत किंवा अनौरस, असोत सारखेच सामाजिक संरक्षण मिळाले पाहिजे. ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे.",
+   "question_tgt": "ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य कोणत्या प्रकारच्या व्यवस्थेत पूर्णपणे साध्य करता येतील?",
+   "answer_tgt": "सामाजिक व आंतरराष्ट्रीय व्यवस्थेत.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i085",
+   "passage_id": "udhr_p017",
+   "articles": [
+    "25",
+    "28"
+   ],
+   "answerable": false,
+   "question_eng": "What minimum income is required for a standard of living to count as adequate?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection. Everyone is entitled to a social and international order in which the rights and freedoms set forth in this Declaration can be fully realized.",
+   "passage_tgt": "प्रत्येकास स्वतःचे व आपल्या कुटुँबियांचे आरोग्य व स्वास्थ यांच्या दृष्टीने समुचित राहणीमान राखण्याचा अधिकार आहे. यामध्ये अन्न, वस्त्र, निवारा, वैद्यकीय मदत व आवश्यक सामाजिक सोई या गोष्टींचा अंतर्भाव होतो. त्याचप्रमाणे बेकारा, आजारपण, अपंगता वैधव्य किंवा वार्धक्य यामुळे किंवा त्याच्या आवाक्याबाहेरील परिस्थितीमुळे उदरनिर्वांहाचे दुसरे साधन उपलब्ध नसल्यास सुरक्षितता मिळण्याचा अधिकार आहे. माता व मुले यांना विशेष देखरेख व मदत मिळण्याचा हक्क आहे: सर्व मुलांना मग ती औरस असोत किंवा अनौरस, असोत सारखेच सामाजिक संरक्षण मिळाले पाहिजे. ह्या जाहीरनाम्यात ग्रथित केलेले अधिकार व स्वातंत्र्य पूर्णपणे साध्य करता येतील अशा सामाजिक व आंतरराष्ट्रीय व्यवस्थेचा प्रत्येकास हक्क आहे.",
+   "question_tgt": "राहणीमान समुचित मानले जाण्यासाठी किमान किती उत्पन्न आवश्यक आहे?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i086",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Why does everyone have duties to the community?",
+   "answer_eng": "Because the free and full development of his personality is possible in the community alone.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये का असतात?",
+   "answer_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i087",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+   "answer_eng": "By law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "अधिकार व स्वातंत्र्य यांच्या उपभोगावरील मर्यादा कशाने घालून दिलेल्या असल्या पाहिजेत?",
+   "answer_tgt": "कायद्याने.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i088",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "How many just requirements are listed in the text?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "मजकुरात न्याय्य अशा किती आवश्यक गोष्टी नमूद केल्या आहेत?",
+   "answer_tgt": "तीन.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i089",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a person who fails to perform his duties to the community?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "समाजाप्रतची आपली कर्तव्ये पार न पाडणार्‍या व्यक्तीस कोणती शिक्षा होते?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i090",
+   "passage_id": "udhr_p018",
+   "articles": [
+    "29"
+   ],
+   "answerable": true,
+   "question_eng": "Contrary to what may these rights and freedoms in no case be exercised?",
+   "answer_eng": "The purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "समाजामध्येच आपल्या व्यक्तिमत्वाचा विकास पूर्णपणे व निर्वेधपणे करता येत असल्यामुळे प्रत्येक व्यक्तीची समाजाप्रत काही कर्तव्ये असतात. आपले अधिकार व स्वातंत्र्य यांचा उपभोग धेताना इतरांचे अधिकार व स्वातंत्र्य यास योग्य मान्यता मिळावी व त्यांचा योग्य तो आदर राखला जावा आणि लोकशाही समाजव्यवस्थेत नीतिमत्ता, सार्वजनिक सुव्यवस्था व सर्वसाधारण लोकांचे कल्याण यासंबंधातील न्याय्य अशा आवश्यक गोष्टी पूर्ण केल्या जाव्यात या आणि केवळ याच कारणा साठी कायद्याने ज्या मर्यांदा धालून दिल्या असतील त्याच मर्यांदांच्या अधीन प्रत्येक व्यक्तीस रहावे लागेल. संयुक्त राष्ट्रांचे उद्देश व तत्त्वे यांच्याशी विरोधी ठरेल अशा रीतीने ह्या अधिकारांचा व स्वातंत्र्याचा कोणत्याहि करता स्थितीत वापर करता कामा नये.",
+   "question_tgt": "ह्या अधिकारांचा व स्वातंत्र्याचा वापर कशाशी विरोधी ठरेल अशा रीतीने करता कामा नये?",
+   "answer_tgt": "संयुक्त राष्ट्रांचे उद्देश व तत्त्वे.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

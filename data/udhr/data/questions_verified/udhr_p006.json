@@ -1,0 +1,108 @@
+{
+  "passage_id": "udhr_p006",
+  "articles": [
+    "17",
+    "20",
+    "21"
+  ],
+  "passage": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+  "questions": [
+    {
+      "question": "In what two ways does the text say property may be owned?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Alone as well as in association with others.",
+      "source_article": "17",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What may no one be compelled to belong to?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "An association.",
+      "source_article": "20",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What compensation must be paid to a person who is deprived of his property?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Under what condition is depriving a person of his property forbidden?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "When the deprivation is arbitrary.",
+      "source_article": "17",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "What kind of suffrage shall be used in the elections?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Universal and equal suffrage.",
+      "source_article": "21",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [
+        "Answer verified against 'the right to own property alone as well as in association with others'; span holds modulo capitalisation of the first letter (same convention as udhr_p015).",
+        "Count 'two ways' checked by hand: 'alone as well as in association with others' is a single two-part construction, not an enumerated list, so the count is not fragile under translation.",
+        "'property' / 'own' occur in no other article in the training corpus, so article_specific holds."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "minor",
+      "issues": [
+        "The label and answer were correct ('No one may be compelled to belong to an association'), but the original question 'What may no one be compelled to do?' was too generic to justify article_specific: true. Posed against Article 4 ('No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited'), a reader can plausibly extract an answer about forced servitude, and the Preamble also contains 'compelled' ('if man is not to be compelled to have recourse ... to rebellion'). A wrong article_specific: true is the expensive error here, because it would seed a wrongly-labelled unanswerable row.",
+        "Fixed by tightening the question to 'What may no one be compelled to belong to?' rather than downgrading the flag, which keeps the row usable. Only Article 20 states what one may not be compelled to belong to, so article_specific now genuinely holds.",
+        "Answer shortened to 'An association.' ('an association' is a literal span) to match the exemplars' short-fragment answers."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [
+        "Tried hard to answer it from the passage: the only sentence about deprivation is 'No one shall be arbitrarily deprived of his property', which states a prohibition and says nothing about compensation, remedy, or amount. No other sentence bears on it even by inference. Label correct.",
+        "Style matches the exemplars' unanswerables, which ask for a legal detail the text plausibly could have contained but does not (cf. 'What are the age limits for compulsory elementary education?')."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [
+        "Answer is true given only 'No one shall be arbitrarily deprived of his property'; it adds no legal background. answer_is_span: false verified by substring -- 'when the deprivation is arbitrary' does not occur in the passage.",
+        "Checked against Article 15, which uses the identical formula for nationality ('No one shall be arbitrarily deprived of his nationality'); because this question names property explicitly, Article 15 does not answer it and article_specific holds.",
+        "Sits next to the unanswerable at index 2 on the same clause, which is deliberate and mirrors the organisers' 26.1 set (compulsory elementary education answerable, its age limits unanswerable)."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "minor",
+      "issues": [
+        "The original 'By what means shall the periodic and genuine elections be held?' has two competing answers in the passage: the elections 'shall be by universal and equal suffrage' AND 'shall be held by secret vote or by equivalent free voting procedures'. Quoting 'periodic and genuine elections' points at the clause that immediately precedes 'which shall be by universal and equal suffrage', so the supplied answer covers only one of the two readings a grader would accept.",
+        "The original was also a near-duplicate of an already-verified question on udhr_p015 ('By what voting method shall the elections be held?'), with an identical answer, so keeping it would have put the same pair in the data twice.",
+        "Replaced with a question on the suffrage clause, which no question in this set or in udhr_p015 covers. Answer 'Universal and equal suffrage.' is a literal span (modulo the trailing sentence period). 'suffrage' occurs in no other article, so article_specific holds.",
+        "Note on coverage, not a defect: Article 17 supplies three of the five questions, and Article 20's first sentence (peaceful assembly) and Article 21's first two sentences remain uncovered here; they are covered by udhr_p014 and udhr_p015."
+      ],
+      "action": "question_replaced"
+    }
+  ]
+}

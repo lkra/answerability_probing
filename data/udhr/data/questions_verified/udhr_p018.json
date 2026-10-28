@@ -1,0 +1,99 @@
+{
+  "passage_id": "udhr_p018",
+  "articles": [
+    "29"
+  ],
+  "passage": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+  "questions": [
+    {
+      "question": "Why does everyone have duties to the community?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "Because the free and full development of his personality is possible in the community alone.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "By law.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many just requirements are listed in the text?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "What penalty applies to a person who fails to perform his duties to the community?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Contrary to what may these rights and freedoms in no case be exercised?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The purposes and principles of the United Nations.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [
+        "Answered by sentence 1: 'the community in which alone the free and full development of his personality is possible'. The causal reading is the standard one licensed by 'in which alone', and the exemplars accept this level of inference ('Under what condition might a person be forced to rebel...'). answer_is_span correctly false (the answer re-orders the clause). Only Article 29 speaks of duties to the community, so article_specific holds."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Answered by 'such limitations as are determined by law'; 'by law' is a literal span, so answer_is_span true is correct (modulo capitalisation and final stop, the convention used in the other verified files). No other UDHR article states how limitations on rights are determined, so article_specific holds."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "minor",
+      "issues": [
+        "Count verified by hand: 'the just requirements of morality, public order and the general welfare' = morality (1), public order (2), the general welfare (3). Three is correct and the three-item coordination survives the major UDHR translations (fr/es/de/ru/zh all keep three coordinated nouns), so the ordinal_count is not fragile here.",
+        "Question wording misparsed the source syntax: the text says 'the just requirements of morality, public order and the general welfare in a democratic society', not 'the just requirements of a democratic society'. A model reading the passage carefully could take 'of a democratic society' as a fourth or different set. Tightened to 'How many just requirements are listed in the text?', which is unambiguous (the passage contains exactly one list of just requirements) and shorter, closer to the exemplars. Same fact, same answer, label unchanged."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "fatal",
+      "issues": [
+        "The authored unanswerable question was 'Which body has the power to decide whether a limitation on rights and freedoms is lawful?'. Sentence 2 does answer this by reasonable inference: limitations are 'determined by law', which directly names law as what settles whether a limitation is permitted. A model that answers 'the law' is not hallucinating, so the abstention label was unsafe -- exactly the defect that must never enter this dataset (the independently verified udhr_p010, which contains the identical Article 29 text, flagged the same construction as fatal).",
+        "Secondary hazard: the passage names the United Nations, giving a second surface-plausible 'body' answer, so the row would have been noisy in both directions.",
+        "Replaced with a question whose answer appears nowhere in the passage and admits no inference path: the text imposes duties to the community but says nothing about consequences, sanctions or enforcement ('penalt-' does not occur, nor any near-synonym). Modelled on the exemplar 'What specific penalties are enforced if a person violates another's right to equality?'. article_specific false and answer null, as for every unanswerable."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 4,
+      "severity": "ok",
+      "issues": [
+        "Answered by sentence 3; 'the purposes and principles of the United Nations' is a literal span, so answer_is_span true is correct. Unlike the analogous question in udhr_p010 (which asked 'contrary to whose purposes and principles' and therefore needed the shorter answer 'The United Nations.'), this question asks 'contrary to what', so the full phrase is the responsive answer. Only Article 29 refers to the purposes and principles of the United Nations, so article_specific holds."
+      ],
+      "action": "kept"
+    }
+  ]
+}

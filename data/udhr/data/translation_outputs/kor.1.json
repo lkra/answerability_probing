@@ -1,0 +1,925 @@
+{
+ "lang": "kor",
+ "lang_name": "Korean",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "답할 수 없음",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다. 어느 누구도 노예상태 또는 예속상태에 놓여지지 아니한다. 모든 형태의 노예제도와 노예매매는 금지된다. 어느 누구도 고문, 또는 잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌을 받지 아니한다. 모든 사람은 어디에서나 법 앞에 인간으로서 인정받을 권리를 가진다. 모든 사람은 법 앞에 평등하며 어떠한 차별도 없이 법의 동등한 보호를 받을 권리를 가진다. 모든 사람은 이 선언에 위반되는 어떠한 차별과 그러한 차별의 선동으로부터 동등한 보호를 받을 권리를 가진다.",
+   "question_tgt": "노예제도와 노예매매는 어떠한 형태로 금지되는가?",
+   "answer_tgt": "모든 형태.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다. 어느 누구도 노예상태 또는 예속상태에 놓여지지 아니한다. 모든 형태의 노예제도와 노예매매는 금지된다. 어느 누구도 고문, 또는 잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌을 받지 아니한다. 모든 사람은 어디에서나 법 앞에 인간으로서 인정받을 권리를 가진다. 모든 사람은 법 앞에 평등하며 어떠한 차별도 없이 법의 동등한 보호를 받을 권리를 가진다. 모든 사람은 이 선언에 위반되는 어떠한 차별과 그러한 차별의 선동으로부터 동등한 보호를 받을 권리를 가진다.",
+   "question_tgt": "고문 외에, 어느 누구도 받지 아니하는 처우 또는 형벌은 무엇인가?",
+   "answer_tgt": "잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다. 어느 누구도 노예상태 또는 예속상태에 놓여지지 아니한다. 모든 형태의 노예제도와 노예매매는 금지된다. 어느 누구도 고문, 또는 잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌을 받지 아니한다. 모든 사람은 어디에서나 법 앞에 인간으로서 인정받을 권리를 가진다. 모든 사람은 법 앞에 평등하며 어떠한 차별도 없이 법의 동등한 보호를 받을 권리를 가진다. 모든 사람은 이 선언에 위반되는 어떠한 차별과 그러한 차별의 선동으로부터 동등한 보호를 받을 권리를 가진다.",
+   "question_tgt": "노예제도와 노예매매의 금지를 집행할 책임이 있는 기관은 어디인가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다. 어느 누구도 노예상태 또는 예속상태에 놓여지지 아니한다. 모든 형태의 노예제도와 노예매매는 금지된다. 어느 누구도 고문, 또는 잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌을 받지 아니한다. 모든 사람은 어디에서나 법 앞에 인간으로서 인정받을 권리를 가진다. 모든 사람은 법 앞에 평등하며 어떠한 차별도 없이 법의 동등한 보호를 받을 권리를 가진다. 모든 사람은 이 선언에 위반되는 어떠한 차별과 그러한 차별의 선동으로부터 동등한 보호를 받을 권리를 가진다.",
+   "question_tgt": "모든 사람은 어디에서 법 앞에 인간으로서 인정받을 권리를 가지는가?",
+   "answer_tgt": "어디에서나.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다. 어느 누구도 노예상태 또는 예속상태에 놓여지지 아니한다. 모든 형태의 노예제도와 노예매매는 금지된다. 어느 누구도 고문, 또는 잔혹하거나 비인도적이거나 굴욕적인 처우 또는 형벌을 받지 아니한다. 모든 사람은 어디에서나 법 앞에 인간으로서 인정받을 권리를 가진다. 모든 사람은 법 앞에 평등하며 어떠한 차별도 없이 법의 동등한 보호를 받을 권리를 가진다. 모든 사람은 이 선언에 위반되는 어떠한 차별과 그러한 차별의 선동으로부터 동등한 보호를 받을 권리를 가진다.",
+   "question_tgt": "차별 행위 자체 외에, 모든 사람은 무엇으로부터 동등한 보호를 받을 권리를 가지는가?",
+   "answer_tgt": "그러한 차별의 선동.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "모든 사람은 헌법 또는 법률이 부여한 기본적 권리를 침해하는 행위에 대하여 권한있는 국내법정에서 실효성 있는 구제를 받을 권리를 가진다. 어느 누구도 자의적으로 체포, 구금 또는 추방되지 아니한다. 모든 사람은 자신의 권리, 의무 그리고 자신에 대한 형사상 혐의에 대한 결정에 있어 독립적이며 공평한 법정에서 완전히 평등하게 공정하고 공개된 재판을 받을 권리를 가진다.",
+   "question_tgt": "기본적 권리를 침해하는 행위에 대하여 실효성 있는 구제를 제공하는 곳은 어디인가?",
+   "answer_tgt": "권한있는 국내법정.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "모든 사람은 헌법 또는 법률이 부여한 기본적 권리를 침해하는 행위에 대하여 권한있는 국내법정에서 실효성 있는 구제를 받을 권리를 가진다. 어느 누구도 자의적으로 체포, 구금 또는 추방되지 아니한다. 모든 사람은 자신의 권리, 의무 그리고 자신에 대한 형사상 혐의에 대한 결정에 있어 독립적이며 공평한 법정에서 완전히 평등하게 공정하고 공개된 재판을 받을 권리를 가진다.",
+   "question_tgt": "본문에 따르면 어느 누구도 자의적으로 당하지 아니하는 것은 몇 가지인가?",
+   "answer_tgt": "세 가지.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "모든 사람은 헌법 또는 법률이 부여한 기본적 권리를 침해하는 행위에 대하여 권한있는 국내법정에서 실효성 있는 구제를 받을 권리를 가진다. 어느 누구도 자의적으로 체포, 구금 또는 추방되지 아니한다. 모든 사람은 자신의 권리, 의무 그리고 자신에 대한 형사상 혐의에 대한 결정에 있어 독립적이며 공평한 법정에서 완전히 평등하게 공정하고 공개된 재판을 받을 권리를 가진다.",
+   "question_tgt": "모든 사람은 완전히 평등하게 어떠한 재판을 받을 권리를 가지는가?",
+   "answer_tgt": "공정하고 공개된 재판.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "모든 사람은 헌법 또는 법률이 부여한 기본적 권리를 침해하는 행위에 대하여 권한있는 국내법정에서 실효성 있는 구제를 받을 권리를 가진다. 어느 누구도 자의적으로 체포, 구금 또는 추방되지 아니한다. 모든 사람은 자신의 권리, 의무 그리고 자신에 대한 형사상 혐의에 대한 결정에 있어 독립적이며 공평한 법정에서 완전히 평등하게 공정하고 공개된 재판을 받을 권리를 가진다.",
+   "question_tgt": "체포된 사람은 법정에 서기 전까지 얼마 동안 구금될 수 있는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "모든 사람은 헌법 또는 법률이 부여한 기본적 권리를 침해하는 행위에 대하여 권한있는 국내법정에서 실효성 있는 구제를 받을 권리를 가진다. 어느 누구도 자의적으로 체포, 구금 또는 추방되지 아니한다. 모든 사람은 자신의 권리, 의무 그리고 자신에 대한 형사상 혐의에 대한 결정에 있어 독립적이며 공평한 법정에서 완전히 평등하게 공정하고 공개된 재판을 받을 권리를 가진다.",
+   "question_tgt": "자신의 권리와 의무 외에, 공정하고 공개된 재판에서 무엇에 대한 결정이 이루어지는가?",
+   "answer_tgt": "자신에 대한 형사상 혐의.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "모든 형사피의자는 자신의 변호에 필요한 모든 것이 보장된 공개 재판에서 법률에 따라 유죄로 입증될 때까지 무죄로 추정받을 권리를 가진다. 어느 누구도 행위시에 국내법 또는 국제법에 의하여 범죄를 구성하지 아니하는 작위 또는 부작위를 이유로 유죄로 되지 아니한다. 또한 범죄 행위시에 적용될 수 있었던 형벌보다 무거운 형벌이 부과되지 아니한다.",
+   "question_tgt": "모든 형사피의자는 언제까지 무죄로 추정받을 권리를 가지는가?",
+   "answer_tgt": "공개 재판에서 법률에 따라 유죄로 입증될 때까지.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "모든 형사피의자는 자신의 변호에 필요한 모든 것이 보장된 공개 재판에서 법률에 따라 유죄로 입증될 때까지 무죄로 추정받을 권리를 가진다. 어느 누구도 행위시에 국내법 또는 국제법에 의하여 범죄를 구성하지 아니하는 작위 또는 부작위를 이유로 유죄로 되지 아니한다. 또한 범죄 행위시에 적용될 수 있었던 형벌보다 무거운 형벌이 부과되지 아니한다.",
+   "question_tgt": "공개 재판에서 형사피의자에게 무엇이 보장되어야 하는가?",
+   "answer_tgt": "자신의 변호에 필요한 모든 것.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "공식 한국어본은 '보장'을 명사가 아닌 동사(보장된)로 풀어 써서, 영어의 명사구 'all the guarantees'에 정확히 대응하는 명사구 span이 없다."
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "모든 형사피의자는 자신의 변호에 필요한 모든 것이 보장된 공개 재판에서 법률에 따라 유죄로 입증될 때까지 무죄로 추정받을 권리를 가진다. 어느 누구도 행위시에 국내법 또는 국제법에 의하여 범죄를 구성하지 아니하는 작위 또는 부작위를 이유로 유죄로 되지 아니한다. 또한 범죄 행위시에 적용될 수 있었던 형벌보다 무거운 형벌이 부과되지 아니한다.",
+   "question_tgt": "어떤 법원이 사람을 범죄에 대하여 유죄로 선고할 권한을 가지는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "모든 형사피의자는 자신의 변호에 필요한 모든 것이 보장된 공개 재판에서 법률에 따라 유죄로 입증될 때까지 무죄로 추정받을 권리를 가진다. 어느 누구도 행위시에 국내법 또는 국제법에 의하여 범죄를 구성하지 아니하는 작위 또는 부작위를 이유로 유죄로 되지 아니한다. 또한 범죄 행위시에 적용될 수 있었던 형벌보다 무거운 형벌이 부과되지 아니한다.",
+   "question_tgt": "작위 또는 부작위는 행위시에 어떤 법에 의하여 범죄를 구성하여야 하는가?",
+   "answer_tgt": "국내법 또는 국제법.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "모든 형사피의자는 자신의 변호에 필요한 모든 것이 보장된 공개 재판에서 법률에 따라 유죄로 입증될 때까지 무죄로 추정받을 권리를 가진다. 어느 누구도 행위시에 국내법 또는 국제법에 의하여 범죄를 구성하지 아니하는 작위 또는 부작위를 이유로 유죄로 되지 아니한다. 또한 범죄 행위시에 적용될 수 있었던 형벌보다 무거운 형벌이 부과되지 아니한다.",
+   "question_tgt": "범죄에 대하여 어떤 형벌보다 무거운 형벌이 부과될 수 없는가?",
+   "answer_tgt": "범죄 행위시에 적용될 수 있었던 형벌.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "어느 누구도 그의 사생활, 가정, 주거 또는 통신에 대하여 자의적인 간섭을 받거나 또는 그의 명예와 명성에 대한 비난을 받지 아니한다. 모든 사람은 이러한 간섭이나 비난에 대하여 법의 보호를 받을 권리를 가진다. 모든 사람은 자국내에서 이동 및 거주의 자유에 대한 권리를 가진다. 모든 사람은 자국을 포함하여 어떠한 나라를 떠날 권리와 또한 자국으로 돌아올 권리를 가진다. 모든 사람은 박해를 피하여 다른 나라에서 비호를 구하거나 비호를 받을 권리를 가진다. 이러한 권리는 진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우에는 주장될 수 없다.",
+   "question_tgt": "자의적인 간섭을 받지 아니하는 것으로 가장 먼저 열거된 것은 무엇인가?",
+   "answer_tgt": "사생활.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "어느 누구도 그의 사생활, 가정, 주거 또는 통신에 대하여 자의적인 간섭을 받거나 또는 그의 명예와 명성에 대한 비난을 받지 아니한다. 모든 사람은 이러한 간섭이나 비난에 대하여 법의 보호를 받을 권리를 가진다. 모든 사람은 자국내에서 이동 및 거주의 자유에 대한 권리를 가진다. 모든 사람은 자국을 포함하여 어떠한 나라를 떠날 권리와 또한 자국으로 돌아올 권리를 가진다. 모든 사람은 박해를 피하여 다른 나라에서 비호를 구하거나 비호를 받을 권리를 가진다. 이러한 권리는 진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우에는 주장될 수 없다.",
+   "question_tgt": "사생활에 간섭을 받거나 명성에 비난을 받은 사람은 무엇을 받을 권리를 가지는가?",
+   "answer_tgt": "법의 보호.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "어느 누구도 그의 사생활, 가정, 주거 또는 통신에 대하여 자의적인 간섭을 받거나 또는 그의 명예와 명성에 대한 비난을 받지 아니한다. 모든 사람은 이러한 간섭이나 비난에 대하여 법의 보호를 받을 권리를 가진다. 모든 사람은 자국내에서 이동 및 거주의 자유에 대한 권리를 가진다. 모든 사람은 자국을 포함하여 어떠한 나라를 떠날 권리와 또한 자국으로 돌아올 권리를 가진다. 모든 사람은 박해를 피하여 다른 나라에서 비호를 구하거나 비호를 받을 권리를 가진다. 이러한 권리는 진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우에는 주장될 수 없다.",
+   "question_tgt": "모든 사람은 어디에서 이동 및 거주의 자유에 대한 권리를 가지는가?",
+   "answer_tgt": "자국내에서.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "공식 한국어본은 영어의 'within the borders of each State'를 '자국내에서'로 옮겨, 범위 표현이 달라진다."
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "어느 누구도 그의 사생활, 가정, 주거 또는 통신에 대하여 자의적인 간섭을 받거나 또는 그의 명예와 명성에 대한 비난을 받지 아니한다. 모든 사람은 이러한 간섭이나 비난에 대하여 법의 보호를 받을 권리를 가진다. 모든 사람은 자국내에서 이동 및 거주의 자유에 대한 권리를 가진다. 모든 사람은 자국을 포함하여 어떠한 나라를 떠날 권리와 또한 자국으로 돌아올 권리를 가진다. 모든 사람은 박해를 피하여 다른 나라에서 비호를 구하거나 비호를 받을 권리를 가진다. 이러한 권리는 진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우에는 주장될 수 없다.",
+   "question_tgt": "비호를 구하거나 비호를 받을 권리는 어떠한 경우에 주장될 수 없는가?",
+   "answer_tgt": "진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "어느 누구도 그의 사생활, 가정, 주거 또는 통신에 대하여 자의적인 간섭을 받거나 또는 그의 명예와 명성에 대한 비난을 받지 아니한다. 모든 사람은 이러한 간섭이나 비난에 대하여 법의 보호를 받을 권리를 가진다. 모든 사람은 자국내에서 이동 및 거주의 자유에 대한 권리를 가진다. 모든 사람은 자국을 포함하여 어떠한 나라를 떠날 권리와 또한 자국으로 돌아올 권리를 가진다. 모든 사람은 박해를 피하여 다른 나라에서 비호를 구하거나 비호를 받을 권리를 가진다. 이러한 권리는 진실로 비정치적 범죄 또는 국제연합의 목적과 원칙에 위배되는 행위로 인하여 기소된 경우에는 주장될 수 없다.",
+   "question_tgt": "다른 나라에서 비호를 부여할지 여부는 어느 기관이 결정하는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "모든 사람은 국적을 가질 권리를 가진다. 어느 누구도 자의적으로 자신의 국적을 박탈당하지 아니하며 자신의 국적을 변경할 권리가 부인되지 아니한다. 성인 남녀는 인종, 국적 또는 종교에 따른 어떠한 제한도 없이 혼인하고 가정을 이룰 권리를 가진다. 그들은 혼인에 대하여, 혼인기간중 그리고 혼인해소시에 동등한 권리를 향유할 자격이 있다. 혼인은 장래 배우자들의 자유롭고 완전한 동의하에서만 성립된다. 가정은 사회의 자연적이고 기초적인 단위이며, 사회와 국가의 보호를 받을 권리가 있다.",
+   "question_tgt": "혼인은 어떠한 조건에서만 성립되는가?",
+   "answer_tgt": "장래 배우자들의 자유롭고 완전한 동의하에서만.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "모든 사람은 국적을 가질 권리를 가진다. 어느 누구도 자의적으로 자신의 국적을 박탈당하지 아니하며 자신의 국적을 변경할 권리가 부인되지 아니한다. 성인 남녀는 인종, 국적 또는 종교에 따른 어떠한 제한도 없이 혼인하고 가정을 이룰 권리를 가진다. 그들은 혼인에 대하여, 혼인기간중 그리고 혼인해소시에 동등한 권리를 향유할 자격이 있다. 혼인은 장래 배우자들의 자유롭고 완전한 동의하에서만 성립된다. 가정은 사회의 자연적이고 기초적인 단위이며, 사회와 국가의 보호를 받을 권리가 있다.",
+   "question_tgt": "본문에 따르면 어느 누구도 무엇을 변경할 권리가 부인되지 아니하는가?",
+   "answer_tgt": "자신의 국적.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "모든 사람은 국적을 가질 권리를 가진다. 어느 누구도 자의적으로 자신의 국적을 박탈당하지 아니하며 자신의 국적을 변경할 권리가 부인되지 아니한다. 성인 남녀는 인종, 국적 또는 종교에 따른 어떠한 제한도 없이 혼인하고 가정을 이룰 권리를 가진다. 그들은 혼인에 대하여, 혼인기간중 그리고 혼인해소시에 동등한 권리를 향유할 자격이 있다. 혼인은 장래 배우자들의 자유롭고 완전한 동의하에서만 성립된다. 가정은 사회의 자연적이고 기초적인 단위이며, 사회와 국가의 보호를 받을 권리가 있다.",
+   "question_tgt": "혼인할 수 있는 최소 연령은 몇 세인가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "모든 사람은 국적을 가질 권리를 가진다. 어느 누구도 자의적으로 자신의 국적을 박탈당하지 아니하며 자신의 국적을 변경할 권리가 부인되지 아니한다. 성인 남녀는 인종, 국적 또는 종교에 따른 어떠한 제한도 없이 혼인하고 가정을 이룰 권리를 가진다. 그들은 혼인에 대하여, 혼인기간중 그리고 혼인해소시에 동등한 권리를 향유할 자격이 있다. 혼인은 장래 배우자들의 자유롭고 완전한 동의하에서만 성립된다. 가정은 사회의 자연적이고 기초적인 단위이며, 사회와 국가의 보호를 받을 권리가 있다.",
+   "question_tgt": "혼인하고 가정을 이룰 권리를 제한할 수 없는 사유로 몇 가지가 열거되어 있는가?",
+   "answer_tgt": "세 가지.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "모든 사람은 국적을 가질 권리를 가진다. 어느 누구도 자의적으로 자신의 국적을 박탈당하지 아니하며 자신의 국적을 변경할 권리가 부인되지 아니한다. 성인 남녀는 인종, 국적 또는 종교에 따른 어떠한 제한도 없이 혼인하고 가정을 이룰 권리를 가진다. 그들은 혼인에 대하여, 혼인기간중 그리고 혼인해소시에 동등한 권리를 향유할 자격이 있다. 혼인은 장래 배우자들의 자유롭고 완전한 동의하에서만 성립된다. 가정은 사회의 자연적이고 기초적인 단위이며, 사회와 국가의 보호를 받을 권리가 있다.",
+   "question_tgt": "가정은 어느 두 주체의 보호를 받을 권리가 있는가?",
+   "answer_tgt": "사회와 국가.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "모든 사람은 단독으로 뿐만 아니라 다른 사람과 공동으로 재산을 소유할 권리를 가진다. 어느 누구도 자의적으로 자신의 재산을 박탈당하지 아니한다. 모든 사람은 평화적인 집회 및 결사의 자유에 대한 권리를 가진다. 어느 누구도 어떤 결사에 참여하도록 강요받지 아니한다. 모든 사람은 직접 또는 자유로이 선출된 대표를 통하여 자국의 정부에 참여할 권리를 가진다. 모든 사람은 자국에서 동등한 공무담임권을 가진다. 국민의 의사가 정부 권능의 기반이다. 이러한 의사는 보통·평등 선거권에 따라 비밀 또는 그에 상당한 자유 투표절차에 의한 정기적이고 진정한 선거에 의하여 표현된다.",
+   "question_tgt": "본문에 따르면 재산은 어떠한 두 가지 방식으로 소유할 수 있는가?",
+   "answer_tgt": "단독으로 뿐만 아니라 다른 사람과 공동으로.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "모든 사람은 단독으로 뿐만 아니라 다른 사람과 공동으로 재산을 소유할 권리를 가진다. 어느 누구도 자의적으로 자신의 재산을 박탈당하지 아니한다. 모든 사람은 평화적인 집회 및 결사의 자유에 대한 권리를 가진다. 어느 누구도 어떤 결사에 참여하도록 강요받지 아니한다. 모든 사람은 직접 또는 자유로이 선출된 대표를 통하여 자국의 정부에 참여할 권리를 가진다. 모든 사람은 자국에서 동등한 공무담임권을 가진다. 국민의 의사가 정부 권능의 기반이다. 이러한 의사는 보통·평등 선거권에 따라 비밀 또는 그에 상당한 자유 투표절차에 의한 정기적이고 진정한 선거에 의하여 표현된다.",
+   "question_tgt": "어느 누구도 무엇에 참여하도록 강요받지 아니하는가?",
+   "answer_tgt": "어떤 결사.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "모든 사람은 단독으로 뿐만 아니라 다른 사람과 공동으로 재산을 소유할 권리를 가진다. 어느 누구도 자의적으로 자신의 재산을 박탈당하지 아니한다. 모든 사람은 평화적인 집회 및 결사의 자유에 대한 권리를 가진다. 어느 누구도 어떤 결사에 참여하도록 강요받지 아니한다. 모든 사람은 직접 또는 자유로이 선출된 대표를 통하여 자국의 정부에 참여할 권리를 가진다. 모든 사람은 자국에서 동등한 공무담임권을 가진다. 국민의 의사가 정부 권능의 기반이다. 이러한 의사는 보통·평등 선거권에 따라 비밀 또는 그에 상당한 자유 투표절차에 의한 정기적이고 진정한 선거에 의하여 표현된다.",
+   "question_tgt": "재산을 박탈당한 사람에게는 어떠한 보상이 지급되어야 하는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "모든 사람은 단독으로 뿐만 아니라 다른 사람과 공동으로 재산을 소유할 권리를 가진다. 어느 누구도 자의적으로 자신의 재산을 박탈당하지 아니한다. 모든 사람은 평화적인 집회 및 결사의 자유에 대한 권리를 가진다. 어느 누구도 어떤 결사에 참여하도록 강요받지 아니한다. 모든 사람은 직접 또는 자유로이 선출된 대표를 통하여 자국의 정부에 참여할 권리를 가진다. 모든 사람은 자국에서 동등한 공무담임권을 가진다. 국민의 의사가 정부 권능의 기반이다. 이러한 의사는 보통·평등 선거권에 따라 비밀 또는 그에 상당한 자유 투표절차에 의한 정기적이고 진정한 선거에 의하여 표현된다.",
+   "question_tgt": "자신의 재산을 박탈하는 것은 어떠한 경우에 금지되는가?",
+   "answer_tgt": "자의적으로 박탈하는 경우.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "모든 사람은 단독으로 뿐만 아니라 다른 사람과 공동으로 재산을 소유할 권리를 가진다. 어느 누구도 자의적으로 자신의 재산을 박탈당하지 아니한다. 모든 사람은 평화적인 집회 및 결사의 자유에 대한 권리를 가진다. 어느 누구도 어떤 결사에 참여하도록 강요받지 아니한다. 모든 사람은 직접 또는 자유로이 선출된 대표를 통하여 자국의 정부에 참여할 권리를 가진다. 모든 사람은 자국에서 동등한 공무담임권을 가진다. 국민의 의사가 정부 권능의 기반이다. 이러한 의사는 보통·평등 선거권에 따라 비밀 또는 그에 상당한 자유 투표절차에 의한 정기적이고 진정한 선거에 의하여 표현된다.",
+   "question_tgt": "선거는 어떠한 선거권에 따라 이루어지는가?",
+   "answer_tgt": "보통·평등 선거권.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "모든 사람은 사회의 일원으로서 사회보장을 받을 권리를 가지며, 국가적 노력과 국제적 협력을 통하여, 그리고 각 국가의 조직과 자원에 따라서 자신의 존엄과 인격의 자유로운 발전에 불가결한 경제적, 사회적 및 문화적 권리들을 실현할 권리를 가진다.",
+   "question_tgt": "모든 사람은 어떠한 자격으로 사회보장을 받을 권리를 가지는가?",
+   "answer_tgt": "사회의 일원으로서.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "모든 사람은 사회의 일원으로서 사회보장을 받을 권리를 가지며, 국가적 노력과 국제적 협력을 통하여, 그리고 각 국가의 조직과 자원에 따라서 자신의 존엄과 인격의 자유로운 발전에 불가결한 경제적, 사회적 및 문화적 권리들을 실현할 권리를 가진다.",
+   "question_tgt": "이러한 권리들의 실현은 어떠한 노력을 통하여 이루어지는가?",
+   "answer_tgt": "국가적 노력과 국제적 협력을 통하여.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "모든 사람은 사회의 일원으로서 사회보장을 받을 권리를 가지며, 국가적 노력과 국제적 협력을 통하여, 그리고 각 국가의 조직과 자원에 따라서 자신의 존엄과 인격의 자유로운 발전에 불가결한 경제적, 사회적 및 문화적 권리들을 실현할 권리를 가진다.",
+   "question_tgt": "사회보장을 제공하지 못한 국가에는 어떠한 제재가 적용되는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "모든 사람은 사회의 일원으로서 사회보장을 받을 권리를 가지며, 국가적 노력과 국제적 협력을 통하여, 그리고 각 국가의 조직과 자원에 따라서 자신의 존엄과 인격의 자유로운 발전에 불가결한 경제적, 사회적 및 문화적 권리들을 실현할 권리를 가진다.",
+   "question_tgt": "자신의 존엄에 불가결한 것으로 서술된 권리는 몇 가지인가?",
+   "answer_tgt": "세 가지.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "모든 사람은 사회의 일원으로서 사회보장을 받을 권리를 가지며, 국가적 노력과 국제적 협력을 통하여, 그리고 각 국가의 조직과 자원에 따라서 자신의 존엄과 인격의 자유로운 발전에 불가결한 경제적, 사회적 및 문화적 권리들을 실현할 권리를 가진다.",
+   "question_tgt": "이러한 권리들의 실현이 국가마다 달라질 수 있는 것은 무엇에 따르기 때문인가?",
+   "answer_tgt": "각 국가의 조직과 자원.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "모든 사람은 일, 직업의 자유로운 선택, 정당하고 유리한 노동 조건, 그리고 실업에 대한 보호의 권리를 가진다. 모든 사람은 아무런 차별없이 동일한 노동에 대하여 동등한 보수를 받을 권리를 가진다. 노동을 하는 모든 사람은 자신과 가족에게 인간의 존엄에 부합하는 생존을 보장하며, 필요한 경우에 다른 사회보장방법으로 보충되는 정당하고 유리한 보수에 대한 권리를 가진다. 모든 사람은 자신의 이익을 보호하기 위하여 노동조합을 결성하고, 가입할 권리를 가진다.",
+   "question_tgt": "정당하고 유리한 보수는 노동자와 그 가족에게 무엇을 보장하여야 하는가?",
+   "answer_tgt": "인간의 존엄에 부합하는 생존.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "모든 사람은 일, 직업의 자유로운 선택, 정당하고 유리한 노동 조건, 그리고 실업에 대한 보호의 권리를 가진다. 모든 사람은 아무런 차별없이 동일한 노동에 대하여 동등한 보수를 받을 권리를 가진다. 노동을 하는 모든 사람은 자신과 가족에게 인간의 존엄에 부합하는 생존을 보장하며, 필요한 경우에 다른 사회보장방법으로 보충되는 정당하고 유리한 보수에 대한 권리를 가진다. 모든 사람은 자신의 이익을 보호하기 위하여 노동조합을 결성하고, 가입할 권리를 가진다.",
+   "question_tgt": "모든 사람은 아무런 차별없이 어떠한 보수를 받을 권리를 가지는가?",
+   "answer_tgt": "동일한 노동에 대하여 동등한 보수.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "모든 사람은 일, 직업의 자유로운 선택, 정당하고 유리한 노동 조건, 그리고 실업에 대한 보호의 권리를 가진다. 모든 사람은 아무런 차별없이 동일한 노동에 대하여 동등한 보수를 받을 권리를 가진다. 노동을 하는 모든 사람은 자신과 가족에게 인간의 존엄에 부합하는 생존을 보장하며, 필요한 경우에 다른 사회보장방법으로 보충되는 정당하고 유리한 보수에 대한 권리를 가진다. 모든 사람은 자신의 이익을 보호하기 위하여 노동조합을 결성하고, 가입할 권리를 가진다.",
+   "question_tgt": "동일한 노동에 대한 동등한 보수를 거부하는 고용주에게는 어떠한 처벌이 부과되는가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "모든 사람은 일, 직업의 자유로운 선택, 정당하고 유리한 노동 조건, 그리고 실업에 대한 보호의 권리를 가진다. 모든 사람은 아무런 차별없이 동일한 노동에 대하여 동등한 보수를 받을 권리를 가진다. 노동을 하는 모든 사람은 자신과 가족에게 인간의 존엄에 부합하는 생존을 보장하며, 필요한 경우에 다른 사회보장방법으로 보충되는 정당하고 유리한 보수에 대한 권리를 가진다. 모든 사람은 자신의 이익을 보호하기 위하여 노동조합을 결성하고, 가입할 권리를 가진다.",
+   "question_tgt": "첫 번째 문장에 마지막으로 열거된 권리는 무엇인가?",
+   "answer_tgt": "실업에 대한 보호.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "모든 사람은 일, 직업의 자유로운 선택, 정당하고 유리한 노동 조건, 그리고 실업에 대한 보호의 권리를 가진다. 모든 사람은 아무런 차별없이 동일한 노동에 대하여 동등한 보수를 받을 권리를 가진다. 노동을 하는 모든 사람은 자신과 가족에게 인간의 존엄에 부합하는 생존을 보장하며, 필요한 경우에 다른 사회보장방법으로 보충되는 정당하고 유리한 보수에 대한 권리를 가진다. 모든 사람은 자신의 이익을 보호하기 위하여 노동조합을 결성하고, 가입할 권리를 가진다.",
+   "question_tgt": "보수만으로 인간의 존엄에 부합하는 생존을 보장하기에 충분하지 않은 경우에는 어떻게 하여야 하는가?",
+   "answer_tgt": "다른 사회보장방법으로 보충되어야 한다.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다. 모든 사람은 의식주, 의료 및 필요한 사회복지를 포함하여 자신과 가족의 건강과 안녕에 적합한 생활수준을 누릴 권리와, 실업, 질병, 장애, 배우자 사망, 노령 또는 기타 불가항력의 상황으로 인한 생계 결핍의 경우에 보장을 받을 권리를 가진다. 어머니와 아동은 특별한 보호와 지원을 받을 권리를 가진다. 모든 아동은 적서에 관계없이 동일한 사회적 보호를 누린다.",
+   "question_tgt": "휴식과 여가의 권리에는 무엇이 포함되는가?",
+   "answer_tgt": "노동시간의 합리적 제한과 정기적인 유급휴가.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다. 모든 사람은 의식주, 의료 및 필요한 사회복지를 포함하여 자신과 가족의 건강과 안녕에 적합한 생활수준을 누릴 권리와, 실업, 질병, 장애, 배우자 사망, 노령 또는 기타 불가항력의 상황으로 인한 생계 결핍의 경우에 보장을 받을 권리를 가진다. 어머니와 아동은 특별한 보호와 지원을 받을 권리를 가진다. 모든 아동은 적서에 관계없이 동일한 사회적 보호를 누린다.",
+   "question_tgt": "주당 허용되는 최대 노동시간은 몇 시간인가?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다. 모든 사람은 의식주, 의료 및 필요한 사회복지를 포함하여 자신과 가족의 건강과 안녕에 적합한 생활수준을 누릴 권리와, 실업, 질병, 장애, 배우자 사망, 노령 또는 기타 불가항력의 상황으로 인한 생계 결핍의 경우에 보장을 받을 권리를 가진다. 어머니와 아동은 특별한 보호와 지원을 받을 권리를 가진다. 모든 아동은 적서에 관계없이 동일한 사회적 보호를 누린다.",
+   "question_tgt": "보장을 받을 권리가 인정되는 상황으로 두 번째로 열거된 것은 무엇인가?",
+   "answer_tgt": "질병.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다. 모든 사람은 의식주, 의료 및 필요한 사회복지를 포함하여 자신과 가족의 건강과 안녕에 적합한 생활수준을 누릴 권리와, 실업, 질병, 장애, 배우자 사망, 노령 또는 기타 불가항력의 상황으로 인한 생계 결핍의 경우에 보장을 받을 권리를 가진다. 어머니와 아동은 특별한 보호와 지원을 받을 권리를 가진다. 모든 아동은 적서에 관계없이 동일한 사회적 보호를 누린다.",
+   "question_tgt": "특별한 보호와 지원을 받을 권리를 가지는 두 집단은 누구인가?",
+   "answer_tgt": "어머니와 아동.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다. 모든 사람은 의식주, 의료 및 필요한 사회복지를 포함하여 자신과 가족의 건강과 안녕에 적합한 생활수준을 누릴 권리와, 실업, 질병, 장애, 배우자 사망, 노령 또는 기타 불가항력의 상황으로 인한 생계 결핍의 경우에 보장을 받을 권리를 가진다. 어머니와 아동은 특별한 보호와 지원을 받을 권리를 가진다. 모든 아동은 적서에 관계없이 동일한 사회적 보호를 누린다.",
+   "question_tgt": "생계 결핍이 어떠한 상황으로 인한 경우에 보장을 받을 권리가 적용되는가?",
+   "answer_tgt": "불가항력의 상황.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

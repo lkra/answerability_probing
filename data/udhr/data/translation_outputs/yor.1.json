@@ -1,0 +1,925 @@
+{
+ "lang": "yor",
+ "lang_name": "Yoruba",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "kò sí ìdáhùn",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wà láàyè, è̩tó̩ sí òmìnira àti è̩tó̩ sí ààbò ara rè̩. A kò gbo̩dò̩ mú e̩niké̩ni ní e̩rú tàbí kí a mú un sìn; e̩rú níní àti ò wò e̩rú ni a gbo̩dò̩ fi òfin dè ní gbogbo ò̩nà. A kò gbo̩dò̩ dá e̩nì ké̩ni lóró tàbí kí a lò ó ní ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin ní ibi gbogbo. Gbogbo ènìyàn ló dó̩gba lábé̩ òfin. Wó̩n sì ní è̩tó̩ sí àà bò lábé̩ òfin láìsí ìyàsó̩tò̩ kankan. Gbogbo ènìyàn ló ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ ìyàsó̩tò̩ yòówù tí ìbáà lòdì sí ìkéde yìí àti è̩tó̩ kúrò ló̩wó̩ gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "question_tgt": "Ní àwo̩n ò̩nà wo ni a gbo̩dò̩ fi òfin dè e̩rú níní àti ò wò e̩rú?",
+   "answer_tgt": "Ní gbogbo ò̩nà.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wà láàyè, è̩tó̩ sí òmìnira àti è̩tó̩ sí ààbò ara rè̩. A kò gbo̩dò̩ mú e̩niké̩ni ní e̩rú tàbí kí a mú un sìn; e̩rú níní àti ò wò e̩rú ni a gbo̩dò̩ fi òfin dè ní gbogbo ò̩nà. A kò gbo̩dò̩ dá e̩nì ké̩ni lóró tàbí kí a lò ó ní ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin ní ibi gbogbo. Gbogbo ènìyàn ló dó̩gba lábé̩ òfin. Wó̩n sì ní è̩tó̩ sí àà bò lábé̩ òfin láìsí ìyàsó̩tò̩ kankan. Gbogbo ènìyàn ló ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ ìyàsó̩tò̩ yòówù tí ìbáà lòdì sí ìkéde yìí àti è̩tó̩ kúrò ló̩wó̩ gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "question_tgt": "Yàtò̩ sí dídá ènìyàn lóró, irú ìlò wo ni a kò gbo̩dò̩ lò sí ènìyàn?",
+   "answer_tgt": "Ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wà láàyè, è̩tó̩ sí òmìnira àti è̩tó̩ sí ààbò ara rè̩. A kò gbo̩dò̩ mú e̩niké̩ni ní e̩rú tàbí kí a mú un sìn; e̩rú níní àti ò wò e̩rú ni a gbo̩dò̩ fi òfin dè ní gbogbo ò̩nà. A kò gbo̩dò̩ dá e̩nì ké̩ni lóró tàbí kí a lò ó ní ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin ní ibi gbogbo. Gbogbo ènìyàn ló dó̩gba lábé̩ òfin. Wó̩n sì ní è̩tó̩ sí àà bò lábé̩ òfin láìsí ìyàsó̩tò̩ kankan. Gbogbo ènìyàn ló ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ ìyàsó̩tò̩ yòówù tí ìbáà lòdì sí ìkéde yìí àti è̩tó̩ kúrò ló̩wó̩ gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "question_tgt": "Àjo̩ wo ló ní ojús̩e láti fi òfin dè e̩rú níní àti ò wò e̩rú?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wà láàyè, è̩tó̩ sí òmìnira àti è̩tó̩ sí ààbò ara rè̩. A kò gbo̩dò̩ mú e̩niké̩ni ní e̩rú tàbí kí a mú un sìn; e̩rú níní àti ò wò e̩rú ni a gbo̩dò̩ fi òfin dè ní gbogbo ò̩nà. A kò gbo̩dò̩ dá e̩nì ké̩ni lóró tàbí kí a lò ó ní ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin ní ibi gbogbo. Gbogbo ènìyàn ló dó̩gba lábé̩ òfin. Wó̩n sì ní è̩tó̩ sí àà bò lábé̩ òfin láìsí ìyàsó̩tò̩ kankan. Gbogbo ènìyàn ló ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ ìyàsó̩tò̩ yòówù tí ìbáà lòdì sí ìkéde yìí àti è̩tó̩ kúrò ló̩wó̩ gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "question_tgt": "Ibo ni e̩nì kò̩ò̩kan ti ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin?",
+   "answer_tgt": "Ní ibi gbogbo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wà láàyè, è̩tó̩ sí òmìnira àti è̩tó̩ sí ààbò ara rè̩. A kò gbo̩dò̩ mú e̩niké̩ni ní e̩rú tàbí kí a mú un sìn; e̩rú níní àti ò wò e̩rú ni a gbo̩dò̩ fi òfin dè ní gbogbo ò̩nà. A kò gbo̩dò̩ dá e̩nì ké̩ni lóró tàbí kí a lò ó ní ìlò ìkà tí kò ye̩ o̩mo̩ ènìyàn tàbí ìlò tó lè tàbùkù è̩dá ènìyàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a kà á sí gé̩gé̩ bí ènìyàn lábé̩ òfin ní ibi gbogbo. Gbogbo ènìyàn ló dó̩gba lábé̩ òfin. Wó̩n sì ní è̩tó̩ sí àà bò lábé̩ òfin láìsí ìyàsó̩tò̩ kankan. Gbogbo ènìyàn ló ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ ìyàsó̩tò̩ yòówù tí ìbáà lòdì sí ìkéde yìí àti è̩tó̩ kúrò ló̩wó̩ gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "question_tgt": "Yàtò̩ sí ìyàsó̩tò̩ fúnra rè̩, kí ni gbogbo ènìyàn tún ní è̩tó̩ sí ààbò tó dó̩gba kúrò ló̩wó̩ rè̩?",
+   "answer_tgt": "Gbogbo ohun tó bá lè ti ènìyàn láti s̩e irú ìyàsó̩tò̩ bé̩è̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "E̩nì kò̩ò̩kan lórílè̩‐èdè, ló ní è̩tó̩ sí àtúns̩e tó jo̩jú ní ilé‐e̩jó̩ fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn, tó jé̩ kò‐s̩eé‐má‐nìí gé̩gé̩ bó s̩e wà lábé̩ òfin àti bí òfin‐ìpìlè̩ s̩e là á sílè̩. A kò gbo̩dò̩ s̩àdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mó̩lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí. E̩nì kò̩ò̩kan tí a bá fi è̩sùn kàn ló ní è̩tó̩ tó dó̩gba, tó sì kún, láti s̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè, kí wo̩n lè s̩e ìpinnu lórí è̩tó̩ àti ojús̩e rè̩ nípa irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "question_tgt": "Ta ni ó gbo̩dò̩ pèsè àtúns̩e tó jo̩jú fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn?",
+   "answer_tgt": "Ilé‐e̩jó̩.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba renders 'the competent national tribunals' simply as 'ile-ejo' (court); 'competent'/'national' have no counterpart in the target text."
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "E̩nì kò̩ò̩kan lórílè̩‐èdè, ló ní è̩tó̩ sí àtúns̩e tó jo̩jú ní ilé‐e̩jó̩ fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn, tó jé̩ kò‐s̩eé‐má‐nìí gé̩gé̩ bó s̩e wà lábé̩ òfin àti bí òfin‐ìpìlè̩ s̩e là á sílè̩. A kò gbo̩dò̩ s̩àdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mó̩lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí. E̩nì kò̩ò̩kan tí a bá fi è̩sùn kàn ló ní è̩tó̩ tó dó̩gba, tó sì kún, láti s̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè, kí wo̩n lè s̩e ìpinnu lórí è̩tó̩ àti ojús̩e rè̩ nípa irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "question_tgt": "Ò̩nà ìwà àìnídìí mélòó ni àyo̩kà náà so̩ pé a kò gbo̩dò̩ hù sí ènìyàn?",
+   "answer_tgt": "Mé̩ta.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "E̩nì kò̩ò̩kan lórílè̩‐èdè, ló ní è̩tó̩ sí àtúns̩e tó jo̩jú ní ilé‐e̩jó̩ fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn, tó jé̩ kò‐s̩eé‐má‐nìí gé̩gé̩ bó s̩e wà lábé̩ òfin àti bí òfin‐ìpìlè̩ s̩e là á sílè̩. A kò gbo̩dò̩ s̩àdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mó̩lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí. E̩nì kò̩ò̩kan tí a bá fi è̩sùn kàn ló ní è̩tó̩ tó dó̩gba, tó sì kún, láti s̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè, kí wo̩n lè s̩e ìpinnu lórí è̩tó̩ àti ojús̩e rè̩ nípa irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "question_tgt": "Irú ìgbé̩jó̩ wo ni e̩nì kò̩ò̩kan ní è̩tó̩ sí ní ìdó̩gba kíkún?",
+   "answer_tgt": "S̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba restructures 'a fair and public hearing' into a verb phrase ('to explain oneself in public before an impartial court'); no noun-phrase span exists."
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "E̩nì kò̩ò̩kan lórílè̩‐èdè, ló ní è̩tó̩ sí àtúns̩e tó jo̩jú ní ilé‐e̩jó̩ fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn, tó jé̩ kò‐s̩eé‐má‐nìí gé̩gé̩ bó s̩e wà lábé̩ òfin àti bí òfin‐ìpìlè̩ s̩e là á sílè̩. A kò gbo̩dò̩ s̩àdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mó̩lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí. E̩nì kò̩ò̩kan tí a bá fi è̩sùn kàn ló ní è̩tó̩ tó dó̩gba, tó sì kún, láti s̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè, kí wo̩n lè s̩e ìpinnu lórí è̩tó̩ àti ojús̩e rè̩ nípa irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "question_tgt": "O̩jó̩ mélòó ni a lè gbé ènìyàn tì mó̩lé kí a tó mú un wá níwájú ilé‐e̩jó̩?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "E̩nì kò̩ò̩kan lórílè̩‐èdè, ló ní è̩tó̩ sí àtúns̩e tó jo̩jú ní ilé‐e̩jó̩ fún ìwà tó lòdì sí è̩tó̩ o̩mo̩nìyàn, tó jé̩ kò‐s̩eé‐má‐nìí gé̩gé̩ bó s̩e wà lábé̩ òfin àti bí òfin‐ìpìlè̩ s̩e là á sílè̩. A kò gbo̩dò̩ s̩àdédé fi òfin mú ènìyàn tàbí kí a kàn gbé ènìyàn tì mó̩lé, tàbí kí a lé ènìyàn jáde ní ìlú láìnídìí. E̩nì kò̩ò̩kan tí a bá fi è̩sùn kàn ló ní è̩tó̩ tó dó̩gba, tó sì kún, láti s̩àlàyé ara rè̩ ní gban̄gba, níwájú ilé‐e̩jó̩ tí kò s̩ègbè, kí wo̩n lè s̩e ìpinnu lórí è̩tó̩ àti ojús̩e rè̩ nípa irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "question_tgt": "Yàtò̩ sí è̩tó̩ àti ojús̩e rè̩, kí ni wó̩n tún lè s̩e ìpinnu lórí rè̩ nínú ìgbé̩jó̩ tí a s̩e ní gban̄gba?",
+   "answer_tgt": "Irú è̩sùn ò̩ràn dídá tí a fi kàn án.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "E̩nìké̩ni tí a fi è̩sùn kàn ni a gbo̩dò̩ gbà wí pé ó jàrè títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba nínú èyí tí e̩ni tí a fi è̩sùn kàn yóò ti ní gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩. A kò gbo̩dò̩ dá è̩bi è̩s̩è̩ fún e̩nìké̩ni fún pé ó hu ìwà kan tàbí pé ó s̩e àwo̩n àfojúfò kàn nígbà tó jé̩ pé lásìkò tí èyí s̩e̩lè̩, irú ìwà bé̩è̩ tàbí irú àfojúfò bé̩è̩ kò lòdì sí òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn. Bákan náà, ìje̩níyà tí a lè fún e̩ni tó dé̩s̩è̩ kò gbo̩dò̩ ju èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "question_tgt": "Títí di ìgbà wo ni a gbo̩dò̩ gbà pé e̩nìké̩ni tí a fi è̩sùn kàn jàrè?",
+   "answer_tgt": "Títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "E̩nìké̩ni tí a fi è̩sùn kàn ni a gbo̩dò̩ gbà wí pé ó jàrè títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba nínú èyí tí e̩ni tí a fi è̩sùn kàn yóò ti ní gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩. A kò gbo̩dò̩ dá è̩bi è̩s̩è̩ fún e̩nìké̩ni fún pé ó hu ìwà kan tàbí pé ó s̩e àwo̩n àfojúfò kàn nígbà tó jé̩ pé lásìkò tí èyí s̩e̩lè̩, irú ìwà bé̩è̩ tàbí irú àfojúfò bé̩è̩ kò lòdì sí òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn. Bákan náà, ìje̩níyà tí a lè fún e̩ni tó dé̩s̩è̩ kò gbo̩dò̩ ju èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "question_tgt": "Kí ni e̩ni tí a fi è̩sùn kàn gbo̩dò̩ ti ní nínú ìdájó̩ tí a s̩e ní gban̄gba?",
+   "answer_tgt": "Gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "E̩nìké̩ni tí a fi è̩sùn kàn ni a gbo̩dò̩ gbà wí pé ó jàrè títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba nínú èyí tí e̩ni tí a fi è̩sùn kàn yóò ti ní gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩. A kò gbo̩dò̩ dá è̩bi è̩s̩è̩ fún e̩nìké̩ni fún pé ó hu ìwà kan tàbí pé ó s̩e àwo̩n àfojúfò kàn nígbà tó jé̩ pé lásìkò tí èyí s̩e̩lè̩, irú ìwà bé̩è̩ tàbí irú àfojúfò bé̩è̩ kò lòdì sí òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn. Bákan náà, ìje̩níyà tí a lè fún e̩ni tó dé̩s̩è̩ kò gbo̩dò̩ ju èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "question_tgt": "Ilé‐e̩jó̩ wo ló ní às̩e̩ láti dá è̩bi è̩s̩è̩ fún ènìyàn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "E̩nìké̩ni tí a fi è̩sùn kàn ni a gbo̩dò̩ gbà wí pé ó jàrè títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba nínú èyí tí e̩ni tí a fi è̩sùn kàn yóò ti ní gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩. A kò gbo̩dò̩ dá è̩bi è̩s̩è̩ fún e̩nìké̩ni fún pé ó hu ìwà kan tàbí pé ó s̩e àwo̩n àfojúfò kàn nígbà tó jé̩ pé lásìkò tí èyí s̩e̩lè̩, irú ìwà bé̩è̩ tàbí irú àfojúfò bé̩è̩ kò lòdì sí òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn. Bákan náà, ìje̩níyà tí a lè fún e̩ni tó dé̩s̩è̩ kò gbo̩dò̩ ju èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "question_tgt": "Lábé̩ irú òfin wo ni ìwà tàbí àfojúfò kan gbo̩dò̩ ti jé̩ è̩s̩è̩ nígbà tí a s̩e é?",
+   "answer_tgt": "Òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "E̩nìké̩ni tí a fi è̩sùn kàn ni a gbo̩dò̩ gbà wí pé ó jàrè títí è̩bi rè̩ yóò fi hàn lábé̩ òfin nípasè̩ ìdájó̩ tí a s̩e ní gban̄gba nínú èyí tí e̩ni tí a fi è̩sùn kàn yóò ti ní gbogbo ohun tí ó nílò láti fi s̩e àwíjàre ara rè̩. A kò gbo̩dò̩ dá è̩bi è̩s̩è̩ fún e̩nìké̩ni fún pé ó hu ìwà kan tàbí pé ó s̩e àwo̩n àfojúfò kàn nígbà tó jé̩ pé lásìkò tí èyí s̩e̩lè̩, irú ìwà bé̩è̩ tàbí irú àfojúfò bé̩è̩ kò lòdì sí òfin orílè̩‐èdè e̩ni náà tàbí òfin àwo̩n orílè̩‐èdè àgbáyé mìíràn. Bákan náà, ìje̩níyà tí a lè fún e̩ni tó dé̩s̩è̩ kò gbo̩dò̩ ju èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "question_tgt": "Ìje̩níyà wo ni a kò gbo̩dò̩ ju lo̩ fún e̩ni tó dé̩s̩è̩?",
+   "answer_tgt": "Èyí tó wà ní ìmúlò ní àsìkò tí e̩ni náà dá è̩s̩è̩ rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "question_tgt": "Kí ni ohun àkó̩kó̩ tí a tò pé a kò gbo̩dò̩ s̩àdédé s̩e àyo̩júràn sí?",
+   "answer_tgt": "Ò̩rò̩ ìgbésí ayé rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "question_tgt": "Kí ni e̩ni tí a s̩e àyo̩júràn sí tàbí tí a ba orúko̩ rè̩ jé̩ ní è̩tó̩ sí?",
+   "answer_tgt": "Ààbò lábé̩ òfin.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "question_tgt": "Láàrin ààlà wo ni e̩nì kò̩ò̩kan ní òmìnira láti rìn káàkiri àti láti s̩e ìbùgbé?",
+   "answer_tgt": "Láàrin orílè̩‐èdè rè̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "question_tgt": "Nínú àwo̩n ò̩ràn wo ni a kò lè lo è̩tó̩ sí ààbò yìí?",
+   "answer_tgt": "Fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ pé kí a má s̩àdédé s̩e àyo̩júràn sí ò̩rò̩ ìgbésí ayé rè̩, tàbí sí ò̩rò̩e̩bí rè̩ tàbí sí ò̩rò̩ ìdílé rè̩ tàbí ìwé tí a ko̩ sí i; a kò sì gbo̩dò̩ ba iyì àti orúko̩ rè̩ jé̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ààbò lábé̩ òfin kúrò ló̩wó̩ irú àyo̩júràn tàbí ìbanijé̩ bé̩è̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti rìn káàkiri ní òmìnira kí ó sì fi ibi tó bá wù ú s̩e ìbùgbé láàrin orílè̩‐èdè rè̩. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kúrò lórílè̩‐èdè yòówù kó jé̩, tó fi mó̩ orílè̩‐èdè tirè̩, kí ó sì tún padà sí orílè̩‐èdè tirè̩ nígbà tó bá wù ú. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti wá ààbò àti láti je̩ àn fàní ààbò yìí ní orílè̩‐èdè mìíràn nígbà tí a bá ń s̩e inúnibíni sí i. A kò lè lo è̩tó̩ yìí fún e̩ni tí a bá pè lé̩jó̩ tó dájú nítorí e̩ s̩è̩ tí kò je̩ mó̩ ò̩rò̩ ìs̩èlú tàbí ohun mìíràn tí ó s̩e tí kò bá ète àti ìgbékalè̩ Ajo̩‐ìsò̩kan orílè̩‐èdè àgbáyé mu.",
+   "question_tgt": "Àjo̩ wo ló ń pinnu bóyá a ó fún ènìyàn ní ààbò ní orílè̩‐èdè mìíràn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn. To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó.",
+   "question_tgt": "Lábé̩ ipò wo ni a lè s̩e ìgbeyàwó?",
+   "answer_tgt": "Òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn. To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó.",
+   "question_tgt": "Gé̩gé̩ bí àyo̩kà náà, kí ni a kò gbo̩dò̩ kò̩ fún ènìyàn láti yí padà?",
+   "answer_tgt": "Jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn. To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó.",
+   "question_tgt": "O̩jó̩ orí wo ni ó kéré jùlo̩ tí ènìyàn lè fi s̩e ìgbeyàwó?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn. To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó.",
+   "question_tgt": "Ìdí mélòó ni a mé̩nu bà tí kò lè dí e̩nìké̩ni ló̩wó̩ láti fé̩ ara wo̩n àti láti dá e̩bí sílè̩?",
+   "answer_tgt": "Mé̩ta.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti jé̩ o̩mo̩ orílè̩‐èdè kan. A kò lè s̩àdédé gba è̩tó̩ jíjé̩ o̩mo̩ orílè̩‐èdè e̩ni ló̩wó̩ e̩nìké̩ni láìnídìí tàbí kí a kò̩ fún e̩nìké̩ni láti yàn láti jé̩ o̩mo̩ orílè̩‐èdè mìíràn. To̩kùnrin tobìnrin tó bá ti bàlágà ló ní è̩tó̩ láti fé̩ ara wo̩n, kí wó̩n sì dá e̩bí ti wo̩n sílè̩ láìsí ìkanilápá‐kò kankan nípa è̩yà wo̩n, tàbí orílè̩‐èdè wo̩n tàbí è̩sìn wo̩n. E̩tó̩ wo̩n dó̩gba nínú ìgbeyàwó ìbáà jé̩ nígbà tí wo̩n wà papò̩ tàbí lé̩yìn tí wó̩n bá ko̩ ara wo̩n. A kò gbo̩dò̩ s̩e ìgbeyàwó kan láìjé̩ pé àwo̩n tí ó fé̩ fé̩ ara wo̩n ní òmìnira àto̩kànwá tó péye láti yàn fúnra wo̩n. E̩bí jé̩ ìpìlè̩ pàtàkì àdánidá ní àwùjo̩, ó sì ní è̩tó̩ pé kí àwùjo̩ àti orílè̩‐èdè ó dáàbò bò ó.",
+   "question_tgt": "Àwo̩n wo ni ó gbo̩dò̩ dáàbò bo e̩bí?",
+   "answer_tgt": "Àwùjo̩ àti orílè̩‐èdè.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Ò̩nà méjì wo ni àyo̩kà náà so̩ pé ènìyàn lè gbà ní ohun ìní?",
+   "answer_tgt": "Láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "The span is copied verbatim and carries the official file's defect 'ni in' (for 'ni i')."
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Kí ni a kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩?",
+   "answer_tgt": "E̩gbé̩ kankan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Ìsanpadà wo ni a gbo̩dò̩ san fún e̩ni tí a gba ohun ìní rè̩ ló̩wó̩ rè̩?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Lábé̩ ipò wo ni gbígba ohun ìní e̩ni ló̩wó̩ rè̩ jé̩ èèwò̩?",
+   "answer_tgt": "Nígbà tí a bá s̩àdédé gba ohun ìní e̩ni ló̩wó̩ rè̩ láìnídìí.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá ohun ìní ara rè̩ ní tàbí láti ní in papò̩ pè̩lú àwo̩n mìíràn. A kò lè s̩àdédé gba ohun ìní e̩nì kan ló̩wó̩ rè̩ láìnídìí. E̩nì kò̩ò̩kan ló ní è̩tó̩ sí òmìnira láti pé jo̩ pò̩ àti láti dara pò̩ mó̩ àwo̩n mìíràn ní àlàáfíà. A kò lè fi ipá mú e̩nìké̩ni dara pò̩ mó̩ e̩gbé̩ kankan. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti kópa nínú ìs̩àkóso orílè̩‐èdè rè̩, yálà fúnra rè̩ tàbí nípasè̩ àwo̩n as̩ojú tí a kò fi ipá yàn. E̩nì kò̩ò̩kan ló ní è̩tó̩ tó dó̩gba láti s̩e is̩é̩ ìjo̩ba ní orílè̩‐èdè rè̩. I fé̩ àwo̩n ènìyàn ìlú ni yóò jé̩ òkúta ìpìlè̩ fún à s̩e̩ ìjo̩ba; a ó máa fi ìfé̩ yìí hàn nípasè̩ ìbò tòótó̩ tí a ó máa dì láti ìgbà dé ìgbà, nínú èyí tí e̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o tí a dì ní ìkò̩kò̩ tàbí nípasè̩ irú o̩ nà ìdìbò mìíràn tí ó bá irú ìdìbò bé̩è̩ mu.",
+   "question_tgt": "Irú ìdìbò wo ni a ó lò nínú ìbò tí a ó máa dì láti ìgbà dé ìgbà?",
+   "answer_tgt": "E̩nì kò̩ò̩kan yóò ní è̩tó̩ sí ìbò kan s̩os̩o.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba restructures 'universal and equal suffrage' as a clause ('each person shall have the right to one single vote'); no noun-phrase span exists."
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan gé̩gé̩ bí è̩yà nínú àwùjo̩ ló ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba àti láti jé̩ àn fà ní àwo̩n è̩tó̩ tí ó bá o̩rò̩‐ajé, ìwà láwùjo̩ àti às̩à àbínibí mu; àwo̩n è̩tó̩ tí ó jé̩ kò‐s̩eé‐má‐nìí fún iyì àti ìdàgbàsókè è̩dá ènìyàn, nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè ní ìbámu pè̩lú ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "question_tgt": "Ní ipò wo ni e̩nì kò̩ò̩kan ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba?",
+   "answer_tgt": "Gé̩gé̩ bí è̩yà nínú àwùjo̩.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan gé̩gé̩ bí è̩yà nínú àwùjo̩ ló ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba àti láti jé̩ àn fà ní àwo̩n è̩tó̩ tí ó bá o̩rò̩‐ajé, ìwà láwùjo̩ àti às̩à àbínibí mu; àwo̩n è̩tó̩ tí ó jé̩ kò‐s̩eé‐má‐nìí fún iyì àti ìdàgbàsókè è̩dá ènìyàn, nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè ní ìbámu pè̩lú ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "question_tgt": "Nípasè̩ irú akitiyan wo ni a ó fi mú àwo̩n è̩tó̩ wò̩nyí s̩e̩?",
+   "answer_tgt": "Nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan gé̩gé̩ bí è̩yà nínú àwùjo̩ ló ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba àti láti jé̩ àn fà ní àwo̩n è̩tó̩ tí ó bá o̩rò̩‐ajé, ìwà láwùjo̩ àti às̩à àbínibí mu; àwo̩n è̩tó̩ tí ó jé̩ kò‐s̩eé‐má‐nìí fún iyì àti ìdàgbàsókè è̩dá ènìyàn, nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè ní ìbámu pè̩lú ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "question_tgt": "Ìje̩níyà wo ni ó wà fún orílè̩‐èdè tí kò bá pèsè ìdáàbò bò láti o̩wó̩ ìjo̩ba?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan gé̩gé̩ bí è̩yà nínú àwùjo̩ ló ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba àti láti jé̩ àn fà ní àwo̩n è̩tó̩ tí ó bá o̩rò̩‐ajé, ìwà láwùjo̩ àti às̩à àbínibí mu; àwo̩n è̩tó̩ tí ó jé̩ kò‐s̩eé‐má‐nìí fún iyì àti ìdàgbàsókè è̩dá ènìyàn, nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè ní ìbámu pè̩lú ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "question_tgt": "Irú è̩tó̩ mélòó ni a so̩ pé ó jé̩ kò‐s̩eé‐má‐nìí fún iyì ènìyàn?",
+   "answer_tgt": "Mé̩ta.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "E̩nì kò̩ò̩kan gé̩gé̩ bí è̩yà nínú àwùjo̩ ló ní è̩tó̩ sí ìdáàbò bò láti o̩wó̩ ìjo̩ba àti láti jé̩ àn fà ní àwo̩n è̩tó̩ tí ó bá o̩rò̩‐ajé, ìwà láwùjo̩ àti às̩à àbínibí mu; àwo̩n è̩tó̩ tí ó jé̩ kò‐s̩eé‐má‐nìí fún iyì àti ìdàgbàsókè è̩dá ènìyàn, nípa akitiyan nínú orílè̩‐èdè àti ìfo̩wó̩s̩owó̩ pò̩ láàrin àwo̩n orílè̩‐èdè ní ìbámu pè̩lú ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "question_tgt": "Kí ni ó lè mú kí àwo̩n è̩tó̩ wò̩nyí yàtò̩ láàrin orílè̩‐èdè kò̩ò̩kan?",
+   "answer_tgt": "Ètò àti ohun àlùmó̩nì orílè̩‐èdè kò̩ò̩kan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún.",
+   "question_tgt": "Kí ni owó os̩ù tí ó tó̩ gbo̩dò̩ mú wá fún òs̩ìs̩é̩ àti e̩bí rè̩?",
+   "answer_tgt": "Ayé tí ó bu iyì kún ènìyàn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún.",
+   "question_tgt": "Irú owó wo ni e̩nì kò̩ò̩kan ní è̩tó̩ sí láìsí ìyàsó̩tò̩ kankan?",
+   "answer_tgt": "Iye owó tí ó dó̩gba fún irú is̩é̩ kan náà.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún.",
+   "question_tgt": "Ìje̩níyà wo ni a ó fún agbanisís̩é̩ tí kò san iye owó tí ó dó̩gba fún irú is̩é̩ kan náà?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún.",
+   "question_tgt": "Kí ni è̩tó̩ ìke̩yìn tí a tò nínú gbólóhùn àkó̩kó̩?",
+   "answer_tgt": "Ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ láti s̩is̩é̩, láti yan irú is̩é̩ tí ó wù ú, lábé̩ àdéhùn tí ó tó̩ tí ó sì tún ro̩rùn, kí ó sì ní ààbò kúrò ló̩wó̩ àìrís̩é̩ s̩e. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gba iye owó tí ó dó̩gba fún irú is̩é̩ kan náà, láìsí ìyàsó̩tò̩ kankan. E̩nì kò̩ò̩kan tí ó bá ń s̩isé̩ ní è̩tó̩ láti gba owó os̩ù tí ó tó̩ tí yóò sì tó fún òun àti e̩bí rè̩ láti gbé ayé tí ó bu iyì kún ènìyàn; a sì lè fi kún owó yìí nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn nígbà tí ó bá ye. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti dá e̩gbé̩ òs̩ìs̩é̩ sílè̩ àti láti dara pò̩ mó̩ irú e̩gbe̩; bé̩è̩ láti dáàbò bo àwo̩n ohun tí ó je̩ é̩ lógún.",
+   "question_tgt": "Kí ni ó ye̩ kí ó s̩e̩lè̩ tí owó os̩ù nìkan kò bá tó láti gbé ayé tí ó bu iyì kún ènìyàn?",
+   "answer_tgt": "A lè fi kún owó náà nípasè̩ orís̩ìí àwo̩n ètò ìrànló̩wó̩ mìíràn.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n.",
+   "question_tgt": "Kí ni è̩tó̩ sí ìsinmi àti fàájì kó mó̩ra?",
+   "answer_tgt": "Àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n.",
+   "question_tgt": "Wákàtí mélòó ni ó pò̩ jùlo̩ tí a lè fi s̩is̩é̩ ní ò̩sè̩ kan?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n.",
+   "question_tgt": "Kí ni ipò kejì tí a tò nínú èyí tí e̩nì kò̩ò̩kan ní ààbò?",
+   "answer_tgt": "Nígbà àìsà n.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "The official text writes 'aisan' with a spacing defect ('aisa n'); the span is copied exactly as it stands."
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n.",
+   "question_tgt": "Àwo̩n e̩gbé̩ méjì wo ni ó ní è̩tó̩ sí ìtó̩jú àti ìrànló̩wó̩ pàtàkì?",
+   "answer_tgt": "Àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "E̩nì kò̩ò̩kan ló ní è̩tó̩ sí ìsinmi àti fàájì pè̩lú àkókò tí kò pò̩ jù lé̩nu is̩é̩ àti àsìkò ìsinmi lé̩nu is̩é̩ láti ìgbà dé ìgbà tí a ó sanwó fún. E̩nì kò̩ò̩kan ló ní è̩tó̩ láti gbé ìgbé ayé tó bójú mu nínú èyí tí òun àti e̩bí rè̩ yóò wà ní ìlera àti àlàáfíà, tí wo̩n yóò sì ní oúnje̩, as̩o̩, ilégbèé, àti àn fàní fún ìwòsàn àti gbogbo ohun tó lè mú è̩dá gbé ìgbé ayé rere. Bákan náà, e̩nì kò̩ò̩kan ló tún ní ààbò nígbà àìnís̩é̩ló̩wó̩, nígbà àìsà n, nígbà tó bá di aláàbò̩‐ara, ní ipò opó, nígbà ogbó rè̩ tàbí ìgbà mìíràn tí ènìyàn kò ní ò̩nà láti rí oúnje̩ òò jó̩, tí eléyìí kì í sì í s̩e è̩bi olúwa rè̩. A ní láti pèsè ìtó̩jú àti ìrànló̩wó̩ pàtàkì fún àwo̩n abiyamo̩ àti àwo̩n o̩mo̩dé. Gbogbo àwo̩n o̩mo̩dé yóò máa je̩ àwo̩n àn fàní ààbò kan náà nínú àwùjo̩ yálà àwo̩n òbí wo̩n fé̩ ara wo̩n ni tàbí wo̩n kò fé̩ ara wo̩n.",
+   "question_tgt": "Nínú irú ipò wo ni àìní ò̩nà láti rí oúnje̩ gbo̩dò̩ s̩e̩lè̩ kí è̩tó̩ sí ààbò lè kan ènìyàn?",
+   "answer_tgt": "Eléyìí kì í sì í s̩e è̩bi olúwa rè̩.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Yoruba renders 'in circumstances beyond his control' as a clause ('this is not the person's own fault'); the span is that clause."
+  }
+ ]
+}

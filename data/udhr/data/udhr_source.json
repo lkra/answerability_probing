@@ -1,0 +1,10 @@
+{
+  "url": "https://web.archive.org/web/2023id_/https://unicode.org/udhr/assemblies/udhr_xml.zip",
+  "upstream_url": "https://unicode.org/udhr/assemblies/udhr_xml.zip",
+  "upstream_status": "retired by Unicode in January 2024; all data URLs 404",
+  "sha256": "18bf578bb837e0c6924ff389e607bfde5acc4d02412d8ecde989602ca8ff0514",
+  "size_bytes": 2237381,
+  "n_language_files": 456,
+  "fetched": "2026-07-30",
+  "copyright": "\u00a9 The Office of the High Commissioner for Human Rights"
+}

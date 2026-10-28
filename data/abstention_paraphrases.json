@@ -1,0 +1,142 @@
+{
+  "_comment": "Free-form abstentions that mean 'the passage does not say' but are not the literal the organizers score. Fed to analyze_abstention.py --paraphrases to size the undercount per language. Curated by reading --dump-unmatched output on the Qwen3.5-4B qa-context run; NOT used to reclassify, only to estimate how badly exact matching undercounts abstention. Regexes are matched case-insensitively against the raw generation. Iterated twice against --dump-unmatched; STILL INCOMPLETE -- see RESULTS note, the per-language ranking is not safe to quote.",
+  "eng": [
+    "passage (does not|doesn't|did not)",
+    "not (provide|mention|state|specify|contain)",
+    "no information",
+    "cannot be answered",
+    "unable to answer",
+    "does not say"
+  ],
+  "kor": [
+    "없습니다",
+    "않습니다",
+    "포함되어 있지",
+    "정보가 없",
+    "언급되지",
+    "나와 있지 않"
+  ],
+  "tur": [
+    "belirtilmemi",
+    "geçmemekte",
+    "bulunmamakta",
+    "yer almamakta",
+    "söylenmemekte",
+    "bilgi yok",
+    "bilgi bulunmuyor"
+  ],
+  "mar": [
+    "उल्लेख नाही",
+    "नमूद केले नाही",
+    "उल्लेखिल्ले नात",
+    "स्पष्ट केले ना",
+    "माहिती नाही",
+    "दिलेले नाही",
+    "स्पश्ट केली ना",
+    "उल्लेख नात",
+    "विवरण द्यावयाचें ना"
+  ],
+  "hin": [
+    "उल्लेख नहीं",
+    "नहीं दिया",
+    "जानकारी नहीं",
+    "नहीं बताया",
+    "उल्लिखित नहीं"
+  ],
+  "ces": [
+    "neuvádí",
+    "není uveden",
+    "nezmiňuje",
+    "neobsahuje",
+    "nelze odpovědět"
+  ],
+  "jpn": [
+    "記載されていません",
+    "述べられていません",
+    "書かれていません",
+    "含まれていません",
+    "言及されていません",
+    "情報はありません",
+    "がありません",
+    "記載がありません",
+    "説明がありません",
+    "情報がありません"
+  ],
+  "deu": [
+    "nicht angegeben",
+    "nicht genannt",
+    "nicht erwähnt",
+    "keine Angabe",
+    "nicht hervor",
+    "nicht entnehmen",
+    "enthält keine",
+    "keine Antwort",
+    "keine Information"
+  ],
+  "ind": [
+    "tidak disebutkan",
+    "tidak menyebutkan",
+    "tidak terdapat",
+    "tidak ada informasi"
+  ],
+  "ben": [
+    "উল্লেখ নেই",
+    "উল্লেখ করা হয়নি",
+    "তথ্য নেই",
+    "বলা হয়নি"
+  ],
+  "zho": [
+    "未提及",
+    "没有提到",
+    "未说明",
+    "没有提供",
+    "未提供"
+  ],
+  "arb": [
+    "لا يذكر",
+    "لم يذكر",
+    "لا توجد معلومات",
+    "لم يتم ذكر"
+  ],
+  "pes": [
+    "ذکر نشده",
+    "اشاره نشده",
+    "اطلاعاتی وجود ندارد"
+  ],
+  "rus": [
+    "не указан",
+    "не упомин",
+    "не говорится",
+    "нет информации"
+  ],
+  "ita": [
+    "non specifica",
+    "non menziona",
+    "non indica",
+    "non fornisce"
+  ],
+  "spa": [
+    "no especifica",
+    "no menciona",
+    "no indica",
+    "no proporciona"
+  ],
+  "por": [
+    "não especifica",
+    "não menciona",
+    "não indica",
+    "não fornece"
+  ],
+  "vie": [
+    "không đề cập",
+    "không nêu",
+    "không có thông tin",
+    "không cung cấp"
+  ],
+  "fin": [
+    "ei kerro",
+    "ei mainita",
+    "ei ilmene",
+    "ei anneta"
+  ]
+}

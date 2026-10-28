@@ -1,0 +1,195 @@
+{
+ "_about": "The organisers' own questions on the 5 UDHR passages the test set uses. Shown to the authoring agents as the design to imitate. These passages are excluded from training.",
+ "exemplars": [
+  {
+   "source": "P.1+P.2+P.3",
+   "passage": "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law.",
+   "n_questions": 5,
+   "n_unanswerable": 1,
+   "questions": [
+    {
+     "question": "According to the text, what is the cause of the barbarous acts that outraged the conscience of mankind?",
+     "answerable": true,
+     "answer": "Disregard and contempt for human rights.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "In what year was the Universal Declaration of Human Rights drafted?",
+     "answerable": false,
+     "answer": null,
+     "silver_confidence": "high"
+    },
+    {
+     "question": "Under what condition might a person be forced to rebel against tyranny and oppression as a last resort?",
+     "answerable": true,
+     "answer": "If human rights are not protected by the rule of law.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What is proclaimed as the highest aspiration of the common people?",
+     "answerable": true,
+     "answer": "The advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What serves as the foundation of freedom, justice and peace in the world?",
+     "answerable": true,
+     "answer": "Recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family.",
+     "silver_confidence": "high"
+    }
+   ]
+  },
+  {
+   "source": "1.1+2.1",
+   "passage": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.",
+   "n_questions": 5,
+   "n_unanswerable": 1,
+   "questions": [
+    {
+     "question": "How should human beings act towards one another?",
+     "answerable": true,
+     "answer": "They should act towards one another in a spirit of brotherhood.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What are all human beings entitled to without distinction of any kind?",
+     "answerable": true,
+     "answer": "All the rights and freedoms set forth in the Declaration.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What specific penalties are enforced if a person violates another's right to equality?",
+     "answerable": false,
+     "answer": null,
+     "silver_confidence": "high"
+    },
+    {
+     "question": "Which economic and birth-related factors are listed that must not be used to deny rights?",
+     "answerable": true,
+     "answer": "Property and birth.",
+     "silver_confidence": "medium"
+    },
+    {
+     "question": "With what internal faculties are all human beings endowed at birth?",
+     "answerable": true,
+     "answer": "Reason and conscience.",
+     "silver_confidence": "high"
+    }
+   ]
+  },
+  {
+   "source": "18.1+19.1",
+   "passage": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or in private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+   "n_questions": 5,
+   "n_unanswerable": 1,
+   "questions": [
+    {
+     "question": "According to the right to freedom of thought, conscience, and religion, what is a person free to change?",
+     "answerable": true,
+     "answer": "A person is free to change his religion or belief.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "Through what channels and boundaries can information and ideas be sought, received, and imparted?",
+     "answerable": true,
+     "answer": "Information and ideas can be sought, received and imparted through any media and regardless of frontiers.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What is the extent of the freedom of opinion and expression?",
+     "answerable": true,
+     "answer": "It includes the freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What is the third-to-last listed activity where everyone can manifest their religion?",
+     "answerable": true,
+     "answer": "Practice.",
+     "silver_confidence": "medium"
+    },
+    {
+     "question": "Which international tribunal has jurisdiction to hear cases regarding violations of the freedom of opinion and expression?",
+     "answerable": false,
+     "answer": null,
+     "silver_confidence": "high"
+    }
+   ]
+  },
+  {
+   "source": "26.1",
+   "passage": "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.",
+   "n_questions": 5,
+   "n_unanswerable": 1,
+   "questions": [
+    {
+     "question": "In which stages of education must tuition or fees not be charged?",
+     "answerable": true,
+     "answer": "In the elementary and fundamental stages.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "On what basis must higher education be equally accessible to all?",
+     "answerable": true,
+     "answer": "On the basis of merit.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What are the age limits for compulsory elementary education?",
+     "answerable": false,
+     "answer": null,
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What are the availability and accessibility requirements for technical and professional education compared to higher education?",
+     "answerable": true,
+     "answer": "Technical and professional education shall be made generally available, while higher education shall be equally accessible to all on the basis of merit.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "Which stage of education is described as compulsory?",
+     "answerable": true,
+     "answer": "Elementary education.",
+     "silver_confidence": "high"
+    }
+   ]
+  },
+  {
+   "source": "27.1+27.2",
+   "passage": "Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.",
+   "n_questions": 5,
+   "n_unanswerable": 1,
+   "questions": [
+    {
+     "question": "For how many years does copyright protection last after the author's death?",
+     "answerable": false,
+     "answer": null,
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What has everyone the right to freely participate in?",
+     "answerable": true,
+     "answer": "The cultural life of the community.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What interests resulting from scientific, literary, or artistic productions are protected?",
+     "answerable": true,
+     "answer": "The moral and material interests resulting from any scientific, literary or artistic production.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "What three cultural and intellectual activities can citizens engage in under the first sentence of this article?",
+     "answerable": true,
+     "answer": "Participating in the cultural life of the community, enjoying the arts, and sharing in scientific advancement and its benefits.",
+     "silver_confidence": "high"
+    },
+    {
+     "question": "Who is entitled to the legal protection of the creative and financial interests of a production under this text?",
+     "answerable": true,
+     "answer": "The author of the production.",
+     "silver_confidence": "high"
+    }
+   ]
+  }
+ ]
+}

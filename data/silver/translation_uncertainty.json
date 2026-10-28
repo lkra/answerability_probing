@@ -1,0 +1,860 @@
+{
+  "spa": {
+    "n_translated": 80,
+    "notes": "Output written to answerability/translation_outputs/spa.json (directory created). Structure, unit order and all other fields are identical to the input; only \"translation\" was filled. 80 units, 20 with same_language=true. For all 20 same-language units the wording was lifted verbatim from target_passage (e.g. item_035 «La falta de recursos para salvaguardarlo.», item_044 «Yacimientos arqueológicos, museos, bibliotecas, archivos y otros lugares.», item_089 «Actos festivos.»), with only minimal grammatical adjustment for standalone-sentence form (capitalisation, final period, occasional article/copula as in item_002 and item_051). For the null-target units drawn from the UDHR I used the official Spanish Declaration wording where I know it (e.g. «desconocimiento y menosprecio de los derechos humanos», «deben comportarse fraternalmente los unos con los otros», «en función de los méritos respectivos», «posición económica y nacimiento», «régimen de Derecho»); for item_049 I used the official UNESCO 2003 Article 2.1 Spanish definition; for item_004/054 the official TFEU Art. 167 Spanish; for item_073 the AI Act Spanish formula «introducción en el mercado, puesta en servicio o utilización». Short noun-phrase answers were kept short. JSON verified to parse, same count/order, all translations non-null and in Spanish.",
+    "uncertain": [
+      {
+        "item_id": "item_082",
+        "why": "Gloss of the Japanese word 'wabi' as 'forlorn' — rendered «desamparado»; other Spanish sources use «desolado»/«solitario», so the exact gloss expected by the reference is a judgement call."
+      },
+      {
+        "item_id": "item_093",
+        "why": "'intricate textiles' rendered as «los intrincados tejidos»; «tejidos elaborados» or «textiles intrincados» are equally plausible and no Spanish source text was provided to anchor the term."
+      },
+      {
+        "item_id": "item_031",
+        "why": "No target_passage; wording follows standard UN Spanish («la gobernanza, la cohesión social y el desarrollo de los Estados Miembros afectados») from memory of S/RES/2347, not a verified official text."
+      },
+      {
+        "item_id": "item_040",
+        "why": "No target_passage; used Rome-Statute-style Spanish («la religión, la educación, las artes, las ciencias y la beneficencia») from memory — the UNSC resolution's official Spanish may differ slightly (e.g. «la instrucción»)."
+      }
+    ]
+  },
+  "kor": {
+    "n_translated": 80,
+    "notes": "Output written to answerability/translation_outputs/kor.json (directory created). Structure, key set and unit order are identical to the input; only \"translation\" fields were filled. Verified: file parses as JSON, 80 units in the same order, every translation non-null and containing Hangul.\n\nGrounding: only 4 units had a non-null target_passage (item_015, item_025, item_084, item_100), all four being the same official Korean UDHR Art. 1-2 text. All four reuse the passage wording verbatim: item_015 \"인간은 서로 형제애의 정신으로 행동하여야 한다.\" (subject 인간은 added from the same sentence to make it standalone), item_025 \"이 선언에 규정된 모든 권리와 자유.\", item_100 \"이성과 양심.\", item_084 \"재산과 출생.\" (passage lists them comma-separated as \"재산, 출생\"; only the conjunction was adjusted, terminology is verbatim).\n\nFor the 76 null-target_passage units I translated from English, staying close to the source phrasing and using standard Korean terminology where I know it: UDHR (인권에 대한 무시와 경멸, 능력에 따라, 공동체의 문화생활, 정신적·물질적 이익), the 2003 UNESCO Convention (무형문화유산, 관련 공동체·집단 및 개인, 구전 전통 및 표현 / 공연 예술 / 사회적 관습·의례 및 축제 행사 / 자연과 우주에 관한 지식 및 관습 / 전통 공예 기술), and 유럽연합 / 유럽평의회 for the EU items.\n\nConfidence is solid for the UDHR and UNESCO-Convention items and for the Wikipedia-derived cultural passages. It is weaker for the EU-instrument items (TFEU Art. 167, Charter Art. 21, AI Act Art. 5): there is no widely circulated official Korean text for these, so the terminology there is my faithful translation rather than an attested official rendering — see the flagged ids. Short noun-phrase answers were kept short as instructed (e.g. \"간소함.\", \"테러 집단.\", \"빛의 축제.\").",
+    "uncertain": [
+      {
+        "item_id": "item_056",
+        "why": "Answer is the single word 'Practice' from UDHR Art. 18's list 'teaching, practice, worship and observance'. The standard Korean UDHR renders this list as 선교, 행사, 예배, 의식, so I used 행사, but Korean renderings vary (some use 실천/행함) and 행사 in isolation is ambiguous ('event')."
+      },
+      {
+        "item_id": "item_004",
+        "why": "TFEU Art. 167(4). No official Korean text exists for EU treaties, so the phrasing '특히 자신의 문화의 다양성을 존중하고 증진하기 위한 문화적 측면' is my own rendering of a noun-phrase answer; a Korean official version, if the benchmark assumes one, would likely differ."
+      },
+      {
+        "item_id": "item_073",
+        "why": "EU AI Act Art. 5 triad 'placing on the market / putting into service / use'. Korean legal renderings are not standardised; I used 시장 출시, 서비스 개시 및 사용, but 서비스 공급/서비스 제공 개시 are also used for 'putting into service'."
+      },
+      {
+        "item_id": "item_062",
+        "why": "'A sense of identity and continuity' from the 2003 Convention Art. 2. I used 정체성과 지속성에 대한 인식; the Korean treaty text may use 계속성 rather than 지속성 and may phrase it as 정체성 및 계속성을 부여."
+      },
+      {
+        "item_id": "item_013",
+        "why": "'Three.' as a count of religions. I used 세 개; a Korean speaker might prefer 세 종교 or 셋, and the bare counter choice is a judgement call."
+      },
+      {
+        "item_id": "item_082",
+        "why": "Rendering of 'wabi' meaning 'forlorn' as '쓸쓸하다'는 뜻의 '와비'; the gloss for 'forlorn' could also be 적막함/외로움 and I am not certain which the reference expects."
+      }
+    ]
+  },
+  "rus": {
+    "n_translated": 80,
+    "notes": "Grounding: all 16 same_language units reuse the exact wording of the corresponding span in target_passage (UNESCO 2003 Convention RU; UNSC res. 2347 RU). Adjustments were limited to what standalone grammar required: (a) items 044, 068, 077, 040 convert the passage's prepositional/genitive list into the nominative (e.g. «из мест археологических раскопок, музеев, библиотек, архивов и из других объектов» -> «Места археологических раскопок, музеи, библиотеки, архивы и другие объекты»); lexical choices are untouched. (b) items 008, 049, 058 replace the passage's participial/relative construction with a pronoun subject («Оно передается…», «Оно означает…», «Они должны быть привлечены к ответственности»). (c) item_029 was deliberately LEFT in the passage's genitive («Окружающей их среды, их взаимодействия с природой и их истории») because the English answer is likewise a verbatim dependent-form fragment; if the scorer expects a nominative noun phrase this one will look odd. (d) items 051 and 090 add the minimal frame «Цель (а) — …» around verbatim spans; note item_051/090 keep the passage's own Cyrillic «а» vs Latin «b»/«d» item letters exactly as they appear in target_passage.\n\nUnits with target_passage == null were translated using the official Russian texts of the instruments where I know them: UDHR (items 001, 003, 015, 019, 020, 022, 023, 025, 027, 041, 045, 047, 052, 067, 071, 084, 092, 097, 100) follow the UN Russian wording (e.g. «пренебрежение и презрение к правам человека», «в духе братства», «на основе способностей каждого», «властью закона», «имущественного, сословного… положения»). UNESCO Convention items without a target passage (016, 028, 035, 039, 061, 066, 074, 089) reuse the Convention's Russian terminology («знания и обычаи, относящиеся к природе и вселенной», «знания и навыки, связанные с традиционными ремеслами», «носитель нематериального культурного наследия», «деградация, исчезновение и разрушение»). UNSC 2347 items (024, 031, 043, 096) use that resolution's Russian phrasing («затрагиваемых государств-членов», «разграбление и незаконный вывоз культурных ценностей»).\n\nWeaker ground: the EU-instrument items (004, 005, 034, 054, 055, 065, 073, 075, 086, 088, 098, 099) have no official Russian version — Russian is not an EU language — so these are faithful translations in standard Russian legal register, not citations. Terms such as «размещение на рынке», «ввод в эксплуатацию», «социальный рейтинг», «профилирование» follow common Russian AI-Act commentary usage.\n\nLength/shape was preserved: short noun-phrase answers stayed short one-liners («Простота.», «Три.», «Террористические группы.», «Совет Европы.»).",
+    "uncertain": [
+      {
+        "item_id": "item_056",
+        "why": "English answer is the bare word 'Practice.' from 'teaching, practice, worship and observance'. The official Russian UDHR Art. 18 does not have a one-to-one word for 'practice' — it renders the whole list as 'в учении, богослужении и выполнении религиозных и ритуальных обрядов'. I emitted the literal 'Практика.', which is defensible but is not the official term and does not align with the list in the Russian instrument."
+      },
+      {
+        "item_id": "item_033",
+        "why": "Names of the Mid-Autumn Festival. 'Праздник луны' is standard; 'Праздник лунных пряников' for 'Mooncake Festival' is a reasonable but not firmly established Russian rendering (mooncake is also seen as 'юэбин' / 'лунный пирог')."
+      },
+      {
+        "item_id": "item_042",
+        "why": "Cyrillic transliteration of the Yoruba terms Omoluwabi/Iwapele ('Омолуваби', 'Ивапеле') is my own; there is no settled Russian convention for these words. Same caveat applies to the names in item_009 (Обатала, Олодумаре, Иле-Ифе), though those are more commonly attested."
+      },
+      {
+        "item_id": "item_072",
+        "why": "'diya' rendered as 'дийя' with the gloss 'масляная лампа'; Russian sources also use 'дия'/'дипа', so the exact form is a guess."
+      },
+      {
+        "item_id": "item_082",
+        "why": "Gloss of Japanese 'wabi' as 'forlorn' rendered '«покинутый»'; Russian aesthetics literature usually glosses wabi differently (e.g. 'скромная простота', 'одиночество'), so the single-word choice may not match a reference."
+      }
+    ]
+  },
+  "arb": {
+    "n_translated": 80,
+    "notes": "Output at answerability/translation_outputs/arb.json — 80 units, same order, all other fields byte-identical to the input (verified programmatically); every translation is non-null and contains Arabic script.\n\nGrounding: all 20 same_language units reuse the exact wording of the corresponding span in target_passage, with only the minimal grammatical surgery needed to stand alone (dropping the leading وإذ يشدد / إذ تدرك subordinators, converting المتوارث to a predicate in item_008, converting the definition opener يقصد بعبارة «...» to يقصد بها in item_049). No paraphrasing or \"improvement\" of the official Arabic.\n\nFor the 60 target_passage-null units I used the official UN Arabic wording where the source is the UDHR (items 001, 003, 015, 019, 020, 022, 023, 025, 027, 041, 045, 047, 052, 067, 071, 084, 092, 097, 100 — e.g. تناسي حقوق الإنسان وازدراؤها, انبثاق عالم يتمتع فيه الفرد بحرية القول والعقيدة ويتحرر من الفزع والفاقة, على أساس الكفاءة) and the official Arabic of the 2003 UNESCO Convention Art. 1 for items 002, 006, 051, 090 (صون / احترام / التوعية / التعاون الدولي والمساعدة الدولية). EU treaty/Charter/AI-Act items (004, 005, 034, 054, 055, 065, 073, 075, 086, 088, 098, 099) have no official Arabic, so those are faithful close translations rather than citations.\n\nOne systematic caveat worth passing to whoever scores this: for same_language units the Arabic reference is by construction a passage span, so span-overlap metrics will score high there and lower on the 60 retranslated units. That asymmetry is a property of the data, not of the translation quality.",
+    "uncertain": [
+      {
+        "item_id": "item_031",
+        "why": "The official Arabic UNSC text diverges from the English here: it reads \"الأمن والاستقرار والحكم الرشيد والتنمية الاجتماعية والاقتصادية والثقافية\" (security, stability, good governance, and social/economic/cultural development) and has no equivalent of \"social cohesion\". I followed Rule 1 and reused the passage span verbatim, so the reference does not enumerate the same five items as english_answer. Flagging in case the grader expects an English-faithful list instead."
+      },
+      {
+        "item_id": "item_009",
+        "why": "Yoruba proper names have no established Arabic spelling; I chose أوباتالا / أولودوماري / إيلي-إيفي. The surrounding sentence is solid MSA, but the transliterations are my own convention."
+      },
+      {
+        "item_id": "item_042",
+        "why": "أومولووابي (Omoluwabi) and إيوابيلي (Iwapele) are ad-hoc Arabic transliterations of Yoruba philosophical terms; no standard Arabic rendering exists that I can vouch for."
+      },
+      {
+        "item_id": "item_094",
+        "why": "Japanese names transliterated as سِن نو ريكيو / تاكينو جو / موراتا جوكو; Arabic sources are inconsistent (e.g. جو vs جوؤ for Jōō), so the exact spellings are a judgement call."
+      },
+      {
+        "item_id": "item_082",
+        "why": "The gloss of 'wabi' as 'forlorn' — I used «موحش». Arabic has no settled equivalent for this aesthetic term; كئيب / موحش / متروك are all defensible and a string-match grader may penalise my choice."
+      },
+      {
+        "item_id": "item_033",
+        "why": "\"Mooncake Festival\" rendered as عيد كعك القمر. Arabic media also use مهرجان كعكة القمر; there is no single canonical name."
+      },
+      {
+        "item_id": "item_046",
+        "why": "Diwali's epithet: I used مهرجان الأضواء, but عيد الأنوار is equally common in Arabic. Lexical choice, not a meaning risk."
+      },
+      {
+        "item_id": "item_073",
+        "why": "The EU AI Act has no official Arabic version. \"Placing on the market / putting into service\" rendered as الطرح في السوق / التشغيل; other Arabic legal translations use الإتاحة في السوق / وضعه قيد الخدمة."
+      },
+      {
+        "item_id": "item_013",
+        "why": "english_answer is the bare word \"Three.\" A bare ثلاث is ungrammatical standalone in Arabic, so I wrote ثلاث ديانات (\"three religions\"), which is slightly longer than the English."
+      },
+      {
+        "item_id": "item_036",
+        "why": "\"Conceptual satisfaction\" rendered as الرضا المعنوي. المعنوي means moral/immaterial rather than strictly \"conceptual\"; التصوري would be more literal but reads oddly in this register."
+      }
+    ]
+  },
+  "fin": {
+    "n_translated": 80,
+    "notes": "Output at answerability/translation_outputs/fin.json (directory created). Verified: parses as JSON, 80 units in identical order with identical item_ids, all non-translation fields byte-identical to the input, every translation non-null and in Finnish.\n\n8 units had a non-null target_passage (item_004, 041, 045, 054, 071, 086, 088, 097) -- all EU treaty text (TFEU Art. 167) or the official Finnish UDHR Art. 27. For these I lifted the corresponding span verbatim from target_passage, adjusting only case/inflection where a standalone answer required it: e.g. item_054 = \"Ei-kaupallinen kulttuurivaihto.\" and item_004 = \"Kulttuuriin liittyvat nakokohdat, erityisesti kulttuuriensa monimuotoisuuden vaalimiseksi ja edistamiseksi.\" (both exact substrings of the Finnish passage). item_041 uses the passage's distinctive \"yhteiskunnan sivistyselamaan\" rather than a modern paraphrase like \"yhteison kulttuurielamaan\".\n\nFor the 72 units with target_passage == null I used the standard official Finnish wording where I know it rather than a fresh translation: the Finnish UDHR (e.g. \"Heidan on toimittava toisiaan kohtaan veljeyden hengessa\", \"Ihmisoikeuksien vaheksyminen ja huomiotta jattaminen\", \"Alkeis- ja perusopetuksen osalta\", \"kykyjen perusteella\", \"kaikkien tiedotusvalineiden kautta ja rajoista riippumatta\"), the EU Charter Art. 21 terminology (\"geneettiset ominaisuudet\", \"vammaisuus\"), the AI Act's \"markkinoille saattaminen, kayttoonotto ja kaytto\", and the Finnish UNESCO 2003 Convention term \"aineeton kulttuuriperinto\" with its domain names (\"suulliset perinteet ja ilmaukset\", \"esittavat taiteet\", \"perinteinen kasityotaito\").\n\nShort noun-phrase answers were kept short (item_013 \"Kolme.\", item_038 \"Yksinkertaisuutta.\", item_096 \"Terroristiryhmat.\"), and every answer is a single sentence/phrase matching the shape of english_answer.",
+    "uncertain": [
+      {
+        "item_id": "item_097",
+        "why": "The Finnish UDHR Art. 27 text has no noun corresponding to 'author' -- it only says 'hanen luomastaan ... tuotannosta'. I rendered it as 'Tuotannon luoja.', which is a paraphrase rather than a verbatim passage span; a grader expecting a literal span may score it differently."
+      },
+      {
+        "item_id": "item_056",
+        "why": "The official Finnish UDHR Art. 18 does not preserve the four-item English list (teaching, practice, worship, observance) -- it reads 'opettamalla seka harjoittamalla hartautta ja uskonnollisia menoja'. So there is no clean Finnish equivalent of the third-to-last item; I used 'Uskonnon harjoittaminen.'"
+      },
+      {
+        "item_id": "item_082",
+        "why": "Rendering of 'forlorn' as 'hylatty'; Finnish sources on wabi variously use 'yksinainen', 'hylatty' or 'karu', so the exact expected word is a judgement call."
+      },
+      {
+        "item_id": "item_033",
+        "why": "Finnish names for the Mid-Autumn Festival's alternatives are not fully standardised; 'Kuujuhla ja kuukakkujuhla' is the common calque but Finnish Wikipedia usage varies."
+      }
+    ]
+  },
+  "zho": {
+    "n_translated": 80,
+    "notes": "Grounding: all 19 same_language units reuse the target_passage span verbatim (only sentence-final punctuation added, plus the two flagged one-character deviations in item_058 and item_033). For the 61 units with target_passage null I used the official UN Chinese texts where they exist and I know them: UDHR preamble and arts. 1/2/18/19/26/27 (e.g. 对人权的无视和侮蔑, 理性和良心, 根据成绩, 社会的文化生活, 精神的和物质的利益), the UNESCO 2003 Convention arts. 1 and 2 (保护非物质文化遗产 / 尊重有关社区、群体和个人的非物质文化遗产 / 在地方、国家和国际一级 / 口头传统和表现形式 … 传统手工艺), and the Security Council cultural-heritage resolution wording (考古遗址、博物馆、图书馆、档案馆和其他场所; 宗教场所和文物; 抢掠和走私), which is consistent with the Chinese spans supplied for sibling items from the same instruments. EU Charter art. 21, TFEU art. 167 and AI Act art. 5 have no authoritative Chinese version, so those are faithful close translations. Council of Europe rendered 欧洲委员会 (deliberately not 欧洲理事会, which is the European Council). Short noun-phrase answers were kept short (三个。/ 简朴。/ 历史古迹。/ 恐怖主义团体。). Clause labels (a)/(b)/(c)/(d) were kept in Latin letters, matching the English answers and normal Chinese legal-citation practice — that is the only non-Han text in the file. Note the input's target_passage for items 008/029/062 contains a corruption (\"其 cultural 遗产\"); I used the correct 文化遗产 in item_049 where I had to write the definition out.",
+    "uncertain": [
+      {
+        "item_id": "item_009",
+        "why": "Yoruba proper names have no settled Chinese convention; I used 奥巴塔拉 (Obatala), 奥洛杜马雷 (Olodumare), 伊莱-伊费 (Ile-Ife). These are plausible transliterations, not verified standard forms."
+      },
+      {
+        "item_id": "item_042",
+        "why": "Omoluwabi/Iwapele transliterated as 奥莫卢瓦比/伊瓦佩莱 — invented transliteration, no established Chinese rendering exists."
+      },
+      {
+        "item_id": "item_058",
+        "why": "target_passage reads 绳之法, which is a typo/OCR error for the fixed idiom 绳之以法. I emitted the grammatical 必须将此种袭击的肇事者绳之以法。 — one character diverges from the passage verbatim. Revert to 绳之法 if strict span match is required."
+      },
+      {
+        "item_id": "item_031",
+        "why": "The official Chinese span reads 受影响国家的安全、稳定、治理及其社会、经济和文化发展 — it says 'social, economic and cultural development' where the English says 'social cohesion and development'. Per rule 1 I reused the Chinese verbatim, so the translation does not literally mirror english_answer."
+      },
+      {
+        "item_id": "item_046",
+        "why": "Diwali is normally 排灯节 in Chinese; the epithet 'the festival of lights' I rendered as 灯节. 光明节 is also used but usually denotes Hanukkah, so I avoided it."
+      },
+      {
+        "item_id": "item_072",
+        "why": "'diyas' has no standard Chinese form; I used 迪亚（油灯）, mirroring the English answer's gloss. 陶土油灯 would be more natural but less parallel."
+      },
+      {
+        "item_id": "item_082",
+        "why": "wabi rendered as 侘 with 凄凉 for 'forlorn'; 孤寂 or 寂寥 are equally defensible and I cannot tell which the benchmark expects."
+      },
+      {
+        "item_id": "item_040",
+        "why": "I kept the passage's 或 (宗教、教育、艺术、科学或慈善) rather than 和, since rule 1 outranks matching the English 'and'; also dropped 专用（场所）which is bound to the noun in the source."
+      },
+      {
+        "item_id": "item_033",
+        "why": "target_passage has 月亮节或月饼节; english_answer coordinates with 'and', so I wrote 月亮节和月饼节 — a one-character deviation from the verbatim span."
+      },
+      {
+        "item_id": "item_099",
+        "why": "AI Act art. 5(1)(c) has no official Chinese text I can cite; terminology (评价或分类, 有害或不利的待遇) is my own faithful rendering. Source item is already marked confidence: low."
+      }
+    ]
+  },
+  "hin": {
+    "n_translated": 80,
+    "notes": "Structure, unit count (80) and order are identical to the input; only the `translation` fields were filled. 8 units have a target_passage (UDHR Hindi, Hindi Wikipedia Diwali); 7 of those reuse an exact span verbatim. The 8th (item_013, answer \"Three.\") has no corresponding span — it is a count derived from the passage — so it is rendered simply as \"तीन।\" and not counted as grounded. For item_072 I kept the Hindi Wikipedia wording \"मिट्टी के दीपों\" (clay lamps) even though english_answer says \"oil lamps\", per the verbatim-span rule. For UDHR items whose target_passage was null (education, Art. 1/2, preamble, Art. 27) I used the official Hindi UDHR terminology I am confident about (\"प्रारम्भिक और आधारभूत अवस्थाओं\", \"योग्यता के आधार पर\", \"बुद्धि और अन्तरात्मा\", \"भाईचारे के भाव से बर्ताव\", \"जन्मजात गौरव ... अविच्छिन्न अधिकार\", \"समाज के सांस्कृतिक जीवन\"), which should improve span overlap when the model is shown the Hindi UDHR. Short noun-phrase answers were kept short. Generation script: /tmp/claude-1000/-home-stefan-Projects-spinoza-mist-git-repo/f19b941c-06a8-4022-a207-b8b2625a9d06/scratchpad/fill_hin.py",
+    "uncertain": [
+      {
+        "item_id": "item_022",
+        "why": "Verbatim span reuse from the official Hindi UDHR target_passage, which contains OCR-style typos ('मूचना' for 'सूचना', 'प्रहण' for 'ग्रहण', 'किसी की' for 'किसी भी'). I kept them exactly per the reuse-verbatim rule since the model sees the same passage, but if the benchmark prefers clean Hindi these should be corrected to सूचना / ग्रहण / किसी भी."
+      },
+      {
+        "item_id": "item_052",
+        "why": "Same issue as item_022: the full sentence is reused verbatim from target_passage including its typos ('मूचना', 'प्रहण', 'किसी की')."
+      },
+      {
+        "item_id": "item_033",
+        "why": "Rendering of the proper festival names 'Moon Festival' / 'Mooncake Festival'. I used 'चंद्र उत्सव और मूनकेक उत्सव'; Hindi sources are inconsistent (transliterated 'मून फेस्टिवल' is also common), so exact-match scoring may miss."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'forlorn' rendered as 'एकाकी'. The Japanese aesthetic sense of wabi has no settled Hindi equivalent; 'उदास', 'निर्जन' or 'बेसहारा' would be equally defensible."
+      },
+      {
+        "item_id": "item_094",
+        "why": "Devanagari transliteration of the Japanese names (सेन नो रिक्यू, ताकेनो जोओ, मुराता जुको) is my own; no standard Hindi spelling is established."
+      },
+      {
+        "item_id": "item_009",
+        "why": "Devanagari transliteration of Yoruba names (ओबताला, ओलोदुमारे, इले-इफ़े) is my own; no standard Hindi spelling exists."
+      },
+      {
+        "item_id": "item_042",
+        "why": "Transliteration of the Yoruba terms Omoluwabi/Iwapele (ओमोलुवाबी, इवापेले) is a best guess; no standard Hindi form."
+      },
+      {
+        "item_id": "item_049",
+        "why": "UNESCO 2003 Convention has no widely circulated official Hindi text I can quote; 'representations' rendered as 'प्रस्तुतियाँ' and 'artefacts' as 'कलाकृतियाँ' are my choices, not verified official terminology (the ICH term itself, 'अमूर्त सांस्कृतिक विरासत', is standard)."
+      },
+      {
+        "item_id": "item_099",
+        "why": "AI-Act point (c) paraphrase: no official Hindi version of the EU AI Act exists, so terms like 'सामाजिक अंक' / 'प्रतिकूल व्यवहार' are my renderings; the source english_answer was itself marked low confidence."
+      }
+    ]
+  },
+  "ita": {
+    "n_translated": 80,
+    "notes": "Output written to answerability/translation_outputs/ita.json (directory created). Structure, key order and unit order are identical to the input; only \"translation\" fields were filled; verified programmatically that every non-translation field is byte-identical to the input and all 80 translations are non-empty Italian.\n\nGrounding: only 4 units (item_005, item_034, item_055, item_075) have a target_passage — all four are the same 459-char EU Charter of Fundamental Rights art. 21/22 passage. For these I lifted the exact spans from the Italian text (\"la razza\", \"il colore della pelle\", \"le caratteristiche genetiche\", \"gli handicap\", \"l'età\", \"la religione o le convinzioni personali\", \"le opinioni politiche o di qualsiasi altra natura\", \"la diversità culturale, religiosa e linguistica\"), verified as substrings of target_passage. The only edit was grammar-required: the passage reads \"fondata ... sul sesso\", so the standalone list starts \"Il sesso, ...\".\n\nThe remaining 76 units have target_passage = null. Where the source is a well-known instrument I used the standard/official Italian wording from memory rather than a fresh translation: UDHR (Italian official text — \"cambiare di religione o di credo\", \"senza riguardo a frontiere\", \"in spirito di fratellanza\", \"di ragione e di coscienza\", \"le classi elementari e fondamentali\", \"sulla base del merito\", \"gli interessi morali e materiali derivanti da ogni produzione scientifica, letteraria e artistica\", \"il disconoscimento e il disprezzo dei diritti umani\", \"protetti da norme giuridiche\"); UNESCO 2003 Convention (Italian version — \"patrimonio culturale immateriale\", \"le prassi, le rappresentazioni, le espressioni, le conoscenze e il know-how\", \"le comunità, i gruppi e talvolta gli individui\", \"un senso d'identità e di continuità\", \"le consuetudini sociali, gli eventi rituali e festivi\", \"le cognizioni e le prassi relative alla natura e all'universo\", \"l'artigianato tradizionale\", \"degrado, scomparsa e distruzione\"); TFEU art. 167 (\"gli scambi culturali non commerciali\", \"il Consiglio d'Europa\", \"le diversità nazionali e regionali\"); AI Act art. 5 (\"l'immissione sul mercato, la messa in servizio e l'uso\", \"sistemi di IA\", \"la profilazione\", \"trattamento pregiudizievole o sfavorevole\", lettera c)/d) references kept as in the English). UNSC res. 2347 and the Wikipedia passages (Yoruba, Carnival, Diwali, Mid-Autumn Festival, Wabi-cha) have no authoritative Italian text, so those are faithful close translations that keep the English passage's register and one-sentence / noun-phrase shape.\n\nMinor deliberate choices worth knowing: \"governance\" left as the Italian loanword (standard in EU/UN Italian); \"know-how\" retained per the official UNESCO Italian rendering of \"skills\"; short noun-phrase answers were kept short (\"La semplicità.\", \"I gruppi terroristici.\", \"Tre.\", \"I monumenti storici.\"). No unit was expanded into a longer sentence than its English source.",
+    "uncertain": [
+      {
+        "item_id": "item_033",
+        "why": "No settled Italian name for the 'Mooncake Festival'; rendered 'La Festa della Luna e la Festa delle torte lunari' ('torte lunari' vs 'dolci lunari' is a coin-flip in Italian usage)."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'forlorn' as the gloss of 'wabi' has no fixed Italian equivalent; chose «abbandonato» (matching the question's 'left behind/separated'), but «desolato» or «malinconico» are equally defensible."
+      },
+      {
+        "item_id": "item_056",
+        "why": "The official Italian UDHR art. 18 uses the plural 'nelle pratiche' for English 'practice'; I emitted the singular noun phrase 'La pratica.' to match the short-noun-phrase shape, so exact-match scoring against 'le pratiche' could differ."
+      }
+    ]
+  },
+  "pes": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/pes.json (created the directory). Structure, unit count (80) and unit order are identical to the input; every field other than \"translation\" is byte-identical to the input (verified programmatically); every translation is non-null and in Perso-Arabic script with no Latin characters.\n\nGrounding: only 4 units have a target_passage (item_015, item_025, item_084, item_100 — all from the official Persian UDHR, Articles 1-2). For all four I lifted the span verbatim; three are exact substrings of target_passage. item_084 (\"ثروت و ولادت.\") is the one grammar adjustment: the passage lists \"ثروت، ولادت\" comma-separated, so the comma became \"و\" to make a standalone answer.\n\nFor the 76 units with target_passage = null I reconstructed the official Persian wording from memory where the instrument has a well-known Persian translation — this covers the UDHR preamble and Articles 18, 19, 26, 27 (items 001, 003, 019, 020, 022, 023, 027, 041, 045, 047, 052, 067, 071, 092, 097), where I stayed very close to the standard Iranian UDHR text (e.g. \"عدم شناسایی و تحقیر حقوق بشر\", \"ظهور دنیایی که در آن افراد بشر در بیان عقیده آزاد و از ترس و فقر فارغ باشند\", \"بنا به استعداد\", \"زندگی فرهنگی اجتماع\"). These are high confidence but recalled, not copied from a file.\n\nWeakest area is the UNESCO 2003 Convention terminology (items 002, 006, 008, 016, 028, 029, 035, 039, 049, 051, 061, 062, 066, 074, 089): meaning is faithful and register is legal/formal, but I could not verify against Iran's official Persian translation, so exact term choices may differ from the sanctioned text. Same caveat, less severely, for the EU AI Act items (065, 073, 098, 099), which have no official Persian version at all.\n\nShort noun-phrase answers were kept short as instructed (e.g. item_038 \"سادگی.\"، item_096 \"گروه‌های تروریستی.\"، item_013 \"سه.\").",
+    "uncertain": [
+      {
+        "item_id": "item_056",
+        "why": "English 'practice' as one item in the list 'teaching, practice, worship and observance'. The official Persian UDHR Art. 18 does not render that list word-for-word (it paraphrases as تعلیمات مذهبی و اجرای مراسم دینی), so I used عمل by analogy with Persian ICCPR renderings. The single-word answer may not match the graders' expected token."
+      },
+      {
+        "item_id": "item_089",
+        "why": "'Festive events' — I used رویدادهای جشن. I do not have the official Persian text of the 2003 UNESCO Convention Art. 2(2)(c) to hand; the sanctioned wording may differ (e.g. مراسم جشن / رویدادهای جشن‌گونه)."
+      },
+      {
+        "item_id": "item_028",
+        "why": "Same issue as item_089 plus the other four domain names (سنت‌ها و اشکال بیان شفاهی / هنرهای نمایشی / صنایع دستی سنتی): these are my renderings, faithful in meaning, but not verified against Iran's official Persian translation of the Convention. Also note میراث فرهنگی ناملموس vs. the older میراث فرهنگی معنوی — I used the former throughout."
+      },
+      {
+        "item_id": "item_074",
+        "why": "'Deterioration, disappearance and destruction' rendered زوال، ناپدید شدن و تخریب. The official Convention preamble wording in Persian may use different nouns (e.g. فرسایش / نابودی). Same terms reused in item_039."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'Wabi, meaning forlorn' — Japanese aesthetic term. I used وابی، به معنای «تنها و غم‌زده». There is no settled Persian gloss for 'forlorn' in this context, so this is a considered guess."
+      },
+      {
+        "item_id": "item_073",
+        "why": "AI Act terminology: 'placing on the market / putting into service / use' rendered عرضه در بازار، به‌کارگیری و استفاده. There is no official Persian AI Act text; 'putting into service' in particular could equally be بهره‌برداری."
+      },
+      {
+        "item_id": "item_021",
+        "why": "'Chinese lunisolar calendar' rendered گاه‌شمار قمری‑شمسی چینی. This is the descriptive term; Persian sources sometimes just say گاه‌شمار چینی."
+      },
+      {
+        "item_id": "item_009",
+        "why": "Transliteration of Yoruba proper names (اوباتالا، اولودوماره، ایله-ایفه) — no established Persian orthography; same applies to اومولوابی and ایواپله in item_042 and to the Japanese names in item_094."
+      }
+    ]
+  },
+  "bho": {
+    "n_translated": 80,
+    "notes": "Output written to answerability/translation_outputs/bho.json — 80 units, same order, identical structure, only \"translation\" filled; verified it parses, unit-for-unit all non-translation fields are byte-identical to the input, and every translation is non-empty Devanagari.\n\nGrounding: only 8 units had a target_passage (4 on the Bhojpuri Wikipedia Diwali text: item_013/046/060/072; 4 on the Bhojpuri UDHR Art. 27 text: item_041/045/071/097). I counted 7 as grounded — item_013's answer is \"Three.\", a count that appears nowhere in the passage as a span, so I rendered it as \"तीन।\" rather than claiming a lift. Note that the UDHR Art. 27 target_passage is visibly OCR-corrupted (\"कार्यघ्\", \"घ्लिखले\", \"भैतिक\" for भौतिक), so for those 4 units I reused the span but silently repaired the corruption; if the benchmark scores against the raw corrupted string, those four will under-match. Flagged individually.\n\nThe Diwali passage is idiomatic Bhojpuri (आ, हवे, जाला, एगो, अँजोर, तिहुआर) and I used it to calibrate register for the ungrounded units: Bhojpuri copulas (बा/हवे), आ for \"and\", -ल participles, सभ as plural marker, भा/चाहे for \"or\", काहेकि for \"because\".\n\nCaveat on the other 72 units: there is no official Bhojpuri text of the UDHR preamble/Arts. 18-19/26, the 2003 UNESCO Convention, the UNSC cultural-heritage resolution, TFEU Art. 167, the EU Charter Art. 21, or the EU AI Act. For these I translated faithfully from english_answer, leaning on established Hindi legal/UNESCO terminology (अमूर्त सांस्कृतिक विरासत, मानव अधिकार, बुद्धि आ अंतरात्मा, योग्यता के आधार पर) with Bhojpuri morphology. This is the standard practice for Bhojpuri formal registers, but it means the specialist vocabulary is Sanskritic-shared-with-Hindi rather than attested Bhojpuri usage. My command of Bhojpuri is good for general prose and reliable for the shared Indo-Aryan legal lexicon; it is weakest exactly on the coined technical terms I listed in \"uncertain\".",
+    "uncertain": [
+      {
+        "item_id": "item_041",
+        "why": "The Bhojpuri UDHR Art.27 target_passage is OCR-corrupted ('सांस्कृतिक कार्यघ्'). I lifted the span but silently dropped the stray 'घ्' to give 'आपन समाज के सांस्कृतिक कार्य' — so it is a near-verbatim, not byte-verbatim, reuse."
+      },
+      {
+        "item_id": "item_045",
+        "why": "Same corrupted target_passage: I normalised 'भैतिक' to 'भौतिक' and dropped 'घ्लिखले'. Reuse is near-verbatim, not exact."
+      },
+      {
+        "item_id": "item_071",
+        "why": "Same corrupted target_passage; also had to restructure the three coordinated verb phrases into a standalone fragment, so the reuse is only partly verbatim."
+      },
+      {
+        "item_id": "item_097",
+        "why": "The target_passage renders 'of which he is the author' as the garbled relative clause 'जे घ्लिखले बा'; I emitted 'जे ओह कृति के लिखले बा' which is a reconstruction rather than an exact span."
+      },
+      {
+        "item_id": "item_056",
+        "why": "'Practice' in the UDHR Art.18 list (teaching, practice, worship, observance) has no settled Bhojpuri rendering; official Hindi uses 'क्रिया'. I chose 'अभ्यास' — a defensible but non-canonical pick that could be scored as wrong."
+      },
+      {
+        "item_id": "item_033",
+        "why": "'Moon Festival' / 'Mooncake Festival' have no established Bhojpuri names. I used 'चंद्र पर्व आ मूनकेक पर्व'; the second is a transliteration, and a model output might well use a different form."
+      },
+      {
+        "item_id": "item_073",
+        "why": "EU AI-Act terms of art ('placing on the market', 'putting into service') have no official Bhojpuri equivalent. 'बाजार में उतारल, सेवा में लगावल' is my own calque."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'Forlorn' rendered as 'उदास'; Bhojpuri lacks a single word covering the Japanese wabi sense (desolate/abandoned/lonely), so this is a lossy approximation."
+      },
+      {
+        "item_id": "item_093",
+        "why": "'Intricate textiles' rendered descriptively as 'बारीक कारीगरी वाला कपड़ा'; no standard Bhojpuri collocation exists and the shape may not match model output."
+      },
+      {
+        "item_id": "item_016",
+        "why": "I kept the Latin enumerator '(d)' inside Devanagari text (likewise '(a)/(b)/(c)/(d)' in item_051, item_090, item_098, item_099). A Devanagari list convention would use (क)(ख)(ग)(घ); I chose Latin to match the English passage's labels, but this is a formatting judgement call that affects string-overlap scoring."
+      }
+    ]
+  },
+  "ckb": {
+    "n_translated": 80,
+    "notes": "SCRIPT: the file is labelled ckb (Sorani) but every target_passage is KURMANJI in LATIN script (the Kurmanji UDHR). I produced Latin-script Kurmanji for all 80 units to match the passages; no Arabic-script text appears in the output (verified by regex). GROUNDING: 8 units have a target_passage (4 from the UDHR preamble, 4 from UDHR Art. 27); for all 8 I located the corresponding span and reused it verbatim, adjusting only capitalisation, one negation (item_023: bên parastin -> neyên parastin), and one added copula (item_045). For item_067 I removed the parentheses the passage puts around 'jênager' so the answer reads as running text. The remaining 72 units were translated. Where the source is UDHR (Arts. 1, 2, 18, 19, 26) I used the standard Kurmanji phrasing as best I recall it, but no target_passage was supplied for those, so I could not check against the official translation — flagged the clearest cases (item_015, item_025, item_084, item_056). The UNESCO 2003 Convention, the UN Security Council resolution and the EU AI Act have no Kurmanji official versions I can consult, so their terms of art are my own faithful constructions rather than standard terminology; short noun-phrase answers were kept short as instructed. My command of Kurmanji is workable but not native — the flagged items are genuine guesses, and a Kurmanji speaker should ideally review the UNESCO/AI-Act terminology before these are used as scoring references. VERIFIED: output parses as JSON, 80 units in identical order, identical key sets, no field other than 'translation' changed, every translation non-null and non-empty.",
+    "uncertain": [
+      {
+        "item_id": "item_045",
+        "why": "Reused the target_passage span 'menfaetên manewî û maddî yên ku ji ber berhema zanistî, edebî û hunerî' but had to add a copula ('...ne.') to make it standalone; the result is grammatically awkward. Kept the span rather than paraphrasing per rule 1, but flagging in case a cleaner finite form is wanted."
+      },
+      {
+        "item_id": "item_056",
+        "why": "'Practice' in the worship list (teaching/practice/worship/observance) — rendered 'Kiryar'. The official Kurmanji UDHR Art. 18 wording for this item is not something I can verify; 'pratîk' or 'ceribandin' are plausible alternatives."
+      },
+      {
+        "item_id": "item_084",
+        "why": "'Property and birth' as UDHR Art. 2 grounds — 'Serwet û jidayikbûn'. Official Kurmanji may use 'mal û milk' and/or 'zayîn'; term choice is a guess."
+      },
+      {
+        "item_id": "item_015",
+        "why": "Reconstructed from memory of the Kurmanji UDHR Art. 1 ('bi zihniyeteke bratiyê bilivin'); not verified against the official text since no target_passage was supplied."
+      },
+      {
+        "item_id": "item_025",
+        "why": "Reconstructed from memory of Kurmanji UDHR Art. 2 ('maf û azadiyên ku di vê Danezanê de hatine diyarkirin'); 'Danezan' vs 'Beyanname' for 'Declaration' is a term choice I cannot verify here."
+      },
+      {
+        "item_id": "item_028",
+        "why": "UNESCO domain terminology: 'hunerên performansê' (performing arts) and 'destkariya kevneşopî' (traditional craftsmanship) are my constructions; there is no Kurmanji translation of the 2003 Convention I can consult."
+      },
+      {
+        "item_id": "item_016",
+        "why": "Same UNESCO domain terminology issue for 'knowledge and practices concerning nature and the universe' ('zanîn û kiryarên li ser xwezayê û gerdûnê')."
+      },
+      {
+        "item_id": "item_049",
+        "why": "Long UNESCO definition sentence with several unattested terms ('temsîl', 'derbirîn', 'qadên çandî'); overall sense is right but the register/terminology is unverified."
+      },
+      {
+        "item_id": "item_048",
+        "why": "'Lent' has no settled Kurmanji equivalent I am confident in; rendered descriptively as 'demsala olî ya Lentê'."
+      },
+      {
+        "item_id": "item_093",
+        "why": "'Intricate textiles' rendered 'Tekstîlên hûrnexş'; 'hûrnexş' is a plausible compound but I am not certain it is idiomatic Kurmanji."
+      },
+      {
+        "item_id": "item_033",
+        "why": "'Mooncake Festival' rendered 'Cejna Keka Heyvê'; there is no established Kurmanji name for mooncakes and the loanword 'kek' may not be the right choice."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'Forlorn' rendered 'bêkes'; the Japanese aesthetic nuance may be better served by 'tenê û xemgîn' — this is a judgement call."
+      },
+      {
+        "item_id": "item_072",
+        "why": "Loanword inflection for 'diya' (diyas) and 'fener' (lanterns) — 'bi diyayan ... û feneran' — plural oblique forms of these loans are a guess."
+      },
+      {
+        "item_id": "item_073",
+        "why": "AI Act terms of art: 'placing on the market' / 'putting into service' rendered 'danîna li bazarê' / 'xistina xizmetê'. No Kurmanji version of the AI Act exists to ground these."
+      },
+      {
+        "item_id": "item_098",
+        "why": "AI Act terminology again ('profîlkirin', 'AI'yê'); the legal register is my own construction and the sentence is long for a single clause."
+      },
+      {
+        "item_id": "item_099",
+        "why": "Same AI Act terminology problem, plus 'social score' rendered loosely as 'pûana encamê'; the English source answer itself is marked low confidence."
+      },
+      {
+        "item_id": "item_031",
+        "why": "UN Security Council register terms: 'hevgirtina civakî' (social cohesion) and 'welatên endam ên bandorlêbûyî' (affected Member States) are constructions, not attested official Kurmanji."
+      },
+      {
+        "item_id": "item_063",
+        "why": "'Combining some elements of a circus' rendered 'ku hin hêmanên sîrkê li hev tînin'; the participial construction may not read naturally in Kurmanji."
+      },
+      {
+        "item_id": "item_078",
+        "why": "'4.5 tatami mats' rendered 'Ji 4.5 tatamiyan piçûktir'; oblique plural of the loanword 'tatami' is a guess and decimal punctuation convention may differ."
+      }
+    ]
+  },
+  "vie": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/vie.json (created the directory). Structure, key order and unit order are identical to the input; only \"translation\" fields were filled; verified programmatically that every other field is byte-identical and all 80 translations are non-null Vietnamese.\n\nOnly 4 units had a target_passage (item_019, item_020, item_027, item_092 — all the same UDHR Art. 26 paragraph). For those I lifted the span verbatim from the Vietnamese passage: \"Ở bậc tiểu học và giáo dục cơ sở.\", \"Theo nguyên tắc công bằng cho bất cứ ai có đủ khả năng.\", the full technical/higher-education sentence, and \"Giáo dục tiểu học.\". For item_027 I deliberately kept the passage's coordinator \"và\" rather than substituting a contrastive \"còn\" for English \"while\", to maximise verbatim overlap.\n\nFor the 76 null-passage units I used the standard Vietnamese wording of the instruments where I know it: the widely circulated Vietnamese UDHR (e.g. \"đối xử với nhau trong tình bằng hữu\", \"lý trí và lương tâm\", \"tài sản, thành phần xuất thân\", \"Việc coi thường và xâm phạm các quyền con người\", \"phẩm giá vốn có\", \"không còn phải chịu nỗi sợ hãi và cùng cực\") and the Vietnamese text of the 2003 UNESCO Convention (\"di sản văn hóa phi vật thể\", \"các truyền thống và biểu đạt truyền khẩu\", \"nghệ thuật trình diễn\", \"tập quán xã hội, tín ngưỡng và các lễ hội\", \"tri thức và tập quán liên quan đến tự nhiên và vũ trụ\", \"nghề thủ công truyền thống\", \"ý thức về bản sắc và sự kế tục\"). TFEU Art. 167, Charter Arts. 21-22, the AI Act and the Security Council resolution have no official Vietnamese version, so those are faithful close translations kept in legal register.\n\nShort noun-phrase answers were kept short (e.g. \"Sự giản dị.\", \"Các nhóm khủng bố.\", \"Ba.\", \"Thực hành.\", \"Lý trí và lương tâm.\"). Every answer is one sentence/phrase, no quotes or glosses added except the single quotes already present in the English answer for item_082.\n\nI have solid working command of Vietnamese; the five flagged items are terminology/convention judgement calls rather than comprehension gaps.",
+    "uncertain": [
+      {
+        "item_id": "item_020",
+        "why": "The official Vietnamese UDHR does not render 'on the basis of merit' as a separable phrase; it merges 'equally accessible to all on the basis of merit' into 'phải theo nguyên tắc công bằng cho bất cứ ai có đủ khả năng'. I reused that whole span, so the reference is longer than the English answer and includes the 'equally accessible' idea."
+      },
+      {
+        "item_id": "item_033",
+        "why": "Alternative festival names: I used literal renderings 'Lễ hội Mặt Trăng' and 'Lễ hội Bánh Trung thu'. Vietnamese convention for its own equivalent holiday is 'Tết Trung thu' / 'Tết Trông Trăng', so a scorer expecting the naturalized names may not match."
+      },
+      {
+        "item_id": "item_082",
+        "why": "Gloss of 'forlorn' as 'cô quạnh'; other defensible choices are 'quạnh quẽ', 'cô liêu', 'hiu quạnh'. Single-word gloss is a judgement call."
+      },
+      {
+        "item_id": "item_086",
+        "why": "'Council of Europe' rendered 'Hội đồng châu Âu', which in Vietnamese collides with 'European Council'. There is no fully disambiguating standard short form; a longer gloss would deviate from the one-phrase answer shape."
+      },
+      {
+        "item_id": "item_088",
+        "why": "'National and regional diversity' (TFEU Art. 167) has no official Vietnamese text; 'Sự đa dạng quốc gia và khu vực' is a literal rendering and 'vùng miền' could be preferred for 'regional'."
+      }
+    ]
+  },
+  "tur": {
+    "n_translated": 80,
+    "notes": "Input had 80 units (not 79); output answerability/translation_outputs/tur.json has the same 80 units in the same order, same keys, only \"translation\" filled. Verified: parses as JSON, every non-translation field byte-identical to the input, every translation a non-empty Turkish string.\n\nOnly 4 units had a target_passage (item_019, item_020, item_027, item_092) — all the same official Turkish UDHR Art. 26 text. For these I lifted the span verbatim, keeping the archaic 1949 official wording (\"ilk ve temel safhalarında\", \"liyakatlerine göre\", \"istifade edebilmelidir\", \"ilk öğretim\") rather than modernising to \"ilköğretim\"/\"liyakat esasına göre\".\n\nThe other 76 units had target_passage: null, so they were translated. Where I know the standard Turkish instrument terminology I used it rather than a literal rendering, in particular the UNESCO 2003 Convention: \"somut olmayan kültürel miras\", the five domains (\"sözlü gelenekler ve anlatımlar\", \"gösteri sanatları\", \"toplumsal uygulamalar, ritüeller ve şölenler\", \"doğa ve evrenle ilgili bilgi ve uygulamalar\", \"el sanatları geleneği\"), and the Art. 2 definition clause (\"... bunlara ilişkin araçlar, gereçler ve kültürel mekânlar anlamına gelir\"). UDHR-derived answers echo the official Turkish where natural (\"kardeşlik zihniyeti ile hareket etmelidirler\", \"insan haklarının tanınmaması ve hor görülmesi\", \"akıl ve vicdan\"), otherwise modern standard Turkish, since the archaic 1949 register would read as wrong outside the four grounded items.\n\nShort noun-phrase answers were kept short (item_013 \"Üç.\", item_038 \"Sadelik.\", item_096 \"Terör grupları.\", item_089 \"Şölenler.\") and every answer is a single sentence.",
+    "uncertain": [
+      {
+        "item_id": "item_033",
+        "why": "\"Mooncake Festival\" has no single established Turkish name; rendered \"Ay Çöreği Festivali\" (Turkish sources also use \"ay keki\" / \"ay pastası\"). \"Ay Festivali\" for Moon Festival is safe."
+      },
+      {
+        "item_id": "item_073",
+        "why": "No official Turkish text of the EU AI Act exists; \"piyasaya arz etme, hizmete sunma ve kullanma\" follows Turkish EU-acquis convention (\"piyasaya arz\") but \"piyasaya sürme\" is also widely used, so exact-match scoring may differ."
+      },
+      {
+        "item_id": "item_082",
+        "why": "\"Forlorn\" as a gloss of 'wabi' — rendered \"terk edilmiş, kimsesiz\"; Turkish writing on wabi-sabi more often glosses it as \"hüzünlü/yalnız\", so the chosen gloss is a judgement call."
+      },
+      {
+        "item_id": "item_093",
+        "why": "\"Intricate textiles\" rendered \"ince işçilikli dokumalar\"; \"karmaşık desenli tekstiller\" is an equally defensible rendering."
+      },
+      {
+        "item_id": "item_004",
+        "why": "Based on the standard Turkish rendering of TFEU Art. 167(4) (\"kültürel unsurları göz önünde bulundurur\") from memory, not from a verified official Turkish text; \"kültürel yönler\" is an alternative for \"cultural aspects\"."
+      },
+      {
+        "item_id": "item_048",
+        "why": "\"Lent\" rendered as \"Büyük Perhiz\"; this is the usual Turkish term but is more strongly associated with the Orthodox fast, and the English parenthetical \"Lent\" was dropped to keep one clean sentence."
+      }
+    ]
+  },
+  "ind": {
+    "n_translated": 80,
+    "notes": "All 80 units filled; file parses as JSON with identical unit order and no other fields changed. 8 units had a target_passage (the Indonesian UDHR, Arts. 1-2 and 18-19); for those I reused the passage wording verbatim, adjusting only grammar needed for a standalone sentence (e.g. item_022 recast to passive 'dapat dicari, diterima dan disampaikan' while keeping 'informasi dan buah pikiran melalui media apa saja dan dengan tidak memandang batas-batas (wilayah)' unchanged, including its parenthetical). The remaining 72 units had target_passage null and were translated directly. For UNESCO 2003 Convention items I used the standard Indonesian term 'warisan budaya takbenda' (as in Indonesia's ratification) consistently. For other UDHR items with no target_passage (education, culture, preamble) I stayed close to the official Indonesian UDHR register, which is deliberately archaic - see the uncertain entries. Short noun-phrase answers were kept short and were not expanded into full sentences.",
+    "uncertain": [
+      {
+        "item_id": "item_056",
+        "why": "Answer is the single word 'Practice.' The Indonesian UDHR span uses suffixed verb forms ('mengajarkannya, mempraktekkannya, melaksanakan ibadahnya, mentaatinya'). I lifted 'Mempraktekkannya.' verbatim from target_passage to satisfy the span rule, but as a standalone one-word answer the -nya clitic reads oddly; a scorer expecting a bare noun ('Praktik.' / 'Mempraktikkan.') might mismatch. Note also 'mempraktekkan' is the passage's older spelling, not the modern standard 'mempraktikkan'."
+      },
+      {
+        "item_id": "item_073",
+        "why": "AI Act terminology: there is no official Indonesian version of the EU AI Act, so 'placing on the market / putting into service' -> 'penempatan di pasar / pengoperasian' is my own rendering, not established terminology."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'forlorn' rendered as 'merana'. Indonesian has several candidates (merana, sepi, terlantar, muram) and the intended nuance of Japanese 'wabi' is hard to pin down; the gloss word is a judgement call."
+      },
+      {
+        "item_id": "item_019",
+        "why": "'elementary and fundamental stages' rendered with the official (1948-era) Indonesian UDHR wording 'tingkatan sekolah rendah dan pendidikan dasar'. That phrasing is archaic; a modern reference might say 'pendidikan dasar dan menengah pertama'. I chose fidelity to the official instrument, but the archaism may not match the benchmark reference."
+      },
+      {
+        "item_id": "item_092",
+        "why": "Same issue as item_019: the official Indonesian UDHR says 'Pendidikan rendah harus diwajibkan'. I wrote 'Pendidikan sekolah rendah.' as a clearer standalone noun phrase, deviating slightly from the official wording; either could be the expected form."
+      },
+      {
+        "item_id": "item_020",
+        "why": "'on the basis of merit' rendered as 'berdasarkan kepantasan' following the official Indonesian UDHR. Modern Indonesian would more likely use 'berdasarkan kepantasan/kemampuan/prestasi'; term choice is a guess between instrument fidelity and current usage."
+      }
+    ]
+  },
+  "mar": {
+    "n_translated": 80,
+    "notes": "Only 4 of the 80 units had a target_passage (all the same Diwali paragraph): item_013, item_046, item_060, item_072. For item_046, item_060 and item_072 I lifted the corresponding span verbatim (दिव्यांचा सण / जैन आणि शिख धर्म / घरे, मंदिरे आणि कामाच्या जागा, पणत्या (मातीचे दिवे), मेणबत्त्या आणि कंदील), adjusting only enough to stand alone; item_013's answer is a count with no span in the passage, so it is a plain translation. The other 76 units had target_passage null. For UDHR items (001, 003, 015, 019, 020, 022, 023, 025, 027, 041, 045, 047, 052, 067, 071, 084, 092, 097, 100) I used the wording of the standard Marathi UDHR translation as far as I could recall it (e.g. बंधुत्वाच्या भावनेने आचरण करावे, विचारशक्ती व सदसद्विवेकबुद्धी, अहरणीय अधिकार, जाहीरनामा for Declaration); these should be checked against the official UN Marathi text if it is available, since I reconstructed rather than copied it. UNESCO 2003, UNSC 2347, TFEU/Charter and AI Act items have no official Marathi version, so terminology is my own but standardised: अमूर्त सांस्कृतिक वारसा (intangible cultural heritage), जतन (safeguard), पुरातत्त्वीय स्थळे, अभिलेखागारे, युरोपीय संघ, बाजारात आणणे / सेवेत दाखल करणे / वापर करणे. Convention/AI-Act sub-point letters (a)/(c)/(d) are rendered with Devanagari list letters (अ)/(क)/(ड) in items 016, 051, 090, 098, 099 — if the benchmark expects Latin letters there, those five need adjusting. Output at answerability/translation_outputs/mar.json.",
+    "uncertain": [
+      {
+        "item_id": "item_033",
+        "why": "\"Moon Festival\"/\"Mooncake Festival\" have no settled Marathi rendering; I used चंद्रोत्सव आणि मूनकेक सण (one calque + one transliteration). A Marathi Wikipedia article may use a different pair."
+      },
+      {
+        "item_id": "item_086",
+        "why": "Marathi name for the Council of Europe: I used युरोप परिषद. The official/standard Marathi rendering may instead be युरोपीय परिषद or the transliteration कौन्सिल ऑफ युरोप; I could not verify."
+      },
+      {
+        "item_id": "item_056",
+        "why": "The answer is one word from the UDHR Art. 18 list teaching/practice/worship/observance. Marathi आचरण can render both \"practice\" and \"observance\", so the distinction the item tests may be lost; the official Marathi UDHR may use आचार for \"practice\"."
+      },
+      {
+        "item_id": "item_054",
+        "why": "\"Non-commercial cultural exchanges\" (TFEU Art. 167): I used अव्यापारी सांस्कृतिक देवाणघेवाण. There is no official Marathi EU text, so this is my own term choice; गैर-व्यावसायिक is an equally plausible alternative."
+      },
+      {
+        "item_id": "item_057",
+        "why": "\"Elaborate costumes\" rendered as सजवलेली वेशभूषा; \"elaborate\" has no clean one-word Marathi equivalent and my choice leans toward \"decorated\" rather than \"intricate/ornate\"."
+      },
+      {
+        "item_id": "item_082",
+        "why": "\"Forlorn\" rendered as एकाकी (lonely/solitary). Marathi alternatives उदास/निराधार carry different shades and I am unsure which best matches the Wabi-cha gloss."
+      },
+      {
+        "item_id": "item_013",
+        "why": "Not grounded in the target_passage: the English answer is the count \"Three.\", which appears nowhere as a span, so I emitted तीन. rather than reusing passage wording."
+      },
+      {
+        "item_id": "item_094",
+        "why": "Japanese names transliterated into Devanagari by ear (सेन नो रिक्यू, ताकेनो जोओ, मुराता जुको); Marathi sources may spell these differently."
+      }
+    ]
+  },
+  "hat": {
+    "n_translated": 80,
+    "notes": "All 80 units filled; file parses as JSON, unit order and item_ids identical to input, only the \"translation\" field changed. 8 units had a non-null target_passage (items 001, 003, 022, 023, 047, 052, 056, 067) and were answered by lifting the corresponding span verbatim, adjusted only enough to stand alone as a sentence.\n\nImportant caveat about the grounded units: the supplied Haitian UDHR target_passage is a low-quality translation containing typos and untranslated French fragments (\"pnanse\" for \"panse\", \"méeprize\", \"you pale\" for \"yo pale\", \"inaliénables constitue le fondement de la libète\", \"kgenont\"). Rule 1 says reuse verbatim and do not improve, so I preserved these errors. If the benchmark scores by overlap against model outputs written in standard Haitian orthography, these 8 references will systematically under-score. If you would prefer normalised spelling for those units, that is a one-line change per item — say the word and I will regenerate.\n\nMy command of Haitian Creole is good enough for the legal/UDHR register (which dominates this set, and where I could use standard terminology such as \"dwa moun\", \"eritaj kiltirèl imateryèl\", \"Eta Manm\", \"Inyon Ewopeyen\"), but weaker on culture-specific proper nouns and non-Western religious/aesthetic vocabulary — those are the items listed as uncertain. Nothing was left null and nothing was emitted in another language.",
+    "uncertain": [
+      {
+        "item_id": "item_001",
+        "why": "Grounded span kept verbatim from target_passage, which contains obvious typos ('relijyion', 'pnanse') and renders 'belief' as 'fason li panse' (the way he thinks) rather than 'kwayans'. I preserved them per rule 1, but a scorer comparing against normally-spelled model output will see these as mismatches."
+      },
+      {
+        "item_id": "item_003",
+        "why": "Verbatim span keeps the source's 'meeprize' (spelled 'méeprize' with a French accent, non-standard Haitian orthography) and 'dwa de lom' (French calque). Preserved deliberately; flagging because it is not standard orthography."
+      },
+      {
+        "item_id": "item_047",
+        "why": "Verbatim span retains the typo 'pou you pale' (should be 'yo pale'). Kept unedited per rule 1."
+      },
+      {
+        "item_id": "item_067",
+        "why": "The Haitian passage garbles this clause (mixes untranslated French: 'se baz epi inaliénables constitue le fondement de la libète'). I reused only the Creole part ('yo rekonèt diyite ki nan nannan tout moun ak dwa egal ego yo ki pa sa van'), dropping the French fragment; the 'foundation of freedom' framing is therefore not represented verbatim."
+      },
+      {
+        "item_id": "item_023",
+        "why": "The corresponding clause in target_passage is heavily corrupted ('revolte kgenont kraze zo ak lopresyon'). I reused 'pwoteje dwa de lom avèk yon regleman de dwa' but had to recast it as a conditional myself, so it is only partly a passage span."
+      },
+      {
+        "item_id": "item_060",
+        "why": "Haitian Creole names for Jainism and Sikhism are a guess ('Jayinis ak Sikis'); I do not know the established Creole forms. Alternatives could be 'Jayinism ak Sikism'."
+      },
+      {
+        "item_id": "item_082",
+        "why": "Rendering of English 'forlorn' as 'abandone' is a judgement call; 'dezole', 'izole' or 'tris pou kont li' may fit the aesthetic sense better. The quoted gloss term is a guess."
+      },
+      {
+        "item_id": "item_093",
+        "why": "'Intricate textiles' rendered as 'Twal ki gen desen konplike' (cloth with complicated designs) — a slight expansion, since I know no compact Creole equivalent for 'intricate' as an attributive adjective."
+      },
+      {
+        "item_id": "item_078",
+        "why": "'4.5 tatami mats' rendered 'pi piti pase 4,5 nat tatami'; 'nat tatami' is my own coinage and decimal comma vs point is a convention guess."
+      },
+      {
+        "item_id": "item_072",
+        "why": "'diya (lanp lwil)' keeps the loanword with a Creole gloss; also unsure whether 'balèn' (candle) or 'chandèl' is the better register here."
+      }
+    ]
+  },
+  "deu": {
+    "n_translated": 80,
+    "notes": "All 80 units filled; file parses, same order, no other fields touched. 8 units have a target_passage (items 004, 005, 034, 054, 055, 075, 086, 088 — EU Charter Arts. 21/22 and TFEU Art. 167); for all 8 I lifted the span verbatim from target_passage. Two caveats on those: (a) for the noun-list answers (005, 034, 055, 088) the passage inflects the nouns in the genitive after 'Diskriminierungen wegen ...' / 'unter Wahrung ihrer ...'; standing alone that is ungrammatical, so I kept the passage's nouns and adjectives verbatim and only changed the determiners/adjective endings to nominative. (b) item_004 keeps the passage's dative 'Den kulturellen Aspekten' (governed by 'Rechnung tragen') to match the English answer's noun-phrase shape. For the 72 null-target units I used the standard German wording of the UDHR (e.g. 'Nichtanerkennung und Verachtung der Menschenrechte', 'im Geiste der Brüderlichkeit begegnen', 'durch die Herrschaft des Rechts geschützt'), the German UNESCO 2003 Convention ('immaterielles Kulturerbe', 'Erhaltung'), and the German AI Act ('Inverkehrbringen, Inbetriebnahme, Verwendung'), where I know it. Short noun-phrase answers were kept short. German orthography with ß/umlauts throughout.",
+    "uncertain": [
+      {
+        "item_id": "item_016",
+        "why": "Domain (d) rendered with the German UNESCO Convention wording 'Wissen und Bräuche in Bezug auf die Natur und das Universum'; I am ~70% sure the official German text says 'Bräuche' rather than 'Praktiken' here."
+      },
+      {
+        "item_id": "item_028",
+        "why": "Same issue as item_016 for the five-domain list ('gesellschaftliche Bräuche, Rituale und Feste', 'traditionelle Handwerkstechniken'); the German UNESCO terminology is from memory, not verified against the official text."
+      },
+      {
+        "item_id": "item_020",
+        "why": "'on the basis of merit' rendered as 'auf der Grundlage der Leistung' to stay close to the English passage; the official German UDHR instead says 'entsprechend ihren Fähigkeiten', so a scorer expecting the official wording may not match. Same choice carried into item_027."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'forlorn' glossed as 'verlassen'; German sources on wabi more often use 'einsam'/'verlassen'/'trostlos' and I could not verify which gloss the benchmark expects."
+      }
+    ]
+  },
+  "jpn": {
+    "n_translated": 80,
+    "notes": "All 80 units filled; file parses as JSON, unit order and all non-translation fields identical to the input. Only 4 units had a target_passage (item_038, item_078, item_082, item_094 — all the Wabi-cha passage); for those I lifted the span verbatim from the Japanese passage (簡素簡略であること / 四畳半未満 / 「うらぶれた（寂れた）」状態 / 千利休、武野紹鷗、そしてその創始者である村田珠光), adjusting only sentence-final grammar, and kept the passage's polite です・ます register rather than normalizing it. The remaining 76 units had target_passage null; for UDHR items I used the standard Japanese translation (e.g. 人権の無視及び軽侮, 互いに同胞の精神をもって行動しなければならない, 理性と良心, 財産及び門地, 科学的、文学的又は美術的作品から生ずる精神的及び物質的利益, 初等の及び基礎的の段階), and for the UNESCO 2003 Convention I used its official Japanese terminology (無形文化遺産, 慣習、描写、表現、知識及び技術, 口承による伝統及び表現, 芸能, 社会的慣習、儀式及び祭礼行事, 自然及び万物に関する知識及び慣習, 伝統工芸技術, 同一性及び継続性の認識, 劣化、消滅及び破壊). EU treaty/Charter, UNSC-resolution and AI-Act items have no official Japanese text, so those are faithful close translations. Short noun-phrase answers were kept short (三つ。/ 初等教育。/ テロ集団。/ 光の祭り。/ 簡素簡略であること。).",
+    "uncertain": [
+      {
+        "item_id": "item_009",
+        "why": "Yoruba proper nouns transliterated as オバタラ / オロドゥマレ / イレ・イフェ; these katakana forms are plausible and follow standard conventions but I could not verify them against a Japanese source, and no target_passage was available."
+      },
+      {
+        "item_id": "item_042",
+        "why": "オモルワビ (Omoluwabi) and イワペレ (Iwapele) are my own katakana renderings; no established Japanese form verified."
+      },
+      {
+        "item_id": "item_033",
+        "why": "'Moon Festival' / 'Mooncake Festival' rendered literally as 月の祭り / 月餅祭り. Japanese normally calls the festival 中秋節 and has no fixed equivalents for these two English alternative names, so a scorer expecting 中秋節-based wording may mismatch."
+      },
+      {
+        "item_id": "item_073",
+        "why": "EU AI Act terminology: 'placing on the market' / 'putting into service' rendered as 市場への投入 / サービス開始. There is no official Japanese AI Act text; 上市 and 提供開始 are competing renderings."
+      },
+      {
+        "item_id": "item_006",
+        "why": "Rendered with the UNESCO 2003 Convention phrasing 地方的、国内的及び国際的な水準において, but I am not fully certain this matches the official Japanese wording of Article 1(c) character-for-character (target_passage was null, so this is recall-based)."
+      },
+      {
+        "item_id": "item_002",
+        "why": "Same caveat as item_006: I used 関係する社会、集団及び個人 from memory of the official Japanese Convention text; the official version may read 関係のある社会、集団及び個人."
+      },
+      {
+        "item_id": "item_051",
+        "why": "Depends on the same Article 1(a)/(b) official wording as item_002; also the (a)/(b) labels are kept in half-width Latin/parentheses, which may differ from the Japanese official text's 「(a)」 formatting."
+      }
+    ]
+  },
+  "por": {
+    "n_translated": 80,
+    "notes": "8 units have a target_passage (items 011, 048, 057, 063 = Carnival Wikipedia; 065, 073, 098, 099 = EU AI Act Art. 5). 7 of them reuse a verbatim span from target_passage (programmatically verified as exact substrings). The exception is item_065 (\"The European Union\"): the official Portuguese AI-Act text reads only \"Sao proibidas as seguintes praticas de inteligencia artificial:\" and contains no \"na Uniao Europeia\" span, so I rendered it directly as \"A Uniao Europeia.\"\n\nVariant note: the two target_passages mix variants -- the Carnival text is Brazilian Portuguese (\"Fantasias\", \"cotidiana\"), the AI-Act text is European Portuguese (\"socioeconomica\", \"recolhidos\"). For those 7 grounded units I kept each source's own variant verbatim as instructed. For the remaining 73 units I used European Portuguese consistently (\"patrimonio\", \"objetos\", \"artefactos\", \"aspetos culturais\"), since the UDHR / UNESCO 2003 Convention / TFEU Art. 167 / Charter Arts. 21-22 official Portuguese versions are European Portuguese. If the benchmark expects pt-BR throughout, \"patrimonio\"->\"patrimonio\", \"artefactos\"->\"artefatos\", \"aspetos\"->\"aspectos\", \"objetivo\"->\"objetivo\" would need a pass.\n\nWhere I could recall the official instrument wording I used it: UDHR Art. 1 (\"agir uns para com os outros em espirito de fraternidade\"), preamble (\"o desconhecimento e o desprezo\", \"advento de um mundo em que os seres humanos sejam livres de falar e de crer\"), Art. 26 (\"em funcao do merito\"), Art. 27 (\"fruir as artes\"); TFEU 167(4) (\"os aspetos culturais, a fim de, nomeadamente, respeitar e promover a diversidade das suas culturas\"), 167(2) (\"intercambios culturais nao comerciais\"); Charter Art. 22 (\"a diversidade cultural, religiosa e linguistica\"). One deliberate modernisation: the 1948 Portuguese UDHR says \"direitos do Homem\"; I wrote \"direitos humanos\" (items 003, 023) as that is the current standard term and the archaic form would likely be scored as a mismatch.\n\nItem_048 keeps the passage's \"frequentemente\" even though english_answer drops \"often\", because rule 1 (verbatim span) outranks exact shape matching; it remains one sentence. Item_073 changes the passage's \"ou\" to \"e\" to match the answer's enumerative \"and\". Items 098/099 prepend \"Porque a alinea d)/c) proibe\" and otherwise reuse the alinea wording verbatim, with item_099 trimmed of the long \"ou grupos de pessoas ... contextos sociais\" material that the English answer also omits.\n\nAll 80 translations are non-null, in Portuguese, one sentence each, no surrounding quotation marks; the file parses as JSON and every non-translation field is unchanged from the input.",
+    "uncertain": [
+      {
+        "item_id": "item_084",
+        "why": "\"Property\" in UDHR Art. 2: I used the official-translation term \"riqueza\" (the Portugal text says \"fortuna\", the Brazilian text \"riqueza\") rather than a literal \"propriedade\". Faithful to the instrument, but a scorer comparing against a literal rendering may see a mismatch."
+      },
+      {
+        "item_id": "item_082",
+        "why": "Gloss of the Japanese 'wabi' as 'forlorn' -- I chose 'desamparado'; 'desolado' or 'solitario' are equally defensible and there is no established Portuguese convention in this Wikipedia article."
+      },
+      {
+        "item_id": "item_093",
+        "why": "\"Intricate textiles\" -> \"os texteis intrincados\"; \"intrincados\" is a slightly stiff collocation in Portuguese and \"tecidos elaborados\" would read better, but I stayed literal to the passage."
+      },
+      {
+        "item_id": "item_028",
+        "why": "UNESCO 2003 Convention domain names: I used \"eventos festivos\" and \"artesanato tradicional\"; the official Portuguese decree wording is closer to \"atos festivos\" and \"aptidoes ligadas ao artesanato tradicional\". Same applies to item_089 (\"Os eventos festivos\")."
+      }
+    ]
+  },
+  "slk": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/slk.json (created the directory). Verified programmatically: parses as JSON, 80 units in identical order with identical item_ids, every \"translation\" is a non-empty Slovak string, and NO field other than \"translation\" differs from the input.\n\nGrounding: only 4 units have a target_passage (item_065, item_073, item_098, item_099) and all four share the same Slovak AI-Act Article 5 text. Three of them (073, 098, 099) reuse verbatim spans from that text, machine-verified as exact substrings of target_passage apart from sentence-initial capitalisation (073) and the minimal inflection changes rule 1 permits: 073 \"uvádzanie na trh, uvádzanie do prevádzky\" + \"a používanie\" (\"alebo\" -> \"a\" because the English answer coordinates with \"and\"); 098 the whole point (d) span from \"na účely posudzovania rizík...\" to \"...osobnostných čŕt a charakteristík\" is an exact substring, with only \"systému AI\" -> \"systémy AI\" for the standalone sentence; 099 the tail \"v priebehu určitého obdobia ... zaobchádzaniu s takýmito osobami\" is an exact substring, with \"hodnotenia alebo klasifikácie\" put into the accusative \"hodnotenie alebo klasifikáciu\" and the \", alebo skupín osôb\" enumeration trimmed to match the English answer's shape. item_065 is counted as NOT grounded - see uncertain.\n\nThe other 76 units have target_passage = null. For the well-known instruments I used the standard/official Slovak wording I have solid command of rather than fresh translation: UDHR (\"Všeobecná deklarácia ľudských práv\") for the dignity/education/culture/freedom-of-thought items (e.g. \"Majú navzájom konať v duchu bratstva.\", \"Rozum a svedomie.\", \"Majetok a rod.\", \"Zneuznanie ľudských práv a pohŕdanie nimi.\"); the 2003 UNESCO Convention for \"nehmotné kultúrne dedičstvo\", \"spoločenstvá, skupiny a jednotlivci\", and the five domains \"ústne tradície a prejavy / interpretačné umenie / spoločenské zvyky, obrady a slávnostné udalosti / poznatky a postupy týkajúce sa prírody a vesmíru / tradičné remeselníctvo\"; TFEU Art. 167 for \"nekomerčné kultúrne výmeny\" and \"zohľadní kultúrne aspekty ... z dôvodu rešpektovania a podpory rozmanitosti svojich kultúr\"; Charter Arts. 21-22 for \"farba pleti\", \"genetické vlastnosti\", \"zdravotné postihnutie\", \"Kultúrna, náboženská a jazyková rozmanitosť.\"\n\nShort noun-phrase answers were kept short (e.g. \"Jednoduchosť.\", \"Teroristické skupiny.\", \"Tri.\", \"Sviatok svetiel.\", \"Rada Európy.\", \"Historické pamiatky.\") and every answer is one sentence matching the English shape. Standard Slovak Latin orthography with full diacritics throughout; item_082 uses Slovak quotation marks („opustený“) only for the internal gloss, not around the answer.\n\nHelper script (not part of the deliverable): /tmp/claude-1000/-home-stefan-Projects-spinoza-mist-git-repo/f19b941c-06a8-4022-a207-b8b2625a9d06/scratchpad/fill_slk.py",
+    "uncertain": [
+      {
+        "item_id": "item_065",
+        "why": "target_passage is present, but the official Slovak AI-Act Article 5 text (\"Zakazujú sa tieto praktiky umelej inteligencie:\") contains NO span corresponding to \"in the European Union\" - the phrase is simply absent from the Slovak rendering. I could not lift a verbatim span and had to supply \"Europska unia\" (with diacritics: Európska únia) myself. Flagging because rule 1 could not be satisfied for this unit."
+      },
+      {
+        "item_id": "item_056",
+        "why": "English answer is the bare word \"Practice.\" from the UDHR list teaching/practice/worship/observance. The official Slovak UDHR renders that list as \"vyucovanim, vykonavanim nabozenskych ukonov, bohosluzbou a zachovavanim obradov\", so \"practice\" = \"vykonavanie nabozenskych ukonov\" - which I used. This is longer than the one-word English answer and a bare \"Prax.\" would be the literal but wrong-terminology alternative. Choice of register may not match the benchmark reference."
+      },
+      {
+        "item_id": "item_023",
+        "why": "\"rule of law\" - I used the official Slovak UDHR preamble wording \"chranene zakonom\" (protected by law) rather than the literal \"pravnym statom\" (rule of law). Grounded in official terminology but a literal back-translation differs."
+      },
+      {
+        "item_id": "item_033",
+        "why": "\"Mooncake Festival\" has no single settled Slovak name; I used \"Sviatok mesacnych kolacikov\" (Sviatok mesačných koláčikov), which is descriptive rather than an established term."
+      },
+      {
+        "item_id": "item_078",
+        "why": "\"4.5 tatami mats\" - Slovak has no fixed idiom for tatami counting; I wrote \"Mensia ako 4,5 rohoze tatami\" (Menšia ako 4,5 rohože tatami). Numeral-noun agreement with a decimal here is stylistically awkward and a native editor might phrase it differently."
+      }
+    ]
+  },
+  "ces": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/ces.json (80 units, same order, all fields other than \"translation\" byte-identical to the input, all translations non-null and in Czech).\n\nGrounding: 8 units have a non-null target_passage (item_004, 054, 065, 073, 086, 088, 098, 099). 7 of those reuse the Czech passage wording verbatim. The exception is item_065 (\"The European Union\"): the supplied Czech AI-Act text opens with \"Zakazují se tyto postupy v oblasti umělé inteligence:\" and omits the \"in the European Union\" phrase present in english_passage, so there is no span to lift — I emitted \"Evropská unie.\"\n\nTwo defects in the supplied Czech target_passage (shared by items 004/054/086/088): \"přvěž\" (should be \"přičemž\") and \"s cielem\" (should be \"s cílem\"). Only the second falls inside a span I reused; I emitted the corrected spelling. Flagged under item_004.\n\nUnits without a target_passage were rendered using the standard/official Czech wording of the instruments where I know it: UDHR (e.g. \"Zneuznání lidských práv a pohrdání jimi\", \"Mají spolu jednat v duchu bratrství\", \"podle schopností\", \"Vybudování světa, ve kterém lidé, zbavení strachu a nouze...\") and the EU Charter Art. 21/22 (\"genetické rysy\", \"zdravotní postižení\", \"Kulturní, náboženská a jazyková rozmanitost\"). The UNESCO 2003 Convention terms are recalled rather than verified — see the uncertain list.\n\nShort noun-phrase answers were kept short (item_013 \"Tři.\", item_038 \"Jednoduchost.\", item_096 \"Teroristické skupiny.\"). Every translation is a single sentence.",
+    "uncertain": [
+      {
+        "item_id": "item_004",
+        "why": "Span lifted verbatim from target_passage, but the target text contains an obvious typo ('s cielem'); I emitted the corrected standard Czech 's cílem'. If the benchmark does exact-span matching against the corrupted target_passage, this will not match character-for-character."
+      },
+      {
+        "item_id": "item_016",
+        "why": "UNESCO 2003 Convention domain (d): I used 'znalosti a zkušenosti týkající se přírody a vesmíru'; the official Czech ratification text may use 'vědomosti' instead of 'znalosti'. No Czech target_passage was supplied to check against."
+      },
+      {
+        "item_id": "item_028",
+        "why": "Same issue as item_016 for the full five-domain list ('znalosti' vs 'vědomosti'); also 'interpretační umění' for 'performing arts' is my best recall of the official Czech term rather than a verified quote."
+      },
+      {
+        "item_id": "item_049",
+        "why": "Official Czech definition of nemateriální kulturní dědictví: I rendered 'practices' as 'zkušenosti' and 'representations' as 'znázornění' per my recall of the ratification text, but this exact lexical choice is not verified."
+      },
+      {
+        "item_id": "item_056",
+        "why": "'Practice' as a mode of manifesting religion: Czech UDHR uses 'prováděním náboženských úkonů'; I gave the nominalised 'Provádění náboženských úkonů'. Confident on the term, less so that the grader expects the multi-word form for a one-word English answer."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'Forlorn' rendered as 'opuštěný'. Czech translations of the wabi aesthetic also use 'osamělý' / 'strádající'; no standard Czech source was available."
+      },
+      {
+        "item_id": "item_094",
+        "why": "Japanese names kept in the passage's Latin romanisation (Sen no Rikyu, Takeno Joo, Murata Juko). Czech convention would normally transcribe them as Sen no Rikjú, Takeno Džóó, Murata Džukó; unclear which form the reference expects."
+      },
+      {
+        "item_id": "item_033",
+        "why": "'Moon Festival' / 'Mooncake Festival' translated descriptively as 'Svátek měsíce a svátek měsíčních koláčků'; Czech sources also use 'Svátek středu podzimu' and sometimes leave the names untranslated."
+      },
+      {
+        "item_id": "item_072",
+        "why": "'diyas' rendered as 'lampičkami dija (olejovými lampami)'; there is no settled Czech loan spelling for diya, so the transliteration is my choice."
+      }
+    ]
+  },
+  "ben": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/ben.json (directory created). Structure, unit order, and all non-\"translation\" fields are byte-identical to the input; verified programmatically by re-parsing both files and diffing every other field. 80 units, 0 null translations, none containing Latin characters.\n\nGrounding: 8 units had a non-null target_passage (item_003, item_019, item_020, item_023, item_027, item_047, item_067, item_092) — all from the official Bengali UDHR (preamble and Article 26). For these I did NOT retranslate: the answer spans were sliced programmatically out of target_passage by string index, so the wording, spelling (e.g. কারিগরী, শংকামুক্ত, কাঙ্খা) and the embedded ZWNJ characters (আ‌ইনের, স্বীকৃতি‌ই) are preserved exactly. Only minimal standalone-sentence surgery was applied: item_023 got the frame \"যদি … না হয়।\" around the verbatim span আ‌ইনের শাসন দ্বারা মানবাধিকার সংরক্ষণ করা; item_047 joins two verbatim spans of the same clause with a comma; item_003 and item_067 drop a trailing inflectional suffix (ঘৃণার → ঘৃণা, স্বীকৃতি‌ই → স্বীকৃতি) and add a dari. A verification pass confirms each core span is a literal substring of its target_passage.\n\nThe other 72 units had target_passage null and were translated faithfully, keeping the length/shape of english_answer — short noun-phrase answers stayed short (\"সরলতা।\", \"তিনটি।\", \"সন্ত্রাসী গোষ্ঠীগুলো।\"). Where the source is UDHR I leaned on the wording of the standard Bengali UDHR translation (e.g. ভ্রাতৃত্বসুলভ মনোভাব নিয়ে আচরণ, সমাজের সাংস্কৃতিক জীবন, অনুশীলন for \"practice\"), so those should sit close to whatever Bengali reference the benchmark uses.\n\nMain systematic risk, flagged above: terminology for the UNESCO/EU instruments, which have no authoritative Bengali versions. The recurring one is \"intangible cultural heritage\" (অধরা vs অমূর্ত/বিমূর্ত) — if the benchmark's Bengali side uses a different variant, ~10 units shift together. If you can tell me which variant the Bengali passages use, that is a one-line fix across the file.\n\nScript used: /tmp/claude-1000/-home-stefan-Projects-spinoza-mist-git-repo/f19b941c-06a8-4022-a207-b8b2625a9d06/scratchpad/make_ben.py",
+    "uncertain": [
+      {
+        "item_id": "item_002",
+        "why": "No official Bengali text of the 2003 UNESCO Convention exists as far as I know, so 'intangible cultural heritage' is my rendering: I used অধরা সাংস্কৃতিক ঐতিহ্য (the Bangla Wikipedia form); অমূর্ত/বিমূর্ত সাংস্কৃতিক ঐতিহ্য is an equally common alternative. Same term recurs in item_008, item_016, item_028, item_035, item_039, item_049, item_051, item_066, item_074."
+      },
+      {
+        "item_id": "item_016",
+        "why": "I rendered the list label (d) as the Bengali letter (ঘ). If the benchmark's Bengali passage keeps Latin (a)-(e) labels, this will not match. Same issue in item_051 (ক/খ) and item_090 (ঘ)."
+      },
+      {
+        "item_id": "item_033",
+        "why": "Bengali names for the Mid-Autumn Festival's alternatives are not standardised; I used চন্দ্র উৎসব and transliterated মুনকেক উৎসব rather than a calque like চাঁদ-পিঠা উৎসব."
+      },
+      {
+        "item_id": "item_086",
+        "why": "Rendering of 'Council of Europe'. I used the transliteration কাউন্সিল অব ইউরোপ to avoid confusion with ইউরোপীয় কাউন্সিল / ইউরোপীয় পরিষদ, which Bengali sources also use for the (different) European Council."
+      },
+      {
+        "item_id": "item_054",
+        "why": "'Non-commercial cultural exchanges' (TFEU Art. 167) has no established Bengali equivalent; অবাণিজ্যিক সাংস্কৃতিক বিনিময় is my coinage."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'Forlorn' as a gloss of wabi: I used নিঃসঙ্গ ('lonely/desolate'). পরিত্যক্ত or বিষণ্ণ would each capture a different part of the English sense."
+      },
+      {
+        "item_id": "item_009",
+        "why": "Bengali transliterations of Yoruba proper nouns (ওবাতালা, ওলোদুমারে, ইলে-ইফে) are my own; no standard Bengali spelling is established. Same for ওমোলুওয়াবি / ইওয়াপেলে in item_042 and the Japanese names in item_094."
+      },
+      {
+        "item_id": "item_073",
+        "why": "EU AI Act terms of art: 'placing on the market' / 'putting into service' rendered as বাজারজাতকরণ / চালু করা. There is no official Bengali AI Act text, so these are descriptive rather than legally standard."
+      }
+    ]
+  },
+  "yor": {
+    "n_translated": 80,
+    "notes": "Wrote answerability/translation_outputs/yor.json — 80 units, same order and item_ids as the input, all non-translation fields byte-identical, every \"translation\" non-null and in Yoruba (NFC-normalized, full diacritics). Verified programmatically.\n\n4 units have a target_passage (item_009, item_042, item_081, item_093 — all the same Yoruba Wikipedia article on the Yoruba people). For these I lifted the corresponding span verbatim and checked character-for-character that the reused fragments occur in target_passage. Adjustments were limited to what standalone-sentence grammar required: item_009 drops the appositives \"òrìṣà\" and \"Ẹlẹ́dàá Gíga Jùlọ,\" so the sentence starts with the subject; item_081 converts \"Àwọn ọmọ Yorùbá jẹ́ ẹ̀yà kan tí wọ́n ń gbé...\" to \"Wọ́n ń gbé apá Ìwọ̀-Oòrùn Áfíríkà nípa pàtàkì.\"; item_042 and item_093 are noun phrases taken directly (\"Ìlànà ìmọ̀ ọgbọ́n orí\", \"àwọn aṣọ fínfín\") and only capitalized.\n\nThe other 76 units had no target_passage and are my translations. Important caveat for the caller: no official Yoruba translation exists (to my knowledge) for the UNESCO 2003 Convention, the EU treaties/Charter, the AI Act, or the UN Security Council resolution language, so for those units I could not follow rule 2's \"official terminology\" instruction — I translated faithfully and kept close to the English phrasing and register instead. The UDHR does have an official Yoruba version; where I believe I recall its wording (items 015, 020, 027) I used it, but I could not verify it and have flagged those.\n\nMy Yoruba is solid enough for comprehension and for producing grammatical, correctly toned sentences, but I am not a native speaker and I have low confidence on specialist legal/UNESCO vocabulary. The single biggest systematic risk is the coined term for \"intangible cultural heritage\" (\"ogún àṣà tí a kò lè fọwọ́ kàn\"), which recurs across roughly a dozen units (002, 006, 008, 016, 028, 029, 035, 039, 049, 051, 061, 062, 066, 074, 090) — if a human reviewer prefers a different standard term, it should be swapped consistently everywhere rather than per-item. I flagged the representative instances rather than all of them to keep the list readable.\n\nShort noun-phrase answers were kept short (item_013 \"Mẹ́ta.\", item_038 \"Ìrọ̀rùn.\", item_056 \"Ìṣe.\", item_096 \"Àwọn ẹgbẹ́ apániláyà.\") and no unit was expanded into multiple sentences.",
+    "uncertain": [
+      {
+        "item_id": "item_002",
+        "why": "No official Yoruba text exists for the 2003 UNESCO Convention; I coined 'ogún àṣà tí a kò lè fọwọ́ kàn' for 'intangible cultural heritage' and used it consistently. It is descriptive and comprehensible but is NOT an attested standard term."
+      },
+      {
+        "item_id": "item_049",
+        "why": "Same coined ICH term, plus 'àwọn àyè àṣà' for 'cultural spaces' and 'ohun-ọwọ́' for 'artefacts' — both are my renderings, not attested terminology."
+      },
+      {
+        "item_id": "item_051",
+        "why": "Same coined ICH term used twice in one sentence."
+      },
+      {
+        "item_id": "item_066",
+        "why": "'vehicle of the intangible cultural heritage' has no idiomatic Yoruba equivalent; I rephrased as 'ohun èlò tí a fi ń gbé ... kalẹ̀' (the instrument by which it is transmitted). Meaning-preserving but a paraphrase of the metaphor."
+      },
+      {
+        "item_id": "item_005",
+        "why": "'sex' rendered as 'akọ tàbí abo' (male or female) to avoid 'ìbálòpọ̀' which means intercourse; 'genetic features' as 'àwọn àbùdá ìran' is a guess — Yoruba genetics vocabulary is unsettled."
+      },
+      {
+        "item_id": "item_020",
+        "why": "'merit' rendered 'ìtóótun'. I believe this matches the official Yoruba UDHR Art. 26 wording but I could not verify it against the official text."
+      },
+      {
+        "item_id": "item_027",
+        "why": "Same unverified 'ìtóótun' for merit, plus 'ẹ̀kọ́ ìmọ̀-ẹ̀rọ̀ àti ti iṣẹ́-ọnà' for 'technical and professional education' — my rendering, not verified against official UDHR Yoruba."
+      },
+      {
+        "item_id": "item_015",
+        "why": "I used what I recall as the official UDHR Art. 1 phrasing ('hùwà sí ara wọn gẹ́gẹ́ bí ọmọ ìyá'), recalled from memory and not verified against the official Yoruba text."
+      },
+      {
+        "item_id": "item_038",
+        "why": "'Simplicity' rendered 'Ìrọ̀rùn', which leans toward 'ease' rather than aesthetic plainness/austerity. A better term may exist; this is my best single-word choice."
+      },
+      {
+        "item_id": "item_043",
+        "why": "'smuggling' rendered 'ìfàyàwọ́' — I am not confident this is the standard Yoruba legal term."
+      },
+      {
+        "item_id": "item_076",
+        "why": "Same unverified 'ìfàyàwọ́' for smuggling, in a two-word answer where the whole answer rests on that term."
+      },
+      {
+        "item_id": "item_057",
+        "why": "'elaborate costumes' rendered 'aṣọ ìṣeré ọlọ́ṣọ̀ọ́'; Yoruba has no settled word for carnival 'costume' and this is my construction."
+      },
+      {
+        "item_id": "item_062",
+        "why": "'continuity' rendered 'ìtẹ̀síwájú', which more strictly means 'progress/advancement'; the exact sense of unbroken continuity may be lost."
+      },
+      {
+        "item_id": "item_063",
+        "why": "'circus' rendered as the loanword 'ṣíkọ̀ọ̀sì' with my own tone marking; the conventional Yoruba spelling of this loan is uncertain."
+      },
+      {
+        "item_id": "item_082",
+        "why": "'forlorn' rendered 'ìdáwà nínú ìbànújẹ́' (solitary sadness) — an explanatory gloss rather than a single equivalent word."
+      },
+      {
+        "item_id": "item_040",
+        "why": "'charitable purposes' rendered 'àwọn ète ìṣèrànwọ́' (purposes of giving help); this is my rendering, not attested legal terminology."
+      },
+      {
+        "item_id": "item_098",
+        "why": "EU AI Act legal register: 'ọgbọ́n atọ́wọ́dá' for AI is common but the surrounding legal phrasing ('risk assessment', 'profiling') is improvised; no Yoruba version of the AI Act exists."
+      },
+      {
+        "item_id": "item_099",
+        "why": "Same AI Act register problem; 'social score' rendered loosely as 'àmì tí ó yọrí sí' and 'detrimental or unfavourable treatment' as 'ìtọ́jú búburú tàbí àìtọ́' — improvised legal wording."
+      },
+      {
+        "item_id": "item_078",
+        "why": "'4.5 tatami mats' rendered 'ẹní tatami mẹ́rin àti ààbọ̀', keeping 'tatami' untranslated; the counting construction for a fractional count of mats may not read naturally."
+      },
+      {
+        "item_id": "item_072",
+        "why": "'diyas' left untransliterated in Latin script inside the Yoruba sentence, matching the English answer's parenthetical gloss; a Yoruba benchmark may prefer an adapted spelling."
+      }
+    ]
+  }
+}

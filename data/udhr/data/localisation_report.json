@@ -1,0 +1,177 @@
+{
+  "coverage_threshold": 0.8,
+  "ngram": 4,
+  "per_language": {
+    "arb": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 60,
+      "covered": 63,
+      "uncertain": 5
+    },
+    "ben": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 59,
+      "covered": 63,
+      "uncertain": 5,
+      "span_not_located": 2
+    },
+    "bho": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 59,
+      "covered": 60,
+      "uncertain": 19,
+      "span_not_located": 3
+    },
+    "ces": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 62,
+      "covered": 63,
+      "uncertain": 2
+    },
+    "ckb": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 60,
+      "covered": 61,
+      "uncertain": 2,
+      "span_not_located": 1
+    },
+    "deu": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 57,
+      "covered": 64,
+      "uncertain": 1
+    },
+    "fin": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 59,
+      "covered": 62,
+      "uncertain": 5,
+      "span_not_located": 1
+    },
+    "hat": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 61,
+      "covered": 66,
+      "uncertain": 9
+    },
+    "hin": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 51,
+      "covered": 64,
+      "uncertain": 8,
+      "span_not_located": 1
+    },
+    "ind": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 63,
+      "covered": 67
+    },
+    "ita": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 60,
+      "covered": 65,
+      "uncertain": 1
+    },
+    "jpn": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 63,
+      "covered": 48,
+      "uncertain": 2
+    },
+    "kor": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 61,
+      "covered": 46,
+      "uncertain": 3
+    },
+    "mar": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 62,
+      "covered": 65,
+      "uncertain": 3
+    },
+    "pes": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 55,
+      "covered": 60,
+      "uncertain": 8,
+      "span_not_located": 1
+    },
+    "por": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 57,
+      "covered": 65,
+      "uncertain": 5
+    },
+    "rus": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 55,
+      "covered": 63,
+      "uncertain": 5,
+      "span_not_located": 2
+    },
+    "slk": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 59,
+      "covered": 61,
+      "uncertain": 6,
+      "span_not_located": 2
+    },
+    "spa": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 65,
+      "covered": 66,
+      "uncertain": 2
+    },
+    "tur": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 59,
+      "covered": 64,
+      "span_not_located": 1
+    },
+    "vie": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 64,
+      "covered": 66,
+      "uncertain": 1
+    },
+    "yor": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 62,
+      "covered": 66,
+      "uncertain": 13
+    },
+    "zho": {
+      "units": 90,
+      "answers": 72,
+      "exact_span": 66,
+      "covered": 47
+    }
+  },
+  "totals": {
+    "kept": 2070,
+    "span_not_located": 14
+  }
+}

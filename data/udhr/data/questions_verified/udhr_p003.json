@@ -1,0 +1,93 @@
+{
+  "passage_id": "udhr_p003",
+  "articles": [
+    "11"
+  ],
+  "passage": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+  "questions": [
+    {
+      "question": "Until what point is everyone charged with a penal offence presumed innocent?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Until proved guilty according to law in a public trial.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What must the accused have had at the public trial?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "All the guarantees necessary for his defence.",
+      "source_article": "11",
+      "article_specific": false,
+      "answer_is_span": true
+    },
+    {
+      "question": "Which court has the authority to declare a person guilty of a penal offence?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Under national or international law.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What penalty may not be exceeded for a penal offence?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The one that was applicable at the time the penal offence was committed.",
+      "source_article": "11",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "minor",
+      "issues": [
+        "article_specific was true, but the question ('what must the accused have had at the public trial') is answerable in substance from Article 10, which is in passage udhr_p002: 'Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of ... any criminal charge against him.' Transplanting this question onto udhr_p002 as an unanswerable item would produce a wrongly-labelled abstention row. Downgraded article_specific to false per the 'when unsure, FALSE' rule; question, answer and answerability are unchanged and correct ('all the guarantees necessary for his defence' is a verbatim span)."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "ok",
+      "issues": [
+        "Checked hard for an inferable answer: the passage says guilt must be 'proved guilty according to law in a public trial' but never names or characterises any court, tribunal or authority. Correctly unanswerable, and closely modelled on the organisers' own 'Which international tribunal has jurisdiction...' exemplar."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 3,
+      "severity": "ok",
+      "issues": [],
+      "action": "kept"
+    },
+    {
+      "index": 4,
+      "severity": "fatal",
+      "issues": [
+        "Original question was 'What limit does the text place on the penalty that may be imposed for a penal offence?' with article_specific true. The framing is generic ('what limit does the text place on the penalty'), and Article 5 in passage udhr_p001 ('No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment') plausibly answers it, so the article_specific flag was unsafe and the meta 'does the text place' framing drifts from the exemplars.",
+        "Replaced with a shorter question tied to the retroactivity clause, which no other article states. Answer is now a verbatim span, so question_type moved from 'inferential' to 'extractive' and answer_is_span from false to true."
+      ],
+      "action": "question_replaced"
+    }
+  ]
+}

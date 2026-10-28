@@ -1,0 +1,925 @@
+{
+ "lang": "fin",
+ "lang_name": "Finnish",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "ei vastattavissa",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Kullakin yksilöllä on oikeus elämään, vapauteen ja henkilökohtaiseen turvallisuuteen. Ketään ei saa pitää orjana tai orjuutettuna, kaikki orjuuden ja orjakaupan muodot on kiellettävä. Ketään ei saa kiduttaa eikä kohdella tai rangaista julmasti, epäinhimillisesti tai alentavasti. Jokaisella ihmisellä on kaikkialla oikeus siihen, että hänet henkilönä tunnustetaan lain edessä. Kaikki ovat tasavertaisia lain edessä ja oikeutetut erotuksetta yhtäläiseen lain suojaan. Kaikilla on oikeus tasavertaiseen suojaan tätä julistusta loukkaavaa syrjintää vastaan sekä kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "question_tgt": "Mitkä orjuuden ja orjakaupan muodot on kiellettävä?",
+   "answer_tgt": "Kaikki orjuuden ja orjakaupan muodot.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Kullakin yksilöllä on oikeus elämään, vapauteen ja henkilökohtaiseen turvallisuuteen. Ketään ei saa pitää orjana tai orjuutettuna, kaikki orjuuden ja orjakaupan muodot on kiellettävä. Ketään ei saa kiduttaa eikä kohdella tai rangaista julmasti, epäinhimillisesti tai alentavasti. Jokaisella ihmisellä on kaikkialla oikeus siihen, että hänet henkilönä tunnustetaan lain edessä. Kaikki ovat tasavertaisia lain edessä ja oikeutetut erotuksetta yhtäläiseen lain suojaan. Kaikilla on oikeus tasavertaiseen suojaan tätä julistusta loukkaavaa syrjintää vastaan sekä kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "question_tgt": "Kidutuksen lisäksi, millä tavoin ketään ei saa kohdella tai rangaista?",
+   "answer_tgt": "Julmasti, epäinhimillisesti tai alentavasti.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Kullakin yksilöllä on oikeus elämään, vapauteen ja henkilökohtaiseen turvallisuuteen. Ketään ei saa pitää orjana tai orjuutettuna, kaikki orjuuden ja orjakaupan muodot on kiellettävä. Ketään ei saa kiduttaa eikä kohdella tai rangaista julmasti, epäinhimillisesti tai alentavasti. Jokaisella ihmisellä on kaikkialla oikeus siihen, että hänet henkilönä tunnustetaan lain edessä. Kaikki ovat tasavertaisia lain edessä ja oikeutetut erotuksetta yhtäläiseen lain suojaan. Kaikilla on oikeus tasavertaiseen suojaan tätä julistusta loukkaavaa syrjintää vastaan sekä kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "question_tgt": "Mikä viranomainen vastaa orjuuden ja orjakaupan kiellon täytäntöönpanosta?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Kullakin yksilöllä on oikeus elämään, vapauteen ja henkilökohtaiseen turvallisuuteen. Ketään ei saa pitää orjana tai orjuutettuna, kaikki orjuuden ja orjakaupan muodot on kiellettävä. Ketään ei saa kiduttaa eikä kohdella tai rangaista julmasti, epäinhimillisesti tai alentavasti. Jokaisella ihmisellä on kaikkialla oikeus siihen, että hänet henkilönä tunnustetaan lain edessä. Kaikki ovat tasavertaisia lain edessä ja oikeutetut erotuksetta yhtäläiseen lain suojaan. Kaikilla on oikeus tasavertaiseen suojaan tätä julistusta loukkaavaa syrjintää vastaan sekä kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "question_tgt": "Missä jokaisella ihmisellä on oikeus siihen, että hänet henkilönä tunnustetaan lain edessä?",
+   "answer_tgt": "Kaikkialla.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Kullakin yksilöllä on oikeus elämään, vapauteen ja henkilökohtaiseen turvallisuuteen. Ketään ei saa pitää orjana tai orjuutettuna, kaikki orjuuden ja orjakaupan muodot on kiellettävä. Ketään ei saa kiduttaa eikä kohdella tai rangaista julmasti, epäinhimillisesti tai alentavasti. Jokaisella ihmisellä on kaikkialla oikeus siihen, että hänet henkilönä tunnustetaan lain edessä. Kaikki ovat tasavertaisia lain edessä ja oikeutetut erotuksetta yhtäläiseen lain suojaan. Kaikilla on oikeus tasavertaiseen suojaan tätä julistusta loukkaavaa syrjintää vastaan sekä kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "question_tgt": "Itse syrjinnän lisäksi, mitä muuta vastaan kaikilla on oikeus tasavertaiseen suojaan?",
+   "answer_tgt": "Kaikkea sellaiseen syrjintään tähtäävää yllytystä vastaan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Jokaisella on oikeus tehokkaaseen hyvitykseen asianomaisessa kansallisessa tuomioistuimessa häneen kohdistuneista teoista, jotka loukkaavat hänelle valtiosäännöllä tai lailla turvattuja perusoikeuksia. Ketään ei saa mielivaltaisesti pidättää, vangita tai ajaa maanpakoon. Jokaisella on täysin tasa-arvoisesti oikeus siihen, että häntä oikeudenmukaisesti ja julkisesti kuullaan riippumattomassa ja puolueettomassa tuomioistuimessa hänen oikeuksiaan ja velvollisuuksiaan määrättäessä tai häntä vastaan nostettua rikossyytettä selvitettäessä.",
+   "question_tgt": "Missä tuomioistuimessa jokaisella on oikeus tehokkaaseen hyvitykseen hänen perusoikeuksiaan loukkaavista teoista?",
+   "answer_tgt": "Asianomaisessa kansallisessa tuomioistuimessa.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Suomenkielinen virallinen teksti ilmaisee toimijan paikallissijalla (\"asianomaisessa kansallisessa tuomioistuimessa\"), joten englannin \"who\"-kysymys on muotoiltu \"missä tuomioistuimessa\" -kysymykseksi, jotta vastaus säilyy tekstin katkelmana."
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Jokaisella on oikeus tehokkaaseen hyvitykseen asianomaisessa kansallisessa tuomioistuimessa häneen kohdistuneista teoista, jotka loukkaavat hänelle valtiosäännöllä tai lailla turvattuja perusoikeuksia. Ketään ei saa mielivaltaisesti pidättää, vangita tai ajaa maanpakoon. Jokaisella on täysin tasa-arvoisesti oikeus siihen, että häntä oikeudenmukaisesti ja julkisesti kuullaan riippumattomassa ja puolueettomassa tuomioistuimessa hänen oikeuksiaan ja velvollisuuksiaan määrättäessä tai häntä vastaan nostettua rikossyytettä selvitettäessä.",
+   "question_tgt": "Kuinka monta mielivaltaisen kohtelun muotoa tekstissä kielletään?",
+   "answer_tgt": "Kolme.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Jokaisella on oikeus tehokkaaseen hyvitykseen asianomaisessa kansallisessa tuomioistuimessa häneen kohdistuneista teoista, jotka loukkaavat hänelle valtiosäännöllä tai lailla turvattuja perusoikeuksia. Ketään ei saa mielivaltaisesti pidättää, vangita tai ajaa maanpakoon. Jokaisella on täysin tasa-arvoisesti oikeus siihen, että häntä oikeudenmukaisesti ja julkisesti kuullaan riippumattomassa ja puolueettomassa tuomioistuimessa hänen oikeuksiaan ja velvollisuuksiaan määrättäessä tai häntä vastaan nostettua rikossyytettä selvitettäessä.",
+   "question_tgt": "Millä tavoin jokaisella on täysin tasa-arvoisesti oikeus tulla kuulluksi?",
+   "answer_tgt": "Oikeudenmukaisesti ja julkisesti.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Jokaisella on oikeus tehokkaaseen hyvitykseen asianomaisessa kansallisessa tuomioistuimessa häneen kohdistuneista teoista, jotka loukkaavat hänelle valtiosäännöllä tai lailla turvattuja perusoikeuksia. Ketään ei saa mielivaltaisesti pidättää, vangita tai ajaa maanpakoon. Jokaisella on täysin tasa-arvoisesti oikeus siihen, että häntä oikeudenmukaisesti ja julkisesti kuullaan riippumattomassa ja puolueettomassa tuomioistuimessa hänen oikeuksiaan ja velvollisuuksiaan määrättäessä tai häntä vastaan nostettua rikossyytettä selvitettäessä.",
+   "question_tgt": "Kuinka kauan henkilöä saa pitää pidätettynä ennen kuin hänet on tuotava tuomioistuimeen?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Jokaisella on oikeus tehokkaaseen hyvitykseen asianomaisessa kansallisessa tuomioistuimessa häneen kohdistuneista teoista, jotka loukkaavat hänelle valtiosäännöllä tai lailla turvattuja perusoikeuksia. Ketään ei saa mielivaltaisesti pidättää, vangita tai ajaa maanpakoon. Jokaisella on täysin tasa-arvoisesti oikeus siihen, että häntä oikeudenmukaisesti ja julkisesti kuullaan riippumattomassa ja puolueettomassa tuomioistuimessa hänen oikeuksiaan ja velvollisuuksiaan määrättäessä tai häntä vastaan nostettua rikossyytettä selvitettäessä.",
+   "question_tgt": "Oikeuksiensa ja velvollisuuksiensa lisäksi, mitä muuta oikeudenmukaisessa ja julkisessa kuulemisessa voidaan selvittää?",
+   "answer_tgt": "Häntä vastaan nostettua rikossyytettä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Jokaisen rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön siihen asti kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä, jossa hänelle turvataan kaikki hänen puolustustaan varten tarpeelliset takeet. Ketään ei pidä tuomita rangaistavaksi teoista tai laiminlyönneistä, jotka eivät kansallisen tai kansainvälisen oikeuden mukaan olleet rikollisia tekohetkellä. Myöskään ei pidä tuomita ankarampaan rangaistukseen, kuin mikä oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "question_tgt": "Mihin asti rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön?",
+   "answer_tgt": "Kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Jokaisen rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön siihen asti kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä, jossa hänelle turvataan kaikki hänen puolustustaan varten tarpeelliset takeet. Ketään ei pidä tuomita rangaistavaksi teoista tai laiminlyönneistä, jotka eivät kansallisen tai kansainvälisen oikeuden mukaan olleet rikollisia tekohetkellä. Myöskään ei pidä tuomita ankarampaan rangaistukseen, kuin mikä oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "question_tgt": "Mitä syytetylle on turvattava julkisessa oikeudenkäynnissä?",
+   "answer_tgt": "Kaikki hänen puolustustaan varten tarpeelliset takeet.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Jokaisen rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön siihen asti kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä, jossa hänelle turvataan kaikki hänen puolustustaan varten tarpeelliset takeet. Ketään ei pidä tuomita rangaistavaksi teoista tai laiminlyönneistä, jotka eivät kansallisen tai kansainvälisen oikeuden mukaan olleet rikollisia tekohetkellä. Myöskään ei pidä tuomita ankarampaan rangaistukseen, kuin mikä oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "question_tgt": "Mikä tuomioistuin on toimivaltainen julistamaan henkilön syylliseksi rikolliseen tekoon?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Jokaisen rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön siihen asti kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä, jossa hänelle turvataan kaikki hänen puolustustaan varten tarpeelliset takeet. Ketään ei pidä tuomita rangaistavaksi teoista tai laiminlyönneistä, jotka eivät kansallisen tai kansainvälisen oikeuden mukaan olleet rikollisia tekohetkellä. Myöskään ei pidä tuomita ankarampaan rangaistukseen, kuin mikä oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "question_tgt": "Minkä oikeuden mukaan tekojen tai laiminlyöntien on täytynyt olla rikollisia tekohetkellä?",
+   "answer_tgt": "Kansallisen tai kansainvälisen oikeuden mukaan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Jokaisen rikollisesta teosta syytteessä olevan henkilön edellytetään olevan syytön siihen asti kunnes hänen syyllisyytensä on laillisesti todistettu julkisessa oikeudenkäynnissä, jossa hänelle turvataan kaikki hänen puolustustaan varten tarpeelliset takeet. Ketään ei pidä tuomita rangaistavaksi teoista tai laiminlyönneistä, jotka eivät kansallisen tai kansainvälisen oikeuden mukaan olleet rikollisia tekohetkellä. Myöskään ei pidä tuomita ankarampaan rangaistukseen, kuin mikä oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "question_tgt": "Mitä rangaistusta ankarampaan rangaistukseen ketään ei pidä tuomita?",
+   "answer_tgt": "Rangaistusta, joka oli sovellettavissa rangaistavan teon suoritushetkellä.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Virallinen suomennos käyttää vertailurakennetta (\"ankarampaan rangaistukseen, kuin mikä oli sovellettavissa...\"), joten itsenäistä vastauskatkelmaa ei ole; vastaus on koottu tekstin sanoista."
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Älköön mielivaltaisesti puututtako kenenkään yksityiselämään, perheeseen, kotiin tai kirjeenvaihtoon älköönkä loukattako kenenkään kunniaa ja mainetta. Jokaisella on oikeus lain suojaan sellaista puuttumista tai loukkausta vastaan. Jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa kunkin valtion sisällä. Jokaisella on oikeus lähteä maasta, myös omasta maastaan, ja palata maahansa. Jokaisella vainon kohteeksi joutuneella on oikeus hakea ja nauttia turvapaikkaa muissa maissa. Tähän oikeuteen ei voida vedota, kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "question_tgt": "Mihin ensimmäisenä lueteltuun asiaan ei saa mielivaltaisesti puuttua?",
+   "answer_tgt": "Yksityiselämään.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Älköön mielivaltaisesti puututtako kenenkään yksityiselämään, perheeseen, kotiin tai kirjeenvaihtoon älköönkä loukattako kenenkään kunniaa ja mainetta. Jokaisella on oikeus lain suojaan sellaista puuttumista tai loukkausta vastaan. Jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa kunkin valtion sisällä. Jokaisella on oikeus lähteä maasta, myös omasta maastaan, ja palata maahansa. Jokaisella vainon kohteeksi joutuneella on oikeus hakea ja nauttia turvapaikkaa muissa maissa. Tähän oikeuteen ei voida vedota, kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "question_tgt": "Mihin tekstin mukaan on oikeus henkilöllä, jonka yksityiselämään puututaan tai jonka mainetta loukataan?",
+   "answer_tgt": "Lain suojaan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Älköön mielivaltaisesti puututtako kenenkään yksityiselämään, perheeseen, kotiin tai kirjeenvaihtoon älköönkä loukattako kenenkään kunniaa ja mainetta. Jokaisella on oikeus lain suojaan sellaista puuttumista tai loukkausta vastaan. Jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa kunkin valtion sisällä. Jokaisella on oikeus lähteä maasta, myös omasta maastaan, ja palata maahansa. Jokaisella vainon kohteeksi joutuneella on oikeus hakea ja nauttia turvapaikkaa muissa maissa. Tähän oikeuteen ei voida vedota, kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "question_tgt": "Missä rajoissa jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa?",
+   "answer_tgt": "Kunkin valtion sisällä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Älköön mielivaltaisesti puututtako kenenkään yksityiselämään, perheeseen, kotiin tai kirjeenvaihtoon älköönkä loukattako kenenkään kunniaa ja mainetta. Jokaisella on oikeus lain suojaan sellaista puuttumista tai loukkausta vastaan. Jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa kunkin valtion sisällä. Jokaisella on oikeus lähteä maasta, myös omasta maastaan, ja palata maahansa. Jokaisella vainon kohteeksi joutuneella on oikeus hakea ja nauttia turvapaikkaa muissa maissa. Tähän oikeuteen ei voida vedota, kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "question_tgt": "Missä tapauksissa turvapaikkaa koskevaan oikeuteen ei voida vedota?",
+   "answer_tgt": "Kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Älköön mielivaltaisesti puututtako kenenkään yksityiselämään, perheeseen, kotiin tai kirjeenvaihtoon älköönkä loukattako kenenkään kunniaa ja mainetta. Jokaisella on oikeus lain suojaan sellaista puuttumista tai loukkausta vastaan. Jokaisella on oikeus liikkua vapaasti ja valita asuinpaikkansa kunkin valtion sisällä. Jokaisella on oikeus lähteä maasta, myös omasta maastaan, ja palata maahansa. Jokaisella vainon kohteeksi joutuneella on oikeus hakea ja nauttia turvapaikkaa muissa maissa. Tähän oikeuteen ei voida vedota, kun on kysymys tosi epäpoliittisista rikoksista johtuvista syytteistä tai teoista, jotka ovat vastoin Yhdistyneiden Kansakuntien periaatteita ja päämääriä.",
+   "question_tgt": "Mikä viranomainen päättää, myönnetäänkö henkilölle turvapaikka toisessa maassa?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Jokaisella on oikeus kansalaisuuteen. Keltään ei saa mielivaltaisesti riistää kansalaisuutta eikä evätä oikeutta kansalaisuuden vaihtamiseen. Täysi-ikäisillä miehillä ja naisilla on oikeus solmia avioliitto ja perustaa perhe ilman minkäänlaisia rodusta, kansalaisuudesta tai uskonnosta johtuvia rajoituksia. Heillä on yhtäläiset oikeudet avioliittoon, avioliiton aikana ja sen purkamisen jälkeen. Avioliiton solmiminen tapahtukoon vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta. Perhe on yhteiskunnan luonnollinen ja perustava ydinosa ja sillä on oikeus yhteiskunnan ja valtion suojaan.",
+   "question_tgt": "Millä edellytyksellä avioliiton solmiminen voi tapahtua?",
+   "answer_tgt": "Vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Jokaisella on oikeus kansalaisuuteen. Keltään ei saa mielivaltaisesti riistää kansalaisuutta eikä evätä oikeutta kansalaisuuden vaihtamiseen. Täysi-ikäisillä miehillä ja naisilla on oikeus solmia avioliitto ja perustaa perhe ilman minkäänlaisia rodusta, kansalaisuudesta tai uskonnosta johtuvia rajoituksia. Heillä on yhtäläiset oikeudet avioliittoon, avioliiton aikana ja sen purkamisen jälkeen. Avioliiton solmiminen tapahtukoon vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta. Perhe on yhteiskunnan luonnollinen ja perustava ydinosa ja sillä on oikeus yhteiskunnan ja valtion suojaan.",
+   "question_tgt": "Tekstin mukaan minkä vaihtamista koskevaa oikeutta ei saa evätä keneltäkään?",
+   "answer_tgt": "Kansalaisuuden.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Jokaisella on oikeus kansalaisuuteen. Keltään ei saa mielivaltaisesti riistää kansalaisuutta eikä evätä oikeutta kansalaisuuden vaihtamiseen. Täysi-ikäisillä miehillä ja naisilla on oikeus solmia avioliitto ja perustaa perhe ilman minkäänlaisia rodusta, kansalaisuudesta tai uskonnosta johtuvia rajoituksia. Heillä on yhtäläiset oikeudet avioliittoon, avioliiton aikana ja sen purkamisen jälkeen. Avioliiton solmiminen tapahtukoon vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta. Perhe on yhteiskunnan luonnollinen ja perustava ydinosa ja sillä on oikeus yhteiskunnan ja valtion suojaan.",
+   "question_tgt": "Mikä on alin ikä, jossa henkilö voi solmia avioliiton?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Jokaisella on oikeus kansalaisuuteen. Keltään ei saa mielivaltaisesti riistää kansalaisuutta eikä evätä oikeutta kansalaisuuden vaihtamiseen. Täysi-ikäisillä miehillä ja naisilla on oikeus solmia avioliitto ja perustaa perhe ilman minkäänlaisia rodusta, kansalaisuudesta tai uskonnosta johtuvia rajoituksia. Heillä on yhtäläiset oikeudet avioliittoon, avioliiton aikana ja sen purkamisen jälkeen. Avioliiton solmiminen tapahtukoon vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta. Perhe on yhteiskunnan luonnollinen ja perustava ydinosa ja sillä on oikeus yhteiskunnan ja valtion suojaan.",
+   "question_tgt": "Kuinka monta perustetta luetellaan, jotka eivät saa rajoittaa oikeutta solmia avioliitto ja perustaa perhe?",
+   "answer_tgt": "Kolme.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Jokaisella on oikeus kansalaisuuteen. Keltään ei saa mielivaltaisesti riistää kansalaisuutta eikä evätä oikeutta kansalaisuuden vaihtamiseen. Täysi-ikäisillä miehillä ja naisilla on oikeus solmia avioliitto ja perustaa perhe ilman minkäänlaisia rodusta, kansalaisuudesta tai uskonnosta johtuvia rajoituksia. Heillä on yhtäläiset oikeudet avioliittoon, avioliiton aikana ja sen purkamisen jälkeen. Avioliiton solmiminen tapahtukoon vain tulevien aviopuolisoiden vapaasta ja täydestä suostumuksesta. Perhe on yhteiskunnan luonnollinen ja perustava ydinosa ja sillä on oikeus yhteiskunnan ja valtion suojaan.",
+   "question_tgt": "Minkä kahden tahon suojaan perheellä on oikeus?",
+   "answer_tgt": "Yhteiskunnan ja valtion.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Jokaisella on oikeus omistaa omaisuutta yksin tai yhdessä toisten kanssa. Keltään älköön mielivaltaisesti riistettäkö hänen omaisuuttaan. Kaikilla on oikeus rauhanomaiseen kokoontumis- ja yhdistymisvapauteen. Ketään ei saa pakottaa liittymään mihinkään yhdistykseen. Jokaisella on oikeus osallistua maansa hallitsemiseen joko välittömästi tai vapaasti valittujen edustajien välityksellä. Jokaisella on yhtäläinen oikeus päästä maansa julkisiin toimiin. Kansan tahto on hallitusvallan perusta; tämä tahto on ilmaistava määräaikaisilla ja aidoilla vaaleilla, joissa kaikilla on yleinen ja yhtäläinen äänioikeus ja joissa äänestys on salainen tai muuta vaalivapauden turvaavaa menettelyä noudattava.",
+   "question_tgt": "Millä kahdella tavalla tekstin mukaan omaisuutta voi omistaa?",
+   "answer_tgt": "Yksin tai yhdessä toisten kanssa.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Jokaisella on oikeus omistaa omaisuutta yksin tai yhdessä toisten kanssa. Keltään älköön mielivaltaisesti riistettäkö hänen omaisuuttaan. Kaikilla on oikeus rauhanomaiseen kokoontumis- ja yhdistymisvapauteen. Ketään ei saa pakottaa liittymään mihinkään yhdistykseen. Jokaisella on oikeus osallistua maansa hallitsemiseen joko välittömästi tai vapaasti valittujen edustajien välityksellä. Jokaisella on yhtäläinen oikeus päästä maansa julkisiin toimiin. Kansan tahto on hallitusvallan perusta; tämä tahto on ilmaistava määräaikaisilla ja aidoilla vaaleilla, joissa kaikilla on yleinen ja yhtäläinen äänioikeus ja joissa äänestys on salainen tai muuta vaalivapauden turvaavaa menettelyä noudattava.",
+   "question_tgt": "Mihin ketään ei saa pakottaa liittymään?",
+   "answer_tgt": "Mihinkään yhdistykseen.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Jokaisella on oikeus omistaa omaisuutta yksin tai yhdessä toisten kanssa. Keltään älköön mielivaltaisesti riistettäkö hänen omaisuuttaan. Kaikilla on oikeus rauhanomaiseen kokoontumis- ja yhdistymisvapauteen. Ketään ei saa pakottaa liittymään mihinkään yhdistykseen. Jokaisella on oikeus osallistua maansa hallitsemiseen joko välittömästi tai vapaasti valittujen edustajien välityksellä. Jokaisella on yhtäläinen oikeus päästä maansa julkisiin toimiin. Kansan tahto on hallitusvallan perusta; tämä tahto on ilmaistava määräaikaisilla ja aidoilla vaaleilla, joissa kaikilla on yleinen ja yhtäläinen äänioikeus ja joissa äänestys on salainen tai muuta vaalivapauden turvaavaa menettelyä noudattava.",
+   "question_tgt": "Mikä korvaus on maksettava henkilölle, jolta riistetään hänen omaisuutensa?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Jokaisella on oikeus omistaa omaisuutta yksin tai yhdessä toisten kanssa. Keltään älköön mielivaltaisesti riistettäkö hänen omaisuuttaan. Kaikilla on oikeus rauhanomaiseen kokoontumis- ja yhdistymisvapauteen. Ketään ei saa pakottaa liittymään mihinkään yhdistykseen. Jokaisella on oikeus osallistua maansa hallitsemiseen joko välittömästi tai vapaasti valittujen edustajien välityksellä. Jokaisella on yhtäläinen oikeus päästä maansa julkisiin toimiin. Kansan tahto on hallitusvallan perusta; tämä tahto on ilmaistava määräaikaisilla ja aidoilla vaaleilla, joissa kaikilla on yleinen ja yhtäläinen äänioikeus ja joissa äänestys on salainen tai muuta vaalivapauden turvaavaa menettelyä noudattava.",
+   "question_tgt": "Millä edellytyksellä omaisuuden riistäminen henkilöltä on kiellettyä?",
+   "answer_tgt": "Kun omaisuus riistetään mielivaltaisesti.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Jokaisella on oikeus omistaa omaisuutta yksin tai yhdessä toisten kanssa. Keltään älköön mielivaltaisesti riistettäkö hänen omaisuuttaan. Kaikilla on oikeus rauhanomaiseen kokoontumis- ja yhdistymisvapauteen. Ketään ei saa pakottaa liittymään mihinkään yhdistykseen. Jokaisella on oikeus osallistua maansa hallitsemiseen joko välittömästi tai vapaasti valittujen edustajien välityksellä. Jokaisella on yhtäläinen oikeus päästä maansa julkisiin toimiin. Kansan tahto on hallitusvallan perusta; tämä tahto on ilmaistava määräaikaisilla ja aidoilla vaaleilla, joissa kaikilla on yleinen ja yhtäläinen äänioikeus ja joissa äänestys on salainen tai muuta vaalivapauden turvaavaa menettelyä noudattava.",
+   "question_tgt": "Millainen äänioikeus kaikilla on oltava vaaleissa?",
+   "answer_tgt": "Yleinen ja yhtäläinen äänioikeus.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Jokaisella on yhteiskunnan jäsenenä oikeus sosiaaliturvaan sekä oikeus kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta kunkin maan järjestelmä ja voimavarat huomioonottaen, nauttia hänen ihmisarvolleen ja hänen yksilöllisen olemuksensa vapaalle kehittymiselle välttämättömiä taloudellisia, sosiaalisia ja sivistyksellisiä oikeuksia.",
+   "question_tgt": "Missä ominaisuudessa jokaisella on oikeus sosiaaliturvaan?",
+   "answer_tgt": "Yhteiskunnan jäsenenä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Jokaisella on yhteiskunnan jäsenenä oikeus sosiaaliturvaan sekä oikeus kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta kunkin maan järjestelmä ja voimavarat huomioonottaen, nauttia hänen ihmisarvolleen ja hänen yksilöllisen olemuksensa vapaalle kehittymiselle välttämättömiä taloudellisia, sosiaalisia ja sivistyksellisiä oikeuksia.",
+   "question_tgt": "Minkä toimien kautta nämä oikeudet on määrä toteuttaa?",
+   "answer_tgt": "Kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Jokaisella on yhteiskunnan jäsenenä oikeus sosiaaliturvaan sekä oikeus kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta kunkin maan järjestelmä ja voimavarat huomioonottaen, nauttia hänen ihmisarvolleen ja hänen yksilöllisen olemuksensa vapaalle kehittymiselle välttämättömiä taloudellisia, sosiaalisia ja sivistyksellisiä oikeuksia.",
+   "question_tgt": "Mikä rangaistus koskee valtiota, joka ei järjestä sosiaaliturvaa?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Jokaisella on yhteiskunnan jäsenenä oikeus sosiaaliturvaan sekä oikeus kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta kunkin maan järjestelmä ja voimavarat huomioonottaen, nauttia hänen ihmisarvolleen ja hänen yksilöllisen olemuksensa vapaalle kehittymiselle välttämättömiä taloudellisia, sosiaalisia ja sivistyksellisiä oikeuksia.",
+   "question_tgt": "Kuinka monenlaisia oikeuksia kuvataan ihmisarvolle välttämättömiksi?",
+   "answer_tgt": "Kolme.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Jokaisella on yhteiskunnan jäsenenä oikeus sosiaaliturvaan sekä oikeus kansallisten toimenpiteiden ja kansainvälisen yhteistyön kautta kunkin maan järjestelmä ja voimavarat huomioonottaen, nauttia hänen ihmisarvolleen ja hänen yksilöllisen olemuksensa vapaalle kehittymiselle välttämättömiä taloudellisia, sosiaalisia ja sivistyksellisiä oikeuksia.",
+   "question_tgt": "Mikä otetaan huomioon ja voi siten aiheuttaa eroja näiden oikeuksien toteutumisessa eri maissa?",
+   "answer_tgt": "Kunkin maan järjestelmä ja voimavarat.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Jokaisella on oikeus työhön, työpaikan vapaaseen valintaan, oikeudenmukaisiin ja tyydyttäviin työehtoihin sekä suojaan työttömyyttä vastaan. Jokaisella on oikeus ilman minkäänlaista syrjintää samaan palkkaan samasta työstä. Jokaisella työtä tekevällä on oikeus kohtuulliseen ja riittävään palkkaan, joka turvaa hänelle ja hänen perheelleen ihmisarvon mukaisen toimeentulon ja jota tarpeen vaatiessa täydentävät muut sosiaalisen suojelun keinot. Jokaisella on oikeus perustaa ammattiyhdistyksiä ja liittyä niihin etujensa puolustamiseksi.",
+   "question_tgt": "Mitä kohtuullisen ja riittävän palkan on turvattava työntekijälle ja hänen perheelleen?",
+   "answer_tgt": "Ihmisarvon mukaisen toimeentulon.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Jokaisella on oikeus työhön, työpaikan vapaaseen valintaan, oikeudenmukaisiin ja tyydyttäviin työehtoihin sekä suojaan työttömyyttä vastaan. Jokaisella on oikeus ilman minkäänlaista syrjintää samaan palkkaan samasta työstä. Jokaisella työtä tekevällä on oikeus kohtuulliseen ja riittävään palkkaan, joka turvaa hänelle ja hänen perheelleen ihmisarvon mukaisen toimeentulon ja jota tarpeen vaatiessa täydentävät muut sosiaalisen suojelun keinot. Jokaisella on oikeus perustaa ammattiyhdistyksiä ja liittyä niihin etujensa puolustamiseksi.",
+   "question_tgt": "Millaiseen palkkaan jokaisella on oikeus ilman minkäänlaista syrjintää?",
+   "answer_tgt": "Samaan palkkaan samasta työstä.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Jokaisella on oikeus työhön, työpaikan vapaaseen valintaan, oikeudenmukaisiin ja tyydyttäviin työehtoihin sekä suojaan työttömyyttä vastaan. Jokaisella on oikeus ilman minkäänlaista syrjintää samaan palkkaan samasta työstä. Jokaisella työtä tekevällä on oikeus kohtuulliseen ja riittävään palkkaan, joka turvaa hänelle ja hänen perheelleen ihmisarvon mukaisen toimeentulon ja jota tarpeen vaatiessa täydentävät muut sosiaalisen suojelun keinot. Jokaisella on oikeus perustaa ammattiyhdistyksiä ja liittyä niihin etujensa puolustamiseksi.",
+   "question_tgt": "Mitä rangaistuksia määrätään työnantajalle, joka ei maksa samaa palkkaa samasta työstä?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Jokaisella on oikeus työhön, työpaikan vapaaseen valintaan, oikeudenmukaisiin ja tyydyttäviin työehtoihin sekä suojaan työttömyyttä vastaan. Jokaisella on oikeus ilman minkäänlaista syrjintää samaan palkkaan samasta työstä. Jokaisella työtä tekevällä on oikeus kohtuulliseen ja riittävään palkkaan, joka turvaa hänelle ja hänen perheelleen ihmisarvon mukaisen toimeentulon ja jota tarpeen vaatiessa täydentävät muut sosiaalisen suojelun keinot. Jokaisella on oikeus perustaa ammattiyhdistyksiä ja liittyä niihin etujensa puolustamiseksi.",
+   "question_tgt": "Mihin ensimmäisessä virkkeessä viimeisenä mainittuun asiaan jokaisella on oikeus?",
+   "answer_tgt": "Suojaan työttömyyttä vastaan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Jokaisella on oikeus työhön, työpaikan vapaaseen valintaan, oikeudenmukaisiin ja tyydyttäviin työehtoihin sekä suojaan työttömyyttä vastaan. Jokaisella on oikeus ilman minkäänlaista syrjintää samaan palkkaan samasta työstä. Jokaisella työtä tekevällä on oikeus kohtuulliseen ja riittävään palkkaan, joka turvaa hänelle ja hänen perheelleen ihmisarvon mukaisen toimeentulon ja jota tarpeen vaatiessa täydentävät muut sosiaalisen suojelun keinot. Jokaisella on oikeus perustaa ammattiyhdistyksiä ja liittyä niihin etujensa puolustamiseksi.",
+   "question_tgt": "Mitä pitäisi tapahtua, jos palkka yksin ei riitä turvaamaan ihmisarvon mukaista toimeentuloa?",
+   "answer_tgt": "Sitä on täydennettävä muilla sosiaalisen suojelun keinoilla.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin. Jokaisella on oikeus elintasoon, joka on riittävä turvaamaan hänen ja hänen perheensä terveyden ja hyvinvoinnin ravinnon, vaatetuksen, asunnon, lääkintähuollon ja välttämättömän yhteiskunnallisen huollon osalta. Jokaisella on myös oikeus turvaan työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden sekä muun hänen tahdostaan riippumatta tapahtuneen toimeentulon menetyksen varalta. Äideillä ja lapsilla on oikeus erityiseen huoltoon ja apuun. Kaikkien lasten, riippumatta siitä, ovatko he syntyneet avioliitossa tai sen ulkopuolella, tulee nauttia samaa yhteiskunnan suojaa.",
+   "question_tgt": "Mihin jokaisella on oikeus levon ja vapaa-ajan lisäksi?",
+   "answer_tgt": "Työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin. Jokaisella on oikeus elintasoon, joka on riittävä turvaamaan hänen ja hänen perheensä terveyden ja hyvinvoinnin ravinnon, vaatetuksen, asunnon, lääkintähuollon ja välttämättömän yhteiskunnallisen huollon osalta. Jokaisella on myös oikeus turvaan työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden sekä muun hänen tahdostaan riippumatta tapahtuneen toimeentulon menetyksen varalta. Äideillä ja lapsilla on oikeus erityiseen huoltoon ja apuun. Kaikkien lasten, riippumatta siitä, ovatko he syntyneet avioliitossa tai sen ulkopuolella, tulee nauttia samaa yhteiskunnan suojaa.",
+   "question_tgt": "Mikä on suurin sallittu työtuntien määrä viikossa?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin. Jokaisella on oikeus elintasoon, joka on riittävä turvaamaan hänen ja hänen perheensä terveyden ja hyvinvoinnin ravinnon, vaatetuksen, asunnon, lääkintähuollon ja välttämättömän yhteiskunnallisen huollon osalta. Jokaisella on myös oikeus turvaan työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden sekä muun hänen tahdostaan riippumatta tapahtuneen toimeentulon menetyksen varalta. Äideillä ja lapsilla on oikeus erityiseen huoltoon ja apuun. Kaikkien lasten, riippumatta siitä, ovatko he syntyneet avioliitossa tai sen ulkopuolella, tulee nauttia samaa yhteiskunnan suojaa.",
+   "question_tgt": "Mikä on toisena mainittu tilanne, jonka varalta jokaisella on oikeus turvaan?",
+   "answer_tgt": "Sairaus.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Suomenkielisessä tekstissä luettelon kohdat ovat genetiivissä (\"työttömyyden, sairauden, ...\"); itsenäisenä vastauksena käytetään nominatiivia \"Sairaus\", joka ei siksi ole tekstin katkelma."
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin. Jokaisella on oikeus elintasoon, joka on riittävä turvaamaan hänen ja hänen perheensä terveyden ja hyvinvoinnin ravinnon, vaatetuksen, asunnon, lääkintähuollon ja välttämättömän yhteiskunnallisen huollon osalta. Jokaisella on myös oikeus turvaan työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden sekä muun hänen tahdostaan riippumatta tapahtuneen toimeentulon menetyksen varalta. Äideillä ja lapsilla on oikeus erityiseen huoltoon ja apuun. Kaikkien lasten, riippumatta siitä, ovatko he syntyneet avioliitossa tai sen ulkopuolella, tulee nauttia samaa yhteiskunnan suojaa.",
+   "question_tgt": "Keillä on oikeus erityiseen huoltoon ja apuun?",
+   "answer_tgt": "Äideillä ja lapsilla.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Jokaisella on oikeus lepoon ja vapaa-aikaan, työajan järkevään rajoittamiseen sekä määräaikaisiin palkallisiin lomiin. Jokaisella on oikeus elintasoon, joka on riittävä turvaamaan hänen ja hänen perheensä terveyden ja hyvinvoinnin ravinnon, vaatetuksen, asunnon, lääkintähuollon ja välttämättömän yhteiskunnallisen huollon osalta. Jokaisella on myös oikeus turvaan työttömyyden, sairauden, tapaturman, leskeyden tai vanhuuden sekä muun hänen tahdostaan riippumatta tapahtuneen toimeentulon menetyksen varalta. Äideillä ja lapsilla on oikeus erityiseen huoltoon ja apuun. Kaikkien lasten, riippumatta siitä, ovatko he syntyneet avioliitossa tai sen ulkopuolella, tulee nauttia samaa yhteiskunnan suojaa.",
+   "question_tgt": "Missä olosuhteissa tapahtuneen toimeentulon menetyksen varalta jokaisella on oikeus turvaan?",
+   "answer_tgt": "Hänen tahdostaan riippumatta.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

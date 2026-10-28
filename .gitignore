@@ -1,0 +1,16 @@
+# downloaded, hosted or rebuilt data
+data/upstream/
+data/translated/
+data/built/*.jsonl
+data/built/*/
+!data/built/*_stats.json
+data/udhr/data/udhr_xml/
+data/udhr/data/udhr_xml.zip
+data/udhr/data/translation_inputs/
+data/udhr/data/udhr_qa_train*.jsonl
+data/silver/silver_test_labels.jsonl
+data/test/tests.jsonl
+# run outputs
+adapter/runs/
+probe/caches/
+probe/generation/

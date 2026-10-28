@@ -1,0 +1,35 @@
+{
+  "n_rows": 13776,
+  "checks_passed": 20,
+  "checks_failed": 0,
+  "failures": [],
+  "notes": [
+    "longest substring shared with an English test passage: max 54 chars (udhr_p017), median 30 chars",
+    "  udhr_p017: 54 chars -- ' the rights and freedoms set forth in this Declaration'",
+    "  udhr_p010: 54 chars -- ' the rights and freedoms set forth in this Declaration'",
+    "  udhr_p012: 50 chars -- '. Everyone has the right to the protection of the '",
+    "answerable-only build: no unanswerable rows, so the share checks below are replaced by the stricter requirement that there are none",
+    "English as context language: 12.5% of rows (test set: 27.8% of its item x context-language pairs)"
+  ],
+  "unanswerable_share": 0.0,
+  "longest_shared_substring_with_test": {
+    "udhr_p017": 54,
+    "udhr_p010": 54,
+    "udhr_p012": 50,
+    "udhr_p004": 50,
+    "udhr_p014": 39,
+    "udhr_p006": 39,
+    "udhr_p013": 37,
+    "udhr_p011": 35,
+    "udhr_p016": 30,
+    "udhr_p008": 29,
+    "udhr_p009": 28,
+    "udhr_p001": 28,
+    "udhr_p015": 27,
+    "udhr_p005": 26,
+    "udhr_p002": 26,
+    "udhr_p018": 25,
+    "udhr_p003": 21,
+    "udhr_p007": 19
+  }
+}

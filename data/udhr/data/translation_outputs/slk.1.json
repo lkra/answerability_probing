@@ -1,0 +1,925 @@
+{
+ "lang": "slk",
+ "lang_name": "Slovak",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "bez odpovede",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Každý má právo na život, slobodu a osobnú bezpečnosť. Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané. Nikto nesmie byť mučený alebo podrobený krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu. Každý má právo, aby bola všade uznávaná jeho právna osobnosť. Všetci sú si pred zákonom rovní a majú právo na rovnakú ochranu zákona bez hociakého rozlišovania. Všetci majú právo na rovnakú ochranu proti hociakej diskriminácii, ktorá porušuje túto deklaráciu, a proti každému podnűcovaniu k takej diskriminácii.",
+   "question_tgt": "Ktoré formy otroctva a obchodu s otrokmi sú zakázané?",
+   "answer_tgt": "Všetky formy.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Každý má právo na život, slobodu a osobnú bezpečnosť. Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané. Nikto nesmie byť mučený alebo podrobený krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu. Každý má právo, aby bola všade uznávaná jeho právna osobnosť. Všetci sú si pred zákonom rovní a majú právo na rovnakú ochranu zákona bez hociakého rozlišovania. Všetci majú právo na rovnakú ochranu proti hociakej diskriminácii, ktorá porušuje túto deklaráciu, a proti každému podnűcovaniu k takej diskriminácii.",
+   "question_tgt": "Okrem mučenia, akému zaobchádzaniu alebo trestu nesmie byť nikto podrobený?",
+   "answer_tgt": "Krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Každý má právo na život, slobodu a osobnú bezpečnosť. Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané. Nikto nesmie byť mučený alebo podrobený krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu. Každý má právo, aby bola všade uznávaná jeho právna osobnosť. Všetci sú si pred zákonom rovní a majú právo na rovnakú ochranu zákona bez hociakého rozlišovania. Všetci majú právo na rovnakú ochranu proti hociakej diskriminácii, ktorá porušuje túto deklaráciu, a proti každému podnűcovaniu k takej diskriminácii.",
+   "question_tgt": "Ktorý orgán je zodpovedný za presadzovanie zákazu otroctva a obchodu s otrokmi?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Každý má právo na život, slobodu a osobnú bezpečnosť. Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané. Nikto nesmie byť mučený alebo podrobený krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu. Každý má právo, aby bola všade uznávaná jeho právna osobnosť. Všetci sú si pred zákonom rovní a majú právo na rovnakú ochranu zákona bez hociakého rozlišovania. Všetci majú právo na rovnakú ochranu proti hociakej diskriminácii, ktorá porušuje túto deklaráciu, a proti každému podnűcovaniu k takej diskriminácii.",
+   "question_tgt": "Kde má každý právo, aby bola uznávaná jeho právna osobnosť?",
+   "answer_tgt": "Všade.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Každý má právo na život, slobodu a osobnú bezpečnosť. Nikto sa nesmie držať v otroctve alebo v nevoľníctve: všetky formy otroctva a obchodu s otrokmi sú zakázané. Nikto nesmie byť mučený alebo podrobený krutému, neľudskému alebo ponižujúcemu zaobchádzaniu alebo trestu. Každý má právo, aby bola všade uznávaná jeho právna osobnosť. Všetci sú si pred zákonom rovní a majú právo na rovnakú ochranu zákona bez hociakého rozlišovania. Všetci majú právo na rovnakú ochranu proti hociakej diskriminácii, ktorá porušuje túto deklaráciu, a proti každému podnűcovaniu k takej diskriminácii.",
+   "question_tgt": "Okrem samotnej diskriminácie, proti čomu ďalšiemu majú všetci právo na rovnakú ochranu?",
+   "answer_tgt": "Proti každému podnűcovaniu k takej diskriminácii.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Slovak text has an OCR defect inside the span ('podnűcovaniu' for 'podnecovaniu'); copied verbatim to stay grounded."
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom. Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva. Každý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.",
+   "question_tgt": "Kto má poskytnúť účinnú ochranu proti činom porušujúcim základné práva?",
+   "answer_tgt": "Príslušné vnútroštátne súdy.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom. Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva. Každý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.",
+   "question_tgt": "Koľko foriem svojvoľného zaobchádzania text uvádza, ktorým nikto nesmie byť vystavený?",
+   "answer_tgt": "Tri.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom. Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva. Každý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.",
+   "question_tgt": "Akým spôsobom má byť každý vypočutý nezávislým a nestranným súdom?",
+   "answer_tgt": "Spravodlive a verejne.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom. Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva. Každý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.",
+   "question_tgt": "Ako dlho môže byť osoba držaná vo väzbe, kým musí byť postavená pred súd?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Každý má právo, aby mu príslušné vnútroštátne súdy poskytly účinnú ochranu proti činom porušujúcim zčkladné práva, ktoré sú mu priznávané ústavou alebo zákonom. Nikto nesmie byť svojvoľne zatknutý, držaný vo vazbe alebo vyhnaný do vyhnanstva. Každý má úplne rovnaké právo, aby bol spravodlive a verejne vypočutý nezávislým a nestranným súdom, ktorý rozhoduje o jeho právach a povinnostiach a o každom trestnom obvinení, vznesenom proti nemu.",
+   "question_tgt": "Okrem jeho práv a povinností, o čom ešte súd rozhoduje?",
+   "answer_tgt": "O každom trestnom obvinení, vznesenom proti nemu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Každý, kto je obvinený z trestného činu, považuje se za nevinného, dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní, pri ktorom mal zaistené všetky možnosti obhajoby. Nikto nesmie byť odsúdený pre čin alebo opomenutia, ktoré v čase, ked' boly spáchané, neboly trestné podľa štátného alebo medzinárodného práva. Rovnako nesmie byť uložený ťažší trest než trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "question_tgt": "Dokedy sa každý, kto je obvinený z trestného činu, považuje za nevinného?",
+   "answer_tgt": "Dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Každý, kto je obvinený z trestného činu, považuje se za nevinného, dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní, pri ktorom mal zaistené všetky možnosti obhajoby. Nikto nesmie byť odsúdený pre čin alebo opomenutia, ktoré v čase, ked' boly spáchané, neboly trestné podľa štátného alebo medzinárodného práva. Rovnako nesmie byť uložený ťažší trest než trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "question_tgt": "Čo mal obvinený zaistené vo verejnom pokračovaní?",
+   "answer_tgt": "Všetky možnosti obhajoby.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Každý, kto je obvinený z trestného činu, považuje se za nevinného, dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní, pri ktorom mal zaistené všetky možnosti obhajoby. Nikto nesmie byť odsúdený pre čin alebo opomenutia, ktoré v čase, ked' boly spáchané, neboly trestné podľa štátného alebo medzinárodného práva. Rovnako nesmie byť uložený ťažší trest než trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "question_tgt": "Ktorý súd má právomoc vyhlásiť osobu za vinnú z trestného činu?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Každý, kto je obvinený z trestného činu, považuje se za nevinného, dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní, pri ktorom mal zaistené všetky možnosti obhajoby. Nikto nesmie byť odsúdený pre čin alebo opomenutia, ktoré v čase, ked' boly spáchané, neboly trestné podľa štátného alebo medzinárodného práva. Rovnako nesmie byť uložený ťažší trest než trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "question_tgt": "Podľa akého práva musel byť čin alebo opomenutie trestné v čase spáchania?",
+   "answer_tgt": "Podľa štátného alebo medzinárodného práva.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Každý, kto je obvinený z trestného činu, považuje se za nevinného, dokiaľ nie je zákonným postupom dokázaná jeho vina vo verejnom pokračovaní, pri ktorom mal zaistené všetky možnosti obhajoby. Nikto nesmie byť odsúdený pre čin alebo opomenutia, ktoré v čase, ked' boly spáchané, neboly trestné podľa štátného alebo medzinárodného práva. Rovnako nesmie byť uložený ťažší trest než trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "question_tgt": "Aký najťažší trest možno uložiť za trestný čin?",
+   "answer_tgt": "Trest, ktorý mohol byť uložený v čase, ke trestný čin bol spáchaný.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Slovak text has an OCR defect inside the span ('ke' for 'keď'); copied verbatim to stay grounded."
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom. (1) Každý má právo voľne sa pohybovať a slobodne si zvoliť bydlisko v tom - ktorom štáte. (2) Každý má právo opustiť hociktorú krajinu, i svoju vlastnú, a vrátiť sa do svojej krajiny. Každý má právo vyhľadať si pred prenasledovaním útočište v iných krajinách a požívať tam azyl. Toto právo nemožno uplatňovať v prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "question_tgt": "Do čoho sa ako do prvého nesmie svojvoľne zasahovať?",
+   "answer_tgt": "Do súkromného života.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom. (1) Každý má právo voľne sa pohybovať a slobodne si zvoliť bydlisko v tom - ktorom štáte. (2) Každý má právo opustiť hociktorú krajinu, i svoju vlastnú, a vrátiť sa do svojej krajiny. Každý má právo vyhľadať si pred prenasledovaním útočište v iných krajinách a požívať tam azyl. Toto právo nemožno uplatňovať v prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "question_tgt": "Čo text zaručuje osobe vystavenej takýmto zásahom alebo útokom?",
+   "answer_tgt": "Zákonnú ochranu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom. (1) Každý má právo voľne sa pohybovať a slobodne si zvoliť bydlisko v tom - ktorom štáte. (2) Každý má právo opustiť hociktorú krajinu, i svoju vlastnú, a vrátiť sa do svojej krajiny. Každý má právo vyhľadať si pred prenasledovaním útočište v iných krajinách a požívať tam azyl. Toto právo nemožno uplatňovať v prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "question_tgt": "Kde má každý právo voľne sa pohybovať a slobodne si zvoliť bydlisko?",
+   "answer_tgt": "V tom - ktorom štáte.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Slovak text drops 'borders' (no 'hranice') and prints 'v tom - ktorom štáte' with stray spaced hyphen; span copied verbatim."
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom. (1) Každý má právo voľne sa pohybovať a slobodne si zvoliť bydlisko v tom - ktorom štáte. (2) Každý má právo opustiť hociktorú krajinu, i svoju vlastnú, a vrátiť sa do svojej krajiny. Každý má právo vyhľadať si pred prenasledovaním útočište v iných krajinách a požívať tam azyl. Toto právo nemožno uplatňovať v prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "question_tgt": "V ktorých prípadoch nemožno uplatňovať právo na azyl?",
+   "answer_tgt": "V prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nikto nesmie byť vystavený svojvoľnému zasahovaniu do súkromného života, rodiny, domova alebo korešpondencie, ani útokom na svoju česť a povesť. Každý má právo na zákonnú ochranu proti takýmto zásahom alebo útokom. (1) Každý má právo voľne sa pohybovať a slobodne si zvoliť bydlisko v tom - ktorom štáte. (2) Každý má právo opustiť hociktorú krajinu, i svoju vlastnú, a vrátiť sa do svojej krajiny. Každý má právo vyhľadať si pred prenasledovaním útočište v iných krajinách a požívať tam azyl. Toto právo nemožno uplatňovať v prípade stíhania na ozaj odôvodneného nepolitickými zločinmi alebo činmi, ktoré sú v rozpore s cieľami a zásadami Spojených národov.",
+   "question_tgt": "Ktorý orgán rozhoduje o tom, či sa osobe poskytne azyl v inej krajine?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Každý má právo na štátnu príslušnosť. Nikto nesmie byť svojvoľne zbavený svojej štátnej príslušnosti, ani práva svoju štátnu príslušnosť zmieniť. Muži a ženy, ak dosiahli plnoletosť, majú právo bez hociakého obmedzenia z dôvodov rasovej, národnostei alebo náboženskej príslušnosti uzavrieť manželstvo a založiť rodinu. Čo sa manželstva týka, majú počas jeho trvania i pri jeho rozlúčení rovnaké práva. Manželstvá môžu byť uzavrené len so slobodným a plným súhlasom nastávajúcich manželov. Rodina je prirodzenou a základnou jednotkou spoločnosti a má nárok na ochranu so strany spoločnosti štátu.",
+   "question_tgt": "Za akej podmienky môžu byť manželstvá uzavrené?",
+   "answer_tgt": "Len so slobodným a plným súhlasom nastávajúcich manželov.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Každý má právo na štátnu príslušnosť. Nikto nesmie byť svojvoľne zbavený svojej štátnej príslušnosti, ani práva svoju štátnu príslušnosť zmieniť. Muži a ženy, ak dosiahli plnoletosť, majú právo bez hociakého obmedzenia z dôvodov rasovej, národnostei alebo náboženskej príslušnosti uzavrieť manželstvo a založiť rodinu. Čo sa manželstva týka, majú počas jeho trvania i pri jeho rozlúčení rovnaké práva. Manželstvá môžu byť uzavrené len so slobodným a plným súhlasom nastávajúcich manželov. Rodina je prirodzenou a základnou jednotkou spoločnosti a má nárok na ochranu so strany spoločnosti štátu.",
+   "question_tgt": "Čo má podľa textu každý právo zmeniť?",
+   "answer_tgt": "Svoju štátnu príslušnosť.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Každý má právo na štátnu príslušnosť. Nikto nesmie byť svojvoľne zbavený svojej štátnej príslušnosti, ani práva svoju štátnu príslušnosť zmieniť. Muži a ženy, ak dosiahli plnoletosť, majú právo bez hociakého obmedzenia z dôvodov rasovej, národnostei alebo náboženskej príslušnosti uzavrieť manželstvo a založiť rodinu. Čo sa manželstva týka, majú počas jeho trvania i pri jeho rozlúčení rovnaké práva. Manželstvá môžu byť uzavrené len so slobodným a plným súhlasom nastávajúcich manželov. Rodina je prirodzenou a základnou jednotkou spoločnosti a má nárok na ochranu so strany spoločnosti štátu.",
+   "question_tgt": "Aký je najnižší vek, v ktorom môže osoba uzavrieť manželstvo?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Každý má právo na štátnu príslušnosť. Nikto nesmie byť svojvoľne zbavený svojej štátnej príslušnosti, ani práva svoju štátnu príslušnosť zmieniť. Muži a ženy, ak dosiahli plnoletosť, majú právo bez hociakého obmedzenia z dôvodov rasovej, národnostei alebo náboženskej príslušnosti uzavrieť manželstvo a založiť rodinu. Čo sa manželstva týka, majú počas jeho trvania i pri jeho rozlúčení rovnaké práva. Manželstvá môžu byť uzavrené len so slobodným a plným súhlasom nastávajúcich manželov. Rodina je prirodzenou a základnou jednotkou spoločnosti a má nárok na ochranu so strany spoločnosti štátu.",
+   "question_tgt": "Koľko dôvodov sa uvádza, ktoré nesmú obmedziť právo uzavrieť manželstvo a založiť rodinu?",
+   "answer_tgt": "Tri.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Každý má právo na štátnu príslušnosť. Nikto nesmie byť svojvoľne zbavený svojej štátnej príslušnosti, ani práva svoju štátnu príslušnosť zmieniť. Muži a ženy, ak dosiahli plnoletosť, majú právo bez hociakého obmedzenia z dôvodov rasovej, národnostei alebo náboženskej príslušnosti uzavrieť manželstvo a založiť rodinu. Čo sa manželstva týka, majú počas jeho trvania i pri jeho rozlúčení rovnaké práva. Manželstvá môžu byť uzavrené len so slobodným a plným súhlasom nastávajúcich manželov. Rodina je prirodzenou a základnou jednotkou spoločnosti a má nárok na ochranu so strany spoločnosti štátu.",
+   "question_tgt": "Kto má podľa textu poskytovať rodine ochranu?",
+   "answer_tgt": "Spoločnosť a štát.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Official Slovak text reads 'na ochranu so strany spoločnosti štátu' - the conjunction is missing, so no grammatical verbatim span exists; answer composed in the nominative."
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Každý má právo vlastniť majetok ako sám, tak spolu s inými. Nikto nesmie byť svojvoľne zbavený svojho majetku. Každému je zaručená sloboda pokojného shromažďovania a sdružovania sa. Nikto nesmie byť nútený, aby bol členom nejakého sdruženia. Každý má právo, aby sa účastnil na vláde svojej krajiny buď priamo, alebo prostredníctvom slobodne volených zástupcov. Každý má právo vstúpiť za rovnakých podmienok do verejných služieb svojej krajiny. Vôľa ľudu má byť základom vládnej moci: táto vôľa musí byť vyjadrená správne prevádzanými voľbami, ktoré sa majú konať v pravidelných obdobiach na základe všeobecného a rovného hlasovacieho práva tajným hlasovaním alebo rovnocenným postupom, ktorý zabezpečuje slobodu hlasovania.",
+   "question_tgt": "Akými dvoma spôsobmi môže každý vlastniť majetok?",
+   "answer_tgt": "Ako sám, tak spolu s inými.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Každý má právo vlastniť majetok ako sám, tak spolu s inými. Nikto nesmie byť svojvoľne zbavený svojho majetku. Každému je zaručená sloboda pokojného shromažďovania a sdružovania sa. Nikto nesmie byť nútený, aby bol členom nejakého sdruženia. Každý má právo, aby sa účastnil na vláde svojej krajiny buď priamo, alebo prostredníctvom slobodne volených zástupcov. Každý má právo vstúpiť za rovnakých podmienok do verejných služieb svojej krajiny. Vôľa ľudu má byť základom vládnej moci: táto vôľa musí byť vyjadrená správne prevádzanými voľbami, ktoré sa majú konať v pravidelných obdobiach na základe všeobecného a rovného hlasovacieho práva tajným hlasovaním alebo rovnocenným postupom, ktorý zabezpečuje slobodu hlasovania.",
+   "question_tgt": "Členom čoho nesmie byť nikto nútený?",
+   "answer_tgt": "Nejakého sdruženia.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Každý má právo vlastniť majetok ako sám, tak spolu s inými. Nikto nesmie byť svojvoľne zbavený svojho majetku. Každému je zaručená sloboda pokojného shromažďovania a sdružovania sa. Nikto nesmie byť nútený, aby bol členom nejakého sdruženia. Každý má právo, aby sa účastnil na vláde svojej krajiny buď priamo, alebo prostredníctvom slobodne volených zástupcov. Každý má právo vstúpiť za rovnakých podmienok do verejných služieb svojej krajiny. Vôľa ľudu má byť základom vládnej moci: táto vôľa musí byť vyjadrená správne prevádzanými voľbami, ktoré sa majú konať v pravidelných obdobiach na základe všeobecného a rovného hlasovacieho práva tajným hlasovaním alebo rovnocenným postupom, ktorý zabezpečuje slobodu hlasovania.",
+   "question_tgt": "Aká náhrada musí byť vyplatená osobe, ktorá bola zbavená svojho majetku?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Každý má právo vlastniť majetok ako sám, tak spolu s inými. Nikto nesmie byť svojvoľne zbavený svojho majetku. Každému je zaručená sloboda pokojného shromažďovania a sdružovania sa. Nikto nesmie byť nútený, aby bol členom nejakého sdruženia. Každý má právo, aby sa účastnil na vláde svojej krajiny buď priamo, alebo prostredníctvom slobodne volených zástupcov. Každý má právo vstúpiť za rovnakých podmienok do verejných služieb svojej krajiny. Vôľa ľudu má byť základom vládnej moci: táto vôľa musí byť vyjadrená správne prevádzanými voľbami, ktoré sa majú konať v pravidelných obdobiach na základe všeobecného a rovného hlasovacieho práva tajným hlasovaním alebo rovnocenným postupom, ktorý zabezpečuje slobodu hlasovania.",
+   "question_tgt": "Za akej podmienky je zakázané zbaviť osobu jej majetku?",
+   "answer_tgt": "Ak je zbavenie majetku svojvoľné.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Každý má právo vlastniť majetok ako sám, tak spolu s inými. Nikto nesmie byť svojvoľne zbavený svojho majetku. Každému je zaručená sloboda pokojného shromažďovania a sdružovania sa. Nikto nesmie byť nútený, aby bol členom nejakého sdruženia. Každý má právo, aby sa účastnil na vláde svojej krajiny buď priamo, alebo prostredníctvom slobodne volených zástupcov. Každý má právo vstúpiť za rovnakých podmienok do verejných služieb svojej krajiny. Vôľa ľudu má byť základom vládnej moci: táto vôľa musí byť vyjadrená správne prevádzanými voľbami, ktoré sa majú konať v pravidelných obdobiach na základe všeobecného a rovného hlasovacieho práva tajným hlasovaním alebo rovnocenným postupom, ktorý zabezpečuje slobodu hlasovania.",
+   "question_tgt": "Na základe akého hlasovacieho práva sa majú konať voľby?",
+   "answer_tgt": "Na základe všeobecného a rovného hlasovacieho práva.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Každý človek má ako člen spoločnosti právo na sociálne zabezpečenie a nárok, aby mu boly národným úsilím i medzinárodnou súčinnosťou a v súlade s organizáciou a prostriedkami príslušného štátu zaistené hospodárske, sociálne a kultúrne práva, potrebné k jeho dôstojnosti a k slobodnému rozvoju jeho osobnosti.",
+   "question_tgt": "V akom postavení má každý človek právo na sociálne zabezpečenie?",
+   "answer_tgt": "Ako člen spoločnosti.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Každý človek má ako člen spoločnosti právo na sociálne zabezpečenie a nárok, aby mu boly národným úsilím i medzinárodnou súčinnosťou a v súlade s organizáciou a prostriedkami príslušného štátu zaistené hospodárske, sociálne a kultúrne práva, potrebné k jeho dôstojnosti a k slobodnému rozvoju jeho osobnosti.",
+   "question_tgt": "Čím majú byť každému zaistené hospodárske, sociálne a kultúrne práva?",
+   "answer_tgt": "Národným úsilím i medzinárodnou súčinnosťou.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Každý človek má ako člen spoločnosti právo na sociálne zabezpečenie a nárok, aby mu boly národným úsilím i medzinárodnou súčinnosťou a v súlade s organizáciou a prostriedkami príslušného štátu zaistené hospodárske, sociálne a kultúrne práva, potrebné k jeho dôstojnosti a k slobodnému rozvoju jeho osobnosti.",
+   "question_tgt": "Aký postih hrozí štátu, ktorý neposkytne sociálne zabezpečenie?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Každý človek má ako člen spoločnosti právo na sociálne zabezpečenie a nárok, aby mu boly národným úsilím i medzinárodnou súčinnosťou a v súlade s organizáciou a prostriedkami príslušného štátu zaistené hospodárske, sociálne a kultúrne práva, potrebné k jeho dôstojnosti a k slobodnému rozvoju jeho osobnosti.",
+   "question_tgt": "Koľko druhov práv sa označuje za potrebné k jeho dôstojnosti?",
+   "answer_tgt": "Tri.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Každý človek má ako člen spoločnosti právo na sociálne zabezpečenie a nárok, aby mu boly národným úsilím i medzinárodnou súčinnosťou a v súlade s organizáciou a prostriedkami príslušného štátu zaistené hospodárske, sociálne a kultúrne práva, potrebné k jeho dôstojnosti a k slobodnému rozvoju jeho osobnosti.",
+   "question_tgt": "Čo môže spôsobiť, že zaistenie týchto práv sa v jednotlivých štátoch líši?",
+   "answer_tgt": "Organizácia a prostriedky príslušného štátu.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Každý má právo na prácu, na slobodnú voľbu zamestnania, na spravodlivé a uspokojivé pracovné podmienky a na ochranu proti nezamestnanosti. Každý, bez hociakého rozlišovania, má nárok na rovnaký plat za rovnakú prácu. Každý pracujúci má právo na spravodlivú a dostačujúcu odmenu, ktorá by zaisťovala jemu samému a jeho rodine živobytie odpovedajúce ľudskej dôstojnosti, a ktorá by bola doplnená, keby toho bolo treba, inými prostriedkami sociálnej ochrany. Každý má právo na ochranu svojich záujmov zakladať s inými odborové organizácie a pristupovať k ním.",
+   "question_tgt": "Čo má spravodlivá a dostačujúca odmena zaisťovať pracujúcemu a jeho rodine?",
+   "answer_tgt": "Živobytie odpovedajúce ľudskej dôstojnosti.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Každý má právo na prácu, na slobodnú voľbu zamestnania, na spravodlivé a uspokojivé pracovné podmienky a na ochranu proti nezamestnanosti. Každý, bez hociakého rozlišovania, má nárok na rovnaký plat za rovnakú prácu. Každý pracujúci má právo na spravodlivú a dostačujúcu odmenu, ktorá by zaisťovala jemu samému a jeho rodine živobytie odpovedajúce ľudskej dôstojnosti, a ktorá by bola doplnená, keby toho bolo treba, inými prostriedkami sociálnej ochrany. Každý má právo na ochranu svojich záujmov zakladať s inými odborové organizácie a pristupovať k ním.",
+   "question_tgt": "Na aký plat má každý nárok bez hociakého rozlišovania?",
+   "answer_tgt": "Rovnaký plat za rovnakú prácu.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Každý má právo na prácu, na slobodnú voľbu zamestnania, na spravodlivé a uspokojivé pracovné podmienky a na ochranu proti nezamestnanosti. Každý, bez hociakého rozlišovania, má nárok na rovnaký plat za rovnakú prácu. Každý pracujúci má právo na spravodlivú a dostačujúcu odmenu, ktorá by zaisťovala jemu samému a jeho rodine živobytie odpovedajúce ľudskej dôstojnosti, a ktorá by bola doplnená, keby toho bolo treba, inými prostriedkami sociálnej ochrany. Každý má právo na ochranu svojich záujmov zakladať s inými odborové organizácie a pristupovať k ním.",
+   "question_tgt": "Aké sankcie hrozia zamestnávateľovi, ktorý odoprie rovnaký plat za rovnakú prácu?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Každý má právo na prácu, na slobodnú voľbu zamestnania, na spravodlivé a uspokojivé pracovné podmienky a na ochranu proti nezamestnanosti. Každý, bez hociakého rozlišovania, má nárok na rovnaký plat za rovnakú prácu. Každý pracujúci má právo na spravodlivú a dostačujúcu odmenu, ktorá by zaisťovala jemu samému a jeho rodine živobytie odpovedajúce ľudskej dôstojnosti, a ktorá by bola doplnená, keby toho bolo treba, inými prostriedkami sociálnej ochrany. Každý má právo na ochranu svojich záujmov zakladať s inými odborové organizácie a pristupovať k ním.",
+   "question_tgt": "Na čo sa vzťahuje posledné právo uvedené v prvej vete?",
+   "answer_tgt": "Na ochranu proti nezamestnanosti.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Každý má právo na prácu, na slobodnú voľbu zamestnania, na spravodlivé a uspokojivé pracovné podmienky a na ochranu proti nezamestnanosti. Každý, bez hociakého rozlišovania, má nárok na rovnaký plat za rovnakú prácu. Každý pracujúci má právo na spravodlivú a dostačujúcu odmenu, ktorá by zaisťovala jemu samému a jeho rodine živobytie odpovedajúce ľudskej dôstojnosti, a ktorá by bola doplnená, keby toho bolo treba, inými prostriedkami sociálnej ochrany. Každý má právo na ochranu svojich záujmov zakladať s inými odborové organizácie a pristupovať k ním.",
+   "question_tgt": "Čo sa má stať, ak samotná odmena nestačí na zaistenie živobytia odpovedajúceho ľudskej dôstojnosti?",
+   "answer_tgt": "Má byť doplnená inými prostriedkami sociálnej ochrany.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Každý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku. Každý má právo na takú životnú úroveň, ktorá môže zaistiť jeho zdravie a blahobyt a zdravie jeho rodiny, počítajúc v to menovite výživu, šatenie, bývanie a lekárske ošetrovanie, ako aj potrebné sociálne opatrenia: má právo na zabezpečenie v nezamestnanosti, v nemoci, pri neschopnosti k práci, pri ovdovení, v starobe alebo v iných prípadoch straty zárobkových možností, ktoré nastanú za okolností nezávislých ne jeho vôli. Materstvo a detstvo majú nárok na zvláštnu strarostlivosť a pomoc. Všetky deti, či manželské alebo nemanželské, požívajú rovnakú sociálnu ochranu.",
+   "question_tgt": "Na čo ešte sa okrem odpočinku a zotavenia vzťahuje toto právo?",
+   "answer_tgt": "Na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Každý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku. Každý má právo na takú životnú úroveň, ktorá môže zaistiť jeho zdravie a blahobyt a zdravie jeho rodiny, počítajúc v to menovite výživu, šatenie, bývanie a lekárske ošetrovanie, ako aj potrebné sociálne opatrenia: má právo na zabezpečenie v nezamestnanosti, v nemoci, pri neschopnosti k práci, pri ovdovení, v starobe alebo v iných prípadoch straty zárobkových možností, ktoré nastanú za okolností nezávislých ne jeho vôli. Materstvo a detstvo majú nárok na zvláštnu strarostlivosť a pomoc. Všetky deti, či manželské alebo nemanželské, požívajú rovnakú sociálnu ochranu.",
+   "question_tgt": "Aký je najvyšší povolený počet pracovných hodín za týždeň?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Každý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku. Každý má právo na takú životnú úroveň, ktorá môže zaistiť jeho zdravie a blahobyt a zdravie jeho rodiny, počítajúc v to menovite výživu, šatenie, bývanie a lekárske ošetrovanie, ako aj potrebné sociálne opatrenia: má právo na zabezpečenie v nezamestnanosti, v nemoci, pri neschopnosti k práci, pri ovdovení, v starobe alebo v iných prípadoch straty zárobkových možností, ktoré nastanú za okolností nezávislých ne jeho vôli. Materstvo a detstvo majú nárok na zvláštnu strarostlivosť a pomoc. Všetky deti, či manželské alebo nemanželské, požívajú rovnakú sociálnu ochranu.",
+   "question_tgt": "V ktorej situácii, uvedenej v texte ako druhá v poradí, má každý právo na zabezpečenie?",
+   "answer_tgt": "V nemoci.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Každý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku. Každý má právo na takú životnú úroveň, ktorá môže zaistiť jeho zdravie a blahobyt a zdravie jeho rodiny, počítajúc v to menovite výživu, šatenie, bývanie a lekárske ošetrovanie, ako aj potrebné sociálne opatrenia: má právo na zabezpečenie v nezamestnanosti, v nemoci, pri neschopnosti k práci, pri ovdovení, v starobe alebo v iných prípadoch straty zárobkových možností, ktoré nastanú za okolností nezávislých ne jeho vôli. Materstvo a detstvo majú nárok na zvláštnu strarostlivosť a pomoc. Všetky deti, či manželské alebo nemanželské, požívajú rovnakú sociálnu ochranu.",
+   "question_tgt": "Ktoré dve skupiny majú nárok na zvláštnu starostlivosť a pomoc?",
+   "answer_tgt": "Materstvo a detstvo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Každý má právo na odpočinok a na zotavenie, zvlášť aj na rozumné vymedzenie pracovných hodín a na pravidelnú platenú dovolenku. Každý má právo na takú životnú úroveň, ktorá môže zaistiť jeho zdravie a blahobyt a zdravie jeho rodiny, počítajúc v to menovite výživu, šatenie, bývanie a lekárske ošetrovanie, ako aj potrebné sociálne opatrenia: má právo na zabezpečenie v nezamestnanosti, v nemoci, pri neschopnosti k práci, pri ovdovení, v starobe alebo v iných prípadoch straty zárobkových možností, ktoré nastanú za okolností nezávislých ne jeho vôli. Materstvo a detstvo majú nárok na zvláštnu strarostlivosť a pomoc. Všetky deti, či manželské alebo nemanželské, požívajú rovnakú sociálnu ochranu.",
+   "question_tgt": "Za akých okolností musí nastať strata zárobkových možností, aby vzniklo právo na zabezpečenie?",
+   "answer_tgt": "Za okolností nezávislých ne jeho vôli.",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "Official Slovak text has an OCR defect inside the span ('ne jeho vôli' for 'na jeho vôli'); copied verbatim to stay grounded."
+  }
+ ]
+}

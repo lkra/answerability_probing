@@ -1,0 +1,54 @@
+{
+  "passage_id": "udhr_p018",
+  "articles": [
+    "29"
+  ],
+  "passage": "Everyone has duties to the community in which alone the free and full development of his personality is possible. In the exercise of his rights and freedoms, everyone shall be subject only to such limitations as are determined by law solely for the purpose of securing due recognition and respect for the rights and freedoms of others and of meeting the just requirements of morality, public order and the general welfare in a democratic society. These rights and freedoms may in no case be exercised contrary to the purposes and principles of the United Nations.",
+  "questions": [
+    {
+      "question": "Why does everyone have duties to the community?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "Because the free and full development of his personality is possible in the community alone.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "By what means must the limitations on the exercise of rights and freedoms be determined?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "By law.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "How many just requirements of a democratic society are listed in the text?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Three.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": false
+    },
+    {
+      "question": "Which body has the power to decide whether a limitation on rights and freedoms is lawful?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "Contrary to what may these rights and freedoms in no case be exercised?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "The purposes and principles of the United Nations.",
+      "source_article": "29",
+      "article_specific": true,
+      "answer_is_span": true
+    }
+  ]
+}

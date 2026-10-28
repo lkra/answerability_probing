@@ -1,0 +1,805 @@
+{
+  "target_lang": "bho",
+  "units": [
+    {
+      "item_id": "item_001",
+      "english_question": "According to the right to freedom of thought, conscience, and religion, what is a person free to change?",
+      "english_answer": "A person is free to change his religion or belief.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or in private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "आदमी के आपन धरम भा विश्वास बदले के स्वतंत्रता बा।"
+    },
+    {
+      "item_id": "item_002",
+      "english_question": "According to the text, for whose intangible cultural heritage must respect be ensured?",
+      "english_answer": "Respect must be ensured for the intangible cultural heritage of the communities, groups and individuals concerned.",
+      "confidence": "high",
+      "english_passage": "The purposes of this Convention are: (a) to safeguard the intangible cultural heritage; (b) to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned; (c) to raise awareness at the local, national and international levels of the importance of the intangible cultural heritage, and of ensuring mutual appreciation thereof; (d) to provide for international cooperation and assistance.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "संबंधित समुदाय, समूह आ व्यक्ति सभ के अमूर्त सांस्कृतिक विरासत के सम्मान सुनिश्चित कइल जाए के चाहीं।"
+    },
+    {
+      "item_id": "item_003",
+      "english_question": "According to the text, what is the cause of the barbarous acts that outraged the conscience of mankind?",
+      "english_answer": "Disregard and contempt for human rights.",
+      "confidence": "high",
+      "english_passage": "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "मानव अधिकार सभ के अवहेलना आ तिरस्कार।"
+    },
+    {
+      "item_id": "item_004",
+      "english_question": "According to the text, what must the Union take into account in its action under other provisions of the Treaties?",
+      "english_answer": "Cultural aspects, in particular in order to respect and promote the diversity of its cultures.",
+      "confidence": "high",
+      "english_passage": "The Union shall contribute to the flowering of the cultures of the Member States, while respecting their national and regional diversity and at the same time bringing the common cultural heritage to the fore. Action by the Union shall be aimed at encouraging cooperation between Member States and, if necessary, supporting and supplementing their action in the following areas: improvement of the knowledge and dissemination of the culture and history of the European peoples, conservation and safeguarding of cultural heritage of European significance, non-commercial cultural exchanges, artistic and literary creation, including in the audiovisual sector. The Union and the Member States shall foster cooperation with third countries and the competent international organisations in the sphere of culture, in particular the Council of Europe. The Union shall take cultural aspects into account in its action under other provisions of the Treaties, in particular in order to respect and to promote the diversity of its cultures.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सांस्कृतिक पहलू सभ, खास तौर पर आपन संस्कृति सभ के विविधता के सम्मान आ बढ़ावा देवे खातिर।"
+    },
+    {
+      "item_id": "item_005",
+      "english_question": "According to this text, what physical characteristics must not be used to treat someone differently?",
+      "english_answer": "Sex, race, colour, genetic features, disability and age.",
+      "confidence": "medium",
+      "english_passage": "Any discrimination based on any ground such as sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited. The Union shall respect cultural, religious and linguistic diversity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "लिंग, नस्ल, रंग, आनुवंशिक विशेषता, विकलांगता आ उमिर।"
+    },
+    {
+      "item_id": "item_006",
+      "english_question": "At what three geographic or political levels must awareness of the importance of intangible cultural heritage be raised?",
+      "english_answer": "At the local, national and international levels.",
+      "confidence": "high",
+      "english_passage": "The purposes of this Convention are: (a) to safeguard the intangible cultural heritage; (b) to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned; (c) to raise awareness at the local, national and international levels of the importance of the intangible cultural heritage, and of ensuring mutual appreciation thereof; (d) to provide for international cooperation and assistance.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "स्थानीय, राष्ट्रीय आ अंतरराष्ट्रीय स्तर पर।"
+    },
+    {
+      "item_id": "item_008",
+      "english_question": "From generation to generation, how is the intangible cultural heritage passed down?",
+      "english_answer": "It is transmitted from generation to generation and constantly recreated by communities and groups in response to their environment, their interaction with nature and their history.",
+      "confidence": "high",
+      "english_passage": "The 'Intangible Cultural Heritage' means the practices, representations, expressions, knowledge, skills – as well as the instruments, objects, artefacts and cultural spaces associated therewith – that communities, groups and, in some cases, individuals recognize as part of their cultural heritage. This intangible cultural heritage, transmitted from generation to generation, is constantly recreated by communities and groups in response to their environment, their interaction with nature and their history, and provides them with a sense of identity and continuity, thus promoting respect for cultural diversity and human creativity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ई एक पीढ़ी से दूसर पीढ़ी में पहुँचे ला आ समुदाय आ समूह सभ आपन परिवेश, प्रकृति से आपन मेलजोल आ आपन इतिहास के हिसाब से एकरा के लगातार नया रूप देत रहे लें।"
+    },
+    {
+      "item_id": "item_009",
+      "english_question": "How did Obatala and Olodumare cooperate in the creation of life?",
+      "english_answer": "Obatala created the first human figurines out of earth in Ile-Ife and Olodumare breathed the breath of life into them.",
+      "confidence": "high",
+      "english_passage": "The Yoruba people are an ethnic group that primarily inhabits West Africa. The oldest known textual reference to the name Yoruba is found in a manuscript written by the scholar Ahmed Baba in the year 1614 in Timbuktu. The Yoruba indigenous religion is known as Isese, which encompasses traditional practices and beliefs. According to Yoruba mythology, the deity Obatala created the first human figurines out of earth in the sacred city of Ile-Ife, while the Supreme Creator, Olodumare, breathed the breath of life into them. Central to Yoruba philosophy is the concept of Omoluwabi, a guiding principle that dictates civilized behavior and good character. The term is derived from the phrase 'Omo + ti + Olu-iwa + bi', which conceptually identifies a person of exemplary virtue. An Omoluwabi demonstrates Iwapele, which signifies a set of values such as integrity, self-control, empathy, and hard work. This philosophical framework heavily influences traditional Yoruba art. Unlike Western aesthetic traditions, Yoruba art, including intricate textiles, often possesses a direct political and spiritual function, emphasizing the deep linguistic and cultural connection between visual artifacts and good moral character.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ओबातला इले-इफे में माटी से पहिला मानव मूरति सभ बनवलें आ ओलोदुमारे ओह सभ में जीवन के साँस फूँकलें।"
+    },
+    {
+      "item_id": "item_011",
+      "english_question": "How does the text explain the social function of using costumes and masks?",
+      "english_answer": "They allow people to set aside their everyday individuality and experience a heightened sense of social unity.",
+      "confidence": "high",
+      "english_passage": "Carnival typically involves public celebrations, including events such as parades, public street parties and other entertainments, combining some elements of a circus. Elaborate costumes and masks allow people to set aside their everyday individuality and experience a heightened sense of social unity. Participants often indulge in excessive consumption of alcohol, meat, and other foods that will be forgone during the upcoming religious season of Lent.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ई लोगन के आपन रोज के अलग पहचान के किनारे राख के सामाजिक एकता के गहिर अनुभव करे के मौका देला।"
+    },
+    {
+      "item_id": "item_013",
+      "english_question": "How many religions celebrate Diwali according to the text?",
+      "english_answer": "Three.",
+      "confidence": "low",
+      "english_passage": "Diwali, commonly known as the festival of lights, is a Hindu festival with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good over evil, and knowledge over ignorance. During the festival, the celebrants illuminate their homes, temples and workspaces with diyas (oil lamps), candles and lanterns. Food is a major focus with families partaking in feasts and sharing sweets.",
+      "target_passage": "दिवाली, जेकरा के आमतौर पर दियाली चाहे दीप पर्व के रूप में जानल जाला, एगो हिंदू तिहुआर हवे जे जैन आ सिख नियर अउरी भारतीय धरम सभ में भी कुछ बदलाव के साथ मनावल जाला। ई अधर्म पर धर्म के, अन्हार पर प्रकाश के, बुराई पर अच्छाई के आ अज्ञान पर ज्ञान के आध्यात्मिक जीत के प्रतीक हवे। एह तिहुआर के दौरान, मनावे वाला लोग अपना घर, मंदिर आ काम करे के जगह सभ के दिया (माटी के दीप), मोमबत्ती आ कंदील से सजा के अँजोर करे ला। एह में भोजन मुख्य केंद्र होला जेह में परिवार दावत उड़ावे ला आ मिठाई बाँटे ला।",
+      "same_language": true,
+      "translation": "तीन।"
+    },
+    {
+      "item_id": "item_015",
+      "english_question": "How should human beings act towards one another?",
+      "english_answer": "They should act towards one another in a spirit of brotherhood.",
+      "confidence": "high",
+      "english_passage": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ओह लोगन के एक दूसरा के साथ भाईचारा के भावना से बेवहार करे के चाहीं।"
+    },
+    {
+      "item_id": "item_016",
+      "english_question": "If a community's heritage involves astronomical observations and ecological farming methods, which domain in the text covers these activities?",
+      "english_answer": "Domain (d), knowledge and practices concerning nature and the universe.",
+      "confidence": "high",
+      "english_passage": "The 'intangible cultural heritage', as defined in paragraph 1 above, is manifested inter alia in the following domains: (a) oral traditions and expressions, including language as a vehicle of the intangible cultural heritage; (b) performing arts; (c) social practices, rituals and festive events; (d) knowledge and practices concerning nature and the universe; (e) traditional craftsmanship.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "क्षेत्र (d), प्रकृति आ ब्रह्मांड से जुड़ल ज्ञान आ प्रथा सभ।"
+    },
+    {
+      "item_id": "item_019",
+      "english_question": "In which stages of education must tuition or fees not be charged?",
+      "english_answer": "In the elementary and fundamental stages.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "प्राथमिक आ बुनियादी स्तर पर।"
+    },
+    {
+      "item_id": "item_020",
+      "english_question": "On what basis must higher education be equally accessible to all?",
+      "english_answer": "On the basis of merit.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "योग्यता के आधार पर।"
+    },
+    {
+      "item_id": "item_021",
+      "english_question": "On what specific calendar and date does this harvest festival occur?",
+      "english_answer": "On the 15th day of the 8th month of the Chinese lunisolar calendar.",
+      "confidence": "high",
+      "english_passage": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a harvest festival celebrated in Chinese culture. It occurs on the 15th day of the 8th month of the Chinese lunisolar calendar. The festival celebrates three fundamental concepts that are closely connected: Gathering, such as family and friends coming together or harvesting crops; Giving thanks for the harvest or harmonious unions; and Praying for conceptual or material satisfaction, such as babies, a spouse, beauty, longevity, or a good future.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "चीनी चंद्र-सौर कैलेंडर के आठवाँ महीना के पन्द्रहवाँ दिन।"
+    },
+    {
+      "item_id": "item_022",
+      "english_question": "Through what channels and boundaries can information and ideas be sought, received, and imparted?",
+      "english_answer": "Information and ideas can be sought, received and imparted through any media and regardless of frontiers.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or in private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सूचना आ विचार सभ के कवनो भी माध्यम से आ सीमा के परवाह कइले बिना खोजल, पावल आ बाँटल जा सकेला।"
+    },
+    {
+      "item_id": "item_023",
+      "english_question": "Under what condition might a person be forced to rebel against tyranny and oppression as a last resort?",
+      "english_answer": "If human rights are not protected by the rule of law.",
+      "confidence": "high",
+      "english_passage": "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "अगर मानव अधिकार सभ के रक्षा कानून के शासन से ना होखे।"
+    },
+    {
+      "item_id": "item_024",
+      "english_question": "What actions can fuel hostility and hinder post-conflict national healing, other than destruction, looting and smuggling?",
+      "english_answer": "The attempt to deny historical roots and cultural diversity.",
+      "confidence": "high",
+      "english_passage": "Emphasizing that the unlawful destruction of cultural heritage, and the looting and smuggling of cultural property in the event of armed conflicts, notably by terrorist groups, and the attempt to deny historical roots and cultural diversity in this context can fuel and exacerbate conflict and hamper post-conflict reconciliation, thereby undermining the security, stability, governance, social cohesion and development of affected Member States.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ऐतिहासिक जड़ आ सांस्कृतिक विविधता के नकारे के कोसिस।"
+    },
+    {
+      "item_id": "item_025",
+      "english_question": "What are all human beings entitled to without distinction of any kind?",
+      "english_answer": "All the rights and freedoms set forth in the Declaration.",
+      "confidence": "high",
+      "english_passage": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "एह घोषणापत्र में बतावल गइल सब अधिकार आ स्वतंत्रता।"
+    },
+    {
+      "item_id": "item_027",
+      "english_question": "What are the availability and accessibility requirements for technical and professional education compared to higher education?",
+      "english_answer": "Technical and professional education shall be made generally available, while higher education shall be equally accessible to all on the basis of merit.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "तकनीकी आ व्यावसायिक शिक्षा आम तौर पर सबहिं खातिर उपलब्ध कइल जाई, जबकि उच्च शिक्षा योग्यता के आधार पर सबहिं खातिर बराबर रूप से सुलभ होई।"
+    },
+    {
+      "item_id": "item_028",
+      "english_question": "What are the five distinct domains in which intangible cultural heritage is manifested according to the text?",
+      "english_answer": "Oral traditions and expressions, performing arts, social practices, rituals and festive events, knowledge and practices concerning nature and the universe, and traditional craftsmanship.",
+      "confidence": "high",
+      "english_passage": "The 'intangible cultural heritage', as defined in paragraph 1 above, is manifested inter alia in the following domains: (a) oral traditions and expressions, including language as a vehicle of the intangible cultural heritage; (b) performing arts; (c) social practices, rituals and festive events; (d) knowledge and practices concerning nature and the universe; (e) traditional craftsmanship.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "मौखिक परंपरा आ अभिव्यक्ति, प्रदर्शन कला, सामाजिक प्रथा, रीति-रिवाज आ उत्सव, प्रकृति आ ब्रह्मांड से जुड़ल ज्ञान आ प्रथा, आ पारंपरिक शिल्पकारी।"
+    },
+    {
+      "item_id": "item_029",
+      "english_question": "What are the influences leading to the evolution of cultural heritage across generations?",
+      "english_answer": "Their environment, their interaction with nature and their history.",
+      "confidence": "high",
+      "english_passage": "The 'Intangible Cultural Heritage' means the practices, representations, expressions, knowledge, skills – as well as the instruments, objects, artefacts and cultural spaces associated therewith – that communities, groups and, in some cases, individuals recognize as part of their cultural heritage. This intangible cultural heritage, transmitted from generation to generation, is constantly recreated by communities and groups in response to their environment, their interaction with nature and their history, and provides them with a sense of identity and continuity, thus promoting respect for cultural diversity and human creativity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "आपन परिवेश, प्रकृति से आपन मेलजोल आ आपन इतिहास।"
+    },
+    {
+      "item_id": "item_031",
+      "english_question": "What are the societal and political pillars that are weakened by cultural destruction?",
+      "english_answer": "The security, stability, governance, social cohesion and development of affected Member States.",
+      "confidence": "high",
+      "english_passage": "Emphasizing that the unlawful destruction of cultural heritage, and the looting and smuggling of cultural property in the event of armed conflicts, notably by terrorist groups, and the attempt to deny historical roots and cultural diversity in this context can fuel and exacerbate conflict and hamper post-conflict reconciliation, thereby undermining the security, stability, governance, social cohesion and development of affected Member States.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "प्रभावित सदस्य देस सभ के सुरक्षा, स्थिरता, शासन, सामाजिक एकजुटता आ विकास।"
+    },
+    {
+      "item_id": "item_033",
+      "english_question": "What are two alternative names for the Mid-Autumn Festival?",
+      "english_answer": "The Moon Festival and the Mooncake Festival.",
+      "confidence": "high",
+      "english_passage": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a harvest festival celebrated in Chinese culture. It occurs on the 15th day of the 8th month of the Chinese lunisolar calendar. The festival celebrates three fundamental concepts that are closely connected: Gathering, such as family and friends coming together or harvesting crops; Giving thanks for the harvest or harmonious unions; and Praying for conceptual or material satisfaction, such as babies, a spouse, beauty, longevity, or a good future.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "चंद्र पर्व आ मूनकेक पर्व।"
+    },
+    {
+      "item_id": "item_034",
+      "english_question": "What beliefs or opinions are protected from discrimination?",
+      "english_answer": "Religion or belief, and political or any other opinion.",
+      "confidence": "high",
+      "english_passage": "Any discrimination based on any ground such as sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited. The Union shall respect cultural, religious and linguistic diversity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "धरम भा विश्वास, आ राजनीतिक भा कवनो दूसर राय।"
+    },
+    {
+      "item_id": "item_035",
+      "english_question": "What causes the grave threats to intangible cultural heritage in particular?",
+      "english_answer": "A lack of resources for safeguarding such heritage.",
+      "confidence": "high",
+      "english_passage": "Recognizing that the processes of globalization and social transformation, alongside the conditions they create for renewed dialogue among communities, also give rise, as does the phenomenon of intolerance, to grave threats of deterioration, disappearance and destruction of the intangible cultural heritage, in particular because of a lack of resources for safeguarding such heritage.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "अइसन विरासत के रक्षा खातिर संसाधन के कमी।"
+    },
+    {
+      "item_id": "item_036",
+      "english_question": "What conceptual desires do participants pray for during the festival?",
+      "english_answer": "Conceptual or material satisfaction such as babies, a spouse, beauty, longevity or a good future.",
+      "confidence": "high",
+      "english_passage": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a harvest festival celebrated in Chinese culture. It occurs on the 15th day of the 8th month of the Chinese lunisolar calendar. The festival celebrates three fundamental concepts that are closely connected: Gathering, such as family and friends coming together or harvesting crops; Giving thanks for the harvest or harmonious unions; and Praying for conceptual or material satisfaction, such as babies, a spouse, beauty, longevity, or a good future.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "वैचारिक भा भौतिक संतुष्टि, जइसे कि संतान, जीवनसाथी, सुंदरता, लमहर उमिर भा बढ़िया भविष्य।"
+    },
+    {
+      "item_id": "item_038",
+      "english_question": "What does the style of Wabi-cha emphasize?",
+      "english_answer": "Simplicity.",
+      "confidence": "high",
+      "english_passage": "Wabi-cha is a style of Japanese tea ceremony particularly associated with Sen no Rikyu, Takeno Joo and its originator Murata Juko. Wabi-cha emphasizes simplicity. The term came into use in the Edo period, prior to which it was known as wabi-suki, suki meaning 'artistic inclination', and 'wabi' meaning 'forlorn'. At the core of Rikyu's aesthetic was the tea room smaller than 4.5 tatami mats, which was a practical way of focusing tea practice on the communion of host and guests.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सादगी।"
+    },
+    {
+      "item_id": "item_039",
+      "english_question": "What dual-natured effects do globalization and social transformation have on cultural relations?",
+      "english_answer": "They create conditions for renewed dialogue among communities while also giving rise to grave threats of deterioration, disappearance and destruction of intangible cultural heritage.",
+      "confidence": "high",
+      "english_passage": "Recognizing that the processes of globalization and social transformation, alongside the conditions they create for renewed dialogue among communities, also give rise, as does the phenomenon of intolerance, to grave threats of deterioration, disappearance and destruction of the intangible cultural heritage, in particular because of a lack of resources for safeguarding such heritage.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ई समुदाय सभ के बीच नया सिरा से संवाद के स्थिति बनावेला, बाकिर एकरे साथे अमूर्त सांस्कृतिक विरासत के क्षय, लोप आ विनाश के गंभीर खतरा भी पैदा करेला।"
+    },
+    {
+      "item_id": "item_040",
+      "english_question": "What five specific purposes of dedicated sites and buildings are protected from attacks under this article?",
+      "english_answer": "Religion, education, art, science and charitable purposes.",
+      "confidence": "high",
+      "english_passage": "Affirms that directing unlawful attacks against sites and buildings dedicated to religion, education, art, science or charitable purposes, or historic monuments may constitute, under certain circumstances and pursuant to international law, a war crime and that perpetrators of such attacks must be brought to justice.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "धरम, शिक्षा, कला, विज्ञान आ धर्मार्थ काम।"
+    },
+    {
+      "item_id": "item_041",
+      "english_question": "What has everyone the right to freely participate in?",
+      "english_answer": "The cultural life of the community.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.",
+      "target_passage": "सबहिं के आपन समाज के सांस्कृतिक कार्यघ् में हिस्सा लेवे के तथा कला के आनंद उठावे के अधिकार बा संगे वैज्ञानिक प्रगति में भगीदार बने तथा फायदा उठावे के अधिकार बा। सबहिं लोकनि के आपन वैज्ञानिक, साहित्यिक आओर कलात्मक कृति जे घ्लिखले बा, के नैतिक आओर भैतिक हित के संरक्षण के अधिकार बा।",
+      "same_language": true,
+      "translation": "आपन समाज के सांस्कृतिक कार्य।"
+    },
+    {
+      "item_id": "item_042",
+      "english_question": "What heavily influences traditional Yoruba art?",
+      "english_answer": "The philosophical framework of Omoluwabi and Iwapele.",
+      "confidence": "high",
+      "english_passage": "The Yoruba people are an ethnic group that primarily inhabits West Africa. The oldest known textual reference to the name Yoruba is found in a manuscript written by the scholar Ahmed Baba in the year 1614 in Timbuktu. The Yoruba indigenous religion is known as Isese, which encompasses traditional practices and beliefs. According to Yoruba mythology, the deity Obatala created the first human figurines out of earth in the sacred city of Ile-Ife, while the Supreme Creator, Olodumare, breathed the breath of life into them. Central to Yoruba philosophy is the concept of Omoluwabi, a guiding principle that dictates civilized behavior and good character. The term is derived from the phrase 'Omo + ti + Olu-iwa + bi', which conceptually identifies a person of exemplary virtue. An Omoluwabi demonstrates Iwapele, which signifies a set of values such as integrity, self-control, empathy, and hard work. This philosophical framework heavily influences traditional Yoruba art. Unlike Western aesthetic traditions, Yoruba art, including intricate textiles, often possesses a direct political and spiritual function, emphasizing the deep linguistic and cultural connection between visual artifacts and good moral character.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ओमोलुवाबी आ इवापेले के दार्शनिक ढाँचा।"
+    },
+    {
+      "item_id": "item_043",
+      "english_question": "What illegal actions regarding cultural property are noted as occurring in armed conflicts?",
+      "english_answer": "The looting and smuggling of cultural property, alongside its unlawful destruction.",
+      "confidence": "high",
+      "english_passage": "Emphasizing that the unlawful destruction of cultural heritage, and the looting and smuggling of cultural property in the event of armed conflicts, notably by terrorist groups, and the attempt to deny historical roots and cultural diversity in this context can fuel and exacerbate conflict and hamper post-conflict reconciliation, thereby undermining the security, stability, governance, social cohesion and development of affected Member States.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सांस्कृतिक संपत्ति के लूट आ तस्करी, संगही ओकर गैरकानूनी विनाश।"
+    },
+    {
+      "item_id": "item_044",
+      "english_question": "What institutions or locations are explicitly listed as sources of looted cultural property?",
+      "english_answer": "Archaeological sites, museums, libraries, archives and other sites.",
+      "confidence": "high",
+      "english_passage": "Deplores and condemns the unlawful destruction of cultural heritage, inter alia destruction of religious sites and artefacts, as well as the looting and smuggling of cultural property from archaeological sites, museums, libraries, archives, and other sites, in the context of armed conflicts, notably by terrorist groups.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "पुरातात्विक स्थल, संग्रहालय, पुस्तकालय, अभिलेखागार आ दूसर स्थल सभ।"
+    },
+    {
+      "item_id": "item_045",
+      "english_question": "What interests resulting from scientific, literary, or artistic productions are protected?",
+      "english_answer": "The moral and material interests resulting from any scientific, literary or artistic production.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.",
+      "target_passage": "सबहिं के आपन समाज के सांस्कृतिक कार्यघ् में हिस्सा लेवे के तथा कला के आनंद उठावे के अधिकार बा संगे वैज्ञानिक प्रगति में भगीदार बने तथा फायदा उठावे के अधिकार बा। सबहिं लोकनि के आपन वैज्ञानिक, साहित्यिक आओर कलात्मक कृति जे घ्लिखले बा, के नैतिक आओर भैतिक हित के संरक्षण के अधिकार बा।",
+      "same_language": true,
+      "translation": "आपन वैज्ञानिक, साहित्यिक आओर कलात्मक कृति के नैतिक आओर भौतिक हित।"
+    },
+    {
+      "item_id": "item_046",
+      "english_question": "What is Diwali commonly known as according to the text?",
+      "english_answer": "The festival of lights.",
+      "confidence": "high",
+      "english_passage": "Diwali, commonly known as the festival of lights, is a Hindu festival with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good over evil, and knowledge over ignorance. During the festival, the celebrants illuminate their homes, temples and workspaces with diyas (oil lamps), candles and lanterns. Food is a major focus with families partaking in feasts and sharing sweets.",
+      "target_passage": "दिवाली, जेकरा के आमतौर पर दियाली चाहे दीप पर्व के रूप में जानल जाला, एगो हिंदू तिहुआर हवे जे जैन आ सिख नियर अउरी भारतीय धरम सभ में भी कुछ बदलाव के साथ मनावल जाला। ई अधर्म पर धर्म के, अन्हार पर प्रकाश के, बुराई पर अच्छाई के आ अज्ञान पर ज्ञान के आध्यात्मिक जीत के प्रतीक हवे। एह तिहुआर के दौरान, मनावे वाला लोग अपना घर, मंदिर आ काम करे के जगह सभ के दिया (माटी के दीप), मोमबत्ती आ कंदील से सजा के अँजोर करे ला। एह में भोजन मुख्य केंद्र होला जेह में परिवार दावत उड़ावे ला आ मिठाई बाँटे ला।",
+      "same_language": true,
+      "translation": "दीप पर्व।"
+    },
+    {
+      "item_id": "item_047",
+      "english_question": "What is proclaimed as the highest aspiration of the common people?",
+      "english_answer": "The advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want.",
+      "confidence": "high",
+      "english_passage": "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "अइसन दुनिया के आगमन जेह में मनुष्य के बोले आ विश्वास के आजादी आ डर आ अभाव से मुक्ति मिली।"
+    },
+    {
+      "item_id": "item_048",
+      "english_question": "What is the connection between the participants' eating and drinking habits during Carnival and the religious season that follows?",
+      "english_answer": "Participants indulge in excessive consumption of alcohol, meat and other foods that will be forgone during the upcoming religious season of Lent.",
+      "confidence": "high",
+      "english_passage": "Carnival typically involves public celebrations, including events such as parades, public street parties and other entertainments, combining some elements of a circus. Elaborate costumes and masks allow people to set aside their everyday individuality and experience a heightened sense of social unity. Participants often indulge in excessive consumption of alcohol, meat, and other foods that will be forgone during the upcoming religious season of Lent.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "भाग लेवे वाला लोग शराब, मांस आ दूसर खाना के जमके सेवन करे ला, जिनहन के आवे वाला धार्मिक लेंट के मौसम में छोड़ दिहल जाई।"
+    },
+    {
+      "item_id": "item_049",
+      "english_question": "What is the definition of 'intangible cultural heritage'?",
+      "english_answer": "It means the practices, representations, expressions, knowledge and skills, as well as the instruments, objects, artefacts and cultural spaces associated with them, that communities, groups and sometimes individuals recognize as part of their cultural heritage.",
+      "confidence": "high",
+      "english_passage": "The 'Intangible Cultural Heritage' means the practices, representations, expressions, knowledge, skills – as well as the instruments, objects, artefacts and cultural spaces associated therewith – that communities, groups and, in some cases, individuals recognize as part of their cultural heritage. This intangible cultural heritage, transmitted from generation to generation, is constantly recreated by communities and groups in response to their environment, their interaction with nature and their history, and provides them with a sense of identity and continuity, thus promoting respect for cultural diversity and human creativity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "एकर मतलब बा ऊ प्रथा, प्रस्तुति, अभिव्यक्ति, ज्ञान आ कौशल, संगही ओह से जुड़ल औजार, वस्तु, कलाकृति आ सांस्कृतिक स्थल सभ, जिनहन के समुदाय, समूह आ कबो-कबो व्यक्ति आपन सांस्कृतिक विरासत के हिस्सा मानेला।"
+    },
+    {
+      "item_id": "item_051",
+      "english_question": "What is the difference between purposes (a) and (b)?",
+      "english_answer": "Purpose (a) is to safeguard the intangible cultural heritage itself, while purpose (b) is to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned.",
+      "confidence": "medium",
+      "english_passage": "The purposes of this Convention are: (a) to safeguard the intangible cultural heritage; (b) to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned; (c) to raise awareness at the local, national and international levels of the importance of the intangible cultural heritage, and of ensuring mutual appreciation thereof; (d) to provide for international cooperation and assistance.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "उद्देश्य (a) खुद अमूर्त सांस्कृतिक विरासत के रक्षा कइल बा, जबकि उद्देश्य (b) संबंधित समुदाय, समूह आ व्यक्ति सभ के अमूर्त सांस्कृतिक विरासत के सम्मान सुनिश्चित कइल बा।"
+    },
+    {
+      "item_id": "item_052",
+      "english_question": "What is the extent of the freedom of opinion and expression?",
+      "english_answer": "It includes the freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or in private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "एह में बिना हस्तक्षेप के राय रखे के आ कवनो भी माध्यम से आ सीमा के परवाह कइले बिना सूचना आ विचार खोजे, पावे आ बाँटे के आजादी शामिल बा।"
+    },
+    {
+      "item_id": "item_054",
+      "english_question": "What is the second-to-last listed area where the Union will encourage cooperation between member states?",
+      "english_answer": "Non-commercial cultural exchanges.",
+      "confidence": "medium",
+      "english_passage": "The Union shall contribute to the flowering of the cultures of the Member States, while respecting their national and regional diversity and at the same time bringing the common cultural heritage to the fore. Action by the Union shall be aimed at encouraging cooperation between Member States and, if necessary, supporting and supplementing their action in the following areas: improvement of the knowledge and dissemination of the culture and history of the European peoples, conservation and safeguarding of cultural heritage of European significance, non-commercial cultural exchanges, artistic and literary creation, including in the audiovisual sector. The Union and the Member States shall foster cooperation with third countries and the competent international organisations in the sphere of culture, in particular the Council of Europe. The Union shall take cultural aspects into account in its action under other provisions of the Treaties, in particular in order to respect and to promote the diversity of its cultures.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "गैर-व्यावसायिक सांस्कृतिक आदान-प्रदान।"
+    },
+    {
+      "item_id": "item_055",
+      "english_question": "What is the seventh ground for discrimination listed in the passage?",
+      "english_answer": "Religion or belief.",
+      "confidence": "medium",
+      "english_passage": "Any discrimination based on any ground such as sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited. The Union shall respect cultural, religious and linguistic diversity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "धरम भा विश्वास।"
+    },
+    {
+      "item_id": "item_056",
+      "english_question": "What is the third-to-last listed activity where everyone can manifest their religion?",
+      "english_answer": "Practice.",
+      "confidence": "medium",
+      "english_passage": "Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or in private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "अभ्यास।"
+    },
+    {
+      "item_id": "item_057",
+      "english_question": "What items allow people to set aside their everyday individuality?",
+      "english_answer": "Elaborate costumes and masks.",
+      "confidence": "high",
+      "english_passage": "Carnival typically involves public celebrations, including events such as parades, public street parties and other entertainments, combining some elements of a circus. Elaborate costumes and masks allow people to set aside their everyday individuality and experience a heightened sense of social unity. Participants often indulge in excessive consumption of alcohol, meat, and other foods that will be forgone during the upcoming religious season of Lent.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सजल-धजल पोशाक आ मुखौटा।"
+    },
+    {
+      "item_id": "item_058",
+      "english_question": "What must happen to perpetrators of these unlawful attacks?",
+      "english_answer": "They must be brought to justice.",
+      "confidence": "high",
+      "english_passage": "Affirms that directing unlawful attacks against sites and buildings dedicated to religion, education, art, science or charitable purposes, or historic monuments may constitute, under certain circumstances and pursuant to international law, a war crime and that perpetrators of such attacks must be brought to justice.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ओह लोगन के न्याय के कठघरा में लावल जाए के चाहीं।"
+    },
+    {
+      "item_id": "item_060",
+      "english_question": "What other Indian religions celebrate variations of this festival?",
+      "english_answer": "Jainism and Sikhism.",
+      "confidence": "high",
+      "english_passage": "Diwali, commonly known as the festival of lights, is a Hindu festival with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good over evil, and knowledge over ignorance. During the festival, the celebrants illuminate their homes, temples and workspaces with diyas (oil lamps), candles and lanterns. Food is a major focus with families partaking in feasts and sharing sweets.",
+      "target_passage": "दिवाली, जेकरा के आमतौर पर दियाली चाहे दीप पर्व के रूप में जानल जाला, एगो हिंदू तिहुआर हवे जे जैन आ सिख नियर अउरी भारतीय धरम सभ में भी कुछ बदलाव के साथ मनावल जाला। ई अधर्म पर धर्म के, अन्हार पर प्रकाश के, बुराई पर अच्छाई के आ अज्ञान पर ज्ञान के आध्यात्मिक जीत के प्रतीक हवे। एह तिहुआर के दौरान, मनावे वाला लोग अपना घर, मंदिर आ काम करे के जगह सभ के दिया (माटी के दीप), मोमबत्ती आ कंदील से सजा के अँजोर करे ला। एह में भोजन मुख्य केंद्र होला जेह में परिवार दावत उड़ावे ला आ मिठाई बाँटे ला।",
+      "same_language": true,
+      "translation": "जैन आ सिख धरम।"
+    },
+    {
+      "item_id": "item_061",
+      "english_question": "What positive conditions do the processes of globalization and social transformation create?",
+      "english_answer": "Conditions for renewed dialogue among communities.",
+      "confidence": "high",
+      "english_passage": "Recognizing that the processes of globalization and social transformation, alongside the conditions they create for renewed dialogue among communities, also give rise, as does the phenomenon of intolerance, to grave threats of deterioration, disappearance and destruction of the intangible cultural heritage, in particular because of a lack of resources for safeguarding such heritage.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "समुदाय सभ के बीच नया सिरा से संवाद के स्थिति।"
+    },
+    {
+      "item_id": "item_062",
+      "english_question": "What psychological and social benefits do communities receive from this constant recreation of heritage?",
+      "english_answer": "A sense of identity and continuity.",
+      "confidence": "high",
+      "english_passage": "The 'Intangible Cultural Heritage' means the practices, representations, expressions, knowledge, skills – as well as the instruments, objects, artefacts and cultural spaces associated therewith – that communities, groups and, in some cases, individuals recognize as part of their cultural heritage. This intangible cultural heritage, transmitted from generation to generation, is constantly recreated by communities and groups in response to their environment, their interaction with nature and their history, and provides them with a sense of identity and continuity, thus promoting respect for cultural diversity and human creativity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "पहचान आ निरंतरता के बोध।"
+    },
+    {
+      "item_id": "item_063",
+      "english_question": "What public events and celebrations are typically involved in Carnival?",
+      "english_answer": "Parades, public street parties and other entertainments, combining some elements of a circus.",
+      "confidence": "high",
+      "english_passage": "Carnival typically involves public celebrations, including events such as parades, public street parties and other entertainments, combining some elements of a circus. Elaborate costumes and masks allow people to set aside their everyday individuality and experience a heightened sense of social unity. Participants often indulge in excessive consumption of alcohol, meat, and other foods that will be forgone during the upcoming religious season of Lent.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "जुलूस, सार्वजनिक सड़क पार्टी आ दूसर मनोरंजन, जिनहन में सर्कस के कुछ तत्व भी मिलल रहेला।"
+    },
+    {
+      "item_id": "item_065",
+      "english_question": "What region do these AI practices apply to?",
+      "english_answer": "The European Union.",
+      "confidence": "high",
+      "english_passage": "The following artificial intelligence (AI) practices shall be prohibited in the European Union: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective or the effect of materially distorting a person’s behaviour by appreciably impairing the person’s ability to make an informed decision, thereby causing or being likely to cause that person or another person significant harm; (b) the placing on the market, the putting into service or the use of an AI system that exploits any of the vulnerabilities of a person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective or the effect of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm; (c) the placing on the market, the putting into service or the use of AI systems for the evaluation or classification of natural persons over a certain period of time based on their social behaviour or known, inferred or predicted personal or personality characteristics, with the social score leading to detrimental or unfavourable treatment; (d) the placing on the market, the putting into service or the use of an AI system for making risk assessments of natural persons in order to assess or predict the likelihood of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "यूरोपीय संघ।"
+    },
+    {
+      "item_id": "item_066",
+      "english_question": "What role does language play in the domain of oral traditions and expressions?",
+      "english_answer": "Language serves as a vehicle of the intangible cultural heritage.",
+      "confidence": "high",
+      "english_passage": "The 'intangible cultural heritage', as defined in paragraph 1 above, is manifested inter alia in the following domains: (a) oral traditions and expressions, including language as a vehicle of the intangible cultural heritage; (b) performing arts; (c) social practices, rituals and festive events; (d) knowledge and practices concerning nature and the universe; (e) traditional craftsmanship.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "भाषा अमूर्त सांस्कृतिक विरासत के वाहक के काम करेले।"
+    },
+    {
+      "item_id": "item_067",
+      "english_question": "What serves as the foundation of freedom, justice and peace in the world?",
+      "english_answer": "Recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family.",
+      "confidence": "high",
+      "english_passage": "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world, Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people, Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "मानव परिवार के सब सदस्य सभ के अंतर्निहित गरिमा आ बराबर आ अविच्छेद्य अधिकार सभ के मान्यता।"
+    },
+    {
+      "item_id": "item_068",
+      "english_question": "What specific items and locations of destruction are highlighted under cultural heritage?",
+      "english_answer": "Religious sites and artefacts.",
+      "confidence": "high",
+      "english_passage": "Deplores and condemns the unlawful destruction of cultural heritage, inter alia destruction of religious sites and artefacts, as well as the looting and smuggling of cultural property from archaeological sites, museums, libraries, archives, and other sites, in the context of armed conflicts, notably by terrorist groups.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "धार्मिक स्थल आ कलाकृति सभ।"
+    },
+    {
+      "item_id": "item_070",
+      "english_question": "What three core concepts are celebrated, and how is the first one demonstrated socially or agriculturally?",
+      "english_answer": "Gathering, giving thanks and praying, with gathering shown by family and friends coming together or by harvesting crops.",
+      "confidence": "high",
+      "english_passage": "The Mid-Autumn Festival, also known as the Moon Festival or Mooncake Festival, is a harvest festival celebrated in Chinese culture. It occurs on the 15th day of the 8th month of the Chinese lunisolar calendar. The festival celebrates three fundamental concepts that are closely connected: Gathering, such as family and friends coming together or harvesting crops; Giving thanks for the harvest or harmonious unions; and Praying for conceptual or material satisfaction, such as babies, a spouse, beauty, longevity, or a good future.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "मिलन, धन्यवाद दिहल आ प्रार्थना कइल, जेह में मिलन परिवार आ संघतिया लोग के एक साथ जुटला भा फसल कटला से देखावल जाला।"
+    },
+    {
+      "item_id": "item_071",
+      "english_question": "What three cultural and intellectual activities can citizens engage in under the first sentence of this article?",
+      "english_answer": "Participating in the cultural life of the community, enjoying the arts, and sharing in scientific advancement and its benefits.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.",
+      "target_passage": "सबहिं के आपन समाज के सांस्कृतिक कार्यघ् में हिस्सा लेवे के तथा कला के आनंद उठावे के अधिकार बा संगे वैज्ञानिक प्रगति में भगीदार बने तथा फायदा उठावे के अधिकार बा। सबहिं लोकनि के आपन वैज्ञानिक, साहित्यिक आओर कलात्मक कृति जे घ्लिखले बा, के नैतिक आओर भैतिक हित के संरक्षण के अधिकार बा।",
+      "same_language": true,
+      "translation": "आपन समाज के सांस्कृतिक कार्य में हिस्सा लेवे के, कला के आनंद उठावे के तथा वैज्ञानिक प्रगति में भगीदार बने तथा फायदा उठावे के।"
+    },
+    {
+      "item_id": "item_072",
+      "english_question": "What three locations are illuminated by celebrants, and using what three lighting items?",
+      "english_answer": "Homes, temples and workspaces, illuminated with diyas (oil lamps), candles and lanterns.",
+      "confidence": "high",
+      "english_passage": "Diwali, commonly known as the festival of lights, is a Hindu festival with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good over evil, and knowledge over ignorance. During the festival, the celebrants illuminate their homes, temples and workspaces with diyas (oil lamps), candles and lanterns. Food is a major focus with families partaking in feasts and sharing sweets.",
+      "target_passage": "दिवाली, जेकरा के आमतौर पर दियाली चाहे दीप पर्व के रूप में जानल जाला, एगो हिंदू तिहुआर हवे जे जैन आ सिख नियर अउरी भारतीय धरम सभ में भी कुछ बदलाव के साथ मनावल जाला। ई अधर्म पर धर्म के, अन्हार पर प्रकाश के, बुराई पर अच्छाई के आ अज्ञान पर ज्ञान के आध्यात्मिक जीत के प्रतीक हवे। एह तिहुआर के दौरान, मनावे वाला लोग अपना घर, मंदिर आ काम करे के जगह सभ के दिया (माटी के दीप), मोमबत्ती आ कंदील से सजा के अँजोर करे ला। एह में भोजन मुख्य केंद्र होला जेह में परिवार दावत उड़ावे ला आ मिठाई बाँटे ला।",
+      "same_language": true,
+      "translation": "अपना घर, मंदिर आ काम करे के जगह सभ के दिया (माटी के दीप), मोमबत्ती आ कंदील से अँजोर कइल जाला।"
+    },
+    {
+      "item_id": "item_073",
+      "english_question": "What three specific actions regarding AI systems are prohibited?",
+      "english_answer": "Placing on the market, putting into service, and use.",
+      "confidence": "high",
+      "english_passage": "The following artificial intelligence (AI) practices shall be prohibited in the European Union: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective or the effect of materially distorting a person’s behaviour by appreciably impairing the person’s ability to make an informed decision, thereby causing or being likely to cause that person or another person significant harm; (b) the placing on the market, the putting into service or the use of an AI system that exploits any of the vulnerabilities of a person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective or the effect of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm; (c) the placing on the market, the putting into service or the use of AI systems for the evaluation or classification of natural persons over a certain period of time based on their social behaviour or known, inferred or predicted personal or personality characteristics, with the social score leading to detrimental or unfavourable treatment; (d) the placing on the market, the putting into service or the use of an AI system for making risk assessments of natural persons in order to assess or predict the likelihood of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "बाजार में उतारल, सेवा में लगावल आ इस्तेमाल कइल।"
+    },
+    {
+      "item_id": "item_074",
+      "english_question": "What three types of danger threaten intangible cultural heritage according to the text?",
+      "english_answer": "Deterioration, disappearance and destruction.",
+      "confidence": "high",
+      "english_passage": "Recognizing that the processes of globalization and social transformation, alongside the conditions they create for renewed dialogue among communities, also give rise, as does the phenomenon of intolerance, to grave threats of deterioration, disappearance and destruction of the intangible cultural heritage, in particular because of a lack of resources for safeguarding such heritage.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "क्षय, लोप आ विनाश।"
+    },
+    {
+      "item_id": "item_075",
+      "english_question": "What three types of diversity must the Union respect?",
+      "english_answer": "Cultural, religious and linguistic diversity.",
+      "confidence": "high",
+      "english_passage": "Any discrimination based on any ground such as sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited. The Union shall respect cultural, religious and linguistic diversity.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सांस्कृतिक, धार्मिक आ भाषाई विविधता।"
+    },
+    {
+      "item_id": "item_076",
+      "english_question": "What two actions are unlawful other than destruction?",
+      "english_answer": "Looting and smuggling.",
+      "confidence": "high",
+      "english_passage": "Deplores and condemns the unlawful destruction of cultural heritage, inter alia destruction of religious sites and artefacts, as well as the looting and smuggling of cultural property from archaeological sites, museums, libraries, archives, and other sites, in the context of armed conflicts, notably by terrorist groups.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "लूट आ तस्करी।"
+    },
+    {
+      "item_id": "item_077",
+      "english_question": "What type of structures, other than functional buildings, are mentioned as potential targets?",
+      "english_answer": "Historic monuments.",
+      "confidence": "high",
+      "english_passage": "Affirms that directing unlawful attacks against sites and buildings dedicated to religion, education, art, science or charitable purposes, or historic monuments may constitute, under certain circumstances and pursuant to international law, a war crime and that perpetrators of such attacks must be brought to justice.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ऐतिहासिक स्मारक।"
+    },
+    {
+      "item_id": "item_078",
+      "english_question": "What was the size of the tea room at the core of Rikyu's aesthetic?",
+      "english_answer": "Smaller than 4.5 tatami mats.",
+      "confidence": "high",
+      "english_passage": "Wabi-cha is a style of Japanese tea ceremony particularly associated with Sen no Rikyu, Takeno Joo and its originator Murata Juko. Wabi-cha emphasizes simplicity. The term came into use in the Edo period, prior to which it was known as wabi-suki, suki meaning 'artistic inclination', and 'wabi' meaning 'forlorn'. At the core of Rikyu's aesthetic was the tea room smaller than 4.5 tatami mats, which was a practical way of focusing tea practice on the communion of host and guests.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "साढ़े चार तातामी चटाई से छोट।"
+    },
+    {
+      "item_id": "item_079",
+      "english_question": "When and by whom are these acts of looting and destruction notably committed?",
+      "english_answer": "In the context of armed conflicts, notably by terrorist groups.",
+      "confidence": "high",
+      "english_passage": "Deplores and condemns the unlawful destruction of cultural heritage, inter alia destruction of religious sites and artefacts, as well as the looting and smuggling of cultural property from archaeological sites, museums, libraries, archives, and other sites, in the context of armed conflicts, notably by terrorist groups.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सशस्त्र संघर्ष के दौरान, खास तौर पर आतंकवादी समूह सभ द्वारा।"
+    },
+    {
+      "item_id": "item_080",
+      "english_question": "When are unlawful attacks against sites and buildings considered war crimes?",
+      "english_answer": "Under certain circumstances and pursuant to international law.",
+      "confidence": "medium",
+      "english_passage": "Affirms that directing unlawful attacks against sites and buildings dedicated to religion, education, art, science or charitable purposes, or historic monuments may constitute, under certain circumstances and pursuant to international law, a war crime and that perpetrators of such attacks must be brought to justice.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "कुछ खास परिस्थिति में आ अंतरराष्ट्रीय कानून के मोताबिक।"
+    },
+    {
+      "item_id": "item_081",
+      "english_question": "Where do the Yoruba people live?",
+      "english_answer": "They primarily inhabit West Africa.",
+      "confidence": "high",
+      "english_passage": "The Yoruba people are an ethnic group that primarily inhabits West Africa. The oldest known textual reference to the name Yoruba is found in a manuscript written by the scholar Ahmed Baba in the year 1614 in Timbuktu. The Yoruba indigenous religion is known as Isese, which encompasses traditional practices and beliefs. According to Yoruba mythology, the deity Obatala created the first human figurines out of earth in the sacred city of Ile-Ife, while the Supreme Creator, Olodumare, breathed the breath of life into them. Central to Yoruba philosophy is the concept of Omoluwabi, a guiding principle that dictates civilized behavior and good character. The term is derived from the phrase 'Omo + ti + Olu-iwa + bi', which conceptually identifies a person of exemplary virtue. An Omoluwabi demonstrates Iwapele, which signifies a set of values such as integrity, self-control, empathy, and hard work. This philosophical framework heavily influences traditional Yoruba art. Unlike Western aesthetic traditions, Yoruba art, including intricate textiles, often possesses a direct political and spiritual function, emphasizing the deep linguistic and cultural connection between visual artifacts and good moral character.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "ई लोग मुख्य रूप से पच्छिमी अफिरका में रहेला।"
+    },
+    {
+      "item_id": "item_082",
+      "english_question": "Which Japanese word is tied to feeling left behind or separated from someone you care about?",
+      "english_answer": "Wabi, meaning 'forlorn'.",
+      "confidence": "medium",
+      "english_passage": "Wabi-cha is a style of Japanese tea ceremony particularly associated with Sen no Rikyu, Takeno Joo and its originator Murata Juko. Wabi-cha emphasizes simplicity. The term came into use in the Edo period, prior to which it was known as wabi-suki, suki meaning 'artistic inclination', and 'wabi' meaning 'forlorn'. At the core of Rikyu's aesthetic was the tea room smaller than 4.5 tatami mats, which was a practical way of focusing tea practice on the communion of host and guests.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "वाबी, जेकर मतलब 'उदास' होला।"
+    },
+    {
+      "item_id": "item_084",
+      "english_question": "Which economic and birth-related factors are listed that must not be used to deny rights?",
+      "english_answer": "Property and birth.",
+      "confidence": "medium",
+      "english_passage": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "संपत्ति आ जनम।"
+    },
+    {
+      "item_id": "item_086",
+      "english_question": "Which international organisation is highlighted for cultural cooperation with the Union and Member States?",
+      "english_answer": "The Council of Europe.",
+      "confidence": "high",
+      "english_passage": "The Union shall contribute to the flowering of the cultures of the Member States, while respecting their national and regional diversity and at the same time bringing the common cultural heritage to the fore. Action by the Union shall be aimed at encouraging cooperation between Member States and, if necessary, supporting and supplementing their action in the following areas: improvement of the knowledge and dissemination of the culture and history of the European peoples, conservation and safeguarding of cultural heritage of European significance, non-commercial cultural exchanges, artistic and literary creation, including in the audiovisual sector. The Union and the Member States shall foster cooperation with third countries and the competent international organisations in the sphere of culture, in particular the Council of Europe. The Union shall take cultural aspects into account in its action under other provisions of the Treaties, in particular in order to respect and to promote the diversity of its cultures.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "यूरोप परिषद।"
+    },
+    {
+      "item_id": "item_088",
+      "english_question": "Which levels of cultural diversity will be respected by the Union?",
+      "english_answer": "National and regional diversity.",
+      "confidence": "high",
+      "english_passage": "The Union shall contribute to the flowering of the cultures of the Member States, while respecting their national and regional diversity and at the same time bringing the common cultural heritage to the fore. Action by the Union shall be aimed at encouraging cooperation between Member States and, if necessary, supporting and supplementing their action in the following areas: improvement of the knowledge and dissemination of the culture and history of the European peoples, conservation and safeguarding of cultural heritage of European significance, non-commercial cultural exchanges, artistic and literary creation, including in the audiovisual sector. The Union and the Member States shall foster cooperation with third countries and the competent international organisations in the sphere of culture, in particular the Council of Europe. The Union shall take cultural aspects into account in its action under other provisions of the Treaties, in particular in order to respect and to promote the diversity of its cultures.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "राष्ट्रीय आ क्षेत्रीय विविधता।"
+    },
+    {
+      "item_id": "item_089",
+      "english_question": "Which other activity is listed under section (c) alongside social practices and rituals?",
+      "english_answer": "Festive events.",
+      "confidence": "high",
+      "english_passage": "The 'intangible cultural heritage', as defined in paragraph 1 above, is manifested inter alia in the following domains: (a) oral traditions and expressions, including language as a vehicle of the intangible cultural heritage; (b) performing arts; (c) social practices, rituals and festive events; (d) knowledge and practices concerning nature and the universe; (e) traditional craftsmanship.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "उत्सव के आयोजन।"
+    },
+    {
+      "item_id": "item_090",
+      "english_question": "Which purpose of this convention is broken if one of the member states is flooded, its archives destroyed, and the neighboring members stand idly by?",
+      "english_answer": "Purpose (d), to provide for international cooperation and assistance.",
+      "confidence": "medium",
+      "english_passage": "The purposes of this Convention are: (a) to safeguard the intangible cultural heritage; (b) to ensure respect for the intangible cultural heritage of the communities, groups and individuals concerned; (c) to raise awareness at the local, national and international levels of the importance of the intangible cultural heritage, and of ensuring mutual appreciation thereof; (d) to provide for international cooperation and assistance.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "उद्देश्य (d), अंतरराष्ट्रीय सहयोग आ सहायता के व्यवस्था कइल।"
+    },
+    {
+      "item_id": "item_092",
+      "english_question": "Which stage of education is described as compulsory?",
+      "english_answer": "Elementary education.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "प्राथमिक शिक्षा।"
+    },
+    {
+      "item_id": "item_093",
+      "english_question": "Which tangible pieces of art are mentioned in the passage?",
+      "english_answer": "Intricate textiles.",
+      "confidence": "high",
+      "english_passage": "The Yoruba people are an ethnic group that primarily inhabits West Africa. The oldest known textual reference to the name Yoruba is found in a manuscript written by the scholar Ahmed Baba in the year 1614 in Timbuktu. The Yoruba indigenous religion is known as Isese, which encompasses traditional practices and beliefs. According to Yoruba mythology, the deity Obatala created the first human figurines out of earth in the sacred city of Ile-Ife, while the Supreme Creator, Olodumare, breathed the breath of life into them. Central to Yoruba philosophy is the concept of Omoluwabi, a guiding principle that dictates civilized behavior and good character. The term is derived from the phrase 'Omo + ti + Olu-iwa + bi', which conceptually identifies a person of exemplary virtue. An Omoluwabi demonstrates Iwapele, which signifies a set of values such as integrity, self-control, empathy, and hard work. This philosophical framework heavily influences traditional Yoruba art. Unlike Western aesthetic traditions, Yoruba art, including intricate textiles, often possesses a direct political and spiritual function, emphasizing the deep linguistic and cultural connection between visual artifacts and good moral character.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "बारीक कारीगरी वाला कपड़ा।"
+    },
+    {
+      "item_id": "item_094",
+      "english_question": "Which three historical figures are associated with Wabi-cha, and which one of them created the style?",
+      "english_answer": "Sen no Rikyu, Takeno Joo and Murata Juko, of whom Murata Juko was the originator.",
+      "confidence": "high",
+      "english_passage": "Wabi-cha is a style of Japanese tea ceremony particularly associated with Sen no Rikyu, Takeno Joo and its originator Murata Juko. Wabi-cha emphasizes simplicity. The term came into use in the Edo period, prior to which it was known as wabi-suki, suki meaning 'artistic inclination', and 'wabi' meaning 'forlorn'. At the core of Rikyu's aesthetic was the tea room smaller than 4.5 tatami mats, which was a practical way of focusing tea practice on the communion of host and guests.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "सेन नो रिक्यू, ताकेनो जोओ आ मुराता जुको, जिनहन में मुराता जुको एह शैली के जनक रहलें।"
+    },
+    {
+      "item_id": "item_096",
+      "english_question": "Who in particular is highlighted as carrying out these acts?",
+      "english_answer": "Terrorist groups.",
+      "confidence": "high",
+      "english_passage": "Emphasizing that the unlawful destruction of cultural heritage, and the looting and smuggling of cultural property in the event of armed conflicts, notably by terrorist groups, and the attempt to deny historical roots and cultural diversity in this context can fuel and exacerbate conflict and hamper post-conflict reconciliation, thereby undermining the security, stability, governance, social cohesion and development of affected Member States.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "आतंकवादी समूह।"
+    },
+    {
+      "item_id": "item_097",
+      "english_question": "Who is entitled to the legal protection of the creative and financial interests of a production under this text?",
+      "english_answer": "The author of the production.",
+      "confidence": "high",
+      "english_passage": "Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits. Everyone has the right to the protection of the moral and material interests resulting from any scientific, literary or artistic production of which he is the author.",
+      "target_passage": "सबहिं के आपन समाज के सांस्कृतिक कार्यघ् में हिस्सा लेवे के तथा कला के आनंद उठावे के अधिकार बा संगे वैज्ञानिक प्रगति में भगीदार बने तथा फायदा उठावे के अधिकार बा। सबहिं लोकनि के आपन वैज्ञानिक, साहित्यिक आओर कलात्मक कृति जे घ्लिखले बा, के नैतिक आओर भैतिक हित के संरक्षण के अधिकार बा।",
+      "same_language": true,
+      "translation": "जे ओह कृति के लिखले बा।"
+    },
+    {
+      "item_id": "item_098",
+      "english_question": "Why can't Danish police use AI to predict future tax evasion?",
+      "english_answer": "Because point (d) prohibits AI systems that assess or predict the likelihood of a person committing a criminal offence based solely on profiling or personality traits.",
+      "confidence": "medium",
+      "english_passage": "The following artificial intelligence (AI) practices shall be prohibited in the European Union: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective or the effect of materially distorting a person’s behaviour by appreciably impairing the person’s ability to make an informed decision, thereby causing or being likely to cause that person or another person significant harm; (b) the placing on the market, the putting into service or the use of an AI system that exploits any of the vulnerabilities of a person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective or the effect of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm; (c) the placing on the market, the putting into service or the use of AI systems for the evaluation or classification of natural persons over a certain period of time based on their social behaviour or known, inferred or predicted personal or personality characteristics, with the social score leading to detrimental or unfavourable treatment; (d) the placing on the market, the putting into service or the use of an AI system for making risk assessments of natural persons in order to assess or predict the likelihood of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "काहेकि बिंदु (d) अइसन एआई सिस्टम सभ पर रोक लगावेला जे खाली प्रोफाइलिंग भा व्यक्तित्व के गुण के आधार पर ई आकलन भा भविष्यवाणी करेला कि केहू आदमी अपराध करी कि ना।"
+    },
+    {
+      "item_id": "item_099",
+      "english_question": "Why can't an insurance company use AI to determine an insurance premium?",
+      "english_answer": "Because point (c) prohibits evaluating or classifying people over time on the basis of social behaviour or personal characteristics where the resulting score leads to detrimental or unfavourable treatment.",
+      "confidence": "low",
+      "english_passage": "The following artificial intelligence (AI) practices shall be prohibited in the European Union: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person’s consciousness or purposefully manipulative or deceptive techniques, with the objective or the effect of materially distorting a person’s behaviour by appreciably impairing the person’s ability to make an informed decision, thereby causing or being likely to cause that person or another person significant harm; (b) the placing on the market, the putting into service or the use of an AI system that exploits any of the vulnerabilities of a person or a specific group of persons due to their age, disability or a specific social or economic situation, with the objective or the effect of materially distorting the behaviour of that person or a person belonging to that group in a manner that causes or is reasonably likely to cause that person or another person significant harm; (c) the placing on the market, the putting into service or the use of AI systems for the evaluation or classification of natural persons over a certain period of time based on their social behaviour or known, inferred or predicted personal or personality characteristics, with the social score leading to detrimental or unfavourable treatment; (d) the placing on the market, the putting into service or the use of an AI system for making risk assessments of natural persons in order to assess or predict the likelihood of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "काहेकि बिंदु (c) लोगन के सामाजिक बेवहार भा निजी विशेषता के आधार पर एक अवधि तक मूल्यांकन भा वर्गीकरण करे पर रोक लगावेला, जब ओकरा से बनल स्कोर से हानिकारक भा प्रतिकूल बेवहार होखे।"
+    },
+    {
+      "item_id": "item_100",
+      "english_question": "With what internal faculties are all human beings endowed at birth?",
+      "english_answer": "Reason and conscience.",
+      "confidence": "high",
+      "english_passage": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.",
+      "target_passage": null,
+      "same_language": false,
+      "translation": "बुद्धि आ अंतरात्मा।"
+    }
+  ]
+}

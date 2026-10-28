@@ -1,0 +1,829 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3.5-9B",
+    "pooling": "last",
+    "layer": 19,
+    "prompt_style": "bare",
+    "max_len": 1024,
+    "l2": 0.001,
+    "train_rows": 32899,
+    "train_sources": [
+      "data/probing/qwen35-9b/bare/train"
+    ],
+    "train_languages": [
+      "arb_Arab",
+      "ben_Beng",
+      "eng_Latn",
+      "fin_Latn",
+      "ind_Latn",
+      "jpn_Jpan",
+      "kor_Hang",
+      "rus_Cyrl",
+      "swh_Latn",
+      "tel_Telu",
+      "tha_Thai"
+    ],
+    "keep_contaminated": false,
+    "pair_complete": false
+  },
+  "passage_languages": [
+    "ckb_Arab",
+    "eng_Latn",
+    "hat_Latn",
+    "pes_Arab",
+    "por_Latn",
+    "swh_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "question_languages": [
+    "ckb_Arab",
+    "eng_Latn",
+    "hat_Latn",
+    "pes_Arab",
+    "por_Latn",
+    "swh_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "seen_question_languages": [
+    "eng_Latn",
+    "swh_Latn"
+  ],
+  "unseen_question_languages": [
+    "ckb_Arab",
+    "hat_Latn",
+    "pes_Arab",
+    "por_Latn",
+    "yor_Latn",
+    "zho_Hans"
+  ],
+  "monolingual": {
+    "n": 2048,
+    "acc": 0.75,
+    "auroc": 0.8325347900390625,
+    "majority": 0.5,
+    "frac_answerable": 0.5
+  },
+  "crosslingual": {
+    "n": 14336,
+    "acc": 0.7013113839285714,
+    "auroc": 0.7738337906039491,
+    "majority": 0.5,
+    "frac_answerable": 0.5
+  },
+  "overlap_source_label": "overlap, question in the passage's language (human translation)",
+  "baselines": {
+    "overlap_translated": {
+      "n": 14336,
+      "acc": 0.5253208705357143,
+      "auroc": 0.5198729573463907,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "overlap_source": {
+      "n": 14336,
+      "acc": 0.6439732142857143,
+      "auroc": 0.6952128410339355,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "probe_vs_bar_by_passage_language": {
+    "ckb_Arab": {
+      "probe_auroc": 0.7825666155133929,
+      "bar_auroc": 0.6939884107940051,
+      "margin": 0.08857820471938782,
+      "n": 1792
+    },
+    "eng_Latn": {
+      "probe_auroc": 0.7953341737085459,
+      "bar_auroc": 0.7614577935666454,
+      "margin": 0.03387638014190042,
+      "n": 1792
+    },
+    "hat_Latn": {
+      "probe_auroc": 0.7583954480229592,
+      "bar_auroc": 0.724586331114477,
+      "margin": 0.033809116908482206,
+      "n": 1792
+    },
+    "pes_Arab": {
+      "probe_auroc": 0.8110775071747449,
+      "bar_auroc": 0.7537804428411989,
+      "margin": 0.05729706433354598,
+      "n": 1792
+    },
+    "por_Latn": {
+      "probe_auroc": 0.8061037647480868,
+      "bar_auroc": 0.7464039082429847,
+      "margin": 0.05969985650510201,
+      "n": 1792
+    },
+    "swh_Latn": {
+      "probe_auroc": 0.7533507055165817,
+      "bar_auroc": 0.7425219477439413,
+      "margin": 0.010828757772640363,
+      "n": 1792
+    },
+    "yor_Latn": {
+      "probe_auroc": 0.7061456174266582,
+      "bar_auroc": 0.613250732421875,
+      "margin": 0.09289488500478316,
+      "n": 1792
+    },
+    "zho_Hans": {
+      "probe_auroc": 0.8003266003667092,
+      "bar_auroc": 0.7683061872209821,
+      "margin": 0.03202041314572712,
+      "n": 1792
+    }
+  },
+  "n_languages_beating_bar": 8,
+  "probe_vs_bar_by_lingual_split": {
+    "same language": {
+      "probe_auroc": 0.8325347900390625,
+      "bar_auroc": 0.6950969696044922,
+      "margin": 0.1374378204345703,
+      "n": 2048
+    },
+    "cross-lingual": {
+      "probe_auroc": 0.7738337906039491,
+      "bar_auroc": 0.6952128410339355,
+      "margin": 0.07862094957001353,
+      "n": 14336
+    }
+  },
+  "crosslingual_penalty": 0.05870099943511342,
+  "matrix": {
+    "ckb_Arab": {
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.80078125,
+        "auroc": 0.8692626953125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.6875,
+        "auroc": 0.7633056640625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.71875,
+        "auroc": 0.81768798828125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.75390625,
+        "auroc": 0.829833984375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.6953125,
+        "auroc": 0.7576904296875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.64453125,
+        "auroc": 0.67242431640625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.68359375,
+        "auroc": 0.8555908203125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "eng_Latn": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.73828125,
+        "auroc": 0.821533203125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.6875,
+        "auroc": 0.7994384765625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.7578125,
+        "auroc": 0.8529052734375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.7109375,
+        "auroc": 0.86279296875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.66796875,
+        "auroc": 0.7996826171875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.671875,
+        "auroc": 0.73468017578125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.765625,
+        "auroc": 0.87158203125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "hat_Latn": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.6953125,
+        "auroc": 0.78521728515625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.796875,
+        "auroc": 0.86578369140625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.6953125,
+        "auroc": 0.82025146484375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.74609375,
+        "auroc": 0.82708740234375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.57421875,
+        "auroc": 0.623779296875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.5859375,
+        "auroc": 0.62860107421875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.68359375,
+        "auroc": 0.8447265625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "pes_Arab": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.73046875,
+        "auroc": 0.8011474609375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.80859375,
+        "auroc": 0.88916015625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.73046875,
+        "auroc": 0.78662109375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.7734375,
+        "auroc": 0.84716796875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.734375,
+        "auroc": 0.7906494140625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.671875,
+        "auroc": 0.7535400390625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.7421875,
+        "auroc": 0.86676025390625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "por_Latn": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.73046875,
+        "auroc": 0.81640625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.7890625,
+        "auroc": 0.89324951171875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.671875,
+        "auroc": 0.77032470703125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.78515625,
+        "auroc": 0.86505126953125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.703125,
+        "auroc": 0.76556396484375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.67578125,
+        "auroc": 0.7381591796875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.76953125,
+        "auroc": 0.87994384765625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "swh_Latn": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.703125,
+        "auroc": 0.773681640625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.75,
+        "auroc": 0.85601806640625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.59375,
+        "auroc": 0.656005859375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.69921875,
+        "auroc": 0.81134033203125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.71875,
+        "auroc": 0.804443359375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.55859375,
+        "auroc": 0.62005615234375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.7109375,
+        "auroc": 0.83380126953125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "yor_Latn": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.625,
+        "auroc": 0.70166015625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.7421875,
+        "auroc": 0.83087158203125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.609375,
+        "auroc": 0.6689453125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.60546875,
+        "auroc": 0.75299072265625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.6484375,
+        "auroc": 0.732177734375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.5859375,
+        "auroc": 0.6256103515625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "zho_Hans": {
+        "n": 256,
+        "acc": 0.60546875,
+        "auroc": 0.76812744140625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    },
+    "zho_Hans": {
+      "ckb_Arab": {
+        "n": 256,
+        "acc": 0.71484375,
+        "auroc": 0.80364990234375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "eng_Latn": {
+        "n": 256,
+        "acc": 0.76171875,
+        "auroc": 0.8643798828125,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "hat_Latn": {
+        "n": 256,
+        "acc": 0.75390625,
+        "auroc": 0.79205322265625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "pes_Arab": {
+        "n": 256,
+        "acc": 0.73046875,
+        "auroc": 0.838623046875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "por_Latn": {
+        "n": 256,
+        "acc": 0.74609375,
+        "auroc": 0.8326416015625,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "swh_Latn": {
+        "n": 256,
+        "acc": 0.6953125,
+        "auroc": 0.774169921875,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      },
+      "yor_Latn": {
+        "n": 256,
+        "acc": 0.63671875,
+        "auroc": 0.7142333984375,
+        "majority": 0.5,
+        "frac_answerable": 0.5
+      }
+    }
+  },
+  "monolingual_by_language": {
+    "ckb_Arab": {
+      "n": 256,
+      "acc": 0.7421875,
+      "auroc": 0.83514404296875,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 256,
+      "acc": 0.74609375,
+      "auroc": 0.87921142578125,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 256,
+      "acc": 0.75390625,
+      "auroc": 0.84320068359375,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 256,
+      "acc": 0.80859375,
+      "auroc": 0.8914794921875,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 256,
+      "acc": 0.75390625,
+      "auroc": 0.86322021484375,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 256,
+      "acc": 0.76953125,
+      "auroc": 0.86138916015625,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 256,
+      "acc": 0.671875,
+      "auroc": 0.754638671875,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 256,
+      "acc": 0.75390625,
+      "auroc": 0.87451171875,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "question_language_means": {
+    "ckb_Arab": 0.7861851283482143,
+    "eng_Latn": 0.8669607979910714,
+    "hat_Latn": 0.7480991908482143,
+    "pes_Arab": 0.82269287109375,
+    "por_Latn": 0.8194492885044643,
+    "swh_Latn": 0.7338779994419643,
+    "yor_Latn": 0.6945277622767857,
+    "zho_Hans": 0.8457903180803571
+  },
+  "by_question_language": {
+    "ckb_Arab": {
+      "n": 1792,
+      "acc": 0.7053571428571429,
+      "auroc": 0.7791872608418368,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 1792,
+      "acc": 0.7784598214285714,
+      "auroc": 0.8613679846938775,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 1792,
+      "acc": 0.6763392857142857,
+      "auroc": 0.7447048887914541,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 1792,
+      "acc": 0.7131696428571429,
+      "auroc": 0.8187019192442602,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 1792,
+      "acc": 0.7282366071428571,
+      "auroc": 0.8083608199139031,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 1792,
+      "acc": 0.6651785714285714,
+      "auroc": 0.7290674326371174,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 1792,
+      "acc": 0.6350446428571429,
+      "auroc": 0.6880767199457908,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 1792,
+      "acc": 0.7087053571428571,
+      "auroc": 0.8429615254304847,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_passage_language": {
+    "ckb_Arab": {
+      "n": 1792,
+      "acc": 0.7120535714285714,
+      "auroc": 0.7825666155133929,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "eng_Latn": {
+      "n": 1792,
+      "acc": 0.7142857142857143,
+      "auroc": 0.7953341737085459,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "hat_Latn": {
+      "n": 1792,
+      "acc": 0.6824776785714286,
+      "auroc": 0.7583954480229592,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "pes_Arab": {
+      "n": 1792,
+      "acc": 0.7416294642857143,
+      "auroc": 0.8110775071747449,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "por_Latn": {
+      "n": 1792,
+      "acc": 0.7321428571428571,
+      "auroc": 0.8061037647480868,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "swh_Latn": {
+      "n": 1792,
+      "acc": 0.6763392857142857,
+      "auroc": 0.7533507055165817,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "yor_Latn": {
+      "n": 1792,
+      "acc": 0.6316964285714286,
+      "auroc": 0.7061456174266582,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "zho_Hans": {
+      "n": 1792,
+      "acc": 0.7198660714285714,
+      "auroc": 0.8003266003667092,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_seen_group": {
+    "trained on": {
+      "n": 3584,
+      "acc": 0.7218191964285714,
+      "auroc": 0.7983466946348852,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "never seen": {
+      "n": 10752,
+      "acc": 0.6944754464285714,
+      "auroc": 0.7701596283858596,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_script": {
+    "same script": {
+      "n": 5632,
+      "acc": 0.6789772727272727,
+      "auroc": 0.7537617328738379,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    },
+    "different script": {
+      "n": 8704,
+      "acc": 0.7157628676470589,
+      "auroc": 0.7960551436797145,
+      "majority": 0.5,
+      "frac_answerable": 0.5
+    }
+  },
+  "by_script_within_passage_language": {
+    "ckb_Arab": {
+      "same_script": 0.81768798828125,
+      "different_script": 0.791351318359375,
+      "delta": -0.026336669921875,
+      "n_same_script_pairs": 1
+    },
+    "eng_Latn": {
+      "same_script": 0.7991485595703125,
+      "different_script": 0.8486735026041666,
+      "delta": 0.04952494303385413,
+      "n_same_script_pairs": 4
+    },
+    "hat_Latn": {
+      "same_script": 0.7363128662109375,
+      "different_script": 0.8167317708333334,
+      "delta": 0.08041890462239587,
+      "n_same_script_pairs": 4
+    },
+    "pes_Arab": {
+      "same_script": 0.8011474609375,
+      "different_script": 0.8223164876302084,
+      "delta": 0.02116902669270837,
+      "n_same_script_pairs": 1
+    },
+    "por_Latn": {
+      "same_script": 0.7918243408203125,
+      "different_script": 0.8538004557291666,
+      "delta": 0.06197611490885413,
+      "n_same_script_pairs": 4
+    },
+    "swh_Latn": {
+      "same_script": 0.734130859375,
+      "different_script": 0.8062744140625,
+      "delta": 0.0721435546875,
+      "n_same_script_pairs": 4
+    },
+    "yor_Latn": {
+      "same_script": 0.7144012451171875,
+      "different_script": 0.7409261067708334,
+      "delta": 0.02652486165364587,
+      "n_same_script_pairs": 4
+    }
+  },
+  "by_script_within_mean_delta": 0.04077439081101191
+}

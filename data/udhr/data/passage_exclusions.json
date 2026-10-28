@@ -1,0 +1,20 @@
+{
+ "_about": "(passage_id, context_language) renderings that are excluded as PASSAGES because the official UN text is defective in a way no wording choice repairs. The affected items remain usable in every other context language, and the affected language remains usable as a question/answer language -- only that language's rendering of that passage is withheld.",
+ "_precedent": "data/silver/SILVER_LABELS.md documents the same class of defect inside the organisers' own copies: an OCR-corrupted Bhojpuri Art. 27, Chinese 绳之法 for 绳之以法, Czech přvěž for přičemž. Official UN translations are not error-free and this pipeline should not pretend otherwise.",
+ "exclusions": [
+  {
+   "passage_id": "udhr_p006",
+   "articles": ["17", "20", "21"],
+   "lang": "hin",
+   "reason": "Official UDHR Hindi Art. 17 reads सम्मति ('opinion, consent') in both paragraphs where the source says 'property' -- a one-character misprint of सम्पत्ति, which the same file uses correctly in Art. 2.1. Neither wording works: mirroring the typo makes the Hindi item ask about opinion while every other language's version of the same item asks about property; correcting it leaves the question's key noun absent from its own passage. The item is sound in all other context languages, so only this rendering is withheld.",
+   "found_by": "back-translation audit (Hindi auditor note), confirmed against data/udhr_units.json"
+  },
+  {
+   "passage_id": "udhr_p014",
+   "articles": ["16", "17", "20"],
+   "lang": "hin",
+   "reason": "Same defect: this passage also contains Art. 17.",
+   "found_by": "back-translation audit (Hindi auditor note), confirmed against data/udhr_units.json"
+  }
+ ]
+}

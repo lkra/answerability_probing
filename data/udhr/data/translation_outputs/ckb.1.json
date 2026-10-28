@@ -1,0 +1,925 @@
+{
+ "lang": "ckb",
+ "lang_name": "Kurdish (Kurmanji, Latin script -- the variety the organisers' 'ckb' passages are actually written in)",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "وەڵامی نییە",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Herkes xwedî mafê jiyan, azadî û ewleyiya şexsê xwe ye. Ewê tukes di koletî an bindestiyê de neyê girtin; koletî û bazirganiya koleyan bi hemû teşeyên xwe ve qedexe ne. Ewê tukes nebe tabiê şkence an ceza û muameleyên hov, namirovî an xirabker. Herkes xwediyê mafê nasîna li hemû ciyan a şexsiyeta xwe ya hiqûyî ye. Hemû mirov li ber qanûnan wekhev in û bê ciheyî xwediyê mafê parastineke wekhev a qanûn in. Hemû mirov li hemberî her cihêtiya ku vê Danezanê ihlal dike û li hemberî her navtêdana cihêtiyeke wilo xwediyê mafê parastineke wekhev in.",
+   "question_tgt": "Koletî û bazirganiya koleyan bi kîjan teşeyan ve qedexe ne?",
+   "answer_tgt": "Bi hemû teşeyên xwe ve.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Herkes xwedî mafê jiyan, azadî û ewleyiya şexsê xwe ye. Ewê tukes di koletî an bindestiyê de neyê girtin; koletî û bazirganiya koleyan bi hemû teşeyên xwe ve qedexe ne. Ewê tukes nebe tabiê şkence an ceza û muameleyên hov, namirovî an xirabker. Herkes xwediyê mafê nasîna li hemû ciyan a şexsiyeta xwe ya hiqûyî ye. Hemû mirov li ber qanûnan wekhev in û bê ciheyî xwediyê mafê parastineke wekhev a qanûn in. Hemû mirov li hemberî her cihêtiya ku vê Danezanê ihlal dike û li hemberî her navtêdana cihêtiyeke wilo xwediyê mafê parastineke wekhev in.",
+   "question_tgt": "Ji bilî şkencê, tukes nabe tabiê kîjan ceza û muameleyan?",
+   "answer_tgt": "Ceza û muameleyên hov, namirovî an xirabker.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Herkes xwedî mafê jiyan, azadî û ewleyiya şexsê xwe ye. Ewê tukes di koletî an bindestiyê de neyê girtin; koletî û bazirganiya koleyan bi hemû teşeyên xwe ve qedexe ne. Ewê tukes nebe tabiê şkence an ceza û muameleyên hov, namirovî an xirabker. Herkes xwediyê mafê nasîna li hemû ciyan a şexsiyeta xwe ya hiqûyî ye. Hemû mirov li ber qanûnan wekhev in û bê ciheyî xwediyê mafê parastineke wekhev a qanûn in. Hemû mirov li hemberî her cihêtiya ku vê Danezanê ihlal dike û li hemberî her navtêdana cihêtiyeke wilo xwediyê mafê parastineke wekhev in.",
+   "question_tgt": "Kîjan desthilat berpirsiyarê bicihanîna qedexekirina koletî û bazirganiya koleyan e?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Herkes xwedî mafê jiyan, azadî û ewleyiya şexsê xwe ye. Ewê tukes di koletî an bindestiyê de neyê girtin; koletî û bazirganiya koleyan bi hemû teşeyên xwe ve qedexe ne. Ewê tukes nebe tabiê şkence an ceza û muameleyên hov, namirovî an xirabker. Herkes xwediyê mafê nasîna li hemû ciyan a şexsiyeta xwe ya hiqûyî ye. Hemû mirov li ber qanûnan wekhev in û bê ciheyî xwediyê mafê parastineke wekhev a qanûn in. Hemû mirov li hemberî her cihêtiya ku vê Danezanê ihlal dike û li hemberî her navtêdana cihêtiyeke wilo xwediyê mafê parastineke wekhev in.",
+   "question_tgt": "Herkes li kîjan ciyan xwediyê mafê nasîna şexsiyeta xwe ya hiqûyî ye?",
+   "answer_tgt": "Li hemû ciyan.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "Herkes xwedî mafê jiyan, azadî û ewleyiya şexsê xwe ye. Ewê tukes di koletî an bindestiyê de neyê girtin; koletî û bazirganiya koleyan bi hemû teşeyên xwe ve qedexe ne. Ewê tukes nebe tabiê şkence an ceza û muameleyên hov, namirovî an xirabker. Herkes xwediyê mafê nasîna li hemû ciyan a şexsiyeta xwe ya hiqûyî ye. Hemû mirov li ber qanûnan wekhev in û bê ciheyî xwediyê mafê parastineke wekhev a qanûn in. Hemû mirov li hemberî her cihêtiya ku vê Danezanê ihlal dike û li hemberî her navtêdana cihêtiyeke wilo xwediyê mafê parastineke wekhev in.",
+   "question_tgt": "Ji bilî cihêtiyê bi xwe, hemû mirov li hemberî çi jî xwediyê mafê parastineke wekhev in?",
+   "answer_tgt": "Her navtêdana cihêtiyeke wilo.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Herkes maf heye ku li hemberî kirinên ku mafên bingehî yên ku qanûna bingehî an qanûn jê re dinasin ihlal dikin, serî li mehkemeyên neteweyî yên selahiyetdar bixe. Tukes nikare bi awayekî kêfî bê girtin, hebs an sirgûn kirin. Herkes, di wekheviyeke temamî de, maf heye ku doza wî li ber mehkemeyeke serbixwe û bê alî bi awayekî adil û eşkere bê bihîstin ji bo diyarkirina maf û wacibên wî û ya her tawana curmî li dijî wî.",
+   "question_tgt": "Herkes dikare li hemberî kirinên ku mafên wî yên bingehî ihlal dikin serî li kê bixe?",
+   "answer_tgt": "Mehkemeyên neteweyî yên selahiyetdar.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Herkes maf heye ku li hemberî kirinên ku mafên bingehî yên ku qanûna bingehî an qanûn jê re dinasin ihlal dikin, serî li mehkemeyên neteweyî yên selahiyetdar bixe. Tukes nikare bi awayekî kêfî bê girtin, hebs an sirgûn kirin. Herkes, di wekheviyeke temamî de, maf heye ku doza wî li ber mehkemeyeke serbixwe û bê alî bi awayekî adil û eşkere bê bihîstin ji bo diyarkirina maf û wacibên wî û ya her tawana curmî li dijî wî.",
+   "question_tgt": "Li gora nivîsê, tukes bi awayekî kêfî nikare bibe amanca çend cure muameleyan?",
+   "answer_tgt": "Sê.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Herkes maf heye ku li hemberî kirinên ku mafên bingehî yên ku qanûna bingehî an qanûn jê re dinasin ihlal dikin, serî li mehkemeyên neteweyî yên selahiyetdar bixe. Tukes nikare bi awayekî kêfî bê girtin, hebs an sirgûn kirin. Herkes, di wekheviyeke temamî de, maf heye ku doza wî li ber mehkemeyeke serbixwe û bê alî bi awayekî adil û eşkere bê bihîstin ji bo diyarkirina maf û wacibên wî û ya her tawana curmî li dijî wî.",
+   "question_tgt": "Herkes di wekheviyeke temamî de maf heye ku doza wî bi kîjan awayî bê bihîstin?",
+   "answer_tgt": "Bi awayekî adil û eşkere.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Herkes maf heye ku li hemberî kirinên ku mafên bingehî yên ku qanûna bingehî an qanûn jê re dinasin ihlal dikin, serî li mehkemeyên neteweyî yên selahiyetdar bixe. Tukes nikare bi awayekî kêfî bê girtin, hebs an sirgûn kirin. Herkes, di wekheviyeke temamî de, maf heye ku doza wî li ber mehkemeyeke serbixwe û bê alî bi awayekî adil û eşkere bê bihîstin ji bo diyarkirina maf û wacibên wî û ya her tawana curmî li dijî wî.",
+   "question_tgt": "Berî ku kesek were ber mehkemeyê, çiqas dikare bê hebs kirin?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "Herkes maf heye ku li hemberî kirinên ku mafên bingehî yên ku qanûna bingehî an qanûn jê re dinasin ihlal dikin, serî li mehkemeyên neteweyî yên selahiyetdar bixe. Tukes nikare bi awayekî kêfî bê girtin, hebs an sirgûn kirin. Herkes, di wekheviyeke temamî de, maf heye ku doza wî li ber mehkemeyeke serbixwe û bê alî bi awayekî adil û eşkere bê bihîstin ji bo diyarkirina maf û wacibên wî û ya her tawana curmî li dijî wî.",
+   "question_tgt": "Ji bilî maf û wacibên wî, di doza adil û eşkere de çi jî tê diyar kirin?",
+   "answer_tgt": "Her tawana curmî li dijî wî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin bêrî tê hesibîn ta ku sûcê wî di mehkemeyek eşkere, ku hemû garantiyên ji bo parastina wî pêwist ewle kiribe, bi awayekî qanûnî were îsbat kirin. Tukes nayê ceza kirin ji ber kirin an nekirinên ku di gava pêkhatina xwe de li gora qanûna neteweyî an navneteweyî ne sûc bûne.",
+   "question_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin heta kengî bêrî tê hesibîn?",
+   "answer_tgt": "Ta ku sûcê wî di mehkemeyeke eşkere de bi awayekî qanûnî were îsbat kirin.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Deqa fermî hevokeke navber dixe nav gotinê, loma spaneke pêwendîdar a yekpare di passage_tgt de tune ye."
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin bêrî tê hesibîn ta ku sûcê wî di mehkemeyek eşkere, ku hemû garantiyên ji bo parastina wî pêwist ewle kiribe, bi awayekî qanûnî were îsbat kirin. Tukes nayê ceza kirin ji ber kirin an nekirinên ku di gava pêkhatina xwe de li gora qanûna neteweyî an navneteweyî ne sûc bûne.",
+   "question_tgt": "Divê mehkemeya eşkere çi ji bo tawanbarî ewle kiribe?",
+   "answer_tgt": "Hemû garantiyên ji bo parastina wî pêwist.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin bêrî tê hesibîn ta ku sûcê wî di mehkemeyek eşkere, ku hemû garantiyên ji bo parastina wî pêwist ewle kiribe, bi awayekî qanûnî were îsbat kirin. Tukes nayê ceza kirin ji ber kirin an nekirinên ku di gava pêkhatina xwe de li gora qanûna neteweyî an navneteweyî ne sûc bûne.",
+   "question_tgt": "Kîjan mehkeme selahiyet heye ku kesekî bi kirineke curmî sûcdar bihesibîne?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin bêrî tê hesibîn ta ku sûcê wî di mehkemeyek eşkere, ku hemû garantiyên ji bo parastina wî pêwist ewle kiribe, bi awayekî qanûnî were îsbat kirin. Tukes nayê ceza kirin ji ber kirin an nekirinên ku di gava pêkhatina xwe de li gora qanûna neteweyî an navneteweyî ne sûc bûne.",
+   "question_tgt": "Divê kirin an nekirin di gava pêkhatina xwe de li gora kîjan qanûnan sûc bûbin?",
+   "answer_tgt": "Li gora qanûna neteweyî an navneteweyî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "Her kesê ku bi kirineke curmî tê tawanbar kirin bêrî tê hesibîn ta ku sûcê wî di mehkemeyek eşkere, ku hemû garantiyên ji bo parastina wî pêwist ewle kiribe, bi awayekî qanûnî were îsbat kirin. Tukes nayê ceza kirin ji ber kirin an nekirinên ku di gava pêkhatina xwe de li gora qanûna neteweyî an navneteweyî ne sûc bûne.",
+   "question_tgt": "Ji bo kirineke curmî ceza nikare ji kîjanî girantir be?",
+   "answer_tgt": "Ji cezayê ku di gava pêkhatina sûcî de dihat sepandin.",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "Deqa fermî ya kurmancî hevoka dawî ya xala 11 (cezayê girantir) bi tevahî nehiştiye, loma bersiv di passage_tgt de nîne."
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nabe ku tukes bibe amanca têkilbûnên kêfî yên nav jiyana wî ya arizî, malbata wî, mala wî an nameyên wî, an ziyangihandina şeref û şana wî. Herkes xwediyê mafê parastina qanûn e li hemberî têkilbûn û ziyangihanên wilo. Mafê her kesî heye ku di nav tixûbên dewletekê de bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre. Herkes maf heye ku ji her welatî, yê wî bi xwe jî tê de, derkeve û vegere welatê xwe. Herkes maf heye ji ber zordestiyê li welatên din daxwaza penahê bike û bibe penabêr. Ev maf nikare bê xwastin ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "question_tgt": "Di rêzê de tişta yekem a ku nabe bibe amanca têkilbûnên kêfî çi ye?",
+   "answer_tgt": "Jiyana wî ya arizî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nabe ku tukes bibe amanca têkilbûnên kêfî yên nav jiyana wî ya arizî, malbata wî, mala wî an nameyên wî, an ziyangihandina şeref û şana wî. Herkes xwediyê mafê parastina qanûn e li hemberî têkilbûn û ziyangihanên wilo. Mafê her kesî heye ku di nav tixûbên dewletekê de bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre. Herkes maf heye ku ji her welatî, yê wî bi xwe jî tê de, derkeve û vegere welatê xwe. Herkes maf heye ji ber zordestiyê li welatên din daxwaza penahê bike û bibe penabêr. Ev maf nikare bê xwastin ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "question_tgt": "Kesê ku dibe amanca têkilbûn an ziyangihanên wilo xwediyê mafê çi ye?",
+   "answer_tgt": "Parastina qanûn.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nabe ku tukes bibe amanca têkilbûnên kêfî yên nav jiyana wî ya arizî, malbata wî, mala wî an nameyên wî, an ziyangihandina şeref û şana wî. Herkes xwediyê mafê parastina qanûn e li hemberî têkilbûn û ziyangihanên wilo. Mafê her kesî heye ku di nav tixûbên dewletekê de bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre. Herkes maf heye ku ji her welatî, yê wî bi xwe jî tê de, derkeve û vegere welatê xwe. Herkes maf heye ji ber zordestiyê li welatên din daxwaza penahê bike û bibe penabêr. Ev maf nikare bê xwastin ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "question_tgt": "Herkes di nav kîjan tixûban de dikare bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre?",
+   "answer_tgt": "Di nav tixûbên dewletekê de.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nabe ku tukes bibe amanca têkilbûnên kêfî yên nav jiyana wî ya arizî, malbata wî, mala wî an nameyên wî, an ziyangihandina şeref û şana wî. Herkes xwediyê mafê parastina qanûn e li hemberî têkilbûn û ziyangihanên wilo. Mafê her kesî heye ku di nav tixûbên dewletekê de bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre. Herkes maf heye ku ji her welatî, yê wî bi xwe jî tê de, derkeve û vegere welatê xwe. Herkes maf heye ji ber zordestiyê li welatên din daxwaza penahê bike û bibe penabêr. Ev maf nikare bê xwastin ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "question_tgt": "Ev maf ji bo kîjan rewşan nikare bê xwastin?",
+   "answer_tgt": "Ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "Nabe ku tukes bibe amanca têkilbûnên kêfî yên nav jiyana wî ya arizî, malbata wî, mala wî an nameyên wî, an ziyangihandina şeref û şana wî. Herkes xwediyê mafê parastina qanûn e li hemberî têkilbûn û ziyangihanên wilo. Mafê her kesî heye ku di nav tixûbên dewletekê de bi serbestî hatûçûnê bike û cihê mayîna xwe bibijêre. Herkes maf heye ku ji her welatî, yê wî bi xwe jî tê de, derkeve û vegere welatê xwe. Herkes maf heye ji ber zordestiyê li welatên din daxwaza penahê bike û bibe penabêr. Ev maf nikare bê xwastin ji bo taqîbatên bi rastî ji ber sûceke adî an ji ber kirinên dijî amanc û bingehên Neteweyên Yekbûyî.",
+   "question_tgt": "Kîjan desthilat biryarê dide ka penahî li welatekî din ji kesekî re tê dayîn an na?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Herkes maf heye bibe xwediyê netewahiyekê (miliyetekê). Tukes nikare bi awayekî kêfî ne ji netewahiya xwe ne jî ji mafê netewahî guhartinê bête bêpar kirin. Ji temenê (emrê) balixiyê pê ve, mêr û jin, bê tu tahdîdên ji ber nijad, netewahî an olê, maf hene ku hev mehr bikin û malbatek deynin. Li hemberî zewacê, di domahiyê zewacê û di dema berdanê de ew xwedî mafên wekhev in. Mehr tenê bi erêkirina serbest û temamî ya jin û mêr dikare bête birrîn. Malbat hêmana xwezayî û bingehî ya civakê ye û xwedî maf e ku ji alî civak û dewletê ve bête parastin.",
+   "question_tgt": "Mehr bi kîjan şertî dikare bête birrîn?",
+   "answer_tgt": "Tenê bi erêkirina serbest û temamî ya jin û mêr.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Herkes maf heye bibe xwediyê netewahiyekê (miliyetekê). Tukes nikare bi awayekî kêfî ne ji netewahiya xwe ne jî ji mafê netewahî guhartinê bête bêpar kirin. Ji temenê (emrê) balixiyê pê ve, mêr û jin, bê tu tahdîdên ji ber nijad, netewahî an olê, maf hene ku hev mehr bikin û malbatek deynin. Li hemberî zewacê, di domahiyê zewacê û di dema berdanê de ew xwedî mafên wekhev in. Mehr tenê bi erêkirina serbest û temamî ya jin û mêr dikare bête birrîn. Malbat hêmana xwezayî û bingehî ya civakê ye û xwedî maf e ku ji alî civak û dewletê ve bête parastin.",
+   "question_tgt": "Li gora nivîsê, tukes nikare ji mafê guhartina çi bête bêpar kirin?",
+   "answer_tgt": "Netewahiya xwe.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Herkes maf heye bibe xwediyê netewahiyekê (miliyetekê). Tukes nikare bi awayekî kêfî ne ji netewahiya xwe ne jî ji mafê netewahî guhartinê bête bêpar kirin. Ji temenê (emrê) balixiyê pê ve, mêr û jin, bê tu tahdîdên ji ber nijad, netewahî an olê, maf hene ku hev mehr bikin û malbatek deynin. Li hemberî zewacê, di domahiyê zewacê û di dema berdanê de ew xwedî mafên wekhev in. Mehr tenê bi erêkirina serbest û temamî ya jin û mêr dikare bête birrîn. Malbat hêmana xwezayî û bingehî ya civakê ye û xwedî maf e ku ji alî civak û dewletê ve bête parastin.",
+   "question_tgt": "Temenê herî kêm ê ku mirov dikare pê mehr bike çend e?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Herkes maf heye bibe xwediyê netewahiyekê (miliyetekê). Tukes nikare bi awayekî kêfî ne ji netewahiya xwe ne jî ji mafê netewahî guhartinê bête bêpar kirin. Ji temenê (emrê) balixiyê pê ve, mêr û jin, bê tu tahdîdên ji ber nijad, netewahî an olê, maf hene ku hev mehr bikin û malbatek deynin. Li hemberî zewacê, di domahiyê zewacê û di dema berdanê de ew xwedî mafên wekhev in. Mehr tenê bi erêkirina serbest û temamî ya jin û mêr dikare bête birrîn. Malbat hêmana xwezayî û bingehî ya civakê ye û xwedî maf e ku ji alî civak û dewletê ve bête parastin.",
+   "question_tgt": "Çend sedem hatine rêz kirin ku nikarin mafê mehrkirin û malbat danînê tahdîd bikin?",
+   "answer_tgt": "Sê.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "Herkes maf heye bibe xwediyê netewahiyekê (miliyetekê). Tukes nikare bi awayekî kêfî ne ji netewahiya xwe ne jî ji mafê netewahî guhartinê bête bêpar kirin. Ji temenê (emrê) balixiyê pê ve, mêr û jin, bê tu tahdîdên ji ber nijad, netewahî an olê, maf hene ku hev mehr bikin û malbatek deynin. Li hemberî zewacê, di domahiyê zewacê û di dema berdanê de ew xwedî mafên wekhev in. Mehr tenê bi erêkirina serbest û temamî ya jin û mêr dikare bête birrîn. Malbat hêmana xwezayî û bingehî ya civakê ye û xwedî maf e ku ji alî civak û dewletê ve bête parastin.",
+   "question_tgt": "Malbat divê ji alî kîjan du aliyan ve bête parastin?",
+   "answer_tgt": "Civak û dewletê.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Herkes maf heye ku bi serê xwe an tevî kesên din bibe xwedî mulk. Tukes nikare bi awayekî kêfî ji mulkê xwe bête bêpar kirin. Herkes mafê azadiya aramane civîn û komelê danînê heye. Tukes nikare bête mecbûr kirin ku bibe endamê komeleyekê. Mafê her kesî heye ku rasterast an jî bi riya nemînendeyên xwe yên bi serbestî helbijartî di hukûmeta welatê xwe de beşdar bibe. Herkes maf heye ku di mercên wekheviyê de ji xizmetên giştî yên welatê xwe kelk (istifade) bigire. Viyana (îradeya) gel bingehê otorîteya hukûmetê ye; divê ku ev viyan xwe di helbijartinên durust ên ku di demên dewrî de, bi raya gerdûnî, wekhev û dengdana dizî an li gora awayeke hevrûmet a ku azadiya dengdanê ewle bike, xwe diyar ke.",
+   "question_tgt": "Li gora nivîsê, mirov bi kîjan du awayan dikare bibe xwedî mulk?",
+   "answer_tgt": "Bi serê xwe an tevî kesên din.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Herkes maf heye ku bi serê xwe an tevî kesên din bibe xwedî mulk. Tukes nikare bi awayekî kêfî ji mulkê xwe bête bêpar kirin. Herkes mafê azadiya aramane civîn û komelê danînê heye. Tukes nikare bête mecbûr kirin ku bibe endamê komeleyekê. Mafê her kesî heye ku rasterast an jî bi riya nemînendeyên xwe yên bi serbestî helbijartî di hukûmeta welatê xwe de beşdar bibe. Herkes maf heye ku di mercên wekheviyê de ji xizmetên giştî yên welatê xwe kelk (istifade) bigire. Viyana (îradeya) gel bingehê otorîteya hukûmetê ye; divê ku ev viyan xwe di helbijartinên durust ên ku di demên dewrî de, bi raya gerdûnî, wekhev û dengdana dizî an li gora awayeke hevrûmet a ku azadiya dengdanê ewle bike, xwe diyar ke.",
+   "question_tgt": "Tukes nikare bête mecbûr kirin ku bibe endamê çi?",
+   "answer_tgt": "Komeleyekê.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Herkes maf heye ku bi serê xwe an tevî kesên din bibe xwedî mulk. Tukes nikare bi awayekî kêfî ji mulkê xwe bête bêpar kirin. Herkes mafê azadiya aramane civîn û komelê danînê heye. Tukes nikare bête mecbûr kirin ku bibe endamê komeleyekê. Mafê her kesî heye ku rasterast an jî bi riya nemînendeyên xwe yên bi serbestî helbijartî di hukûmeta welatê xwe de beşdar bibe. Herkes maf heye ku di mercên wekheviyê de ji xizmetên giştî yên welatê xwe kelk (istifade) bigire. Viyana (îradeya) gel bingehê otorîteya hukûmetê ye; divê ku ev viyan xwe di helbijartinên durust ên ku di demên dewrî de, bi raya gerdûnî, wekhev û dengdana dizî an li gora awayeke hevrûmet a ku azadiya dengdanê ewle bike, xwe diyar ke.",
+   "question_tgt": "Divê çi tezmînat ji kesê ku ji mulkê xwe tê bêpar kirin re bête dayîn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Herkes maf heye ku bi serê xwe an tevî kesên din bibe xwedî mulk. Tukes nikare bi awayekî kêfî ji mulkê xwe bête bêpar kirin. Herkes mafê azadiya aramane civîn û komelê danînê heye. Tukes nikare bête mecbûr kirin ku bibe endamê komeleyekê. Mafê her kesî heye ku rasterast an jî bi riya nemînendeyên xwe yên bi serbestî helbijartî di hukûmeta welatê xwe de beşdar bibe. Herkes maf heye ku di mercên wekheviyê de ji xizmetên giştî yên welatê xwe kelk (istifade) bigire. Viyana (îradeya) gel bingehê otorîteya hukûmetê ye; divê ku ev viyan xwe di helbijartinên durust ên ku di demên dewrî de, bi raya gerdûnî, wekhev û dengdana dizî an li gora awayeke hevrûmet a ku azadiya dengdanê ewle bike, xwe diyar ke.",
+   "question_tgt": "Bêparkirina kesekî ji mulkê wî bi kîjan şertî qedexe ye?",
+   "answer_tgt": "Gava ku bêparkirin bi awayekî kêfî be.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "Herkes maf heye ku bi serê xwe an tevî kesên din bibe xwedî mulk. Tukes nikare bi awayekî kêfî ji mulkê xwe bête bêpar kirin. Herkes mafê azadiya aramane civîn û komelê danînê heye. Tukes nikare bête mecbûr kirin ku bibe endamê komeleyekê. Mafê her kesî heye ku rasterast an jî bi riya nemînendeyên xwe yên bi serbestî helbijartî di hukûmeta welatê xwe de beşdar bibe. Herkes maf heye ku di mercên wekheviyê de ji xizmetên giştî yên welatê xwe kelk (istifade) bigire. Viyana (îradeya) gel bingehê otorîteya hukûmetê ye; divê ku ev viyan xwe di helbijartinên durust ên ku di demên dewrî de, bi raya gerdûnî, wekhev û dengdana dizî an li gora awayeke hevrûmet a ku azadiya dengdanê ewle bike, xwe diyar ke.",
+   "question_tgt": "Divê helbijartin bi kîjan cure rayê bêne kirin?",
+   "answer_tgt": "Bi raya gerdûnî, wekhev.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Herkes, wekî endamê civakî, mafê ewleyiya sosyal heye; Ew mafdar e ku bi riya xebata neteweyî û hevkariya navneteweyî û li gora tenzîm û hatiniyên her dewletê, doza bidestxistina mafên aborî, civakî û çandî yên ku jo bo weqara wî û geşbûna serbest a şexsiyeta wî ferz in, bike.",
+   "question_tgt": "Herkes bi kîjan sifetî xwediyê mafê ewleyiya sosyal e?",
+   "answer_tgt": "Wekî endamê civakî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Herkes, wekî endamê civakî, mafê ewleyiya sosyal heye; Ew mafdar e ku bi riya xebata neteweyî û hevkariya navneteweyî û li gora tenzîm û hatiniyên her dewletê, doza bidestxistina mafên aborî, civakî û çandî yên ku jo bo weqara wî û geşbûna serbest a şexsiyeta wî ferz in, bike.",
+   "question_tgt": "Bidestxistina van mafan bi riya kîjan xebatan pêk tê?",
+   "answer_tgt": "Bi riya xebata neteweyî û hevkariya navneteweyî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Herkes, wekî endamê civakî, mafê ewleyiya sosyal heye; Ew mafdar e ku bi riya xebata neteweyî û hevkariya navneteweyî û li gora tenzîm û hatiniyên her dewletê, doza bidestxistina mafên aborî, civakî û çandî yên ku jo bo weqara wî û geşbûna serbest a şexsiyeta wî ferz in, bike.",
+   "question_tgt": "Çi ceza li dewleta ku ewleyiya sosyal peyda nake tê birrîn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Herkes, wekî endamê civakî, mafê ewleyiya sosyal heye; Ew mafdar e ku bi riya xebata neteweyî û hevkariya navneteweyî û li gora tenzîm û hatiniyên her dewletê, doza bidestxistina mafên aborî, civakî û çandî yên ku jo bo weqara wî û geşbûna serbest a şexsiyeta wî ferz in, bike.",
+   "question_tgt": "Çend cure maf hene ku ji bo weqara mirov ferz têne hesibandin?",
+   "answer_tgt": "Sê.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "Herkes, wekî endamê civakî, mafê ewleyiya sosyal heye; Ew mafdar e ku bi riya xebata neteweyî û hevkariya navneteweyî û li gora tenzîm û hatiniyên her dewletê, doza bidestxistina mafên aborî, civakî û çandî yên ku jo bo weqara wî û geşbûna serbest a şexsiyeta wî ferz in, bike.",
+   "question_tgt": "Çi dikare bibe sedem ku bidestxistina van mafan ji dewletekê bo dewleteke din cuda be?",
+   "answer_tgt": "Tenzîm û hatiniyên her dewletê.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Herkes mafê xebatê, serbest bijartina xebata xwe, şertên adil û musaîd ên xebatê û parastina li dijî bêkariyê heye. Herkes, bêî tu cihêyî, maf heye ku ji bo xebateke wekhev heqek wekhev bistîne. Herkesê ku dixebite mafê meaşek adil û têrker ê ku dikaribe ji wî û ji malbata wî re jiyaneke şayanê weqara mirovî ewle bike û heke pêwîst be bi îmkanên din ên parastina sosyal bê temam kirin, heye. Herkes maf heye ku ji bo parastina menfaetên xwe sendîka deyne û bikeve nav sendîkan.",
+   "question_tgt": "Divê meaşek adil û têrker ji xebatkar û ji malbata wî re çi ewle bike?",
+   "answer_tgt": "Jiyaneke şayanê weqara mirovî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Herkes mafê xebatê, serbest bijartina xebata xwe, şertên adil û musaîd ên xebatê û parastina li dijî bêkariyê heye. Herkes, bêî tu cihêyî, maf heye ku ji bo xebateke wekhev heqek wekhev bistîne. Herkesê ku dixebite mafê meaşek adil û têrker ê ku dikaribe ji wî û ji malbata wî re jiyaneke şayanê weqara mirovî ewle bike û heke pêwîst be bi îmkanên din ên parastina sosyal bê temam kirin, heye. Herkes maf heye ku ji bo parastina menfaetên xwe sendîka deyne û bikeve nav sendîkan.",
+   "question_tgt": "Herkes bêî tu cihêyî mafê wergirtina kîjan heqî heye?",
+   "answer_tgt": "Ji bo xebateke wekhev heqek wekhev.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Herkes mafê xebatê, serbest bijartina xebata xwe, şertên adil û musaîd ên xebatê û parastina li dijî bêkariyê heye. Herkes, bêî tu cihêyî, maf heye ku ji bo xebateke wekhev heqek wekhev bistîne. Herkesê ku dixebite mafê meaşek adil û têrker ê ku dikaribe ji wî û ji malbata wî re jiyaneke şayanê weqara mirovî ewle bike û heke pêwîst be bi îmkanên din ên parastina sosyal bê temam kirin, heye. Herkes maf heye ku ji bo parastina menfaetên xwe sendîka deyne û bikeve nav sendîkan.",
+   "question_tgt": "Çi ceza li kardêrê ku ji bo xebateke wekhev heqek wekhev nade tê birrîn?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Herkes mafê xebatê, serbest bijartina xebata xwe, şertên adil û musaîd ên xebatê û parastina li dijî bêkariyê heye. Herkes, bêî tu cihêyî, maf heye ku ji bo xebateke wekhev heqek wekhev bistîne. Herkesê ku dixebite mafê meaşek adil û têrker ê ku dikaribe ji wî û ji malbata wî re jiyaneke şayanê weqara mirovî ewle bike û heke pêwîst be bi îmkanên din ên parastina sosyal bê temam kirin, heye. Herkes maf heye ku ji bo parastina menfaetên xwe sendîka deyne û bikeve nav sendîkan.",
+   "question_tgt": "Di hevoka yekem de mafê dawî yê ku hatiye rêz kirin çi ye?",
+   "answer_tgt": "Parastina li dijî bêkariyê.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "Herkes mafê xebatê, serbest bijartina xebata xwe, şertên adil û musaîd ên xebatê û parastina li dijî bêkariyê heye. Herkes, bêî tu cihêyî, maf heye ku ji bo xebateke wekhev heqek wekhev bistîne. Herkesê ku dixebite mafê meaşek adil û têrker ê ku dikaribe ji wî û ji malbata wî re jiyaneke şayanê weqara mirovî ewle bike û heke pêwîst be bi îmkanên din ên parastina sosyal bê temam kirin, heye. Herkes maf heye ku ji bo parastina menfaetên xwe sendîka deyne û bikeve nav sendîkan.",
+   "question_tgt": "Heke meaş bi serê xwe têrê neke ku jiyaneke şayanê weqara mirovî ewle bike, divê çi bibe?",
+   "answer_tgt": "Divê bi îmkanên din ên parastina sosyal bê temam kirin.",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Herkes mafê bihndan (istirahet) û demên serbest û nemaze tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş heye. Herkes mafê sewiyeke jiyanê ku têra ewlekirina saxî û rehetiya wî û ya malbata wî bike heye, nemaze ji bo xwarin, lixwekirin, mal, lênerîna tibbî, wisa jî ji bo xizmetên sosyal ên pêwîst û mafê ewleyiyê di rewşa bêkarî, nexweşî, seqetî, bîtî, pîrî an di rewşên din ên windakirina îmkanên xwe yên jiyanê ji ber sedemên dervavî viyana wî. Dêyîtî û zarotî mafên arîkarî û lênêrîneke taybetî hene. Hemû zaro, çi yên di zewacê de bûyi çi yên dervayî zewacê, xwediyên eynî parastineke civakî ne.",
+   "question_tgt": "Mafê bihndan û demên serbest bi taybetî çi digire nav xwe?",
+   "answer_tgt": "Tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Herkes mafê bihndan (istirahet) û demên serbest û nemaze tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş heye. Herkes mafê sewiyeke jiyanê ku têra ewlekirina saxî û rehetiya wî û ya malbata wî bike heye, nemaze ji bo xwarin, lixwekirin, mal, lênerîna tibbî, wisa jî ji bo xizmetên sosyal ên pêwîst û mafê ewleyiyê di rewşa bêkarî, nexweşî, seqetî, bîtî, pîrî an di rewşên din ên windakirina îmkanên xwe yên jiyanê ji ber sedemên dervavî viyana wî. Dêyîtî û zarotî mafên arîkarî û lênêrîneke taybetî hene. Hemû zaro, çi yên di zewacê de bûyi çi yên dervayî zewacê, xwediyên eynî parastineke civakî ne.",
+   "question_tgt": "Di hefteyekê de herî zêde çend saetên xebatê destûrdar in?",
+   "answer_tgt": null,
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Herkes mafê bihndan (istirahet) û demên serbest û nemaze tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş heye. Herkes mafê sewiyeke jiyanê ku têra ewlekirina saxî û rehetiya wî û ya malbata wî bike heye, nemaze ji bo xwarin, lixwekirin, mal, lênerîna tibbî, wisa jî ji bo xizmetên sosyal ên pêwîst û mafê ewleyiyê di rewşa bêkarî, nexweşî, seqetî, bîtî, pîrî an di rewşên din ên windakirina îmkanên xwe yên jiyanê ji ber sedemên dervavî viyana wî. Dêyîtî û zarotî mafên arîkarî û lênêrîneke taybetî hene. Hemû zaro, çi yên di zewacê de bûyi çi yên dervayî zewacê, xwediyên eynî parastineke civakî ne.",
+   "question_tgt": "Di rêza rewşên ku mirov tê de mafê ewleyiyê heye, rewşa duyem çi ye?",
+   "answer_tgt": "Nexweşî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Herkes mafê bihndan (istirahet) û demên serbest û nemaze tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş heye. Herkes mafê sewiyeke jiyanê ku têra ewlekirina saxî û rehetiya wî û ya malbata wî bike heye, nemaze ji bo xwarin, lixwekirin, mal, lênerîna tibbî, wisa jî ji bo xizmetên sosyal ên pêwîst û mafê ewleyiyê di rewşa bêkarî, nexweşî, seqetî, bîtî, pîrî an di rewşên din ên windakirina îmkanên xwe yên jiyanê ji ber sedemên dervavî viyana wî. Dêyîtî û zarotî mafên arîkarî û lênêrîneke taybetî hene. Hemû zaro, çi yên di zewacê de bûyi çi yên dervayî zewacê, xwediyên eynî parastineke civakî ne.",
+   "question_tgt": "Kîjan du kom xwedî mafên arîkarî û lênêrîneke taybetî ne?",
+   "answer_tgt": "Dêyîtî û zarotî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "Herkes mafê bihndan (istirahet) û demên serbest û nemaze tahdîdeke maqûl a dema xebatê û tatîlên dewrî yên bi meaş heye. Herkes mafê sewiyeke jiyanê ku têra ewlekirina saxî û rehetiya wî û ya malbata wî bike heye, nemaze ji bo xwarin, lixwekirin, mal, lênerîna tibbî, wisa jî ji bo xizmetên sosyal ên pêwîst û mafê ewleyiyê di rewşa bêkarî, nexweşî, seqetî, bîtî, pîrî an di rewşên din ên windakirina îmkanên xwe yên jiyanê ji ber sedemên dervavî viyana wî. Dêyîtî û zarotî mafên arîkarî û lênêrîneke taybetî hene. Hemû zaro, çi yên di zewacê de bûyi çi yên dervayî zewacê, xwediyên eynî parastineke civakî ne.",
+   "question_tgt": "Divê windakirina îmkanên jiyanê ji ber kîjan sedeman çêbibe da ku mafê ewleyiyê hebe?",
+   "answer_tgt": "Ji ber sedemên dervavî viyana wî.",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

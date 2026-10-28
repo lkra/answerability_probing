@@ -1,0 +1,98 @@
+{
+  "passage_id": "udhr_p008",
+  "articles": [
+    "23"
+  ],
+  "passage": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+  "questions": [
+    {
+      "question": "What must just and favourable remuneration ensure for a worker and his family?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "An existence worthy of human dignity.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What kind of pay is everyone entitled to without any discrimination?",
+      "question_type": "extractive",
+      "answerable": true,
+      "answer": "Equal pay for equal work.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What penalties are imposed on an employer who denies equal pay for equal work?",
+      "question_type": "unanswerable",
+      "answerable": false,
+      "answer": null,
+      "source_article": null,
+      "article_specific": false,
+      "answer_is_span": false
+    },
+    {
+      "question": "What is the last right listed in the first sentence?",
+      "question_type": "ordinal_count",
+      "answerable": true,
+      "answer": "Protection against unemployment.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": true
+    },
+    {
+      "question": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+      "question_type": "inferential",
+      "answerable": true,
+      "answer": "It should be supplemented by other means of social protection.",
+      "source_article": "23",
+      "article_specific": true,
+      "answer_is_span": false
+    }
+  ],
+  "verdicts": [
+    {
+      "index": 0,
+      "severity": "ok",
+      "issues": [
+        "Answer sits in sentence 3: 'remuneration ensuring for himself and his family an existence worthy of human dignity'. answer_is_span verified by substring. 'Remuneration' appears in no other UDHR article, so article_specific holds."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 1,
+      "severity": "ok",
+      "issues": [
+        "Answer is the literal span 'equal pay for equal work' from sentence 2. No other UDHR article mentions pay, so article_specific holds."
+      ],
+      "action": "kept"
+    },
+    {
+      "index": 2,
+      "severity": "fatal",
+      "issues": [
+        "Original question 'What is the minimum wage that must be paid to ensure an existence worthy of human dignity?' quotes the passage's own purpose clause and then asks what wage satisfies it. Sentence 3 partially answers that: remuneration must be 'just and favourable', must ensure 'an existence worthy of human dignity', and must be 'supplemented, if necessary, by other means of social protection'. A model can produce a defensible non-abstaining answer here, which is exactly the failure mode this dataset exists to prevent, so the unanswerable label was not safe.",
+        "Replaced with an enforcement/penalty question in the style of the organisers' 'What specific penalties are enforced if a person violates another's right to equality?' The passage names no penalty, no enforcement body and no remedy of any kind, so nothing in it answers the replacement even partially. Label, null answer, null source_article and article_specific false all stand."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 3,
+      "severity": "minor",
+      "issues": [
+        "Original wording 'the last of the four work-related rights listed' hard-codes the item count. Sentence 1 does list exactly four rights in English (work; free choice of employment; just and favourable conditions of work; protection against unemployment), but UDHR translations regularly merge or split such coordinated lists, so a question whose premise asserts 'four' can become false in another language. The ordinal 'last' is robust on its own, so the count was dropped and the question tightened to exemplar length.",
+        "Label and answer unchanged and verified: the sentence ends with 'and to protection against unemployment'. answer_is_span confirmed by substring."
+      ],
+      "action": "question_replaced"
+    },
+    {
+      "index": 4,
+      "severity": "ok",
+      "issues": [
+        "Supported by 'and supplemented, if necessary, by other means of social protection'; the question's 'if remuneration alone is not enough' is a fair reading of 'if necessary'. Answer is one sentence and correctly flagged answer_is_span false, since it is a paraphrase rather than a literal span. 'Other means of social protection' as a supplement to remuneration is specific to article 23."
+      ],
+      "action": "kept"
+    }
+  ]
+}

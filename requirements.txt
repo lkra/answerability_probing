@@ -1,0 +1,14 @@
+torch
+transformers>=5.6.0
+triton>=3.7.1; sys_platform == "linux"   # Qwen3.5's linear-attention layers
+accelerate
+compressed-tensors>=0.15.0
+sacrebleu
+unsloth
+datasets
+trl
+bitsandbytes
+# optional, for adapter/infer/score_qa_context.py: the off-target column (fastText lid.176)
+# and --bertscore
+fasttext
+bert-score

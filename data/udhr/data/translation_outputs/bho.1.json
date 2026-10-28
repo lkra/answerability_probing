@@ -1,0 +1,925 @@
+{
+ "lang": "bho",
+ "lang_name": "Bhojpuri",
+ "half": 1,
+ "of": 2,
+ "not_answerable_literal": "जवाब नइखे",
+ "n_units": 45,
+ "units": [
+  {
+   "item_id": "udhr_i001",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "In what forms shall slavery and the slave trade be prohibited?",
+   "answer_eng": "In all their forms.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "सबहि के जीवन जीए के आजादी आओर अपन सुरक्षा के अधिकार हवे। केहु के गुलाम बना के नइखे राखल जा सकेला। कौनो रूप में गुलामी आओर गुलाम सब के व्यापार पर सख्त पाबंदी हवे। काहु के साथ घ्र, अमानवीय चाहे घृणित बेवहार नइखे कईल जा सकेला। काहु के न तो सतावल जा सकेला आओर न सजा देल जा सकेला। कानून के सामने सबहि के सभे जगह एके आदिमी के रूप में पहिचाने जाए के अधिकार ह। कानून के सामने सभे बराबर हवे आओर कानून से बिना कौनो भेदभाव के समान संरक्षण प्राप्त करे के अधिकार मिलल हवे। साथहि ए घोषणा के उल्लंघन या भेदभाव होए की स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "गुलामी आओर गुलाम सब के व्यापार पर कवना रूप में पाबंदी हवे?",
+   "answer_tgt": "कौनो रूप में।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i002",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides torture, what treatment or punishment shall no one be subjected to?",
+   "answer_eng": "Cruel, inhuman or degrading treatment or punishment.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "सबहि के जीवन जीए के आजादी आओर अपन सुरक्षा के अधिकार हवे। केहु के गुलाम बना के नइखे राखल जा सकेला। कौनो रूप में गुलामी आओर गुलाम सब के व्यापार पर सख्त पाबंदी हवे। काहु के साथ घ्र, अमानवीय चाहे घृणित बेवहार नइखे कईल जा सकेला। काहु के न तो सतावल जा सकेला आओर न सजा देल जा सकेला। कानून के सामने सबहि के सभे जगह एके आदिमी के रूप में पहिचाने जाए के अधिकार ह। कानून के सामने सभे बराबर हवे आओर कानून से बिना कौनो भेदभाव के समान संरक्षण प्राप्त करे के अधिकार मिलल हवे। साथहि ए घोषणा के उल्लंघन या भेदभाव होए की स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "काहु के साथ कवना तरह के बेवहार नइखे कईल जा सकेला?",
+   "answer_tgt": "घ्र, अमानवीय चाहे घृणित बेवहार।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "आधिकारिक भोजपुरी पाठ में 'क्रूर' शब्द टूटल बा ('घ्र'); स्पैन ओइसहीं कॉपी कईल गइल बा।"
+  },
+  {
+   "item_id": "udhr_i003",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority is responsible for enforcing the prohibition of slavery and the slave trade?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "सबहि के जीवन जीए के आजादी आओर अपन सुरक्षा के अधिकार हवे। केहु के गुलाम बना के नइखे राखल जा सकेला। कौनो रूप में गुलामी आओर गुलाम सब के व्यापार पर सख्त पाबंदी हवे। काहु के साथ घ्र, अमानवीय चाहे घृणित बेवहार नइखे कईल जा सकेला। काहु के न तो सतावल जा सकेला आओर न सजा देल जा सकेला। कानून के सामने सबहि के सभे जगह एके आदिमी के रूप में पहिचाने जाए के अधिकार ह। कानून के सामने सभे बराबर हवे आओर कानून से बिना कौनो भेदभाव के समान संरक्षण प्राप्त करे के अधिकार मिलल हवे। साथहि ए घोषणा के उल्लंघन या भेदभाव होए की स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "गुलामी आओर गुलाम सब के व्यापार पर लागल पाबंदी के लागू करावे के जिम्मेदारी कवना संस्था के बा?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i004",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Where does everyone have the right to recognition as a person before the law?",
+   "answer_eng": "Everywhere.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "सबहि के जीवन जीए के आजादी आओर अपन सुरक्षा के अधिकार हवे। केहु के गुलाम बना के नइखे राखल जा सकेला। कौनो रूप में गुलामी आओर गुलाम सब के व्यापार पर सख्त पाबंदी हवे। काहु के साथ घ्र, अमानवीय चाहे घृणित बेवहार नइखे कईल जा सकेला। काहु के न तो सतावल जा सकेला आओर न सजा देल जा सकेला। कानून के सामने सबहि के सभे जगह एके आदिमी के रूप में पहिचाने जाए के अधिकार ह। कानून के सामने सभे बराबर हवे आओर कानून से बिना कौनो भेदभाव के समान संरक्षण प्राप्त करे के अधिकार मिलल हवे। साथहि ए घोषणा के उल्लंघन या भेदभाव होए की स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "कानून के सामने सबहि के कहाँ आदिमी के रूप में पहिचाने जाए के अधिकार ह?",
+   "answer_tgt": "सभे जगह।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i005",
+   "passage_id": "udhr_p001",
+   "articles": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answerable": true,
+   "question_eng": "Besides acts of discrimination themselves, what else are all entitled to equal protection against?",
+   "answer_eng": "Any incitement to such discrimination.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to life, liberty and the security of person. No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms. No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment. Everyone has the right to recognition everywhere as a person before the law. All are equal before the law and are entitled without any discrimination to equal protection of the law. All are entitled to equal protection against any discrimination in violation of this Declaration and against any incitement to such discrimination.",
+   "passage_tgt": "सबहि के जीवन जीए के आजादी आओर अपन सुरक्षा के अधिकार हवे। केहु के गुलाम बना के नइखे राखल जा सकेला। कौनो रूप में गुलामी आओर गुलाम सब के व्यापार पर सख्त पाबंदी हवे। काहु के साथ घ्र, अमानवीय चाहे घृणित बेवहार नइखे कईल जा सकेला। काहु के न तो सतावल जा सकेला आओर न सजा देल जा सकेला। कानून के सामने सबहि के सभे जगह एके आदिमी के रूप में पहिचाने जाए के अधिकार ह। कानून के सामने सभे बराबर हवे आओर कानून से बिना कौनो भेदभाव के समान संरक्षण प्राप्त करे के अधिकार मिलल हवे। साथहि ए घोषणा के उल्लंघन या भेदभाव होए की स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह।",
+   "question_tgt": "भेदभाव के अलावा आओर कवना चीज के स्थिति में सबहि के समान संरक्षण प्राप्त करे के अधिकार ह?",
+   "answer_tgt": "ए घोषणा के उल्लंघन।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "आधिकारिक भोजपुरी पाठ में 'भेदभाव भड़कावे' (incitement) वाला हिस्सा नइखे; ओकरा जगह 'ए घोषणा के उल्लंघन' लिखल बा।"
+  },
+  {
+   "item_id": "udhr_i006",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Who must provide an effective remedy for acts violating a person's fundamental rights?",
+   "answer_eng": "The competent national tribunals.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "संविधान या कानून से मिलल मौलिक अधिकार के उल्लंघन भइला पर सबहि के कोनों योग्य राष्ट्रीय संगठन से क्षतिपूर्ति प्राप्त करे के अधिकार बा। केहु के बिना कोनो कारण के कैद, अज्ञातवास या देशनिकाला नइखे देल जा सकेला। केहु के खिलाफ अपराधिक मामला होखे चाहे केकरो अधिकार और कर्तव्य के निर्धारण के सिलसिला में कौनो स्वतंत्रा आओर निष्पक्ष संगठन के सामने निष्पक्ष सुनवाई खातिर समान अधिकार हवे ।",
+   "question_tgt": "मौलिक अधिकार के उल्लंघन भइला पर सबहि के केकरा से क्षतिपूर्ति प्राप्त करे के अधिकार बा?",
+   "answer_tgt": "कोनों योग्य राष्ट्रीय संगठन।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i007",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "How many forms of arbitrary treatment does the text say no one shall be subjected to?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "संविधान या कानून से मिलल मौलिक अधिकार के उल्लंघन भइला पर सबहि के कोनों योग्य राष्ट्रीय संगठन से क्षतिपूर्ति प्राप्त करे के अधिकार बा। केहु के बिना कोनो कारण के कैद, अज्ञातवास या देशनिकाला नइखे देल जा सकेला। केहु के खिलाफ अपराधिक मामला होखे चाहे केकरो अधिकार और कर्तव्य के निर्धारण के सिलसिला में कौनो स्वतंत्रा आओर निष्पक्ष संगठन के सामने निष्पक्ष सुनवाई खातिर समान अधिकार हवे ।",
+   "question_tgt": "एह पाठ के मुताबिक बिना कोनो कारण के केहु के केतना तरह के चीज नइखे देल जा सकेला?",
+   "answer_tgt": "तीन।",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i008",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of hearing is everyone entitled to in full equality?",
+   "answer_eng": "A fair and public hearing.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "संविधान या कानून से मिलल मौलिक अधिकार के उल्लंघन भइला पर सबहि के कोनों योग्य राष्ट्रीय संगठन से क्षतिपूर्ति प्राप्त करे के अधिकार बा। केहु के बिना कोनो कारण के कैद, अज्ञातवास या देशनिकाला नइखे देल जा सकेला। केहु के खिलाफ अपराधिक मामला होखे चाहे केकरो अधिकार और कर्तव्य के निर्धारण के सिलसिला में कौनो स्वतंत्रा आओर निष्पक्ष संगठन के सामने निष्पक्ष सुनवाई खातिर समान अधिकार हवे ।",
+   "question_tgt": "सबहि के समान रूप से कवना तरह के सुनवाई के अधिकार हवे?",
+   "answer_tgt": "निष्पक्ष सुनवाई।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i009",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": false,
+   "question_eng": "How long may a person be detained before he must be brought before a tribunal?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "संविधान या कानून से मिलल मौलिक अधिकार के उल्लंघन भइला पर सबहि के कोनों योग्य राष्ट्रीय संगठन से क्षतिपूर्ति प्राप्त करे के अधिकार बा। केहु के बिना कोनो कारण के कैद, अज्ञातवास या देशनिकाला नइखे देल जा सकेला। केहु के खिलाफ अपराधिक मामला होखे चाहे केकरो अधिकार और कर्तव्य के निर्धारण के सिलसिला में कौनो स्वतंत्रा आओर निष्पक्ष संगठन के सामने निष्पक्ष सुनवाई खातिर समान अधिकार हवे ।",
+   "question_tgt": "केहु के कोनो संगठन के सामने पेश करे से पहिले केतना दिन ले कैद में राखल जा सकेला?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i010",
+   "passage_id": "udhr_p002",
+   "articles": [
+    "8",
+    "9",
+    "10"
+   ],
+   "answerable": true,
+   "question_eng": "Besides his rights and obligations, what else may be determined at the fair and public hearing?",
+   "answer_eng": "Any criminal charge against him.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law. No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.",
+   "passage_tgt": "संविधान या कानून से मिलल मौलिक अधिकार के उल्लंघन भइला पर सबहि के कोनों योग्य राष्ट्रीय संगठन से क्षतिपूर्ति प्राप्त करे के अधिकार बा। केहु के बिना कोनो कारण के कैद, अज्ञातवास या देशनिकाला नइखे देल जा सकेला। केहु के खिलाफ अपराधिक मामला होखे चाहे केकरो अधिकार और कर्तव्य के निर्धारण के सिलसिला में कौनो स्वतंत्रा आओर निष्पक्ष संगठन के सामने निष्पक्ष सुनवाई खातिर समान अधिकार हवे ।",
+   "question_tgt": "अधिकार आओर कर्तव्य के निर्धारण के अलावा निष्पक्ष सुनवाई आओर कवना चीज के सिलसिला में होखेला?",
+   "answer_tgt": "केहु के खिलाफ अपराधिक मामला।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i011",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Until what point is everyone charged with a penal offence presumed innocent?",
+   "answer_eng": "Until proved guilty according to law in a public trial.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे तब तक ले ओके निर्दोष समझे के चाही। चाहे ओकरा के खिलाफ कौनो अपराधिक मामला ही काहे ना चल रहल होए। इ सुनवाई के दरम्यान आपन बचाव के लेल ओकरा पूरा-पूरा हक भी मिलल बा। कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत अगर कौनो काम के दंडनीय अपराध नइखे मानल जा रहल होखे तब कोनो आदिमी के ओ काम के खातिर दोषी नइखे कहल जा सकता।",
+   "question_tgt": "अपराधिक मामला में फंसल आदिमी के कब ले निर्दोष समझे के चाही?",
+   "answer_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i012",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What must the accused have had at the public trial?",
+   "answer_eng": "All the guarantees necessary for his defence.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे तब तक ले ओके निर्दोष समझे के चाही। चाहे ओकरा के खिलाफ कौनो अपराधिक मामला ही काहे ना चल रहल होए। इ सुनवाई के दरम्यान आपन बचाव के लेल ओकरा पूरा-पूरा हक भी मिलल बा। कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत अगर कौनो काम के दंडनीय अपराध नइखे मानल जा रहल होखे तब कोनो आदिमी के ओ काम के खातिर दोषी नइखे कहल जा सकता।",
+   "question_tgt": "सुनवाई के दरम्यान अभियुक्त के कवन हक मिलल बा?",
+   "answer_tgt": "आपन बचाव के लेल ओकरा पूरा-पूरा हक।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i013",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": false,
+   "question_eng": "Which court has the authority to declare a person guilty of a penal offence?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे तब तक ले ओके निर्दोष समझे के चाही। चाहे ओकरा के खिलाफ कौनो अपराधिक मामला ही काहे ना चल रहल होए। इ सुनवाई के दरम्यान आपन बचाव के लेल ओकरा पूरा-पूरा हक भी मिलल बा। कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत अगर कौनो काम के दंडनीय अपराध नइखे मानल जा रहल होखे तब कोनो आदिमी के ओ काम के खातिर दोषी नइखे कहल जा सकता।",
+   "question_tgt": "कवना अदालत के केहु के दंडनीय अपराध के दोषी घोषित करे के अधिकार बा?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i014",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "Under which bodies of law must an act or omission have constituted a penal offence when it was committed?",
+   "answer_eng": "Under national or international law.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे तब तक ले ओके निर्दोष समझे के चाही। चाहे ओकरा के खिलाफ कौनो अपराधिक मामला ही काहे ना चल रहल होए। इ सुनवाई के दरम्यान आपन बचाव के लेल ओकरा पूरा-पूरा हक भी मिलल बा। कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत अगर कौनो काम के दंडनीय अपराध नइखे मानल जा रहल होखे तब कोनो आदिमी के ओ काम के खातिर दोषी नइखे कहल जा सकता।",
+   "question_tgt": "कवना कानून के तहत कौनो काम के दंडनीय अपराध मानल जाए के चाही?",
+   "answer_tgt": "कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i015",
+   "passage_id": "udhr_p003",
+   "articles": [
+    "11"
+   ],
+   "answerable": true,
+   "question_eng": "What penalty may not be exceeded for a penal offence?",
+   "answer_eng": "The one that was applicable at the time the penal offence was committed.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.",
+   "passage_tgt": "कानून के नजर में जब तक ले केहु दोषी नइखे तब तक ले ओके निर्दोष समझे के चाही। चाहे ओकरा के खिलाफ कौनो अपराधिक मामला ही काहे ना चल रहल होए। इ सुनवाई के दरम्यान आपन बचाव के लेल ओकरा पूरा-पूरा हक भी मिलल बा। कौनो राष्ट्रीय चाहे अंतर्राष्ट्रीय कानून के तहत अगर कौनो काम के दंडनीय अपराध नइखे मानल जा रहल होखे तब कोनो आदिमी के ओ काम के खातिर दोषी नइखे कहल जा सकता।",
+   "question_tgt": "दंडनीय अपराध खातिर कवना सजा से बेसी सजा नइखे देल जा सकेला?",
+   "answer_tgt": "जवन सजा अपराध होखे के समय लागू रहे, ओकरा से बेसी सजा नइखे देल जा सकेला।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "आधिकारिक भोजपुरी पाठ में बेसी सजा ना देवे वाला वाक्य पूरा तरह से छूटल बा, एह से स्पैन मौजूद नइखे।"
+  },
+  {
+   "item_id": "udhr_i016",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What is the first item listed that must not be subjected to arbitrary interference?",
+   "answer_eng": "Privacy.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह। सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "question_tgt": "जवना चीज में दखल के मनाही बा, ओकर सूची में पहिला चीज कवन बा?",
+   "answer_tgt": "नीजि जीवन।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i017",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "What does the text guarantee to a person whose privacy is interfered with or whose reputation is attacked?",
+   "answer_eng": "The protection of the law.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह। सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "question_tgt": "जेकरा नीजि जीवन में दखल होखे भा जेकरा पर हमला होखे, ओकरा का प्राप्त करे के अधिकार ह?",
+   "answer_tgt": "कानून से संरक्षण।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i018",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "Within what limits does everyone have freedom of movement and residence?",
+   "answer_eng": "Within the borders of each State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह। सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "question_tgt": "कवना सीमा के अंदर सभे लोगिन के घर आओर एक जगह से दोसर जगह जाए के अधिकार बा?",
+   "answer_tgt": "आपन मुलुक के सीमा के अंदर।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i019",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": true,
+   "question_eng": "In what cases may the right to asylum not be invoked?",
+   "answer_eng": "In the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह। सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "question_tgt": "दोसर देश में संरक्षण प्राप्त करे के अधिकार के उपयोग कवना हालत में नइखे कईल जा सकेला?",
+   "answer_tgt": "वैसन प्रताड़ना में जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "आधिकारिक पाठ में 'उघ्श्य' आओर 'सिघ्ंत' टूटल शब्द बा; जवाब खातिर वाक्य के थोड़ा जोड़े के पड़ल एह से ऊ बिलकुल स्पैन नइखे।"
+  },
+  {
+   "item_id": "udhr_i020",
+   "passage_id": "udhr_p004",
+   "articles": [
+    "12",
+    "13",
+    "14"
+   ],
+   "answerable": false,
+   "question_eng": "Which authority decides whether a person is granted asylum in another country?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks. Everyone has the right to freedom of movement and residence within the borders of each State. Everyone has the right to leave any country, including his own, and to return to his country. Everyone has the right to seek and to enjoy in other countries asylum from persecution. This right may not be invoked in the case of prosecutions genuinely arising from non‐political crimes or from acts contrary to the purposes and principles of the United Nations.",
+   "passage_tgt": "केकरो नीजि जीवन, परिवार, घर तथा पत्रााचार आदि में केकरो दखल करे के अधिकार नईखे ह। सबहि के ए तरह के दखल आओर हमला के विरुघ्कानून से संरक्षण प्राप्त करे के अधिकार ह। सभे लोगिन के आपन मुलुक के सीमा के अंदर घर आओर एक जगह से दोसर जगह जाए के अधिकार हड। सबहिं के कौनो देश, एइजा तक कि आपन देश से हो छोडे़ के आओर वापस आवे के अधिकार ह। प्रताड़ना से बचे खातिर दोसर देश में संरक्षण प्राप्त करे के अधिकार हवे। लेकिन इ अधिकार के उपयोग वैसन प्रताड़ना में नइखे कईल जा सकेला जे गैर राजनीतिक अपराध आओर संयुक्त राष्ट्र के उघ्श्य आओर सिघ्ंत के खिलाफ कईल गेल काज खातिर मिल रहल होखे।",
+   "question_tgt": "दोसर देश में केहु के संरक्षण मिली कि ना, ई फैसला कवना संस्था करेले?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i021",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition may a marriage be entered into?",
+   "answer_eng": "Only with the free and full consent of the intending spouses.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला। जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे।",
+   "question_tgt": "बियाह कवना शर्त पर होए के चाही?",
+   "answer_tgt": "दुनू के मर्जी आओर सहमति से ही।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i022",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "According to the text, what may a person not be denied the right to change?",
+   "answer_eng": "His nationality.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला। जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे।",
+   "question_tgt": "पाठ के मुताबिक केहु के का बदले के अधिकार से बेदखल नइखे कईल जा सकेला?",
+   "answer_tgt": "राष्ट्रीयता।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i023",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": false,
+   "question_eng": "What is the minimum age at which a person may marry?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला। जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे।",
+   "question_tgt": "बियाह करे खातिर कम से कम केतना उमिर होखे के चाही?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i024",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "How many grounds are listed that may not limit the right to marry and to found a family?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला। जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे।",
+   "question_tgt": "बियाह आओर गृहस्थी बसावे के अधिकार पर केतना चीज के बंधन नइखे?",
+   "answer_tgt": "तीन।",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i025",
+   "passage_id": "udhr_p005",
+   "articles": [
+    "15",
+    "16"
+   ],
+   "answerable": true,
+   "question_eng": "Which two bodies must protect the family?",
+   "answer_eng": "Society and the State.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to a nationality. No one shall be arbitrarily deprived of his nationality nor denied the right to change his nationality. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution. Marriage shall be entered into only with the free and full consent of the intending spouses. The family is the natural and fundamental group unit of society and is entitled to protection by society and the State.",
+   "passage_tgt": "सबहिं के राष्ट्रीयता के अधिकार हवे। केहु के राष्ट्रीयता से वंचित नइखे कई जा सकेला आओर ना ही राष्ट्रीयता बदले के स्थिति में अधिकारो से बेदखल कईल जा सकेला। जाति, राष्ट्रीयता आओर धर्म के बंधन से मुक्त कौनो बालिग आदिमी आओर औरत के बियाह आओर गृहस्थी बसावे के अधिकार हवे। दुनू के बियाह के समय, गृहस्थ जीवन के दरम्यान आओर बियाह टूट जाए के बादो बराबरी के अधिकर ह। बियाह दुनू के मर्जी आओर सहमति से ही होए के चाही। परिवार समाज के एगो प्राकृतिक और मौलिक इकाई ह। आओर ओके समाज और मुलुक से पूरा संरक्षण प्राप्त करे के अधिकार हवे।",
+   "question_tgt": "परिवार के केकरा से पूरा संरक्षण प्राप्त करे के अधिकार हवे?",
+   "answer_tgt": "समाज और मुलुक।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i026",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "In what two ways does the text say property may be owned?",
+   "answer_eng": "Alone as well as in association with others.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला। सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "पाठ के मुताबिक कवना दू तरीका से संपत्ति अर्जित कईल जा सकेला?",
+   "answer_tgt": "अकेले चाहे केकरो संगे मिल के।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i027",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What may no one be compelled to belong to?",
+   "answer_eng": "An association.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला। सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "केहु के जर्बदस्ती कवना चीज में शामिल नइखे कराएल जा सकेला?",
+   "answer_tgt": "कौनो संगठन।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i028",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": false,
+   "question_eng": "What compensation must be paid to a person who is deprived of his property?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला। सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "जेकरा के ओकर संपत्ति से बेदखल कईल जाला, ओकरा केतना क्षतिपूर्ति देवे के पड़ेला?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i029",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "Under what condition is depriving a person of his property forbidden?",
+   "answer_eng": "When the deprivation is arbitrary.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला। सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "केहु के ओकर संपत्ति से कवना हालत में बेदखल नइखे कईल जा सकेला?",
+   "answer_tgt": "जब बेदखली बिना कोनो जायज कारण के होखे।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "आधिकारिक भोजपुरी पाठ में 'बिना कारण' (arbitrarily) वाला शर्त नइखे; ऊ सीधे बेदखली के मनाही करेला, एह से जवाब पाठ में नइखे।"
+  },
+  {
+   "item_id": "udhr_i030",
+   "passage_id": "udhr_p006",
+   "articles": [
+    "17",
+    "20",
+    "21"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of suffrage shall be used in the elections?",
+   "answer_eng": "Universal and equal suffrage.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to own property alone as well as in association with others. No one shall be arbitrarily deprived of his property. Everyone has the right to freedom of peaceful assembly and association. No one may be compelled to belong to an association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives. Everyone has the right of equal access to public service in his country. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.",
+   "passage_tgt": "केहु अकेले चाहे केकरो संगे मिल के संपत्ति अर्जित कर सकता। केहु के ओकर संपत्ति से बेदखल नइखे कईल जा सकत ह। सबहिं के शांतिपूर्ण तरीका से जमा होवे के तथा कोनो संगठन में शामिल होए के अधिकारी ह। तथा केहु के कौनो संगठन में जर्बदस्ती शामिल नइखे कराएल जा सकेला। सब लोगीन के सरकार में हिस्सा लेवे के अधिकार हवे न त सीघे-सीघे न त आपन मर्जी से चुनल प्रतिनिधि के मार्फत आपन देश के जन सेवा के उपयोग करे के अधिकार हवे। आम लोगीन के इच्छा ही सरकार के ताकत के आधार होखेला आओर इ जब-तब होए वाला स्वतंत्रा आओर निष्पक्ष चुनाव के जरिए, जेकर आयोजन गुप्त मतदान या फेर स्वतंत्रा प्रघि से होखता। [missing?]",
+   "question_tgt": "चुनाव कवना तरीका से करावल जाला?",
+   "answer_tgt": "गुप्त मतदान या फेर स्वतंत्रा प्रघि से।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "आधिकारिक भोजपुरी पाठ में 'सार्वभौमिक आओर समान मताधिकार' नइखे; खाली गुप्त/स्वतंत्र मतदान प्रक्रिया के जिकिर बा।"
+  },
+  {
+   "item_id": "udhr_i031",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "In what capacity does everyone have the right to social security?",
+   "answer_eng": "As a member of society.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "समाज के हरेक आदिमी के सामाजिक सुरक्षा के अधिकार हवे। साथहिं देश के आर्थिक, सामाजिक आओर सांस्कृतिक अधिकार के उपयोग करे के अधिकार ह, जे ओकर व्यक्तिघ् के उपयोग राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से ही संभव हो सकेला जे ओ राष्ट्र के संसाधन ओओर संगठन पर निर्भर करता।",
+   "question_tgt": "आदिमी के कवना रूप में सामाजिक सुरक्षा के अधिकार हवे?",
+   "answer_tgt": "समाज के हरेक आदिमी।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i032",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "Through what forms of effort is the realization of these rights to be achieved?",
+   "answer_eng": "Through national effort and international co‐operation.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "समाज के हरेक आदिमी के सामाजिक सुरक्षा के अधिकार हवे। साथहिं देश के आर्थिक, सामाजिक आओर सांस्कृतिक अधिकार के उपयोग करे के अधिकार ह, जे ओकर व्यक्तिघ् के उपयोग राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से ही संभव हो सकेला जे ओ राष्ट्र के संसाधन ओओर संगठन पर निर्भर करता।",
+   "question_tgt": "ए अधिकार के उपयोग कवना तरह के प्रयास से संभव हो सकेला?",
+   "answer_tgt": "राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से।",
+   "answer_grounded": true,
+   "uncertain": true,
+   "note": "आधिकारिक पाठ में 'राष्ट्रीय' शब्द टूटल बा ('राष्टघीय'); स्पैन ओइसहीं कॉपी कईल गइल बा।"
+  },
+  {
+   "item_id": "udhr_i033",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": false,
+   "question_eng": "What penalty applies to a State that fails to provide social security?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "समाज के हरेक आदिमी के सामाजिक सुरक्षा के अधिकार हवे। साथहिं देश के आर्थिक, सामाजिक आओर सांस्कृतिक अधिकार के उपयोग करे के अधिकार ह, जे ओकर व्यक्तिघ् के उपयोग राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से ही संभव हो सकेला जे ओ राष्ट्र के संसाधन ओओर संगठन पर निर्भर करता।",
+   "question_tgt": "जवन देश सामाजिक सुरक्षा ना दे पावे, ओकरा का सजा मिलेला?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i034",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "How many kinds of rights are described as indispensable for his dignity?",
+   "answer_eng": "Three.",
+   "answer_is_span": false,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "समाज के हरेक आदिमी के सामाजिक सुरक्षा के अधिकार हवे। साथहिं देश के आर्थिक, सामाजिक आओर सांस्कृतिक अधिकार के उपयोग करे के अधिकार ह, जे ओकर व्यक्तिघ् के उपयोग राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से ही संभव हो सकेला जे ओ राष्ट्र के संसाधन ओओर संगठन पर निर्भर करता।",
+   "question_tgt": "एह पाठ में केतना तरह के अधिकार के उपयोग करे के बात कहल गइल बा?",
+   "answer_tgt": "तीन।",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i035",
+   "passage_id": "udhr_p007",
+   "articles": [
+    "22"
+   ],
+   "answerable": true,
+   "question_eng": "What may cause the realization of these rights to differ from one State to another?",
+   "answer_eng": "The organization and resources of each State.",
+   "answer_is_span": true,
+   "question_type": "inferential",
+   "passage_eng": "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co‐operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.",
+   "passage_tgt": "समाज के हरेक आदिमी के सामाजिक सुरक्षा के अधिकार हवे। साथहिं देश के आर्थिक, सामाजिक आओर सांस्कृतिक अधिकार के उपयोग करे के अधिकार ह, जे ओकर व्यक्तिघ् के उपयोग राष्टघीय प्रयास आओर अन्तर्राष्ट्रीय सहयोग से ही संभव हो सकेला जे ओ राष्ट्र के संसाधन ओओर संगठन पर निर्भर करता।",
+   "question_tgt": "ए अधिकार के उपयोग कवना चीज पर निर्भर करता?",
+   "answer_tgt": "ओ राष्ट्र के संसाधन ओओर संगठन।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i036",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What must just and favourable remuneration ensure for a worker and his family?",
+   "answer_eng": "An existence worthy of human dignity.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा।",
+   "question_tgt": "न्यायसंगत आओर उचित पैसा से आदिमी आपन आओर आपन परिवार खातिर कवना तरह के जिंदगी बसर क सके?",
+   "answer_tgt": "सम्मानजनक जिंदगी।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i037",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What kind of pay is everyone entitled to without any discrimination?",
+   "answer_eng": "Equal pay for equal work.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा।",
+   "question_tgt": "बिना कौनो भेदभाव के काज के बदले कवन पैसा पावे के अधिकार ह?",
+   "answer_tgt": "समान काज के लेल समान पैसा।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i038",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": false,
+   "question_eng": "What penalties are imposed on an employer who denies equal pay for equal work?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा।",
+   "question_tgt": "जवन मालिक समान काज के लेल समान पैसा ना देला, ओकरा का सजा मिलेला?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i039",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What is the last right listed in the first sentence?",
+   "answer_eng": "Protection against unemployment.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा।",
+   "question_tgt": "पहिला वाक्य में सबसे आखिरी में कवन अधिकार के जिकिर बा?",
+   "answer_tgt": "बेरोजगारी से ओकर सुरक्षा।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i040",
+   "passage_id": "udhr_p008",
+   "articles": [
+    "23"
+   ],
+   "answerable": true,
+   "question_eng": "What should happen if remuneration alone is not enough to ensure a dignified existence?",
+   "answer_eng": "It should be supplemented by other means of social protection.",
+   "answer_is_span": false,
+   "question_type": "inferential",
+   "passage_eng": "Everyone has the right to work, to free choice of employment, to just and favourable conditions of work and to protection against unemployment. Everyone, without any discrimination, has the right to equal pay for equal work. Everyone who works has the right to just and favourable remuneration ensuring for himself and his family an existence worthy of human dignity, and supplemented, if necessary, by other means of social protection. Everyone has the right to form and to join trade unions for the protection of his interests.",
+   "passage_tgt": "सबहिं के काम करे के तथा रोजगार चुने के अधिकारो बा औरि बेरोजगारी से ओकर सुरक्षा के गारंटी ओ होखे के चाहीं। इ न्यायसंगत तथा सुविधाजनक परिस्थितियों में काम करे के अधिकार बा। बिना कौनो भेदभाव के समान काज के लेल समान पैसा के अधिकार ह। सबे जे काम करता ओकरा आपन तथा परिवार खातिर एगो न्यायसंगत आओर उचित पैसा पावे के अधिकार ह जेकरा से घ् सम्मानजनक जिंदगी बसर क सके। एकर अलावे सामाजिक संरक्षण के ओ साधन के उपयोग के ओ अधिकार बा जे ओकर कमाई बढ़ा सके। एकरा सिवा आपन हित के सुरक्षा के खातिर मजदूर संगठन बनावे अथवा मजदूर संगठन में शमिल होखे के अधिकार बा।",
+   "question_tgt": "अगर खाली पैसा से सम्मानजनक जिंदगी ना चल सके त का होखे के चाही?",
+   "answer_tgt": "सामाजिक संरक्षण के ओ साधन के उपयोग होखे के चाही जे ओकर कमाई बढ़ा सके।",
+   "answer_grounded": false,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i041",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What does the right to rest and leisure include?",
+   "answer_eng": "Reasonable limitation of working hours and periodic holidays with pay.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा। सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "question_tgt": "आराम आओर छुट्टी मनाबे के अधिकार में का-का शामिल बा?",
+   "answer_tgt": "काज करे के समय के एक उचित सीमा आओर समय-समय पर वेतन सहित छुघेि।",
+   "answer_grounded": false,
+   "uncertain": true,
+   "note": "आधिकारिक पाठ में 'छुट्टी' शब्द टूटल बा ('छुघेि'); दुनू चीज अलग-अलग खंड में बा एह से एके स्पैन नइखे मिलत।"
+  },
+  {
+   "item_id": "udhr_i042",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": false,
+   "question_eng": "What is the maximum number of working hours permitted per week?",
+   "answer_eng": null,
+   "answer_is_span": false,
+   "question_type": "unanswerable",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा। सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "question_tgt": "हफ्ता में ज्यादा से ज्यादा केतना घंटा काज करे के इजाजत बा?",
+   "answer_tgt": null,
+   "answer_grounded": null,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i043",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "What is the second situation listed in which everyone has the right to security?",
+   "answer_eng": "Sickness.",
+   "answer_is_span": true,
+   "question_type": "ordinal_count",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा। सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "question_tgt": "सुरक्षा पावे के अधिकार वाला सूची में दोसरका हालत कवन बा?",
+   "answer_tgt": "बिमारी।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i044",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "Which two groups are entitled to special care and assistance?",
+   "answer_eng": "Motherhood and childhood.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा। सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "question_tgt": "केकरा के अलगे सुविधा आओर सहायता पावे के अधिकार बा?",
+   "answer_tgt": "औरत और बच्चा।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  },
+  {
+   "item_id": "udhr_i045",
+   "passage_id": "udhr_p009",
+   "articles": [
+    "24",
+    "25"
+   ],
+   "answerable": true,
+   "question_eng": "In what kind of circumstances must a lack of livelihood arise for the right to security to apply?",
+   "answer_eng": "In circumstances beyond his control.",
+   "answer_is_span": true,
+   "question_type": "extractive",
+   "passage_eng": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.",
+   "passage_tgt": "सबकरा के आराम तथा छुघ् मनाबे के अधिकार बा तथा काज करे के समय के सेहो एक उचित सीमा बा तथा समय-समय पर वेतन सहित छुघेि के उपभोग करे के अधिकारो बा। सबहिं के आपन तथा आपन परिवार के स्वास्थ्य आओर कुशलता खातिर एक उचित स्तर पर जीवन-यापन के ठीक-ठीक इंतजाम होखे के चाहीं। बढ़िया जीवन-स्तर होखे खातिर ओकनि के भोजन, कपड़ा, घर, उचित इलाज आओर आवश्यक सामाजिक सेवा ओ शामिल ह। एकरा अलावे बेरोजगारी, बिमारी, अपगंता, वैधव्य, बुढ़ारी एवं ऐसन हालत जे पर ओकर नियंत्रण नइखे, ओ से ओकरा सुरक्षा पावे के अधिकार हड। औरत और बच्चा के अलगे सुविधा आओर सहायता पावे के अधिकार बा। सबहिं बच्चन के चाहे ओकर जन्म कानूनी बियाह के अन्तर्गत भईल हो चाहे बिना बियाह के, समाजिक सुरक्षा मिले के चाही।",
+   "question_tgt": "कवना तरह के हालत में जीविका ना रहला पर सुरक्षा पावे के अधिकार लागू होखेला?",
+   "answer_tgt": "ऐसन हालत जे पर ओकर नियंत्रण नइखे।",
+   "answer_grounded": true,
+   "uncertain": false,
+   "note": ""
+  }
+ ]
+}

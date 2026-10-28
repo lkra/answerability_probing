@@ -1,0 +1,45 @@
+{
+  "out": "data/built/qa_context_tydi_train.jsonl",
+  "rows": 100466,
+  "answer_form": "sentence",
+  "max_sentence_chars": null,
+  "no_fallback": false,
+  "translated_dirs": [
+    "data/translated/finetune/hymt2",
+    "data/translated/finetune/hymt2_pes_fix",
+    "data/translated/madlad400/kept"
+  ],
+  "by_answer_form": {
+    "answer_sentence": 96341,
+    "answer": 4125
+  },
+  "fallback_used": 4125,
+  "skipped": {
+    "missing_translation": 28048
+  },
+  "by_question_lang": {
+    "arb": 5354,
+    "ben": 5355,
+    "bho": 504,
+    "ces": 5355,
+    "ckb": 838,
+    "deu": 5355,
+    "eng": 5354,
+    "fin": 858,
+    "hat": 941,
+    "hin": 5355,
+    "ind": 5354,
+    "ita": 5355,
+    "jpn": 5354,
+    "kor": 5355,
+    "mar": 5355,
+    "pes": 5355,
+    "por": 5355,
+    "rus": 5354,
+    "slk": 940,
+    "spa": 5355,
+    "tur": 5355,
+    "vie": 5355,
+    "zho": 5355
+  }
+}
