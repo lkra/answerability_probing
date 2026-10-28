@@ -1,7 +1,8 @@
 # Probe Before you Answer!
 
 Code and data for [*Probe Before you Answer! Answerability Probing for Abstention in Cross-Lingual
-Context-Based Question Answering*](https://aclanthology.org/2026.wmt-main.129/) (WMT 2026).
+Context-Based Question Answering*](https://aclanthology.org/2026.wmt-main.129/) (WMT 2026), our
+submission to Sub-task 1 of the [WMT26 Multilingual Instruction Shared Task](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.50.pdf).
 
 [Lea Krause](https://lkra.github.io)¹, [Stefan Schouten](https://stefanfs.me)¹,
 [Michiel van der Meer](https://liacs.leidenuniv.nl/~meermtvander/)², [Piek Vossen](https://vossen.info)¹  
